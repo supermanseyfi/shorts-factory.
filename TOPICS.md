@@ -35,7 +35,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 biggest stadiums in the world by capacity — 026-world-10-biggest-stadiums
 
 ## Queue
-- [ ] The 10 highest mountains in Europe
+- [x] The 10 highest mountains in Europe — 031-europe-10-highest-mountains (Caucasus counted as Europe, peaks with 300 m+ prominence)
 - [x] Japan's 10 highest mountains
 - [ ] The 10 highest mountains in Africa
 - [ ] The 10 most populous cities in Europe (style: column)
@@ -48,3 +48,8 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 biggest football stadiums in Türkiye by capacity (style: column)
 - [x] The 10 most visited countries in the world (style: column, map.scale ~0.12)
 - [x] The 10 smallest US states by area (style: column)
+- [ ] The 10 highest mountains in the Alps (do not repeat the Europe list; Mont Blanc is #1 here)
+- [ ] The 10 largest islands in the Mediterranean (style: column)
+- [ ] The 10 longest rivers in Europe (style: column at the river mouths)
+- [ ] The 10 largest lakes in Europe (style: column)
+- [ ] The 10 highest US state high points (one per state)

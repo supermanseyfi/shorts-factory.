@@ -45,14 +45,14 @@ const camera = new THREE.PerspectiveCamera(30, W / H, 0.05, 400);
     col.lerp(glow, w * .55); c.push(col.r, col.g, col.b);
   }
   g.setAttribute('color', new THREE.Float32BufferAttribute(c, 3));
-  scene.add(new THREE.Mesh(g, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, toneMapped: false })));
+  window.SKY = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false, toneMapped: false })); scene.add(window.SKY);   // follows the camera (see cameraAt) so far-away items stay inside the dome
 }
 scene.add(new THREE.HemisphereLight('#a9ccff', '#0d1a2e', 1.15));
 const key = new THREE.DirectionalLight('#ffd9a6', 2.6); key.position.set(-6, 5, 4); scene.add(key);
 const rim = new THREE.DirectionalLight('#58c8ff', 1.1); rim.position.set(6, 3, -6); scene.add(rim);
 
 // sea + graticule
-scene.add(new THREE.Mesh(new THREE.PlaneGeometry(500, 500).rotateX(-Math.PI / 2), new THREE.MeshStandardMaterial({ color: '#061a33', roughness: .35, metalness: .3 })));
+scene.add(new THREE.Mesh(new THREE.PlaneGeometry(2000, 2000).rotateX(-Math.PI / 2), new THREE.MeshStandardMaterial({ color: '#061a33', roughness: .35, metalness: .3 })));
 {
   const pts = [];
   const st = Math.max(1, Math.round(1 / MS)), sp = Math.round(22 / MS), a = Math.round(CLON) - sp, b = Math.max(-88, Math.round(CLAT) - sp / 2), b2 = Math.min(88, b + sp);
@@ -219,7 +219,7 @@ function cameraAt(t, i) {
     const dist = prev.look.distanceTo(p.look);
     p = mix(prev, p, k); p.pos.y += Math.sin(k * Math.PI) * Math.min(2.2, dist * .22);
   }
-  camera.position.copy(p.pos); camera.fov = p.fov;
+  camera.position.copy(p.pos); camera.fov = p.fov; window.SKY.position.set(p.pos.x, 0, p.pos.z);
   camera.setViewOffset(W, H, 0, H * 0.04, W, H);   // lift subject above centre (leave room for captions)
   camera.lookAt(p.look); camera.updateProjectionMatrix(); camera.updateMatrixWorld();
 }
