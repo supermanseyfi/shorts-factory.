@@ -1,0 +1,69 @@
+{
+ "id": "story-001-kiz-kulesi-footage",
+ "template": "story-footage",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.12
+ },
+ "title": [
+  "THE GIRL",
+  "IN THE",
+  "TOWER"
+ ],
+ "hook": {
+  "say": "A princess was locked in this tower to save her life. It didn't work."
+ },
+ "outro": {
+  "say": "Would you spend a night in the Maiden's Tower? Comment below!"
+ },
+ "outroLines": [
+  "WOULD YOU SPEND A NIGHT HERE?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 9,
+   "era": "ISTANBUL · THE BOSPHORUS",
+   "say": "This is Kiz Koo-leh-see, the Maiden's Tower, on a tiny island in the middle of Istanbul's Bosphorus.",
+   "cap": "This is Kız Kulesi, the Maiden's Tower, on a tiny island in the middle of Istanbul's Bosphorus."
+  },
+  {
+   "rank": 8,
+   "era": "THE LEGEND",
+   "say": "Legend says a fortune teller warned an emperor: your daughter will die from a snake bite, on her eighteenth birthday."
+  },
+  {
+   "rank": 7,
+   "era": "THE LEGEND",
+   "say": "So he built her a tower out at sea, where no snake could ever reach her."
+  },
+  {
+   "rank": 6,
+   "era": "THE LEGEND",
+   "say": "On her birthday, he brought a basket of fruit to celebrate. Hidden inside, was a snake."
+  },
+  {
+   "rank": 5,
+   "era": "AROUND 400 BC",
+   "say": "The real story is even older. About 2400 years ago, the Athenians used this rock to tax ships from the Black Sea.",
+   "cap": "The real story is even older. About 2,400 years ago, the Athenians used this rock to tax ships from the Black Sea."
+  },
+  {
+   "rank": 4,
+   "era": "1110 · BYZANTINE ERA",
+   "say": "In eleven-ten, a Byzantine emperor built a wooden tower here, and stretched an iron chain across the water.",
+   "cap": "In 1110, a Byzantine emperor built a wooden tower here, and stretched an iron chain across the water."
+  },
+  {
+   "rank": 3,
+   "era": "1700s · OTTOMAN ERA",
+   "say": "The Ottomans rebuilt it in stone, and turned it into a lighthouse."
+  },
+  {
+   "rank": 2,
+   "era": "ISTANBUL · TODAY",
+   "say": "Today the ferries still pass, the seagulls still circle, and every evening, people gather on the shore to watch the sunset behind it."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+[
+ {
+  "seg": 0,
+  "file": "footage/kiz-kulesi/15463794-uhd_2160_3840_30fps.mp4",
+  "t0": 1.0,
+  "grade": "eq=contrast=1.08:saturation=1.15"
+ },
+ {
+  "seg": 1,
+  "file": "footage/kiz-kulesi/7307233-uhd_4096_1974_30fps.mp4",
+  "t0": 0.5,
+  "vf": "crop=1110:1974:1718:0,",
+  "grade": "eq=contrast=1.06:saturation=1.2"
+ },
+ {
+  "seg": 2,
+  "file": "footage/kiz-kulesi/15463794-uhd_2160_3840_30fps.mp4",
+  "t0": 12.0,
+  "grade": "eq=brightness=-0.08:contrast=1.15:saturation=0.8,colorbalance=rs=0.12:bs=0.18:rm=0.06:bm=0.1,vignette=PI/4"
+ },
+ {
+  "seg": 3,
+  "file": "footage/kiz-kulesi/14982012_2160_3840_30fps.mp4",
+  "t0": 4.5,
+  "grade": "eq=brightness=-0.2:contrast=1.25:saturation=0.55,colorbalance=bs=0.3:bm=0.22:bh=0.1:rs=-0.1,vignette=PI/3.5"
+ },
+ {
+  "seg": 4,
+  "frames": "build/gifseg/*.jpg"
+ },
+ {
+  "seg": 5,
+  "to": 0.5,
+  "file": "footage/kiz-kulesi/12762156-uhd_3840_2160_25fps.mp4",
+  "t0": 1.0,
+  "vf": "crop=1215:2160:500+230*t:0,",
+  "grade": "eq=contrast=1.05:saturation=0.75,colorbalance=rs=0.08:gs=0.04:rm=0.06,vignette=PI/4.5"
+ },
+ {
+  "seg": 5,
+  "from": 0.5,
+  "file": "footage/kiz-kulesi/7307233-uhd_4096_1974_30fps.mp4",
+  "t0": 15.0,
+  "vf": "crop=1110:1974:2900:0,",
+  "grade": "eq=contrast=1.05:saturation=0.75,colorbalance=rs=0.08:gs=0.04:rm=0.06,vignette=PI/4.5"
+ },
+ {
+  "seg": 6,
+  "file": "footage/kiz-kulesi/14982012_2160_3840_30fps.mp4",
+  "t0": 0.3,
+  "grade": "eq=contrast=1.08:saturation=0.6,colorbalance=rs=0.1:gs=0.05:rm=0.08:gm=0.03,vignette=PI/4.5"
+ },
+ {
+  "seg": 7,
+  "file": "footage/kiz-kulesi/271673_medium.mp4",
+  "t0": 0.5,
+  "vf": "crop=800:1422:0:560,",
+  "grade": "eq=brightness=-0.05:contrast=1.12:saturation=1.1"
+ },
+ {
+  "seg": 8,
+  "to": 0.36,
+  "file": "footage/kiz-kulesi/11581111-ferry.mp4",
+  "t0": 2.0,
+  "grade": "eq=contrast=1.08:saturation=1.15"
+ },
+ {
+  "seg": 8,
+  "from": 0.36,
+  "to": 0.68,
+  "file": "footage/kiz-kulesi/15181575_2160_3840_30fps.mp4",
+  "t0": 3.0,
+  "grade": "eq=contrast=1.06:saturation=1.15"
+ },
+ {
+  "seg": 8,
+  "from": 0.68,
+  "file": "footage/kiz-kulesi/271673_medium.mp4",
+  "t0": 5.0,
+  "grade": "eq=contrast=1.06:saturation=1.15"
+ },
+ {
+  "seg": 9,
+  "file": "footage/kiz-kulesi/271673_medium.mp4",
+  "t0": 7.5,
+  "grade": "eq=contrast=1.06:saturation=1.15"
+ }
+]

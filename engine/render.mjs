@@ -4,7 +4,7 @@ import puppeteer from 'puppeteer-core'; import http from 'http'; import fs from 
 const args = process.argv.slice(2), template = args[0] || 'ranking-map';
 const opt = k => { const i = args.indexOf('--' + k); return i >= 0 ? args[i + 1] : null; };
 const FPS = +(opt('fps') || 30), stills = opt('stills'), root = process.cwd();
-const mime = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.mjs': 'text/javascript' };
+const mime = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.mjs': 'text/javascript', '.jpg': 'image/jpeg' };
 const server = http.createServer((q, r) => { const f = path.join(root, decodeURIComponent(q.url.split('?')[0])); fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); } else { r.writeHead(200, { 'content-type': mime[path.extname(f)] || 'application/octet-stream' }); r.end(d); } }); });
 await new Promise(r => server.listen(0, r)); const port = server.address().port;
 const browser = await puppeteer.launch({ executablePath: process.env.CHROME || '/usr/bin/google-chrome', headless: 'new',

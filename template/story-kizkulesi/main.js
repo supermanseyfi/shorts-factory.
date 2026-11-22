@@ -403,4 +403,5 @@ function hud(t, si, u) {
 }
 window.EP = { duration: ep.duration, segments: segs.map(s => [s.start, s.end]) };
 window.renderFrame = t => { let si = segs.findIndex(s => t < s.end); if (si < 0) si = segs.length - 1; const s = segs[si], u = clamp((t - s.start) / (s.end - s.start)); animate(t, si, u); hud(t, si, u); renderer.render(scene, camera); };
+if (ep.nohud) $('hud').style.display = 'none';
 await document.fonts.ready; window.renderFrame(0); window.READY = true;
