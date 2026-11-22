@@ -17,6 +17,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 deepest lakes in the world — 008-world-10-deepest-lakes
 - [x] The 10 largest US states by area — 009-usa-10-largest-states
 - [x] The 10 largest provinces of Türkiye by area — 010-turkey-10-largest-provinces
+- [x] The 10 tallest waterfalls in the world — 011-world-10-tallest-waterfalls
 
 ## Queue
 - [ ] The 10 highest mountains in Europe
@@ -25,7 +26,6 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [ ] The 10 most populous cities in Europe (style: column)
 - [ ] The 10 highest mountains in South America
 - [ ] The 10 largest lakes in Türkiye (style: column)
-- [ ] The 10 tallest waterfalls in the world (style: column, map.scale ~0.12)
 - [ ] The 10 longest rivers in the world (style: column at the river mouths, map.scale ~0.12)
 - [ ] The 10 largest islands on Earth by area (style: column, map.scale ~0.12)
 - [ ] The 10 tallest buildings in the world (style: column, map.scale ~0.12)

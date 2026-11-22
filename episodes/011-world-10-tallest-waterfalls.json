@@ -1,0 +1,176 @@
+{
+ "id": "011-world-10-tallest-waterfalls",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   -10,
+   8
+  ],
+  "highlight": [
+   "862",
+   "710",
+   "604",
+   "840",
+   "578",
+   "124",
+   "554"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -180,
+   -56,
+   205,
+   74
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 TALLEST",
+  "WATERFALLS"
+ ],
+ "series": "THE WORLD'S 10 TALLEST WATERFALLS",
+ "unit": "m",
+ "barMin": 700,
+ "hook": {
+  "say": "The ten tallest waterfalls on Earth, ranked. Niagara doesn't even come close!"
+ },
+ "outro": {
+  "say": "Which one is on your bucket list? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE IS ON YOUR LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Browne Falls",
+   "sub": "NEW ZEALAND",
+   "value": 836,
+   "lat": -45.43,
+   "lon": 167.07,
+   "style": "column",
+   "fact": "Pouring into a fjord",
+   "say": "Number ten: Browne Falls, pouring straight into a fjord. 836 meters.",
+   "cap": "Number ten: Browne Falls, pouring straight into a fjord. 836 meters."
+  },
+  {
+   "rank": 9,
+   "name": "James Bruce Falls",
+   "sub": "BRITISH COLUMBIA · CANADA",
+   "value": 840,
+   "lat": 50.22,
+   "lon": -123.78,
+   "style": "column",
+   "fact": "Tallest in North America",
+   "say": "Nine: James Bruce Falls, the tallest in North America. 840 meters.",
+   "cap": "Nine: James Bruce Falls, the tallest in North America. 840 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Pu'uka'oku Falls",
+   "sub": "HAWAII · USA",
+   "value": 840,
+   "lat": 21.17,
+   "lon": -155.9,
+   "style": "column",
+   "fact": "On the tallest sea cliffs",
+   "say": "Eight: Poo-oo-kah-okoo Falls, on the world's tallest sea cliffs. 840 meters.",
+   "cap": "Eight: Pu'uka'oku Falls, on the world's tallest sea cliffs. 840 meters.",
+   "radius": 0.1
+  },
+  {
+   "rank": 7,
+   "name": "Balåifossen",
+   "sub": "NORWAY",
+   "value": 850,
+   "lat": 60.57,
+   "lon": 6.93,
+   "style": "column",
+   "fact": "Fed by melting snow",
+   "say": "Seven: Baloyfossen, fed by melting mountain snow. 850 meters.",
+   "cap": "Seven: Balåifossen, fed by melting mountain snow. 850 meters.",
+   "radius": 0.1
+  },
+  {
+   "rank": 6,
+   "name": "Vinnufossen",
+   "sub": "NORWAY",
+   "value": 860,
+   "lat": 62.63,
+   "lon": 8.67,
+   "style": "column",
+   "fact": "Tallest in Europe",
+   "say": "Six: Vinnufossen, the tallest in Europe. 860 meters.",
+   "cap": "Six: Vinnufossen, the tallest in Europe. 860 meters.",
+   "radius": 0.1
+  },
+  {
+   "rank": 5,
+   "name": "Yumbilla Falls",
+   "sub": "PERU",
+   "value": 896,
+   "lat": -5.917,
+   "lon": -77.9,
+   "style": "column",
+   "fact": "Hidden in the cloud forest",
+   "say": "Five: Yoom-beeya Falls, hidden in the cloud forest. 896 meters.",
+   "cap": "Five: Yumbilla Falls, hidden in the cloud forest. 896 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Olo'upena Falls",
+   "sub": "HAWAII · USA",
+   "value": 900,
+   "lat": 21.17,
+   "lon": -157.8,
+   "style": "column",
+   "fact": "Seen only by boat or air",
+   "say": "Four: Olo-oopenna Falls, seen only by boat or air. 900 meters.",
+   "cap": "Four: Olo'upena Falls, seen only by boat or air. 900 meters.",
+   "radius": 0.1
+  },
+  {
+   "rank": 3,
+   "name": "Tres Hermanas",
+   "sub": "PERU",
+   "value": 914,
+   "lat": -12.0,
+   "lon": -73.8,
+   "style": "column",
+   "fact": "The Three Sisters",
+   "say": "Three: Tress Airmahnas, the Three Sisters. 914 meters.",
+   "cap": "Three: Tres Hermanas, the Three Sisters. 914 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Tugela Falls",
+   "sub": "SOUTH AFRICA",
+   "value": 948,
+   "lat": -28.752,
+   "lon": 28.894,
+   "style": "column",
+   "fact": "Tallest in Africa",
+   "say": "Two: Toogayla Falls, the tallest in Africa. 948 meters.",
+   "cap": "Two: Tugela Falls, the tallest in Africa. 948 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Angel Falls",
+   "sub": "VENEZUELA",
+   "value": 979,
+   "lat": 5.9675,
+   "lon": -62.5356,
+   "style": "column",
+   "fact": "Nearly a kilometer high",
+   "say": "And number one: Angel Falls, Venezuela! 979 meters, nearly a kilometer high.",
+   "cap": "And number one: Angel Falls, Venezuela! 979 meters, nearly a kilometer high."
+  }
+ ]
+}
