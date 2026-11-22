@@ -1,0 +1,179 @@
+{
+ "id": "015-north-america-10-highest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -120,
+   42
+  ],
+  "highlight": [
+   "840",
+   "124",
+   "484"
+  ],
+  "scale": 1.2,
+  "frame": [
+   -160,
+   12,
+   -90,
+   68
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "NORTH AMERICA'S",
+  "10 HIGHEST",
+  "MOUNTAINS"
+ ],
+ "series": "NORTH AMERICA'S 10 HIGHEST MOUNTAINS",
+ "unit": "ft",
+ "metersPerUnit": 0.3048,
+ "barMin": 15000,
+ "hook": {
+  "say": "North America's ten highest mountains, ranked. Three of them are volcanoes in Mexico!"
+ },
+ "outro": {
+  "say": "Which one surprised you? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE SURPRISED YOU?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Mount Bona",
+   "sub": "ALASKA · USA",
+   "value": 16550,
+   "lat": 61.3856,
+   "lon": -141.7495,
+   "style": "volcano",
+   "radius": 0.45,
+   "fact": "An ice-covered volcano",
+   "say": "Number ten: Mount Bona, an ice-covered volcano. 16550 feet.",
+   "cap": "Number ten: Mount Bona, an ice-covered volcano. 16,550 feet."
+  },
+  {
+   "rank": 9,
+   "name": "King Peak",
+   "sub": "YUKON · CANADA",
+   "value": 16972,
+   "lat": 60.583,
+   "lon": -140.653,
+   "style": "jagged",
+   "radius": 0.3,
+   "fact": "Mount Logan's little brother",
+   "say": "Nine: King Peak, Mount Logan's little brother. 16972 feet.",
+   "cap": "Nine: King Peak, Mount Logan's little brother. 16,972 feet."
+  },
+  {
+   "rank": 8,
+   "name": "Iztaccíhuatl",
+   "sub": "MEXICO",
+   "value": 17159,
+   "lat": 19.179,
+   "lon": -98.642,
+   "style": "massif",
+   "radius": 0.36,
+   "fact": "The Sleeping Woman",
+   "say": "Eight: Ista-seewattle, the Sleeping Woman. 17159 feet.",
+   "cap": "Eight: Iztaccíhuatl, the Sleeping Woman. 17,159 feet."
+  },
+  {
+   "rank": 7,
+   "name": "Mount Lucania",
+   "sub": "YUKON · CANADA",
+   "value": 17257,
+   "lat": 61.022,
+   "lon": -140.463,
+   "style": "massif",
+   "radius": 0.4,
+   "fact": "Deep in the Yukon wild",
+   "say": "Seven: Mount Loo-kaynia, deep in the Yukon wild. 17257 feet.",
+   "cap": "Seven: Mount Lucania, deep in the Yukon wild. 17,257 feet."
+  },
+  {
+   "rank": 6,
+   "name": "Mount Foraker",
+   "sub": "ALASKA · USA",
+   "value": 17400,
+   "lat": 62.9604,
+   "lon": -151.3998,
+   "style": "massif",
+   "radius": 0.36,
+   "fact": "Denali's neighbor",
+   "say": "Six: Mount Forakker, Denali's neighbor. 17400 feet.",
+   "cap": "Six: Mount Foraker, Denali's neighbor. 17,400 feet."
+  },
+  {
+   "rank": 5,
+   "name": "Popocatépetl",
+   "sub": "MEXICO",
+   "value": 17749,
+   "lat": 19.023,
+   "lon": -98.622,
+   "style": "volcano",
+   "radius": 0.36,
+   "fact": "Active, near Mexico City",
+   "say": "Five: Popo-catepettle, an active volcano near Mexico City. 17749 feet.",
+   "cap": "Five: Popocatépetl, an active volcano near Mexico City. 17,749 feet."
+  },
+  {
+   "rank": 4,
+   "name": "Mt. Saint Elias",
+   "sub": "ALASKA / YUKON BORDER",
+   "value": 18009,
+   "lat": 60.2927,
+   "lon": -140.9307,
+   "style": "jagged",
+   "radius": 0.42,
+   "fact": "On the Alaska-Yukon border",
+   "say": "Four: Mount Saint Elias, on the Alaska Yukon border. 18009 feet.",
+   "cap": "Four: Mt. Saint Elias, on the Alaska Yukon border. 18,009 feet."
+  },
+  {
+   "rank": 3,
+   "name": "Pico de Orizaba",
+   "sub": "MEXICO",
+   "value": 18491,
+   "lat": 19.03,
+   "lon": -97.268,
+   "style": "volcano",
+   "radius": 0.5,
+   "fact": "N. America's highest volcano",
+   "say": "Three: Peeko day Oree-sahba, North America's highest volcano. 18491 feet.",
+   "cap": "Three: Pico de Orizaba, North America's highest volcano. 18,491 feet."
+  },
+  {
+   "rank": 2,
+   "name": "Mount Logan",
+   "sub": "YUKON · CANADA",
+   "value": 19551,
+   "lat": 60.567,
+   "lon": -140.405,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "The roof of Canada",
+   "say": "Two: Mount Logan, the roof of Canada. 19551 feet.",
+   "cap": "Two: Mount Logan, the roof of Canada. 19,551 feet."
+  },
+  {
+   "rank": 1,
+   "name": "Denali",
+   "sub": "ALASKA · USA",
+   "value": 20310,
+   "lat": 63.069,
+   "lon": -151.0063,
+   "style": "massif",
+   "radius": 0.55,
+   "fact": "The roof of North America",
+   "say": "And number one: Denali! 20310 feet, the roof of North America.",
+   "cap": "And number one: Denali! 20,310 feet, the roof of North America."
+  }
+ ]
+}
