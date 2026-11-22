@@ -1,0 +1,159 @@
+{
+ "id": "005-turkey-10-biggest-cities",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.1
+ },
+ "map": {
+  "center": [
+   35.2,
+   39.0
+  ],
+  "highlight": [
+   "792"
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "TURKEY'S",
+  "10 BIGGEST",
+  "CITIES"
+ ],
+ "series": "TURKEY'S 10 BIGGEST CITIES",
+ "unit": "",
+ "barMin": 0,
+ "hook": {
+  "say": "Turkey's ten biggest cities, ranked. Number one is bigger than the next three combined!"
+ },
+ "outro": {
+  "say": "Is your city on the list? Comment below!"
+ },
+ "outroLines": [
+  "IS YOUR CITY ON THE LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Kocaeli",
+   "sub": "MARMARA REGION",
+   "value": 2161171,
+   "lat": 40.7654,
+   "lon": 29.9408,
+   "style": "column",
+   "fact": "Turkey's industrial engine",
+   "say": "Number ten: Ko-jah-elly, Turkey's industrial engine. Two-point-one-six million people.",
+   "cap": "Number ten: Kocaeli, Turkey's industrial engine. 2.16 million people."
+  },
+  {
+   "rank": 9,
+   "name": "Gaziantep",
+   "sub": "SOUTHEASTERN ANATOLIA",
+   "value": 2222415,
+   "lat": 37.0662,
+   "lon": 37.3833,
+   "style": "column",
+   "fact": "The capital of baklava",
+   "say": "Nine: Gahzee-ahntep, the capital of baklava. Two-point-two-two million people.",
+   "cap": "Nine: Gaziantep, the capital of baklava. 2.22 million people."
+  },
+  {
+   "rank": 8,
+   "name": "Şanlıurfa",
+   "sub": "SOUTHEASTERN ANATOLIA",
+   "value": 2265800,
+   "lat": 37.1674,
+   "lon": 38.7955,
+   "style": "column",
+   "fact": "Home of Göbekli Tepe",
+   "say": "Eight: Shanluh-Urfa, home of the world's oldest temple. Two-point-two-seven million people.",
+   "cap": "Eight: Şanlıurfa, home of the world's oldest temple. 2.27 million people."
+  },
+  {
+   "rank": 7,
+   "name": "Adana",
+   "sub": "MEDITERRANEAN REGION",
+   "value": 2283609,
+   "lat": 37.0,
+   "lon": 35.3213,
+   "style": "column",
+   "fact": "Famous for its kebab",
+   "say": "Seven: Adana, famous for its kebab. Two-point-two-eight million people.",
+   "cap": "Seven: Adana, famous for its kebab. 2.28 million people."
+  },
+  {
+   "rank": 6,
+   "name": "Konya",
+   "sub": "CENTRAL ANATOLIA",
+   "value": 2343409,
+   "lat": 37.8746,
+   "lon": 32.4932,
+   "style": "column",
+   "fact": "City of whirling dervishes",
+   "say": "Six: Konya, city of the whirling dervishes. Two-point-three-four million people.",
+   "cap": "Six: Konya, city of the whirling dervishes. 2.34 million people."
+  },
+  {
+   "rank": 5,
+   "name": "Antalya",
+   "sub": "MEDITERRANEAN REGION",
+   "value": 2777677,
+   "lat": 36.8969,
+   "lon": 30.7133,
+   "style": "column",
+   "fact": "The Turkish Riviera",
+   "say": "Five: Ahn-tahl-ya, the Turkish Riviera. Two-point-seven-eight million people.",
+   "cap": "Five: Antalya, the Turkish Riviera. 2.78 million people."
+  },
+  {
+   "rank": 4,
+   "name": "Bursa",
+   "sub": "MARMARA REGION",
+   "value": 3263011,
+   "lat": 40.1885,
+   "lon": 29.061,
+   "style": "column",
+   "fact": "First Ottoman capital",
+   "say": "Four: Bursa, the first Ottoman capital. Three-point-two-six million people.",
+   "cap": "Four: Bursa, the first Ottoman capital. 3.26 million people."
+  },
+  {
+   "rank": 3,
+   "name": "İzmir",
+   "sub": "AEGEAN REGION",
+   "value": 4504185,
+   "lat": 38.4237,
+   "lon": 27.1428,
+   "style": "column",
+   "fact": "Pearl of the Aegean",
+   "say": "Three: Izmeer, pearl of the Aegean. Four-point-five million people.",
+   "cap": "Three: İzmir, pearl of the Aegean. 4.5 million people."
+  },
+  {
+   "rank": 2,
+   "name": "Ankara",
+   "sub": "CENTRAL ANATOLIA",
+   "value": 5910320,
+   "lat": 39.9334,
+   "lon": 32.8597,
+   "style": "column",
+   "fact": "The capital",
+   "say": "Two: Ankara, the capital. Five-point-nine-one million people.",
+   "cap": "Two: Ankara, the capital. 5.91 million people."
+  },
+  {
+   "rank": 1,
+   "name": "İstanbul",
+   "sub": "MARMARA REGION",
+   "value": 15754053,
+   "lat": 41.0082,
+   "lon": 28.9784,
+   "style": "column",
+   "fact": "One city, two continents",
+   "say": "And number one: Istanbul! Fifteen-point-seven-five million people, on two continents.",
+   "cap": "And number one: İstanbul! 15.75 million people, on two continents."
+  }
+ ]
+}
