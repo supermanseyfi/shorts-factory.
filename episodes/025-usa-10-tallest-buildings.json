@@ -1,0 +1,166 @@
+{
+ "id": "025-usa-10-tallest-buildings",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -81,
+   41
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 1.2,
+  "frame": [
+   -92,
+   35.5,
+   -69,
+   46.5
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S",
+  "10 TALLEST",
+  "BUILDINGS"
+ ],
+ "series": "AMERICA'S 10 TALLEST BUILDINGS",
+ "unit": "ft",
+ "barMin": 1000,
+ "hook": {
+  "say": "America's ten tallest buildings, ranked. Eight of them are in one city!"
+ },
+ "outro": {
+  "say": "New York or Chicago? Comment below!"
+ },
+ "outroLines": [
+  "NEW YORK OR CHICAGO?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Empire State Building",
+   "sub": "NEW YORK CITY",
+   "value": 1250,
+   "lat": 39.9,
+   "lon": -74.3,
+   "style": "column",
+   "fact": "Once the world's tallest",
+   "say": "Number ten: the Empire State Building, once the world's tallest. 1250 feet.",
+   "cap": "Number ten: the Empire State Building, once the world's tallest. 1,250 feet."
+  },
+  {
+   "rank": 9,
+   "name": "30 Hudson Yards",
+   "sub": "NEW YORK CITY",
+   "value": 1270,
+   "lat": 39.9,
+   "lon": -75.1,
+   "style": "column",
+   "fact": "A sky deck over the city",
+   "say": "Nine: Thirty Hudson Yards, with a deck over the city. 1270 feet.",
+   "cap": "Nine: 30 Hudson Yards, with a deck over the city. 1,270 feet."
+  },
+  {
+   "rank": 8,
+   "name": "Trump Tower Chicago",
+   "sub": "CHICAGO",
+   "value": 1388,
+   "lat": 42.75,
+   "lon": -88.3,
+   "style": "column",
+   "fact": "Tied with number seven",
+   "say": "Eight: Trump Tower Chicago, tied with number seven. 1388 feet.",
+   "cap": "Eight: Trump Tower Chicago, tied with number seven. 1,388 feet."
+  },
+  {
+   "rank": 7,
+   "name": "270 Park Avenue",
+   "sub": "NEW YORK CITY",
+   "value": 1388,
+   "lat": 40.75,
+   "lon": -75.1,
+   "style": "column",
+   "fact": "Opened in 2025",
+   "say": "Seven: Two-seventy Park Avenue, the brand new one. 1388 feet.",
+   "cap": "Seven: 270 Park Avenue, the brand new one. 1,388 feet."
+  },
+  {
+   "rank": 6,
+   "name": "432 Park Avenue",
+   "sub": "NEW YORK CITY",
+   "value": 1396,
+   "lat": 41.6,
+   "lon": -75.1,
+   "style": "column",
+   "fact": "A pencil-thin tower of homes",
+   "say": "Six: Four-thirty-two Park Avenue, a pencil-thin tower. 1396 feet.",
+   "cap": "Six: 432 Park Avenue, a pencil-thin tower. 1,396 feet."
+  },
+  {
+   "rank": 5,
+   "name": "One Vanderbilt",
+   "sub": "NEW YORK CITY",
+   "value": 1401,
+   "lat": 40.75,
+   "lon": -72.9,
+   "style": "column",
+   "fact": "Next to Grand Central",
+   "say": "Five: One Vanderbilt, right next to Grand Central. 1401 feet.",
+   "cap": "Five: One Vanderbilt, right next to Grand Central. 1,401 feet."
+  },
+  {
+   "rank": 4,
+   "name": "111 West 57th",
+   "sub": "NEW YORK CITY",
+   "value": 1428,
+   "lat": 41.6,
+   "lon": -72.9,
+   "style": "column",
+   "fact": "World's skinniest skyscraper",
+   "say": "Four: One-eleven West Fifty-seventh, the world's skinniest skyscraper. 1428 feet.",
+   "cap": "Four: 111 West 57th, the world's skinniest skyscraper. 1,428 feet."
+  },
+  {
+   "rank": 3,
+   "name": "Willis Tower",
+   "sub": "CHICAGO",
+   "value": 1451,
+   "lat": 41.88,
+   "lon": -87.63,
+   "style": "column",
+   "fact": "World's tallest until 1998",
+   "say": "Three: Willis Tower, also once the world's tallest. 1451 feet.",
+   "cap": "Three: Willis Tower, also once the world's tallest. 1,451 feet."
+  },
+  {
+   "rank": 2,
+   "name": "Central Park Tower",
+   "sub": "NEW YORK CITY",
+   "value": 1550,
+   "lat": 41.6,
+   "lon": -74.0,
+   "style": "column",
+   "fact": "The tallest homes on Earth",
+   "say": "Two: Central Park Tower, the tallest homes on Earth. 1550 feet.",
+   "cap": "Two: Central Park Tower, the tallest homes on Earth. 1,550 feet."
+  },
+  {
+   "rank": 1,
+   "name": "One World Trade",
+   "sub": "NEW YORK CITY",
+   "value": 1776,
+   "lat": 40.75,
+   "lon": -74.0,
+   "style": "column",
+   "fact": "1776: the year of independence",
+   "say": "And number one: One World Trade Center! 1776 feet, a nod to independence.",
+   "cap": "And number one: One World Trade Center! 1,776 feet, a nod to independence."
+  }
+ ]
+}
