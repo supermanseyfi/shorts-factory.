@@ -1,0 +1,175 @@
+{
+ "id": "012-world-10-largest-countries",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.18
+ },
+ "map": {
+  "center": [
+   10,
+   20
+  ],
+  "highlight": [
+   "643",
+   "124",
+   "156",
+   "840",
+   "076",
+   "036",
+   "356",
+   "032",
+   "398",
+   "012"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -175,
+   -58,
+   192,
+   80
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 LARGEST",
+  "COUNTRIES"
+ ],
+ "series": "THE WORLD'S 10 LARGEST COUNTRIES",
+ "unit": "km²",
+ "barMin": 0,
+ "hook": {
+  "say": "The ten largest countries on Earth, ranked. Number one is almost twice the size of number two!"
+ },
+ "outro": {
+  "say": "Which ones have you visited? Comment below!"
+ },
+ "outroLines": [
+  "WHICH HAVE YOU VISITED?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Algeria",
+   "sub": "AFRICA",
+   "value": 2381741,
+   "lat": 28,
+   "lon": 2.5,
+   "style": "column",
+   "fact": "Largest country in Africa",
+   "say": "Number ten: Algeria, the largest country in Africa. Two-point-four million square kilometers.",
+   "cap": "Number ten: Algeria, the largest country in Africa. 2.4 million square kilometers."
+  },
+  {
+   "rank": 9,
+   "name": "Kazakhstan",
+   "sub": "CENTRAL ASIA",
+   "value": 2724910,
+   "lat": 48,
+   "lon": 67,
+   "style": "column",
+   "fact": "Largest landlocked country",
+   "say": "Nine: Kazakhstan, the largest landlocked country. Two-point-seven million.",
+   "cap": "Nine: Kazakhstan, the largest landlocked country. 2.7 million."
+  },
+  {
+   "rank": 8,
+   "name": "Argentina",
+   "sub": "SOUTH AMERICA",
+   "value": 2780400,
+   "lat": -35,
+   "lon": -65,
+   "style": "column",
+   "fact": "Largest Spanish-speaking country",
+   "say": "Eight: Argentina, the largest Spanish-speaking country. Two-point-eight million.",
+   "cap": "Eight: Argentina, the largest Spanish-speaking country. 2.8 million."
+  },
+  {
+   "rank": 7,
+   "name": "India",
+   "sub": "SOUTH ASIA",
+   "value": 3287263,
+   "lat": 22,
+   "lon": 79,
+   "style": "column",
+   "fact": "The most people on Earth",
+   "say": "Seven: India, home to the most people on Earth. Three-point-three million.",
+   "cap": "Seven: India, home to the most people on Earth. 3.3 million."
+  },
+  {
+   "rank": 6,
+   "name": "Australia",
+   "sub": "OCEANIA",
+   "value": 7741220,
+   "lat": -25,
+   "lon": 134,
+   "style": "column",
+   "fact": "A country and a continent",
+   "say": "Six: Australia, a country and a continent. Seven-point-seven million.",
+   "cap": "Six: Australia, a country and a continent. 7.7 million."
+  },
+  {
+   "rank": 5,
+   "name": "Brazil",
+   "sub": "SOUTH AMERICA",
+   "value": 8510346,
+   "lat": -10,
+   "lon": -53,
+   "style": "column",
+   "fact": "Nearly half of South America",
+   "say": "Five: Brazil, nearly half of South America. Eight-point-five million.",
+   "cap": "Five: Brazil, nearly half of South America. 8.5 million."
+  },
+  {
+   "rank": 4,
+   "name": "United States",
+   "sub": "NORTH AMERICA",
+   "value": 9525067,
+   "lat": 39.5,
+   "lon": -98.5,
+   "style": "column",
+   "fact": "Some lists rank it third",
+   "say": "Four: United States, though some lists rank it third. Nine-point-five million.",
+   "cap": "Four: United States, though some lists rank it third. 9.5 million."
+  },
+  {
+   "rank": 3,
+   "name": "China",
+   "sub": "EAST ASIA",
+   "value": 9596960,
+   "lat": 35,
+   "lon": 103,
+   "style": "column",
+   "fact": "Borders 14 countries",
+   "say": "Three: China, bordering fourteen countries. Nine-point-six million.",
+   "cap": "Three: China, bordering fourteen countries. 9.6 million."
+  },
+  {
+   "rank": 2,
+   "name": "Canada",
+   "sub": "NORTH AMERICA",
+   "value": 9984670,
+   "lat": 58,
+   "lon": -105,
+   "style": "column",
+   "fact": "Longest coastline on Earth",
+   "say": "Two: Canada, with the longest coastline on Earth. Nearly 10 million.",
+   "cap": "Two: Canada, with the longest coastline on Earth. Nearly 10 million."
+  },
+  {
+   "rank": 1,
+   "name": "Russia",
+   "sub": "EUROPE / ASIA",
+   "value": 17098246,
+   "lat": 61,
+   "lon": 95,
+   "style": "column",
+   "fact": "Spans 11 time zones",
+   "say": "And number one: Russia! Seventeen-point-one million square kilometers, spanning eleven time zones.",
+   "cap": "And number one: Russia! 17.1 million square kilometers, spanning eleven time zones."
+  }
+ ]
+}
