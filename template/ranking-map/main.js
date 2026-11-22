@@ -233,7 +233,7 @@ $('outro').innerHTML = ep.outroLines.map((l, k) => `<div style="font-size:${Math
 $('pins').innerHTML = ep.items.map(i => `<div class="pin ${i.rank <= 3 ? 'g' : ''}">${i.rank}</div>`).join('');
 const pinEls = [...document.querySelectorAll('.pin')];
 const BMIN = ep.barMin || 0, fmt = n => Math.round(n).toLocaleString(LOC);
-{ let step = Math.pow(10, Math.floor(Math.log10(MAXV - BMIN))); if ((MAXV - BMIN) / step < 3) step /= 5; const tk = []; for (let v = Math.ceil((BMIN + step * .2) / step) * step; v <= MAXV; v += step) tk.push(v);
+{ let step = Math.pow(10, Math.floor(Math.log10(MAXV - BMIN))); if ((MAXV - BMIN) / step < 3) step /= 2; const tk = []; for (let v = Math.ceil((BMIN + step * .2) / step) * step; v <= MAXV; v += step) tk.push(v);
   $('bar').insertAdjacentHTML('beforeend', tk.map(v => `<span style="left:${(v - BMIN) / (MAXV - BMIN) * 100}%">${v >= 1e6 ? v / 1e6 + 'M' : fmt(v)}</span>`).join('')); }
 const set = (el, o, tf) => { el.style.opacity = o; if (tf !== undefined) el.style.transform = tf; };
 // caption chunks

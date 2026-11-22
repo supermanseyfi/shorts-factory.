@@ -1,0 +1,175 @@
+{
+ "id": "006-world-10-highest-capitals",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -5,
+   10
+  ],
+  "highlight": [
+   "068",
+   "218",
+   "170",
+   "231",
+   "064",
+   "232",
+   "887",
+   "484",
+   "364",
+   "404"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -112,
+   -32,
+   100,
+   50
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 HIGHEST",
+  "CAPITALS"
+ ],
+ "series": "THE WORLD'S 10 HIGHEST CAPITALS",
+ "unit": "m",
+ "barMin": 1500,
+ "hook": {
+  "say": "The ten highest capital cities on Earth, ranked. Number one is over two miles high!"
+ },
+ "outro": {
+  "say": "Which one would you visit? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE WOULD YOU VISIT?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Nairobi",
+   "sub": "KENYA",
+   "value": 1795,
+   "lat": -1.2921,
+   "lon": 36.8219,
+   "style": "column",
+   "fact": "Lions roam nearby",
+   "say": "Number ten: Nairobi, where lions roam nearby. 1795 meters.",
+   "cap": "Number ten: Nairobi, where lions roam nearby. 1,795 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Tehran",
+   "sub": "IRAN",
+   "value": 1830,
+   "lat": 35.6892,
+   "lon": 51.389,
+   "style": "column",
+   "fact": "Below the Alborz mountains",
+   "say": "Nine: Tehran, below the Alborz mountains. 1830 meters.",
+   "cap": "Nine: Tehran, below the Alborz mountains. 1,830 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Mexico City",
+   "sub": "MEXICO",
+   "value": 2240,
+   "lat": 19.4326,
+   "lon": -99.1332,
+   "style": "column",
+   "fact": "Built on a lake bed",
+   "say": "Eight: Mexico City, built on an ancient lake bed. 2240 meters.",
+   "cap": "Eight: Mexico City, built on an ancient lake bed. 2,240 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Sanaa",
+   "sub": "YEMEN",
+   "value": 2250,
+   "lat": 15.3694,
+   "lon": 44.191,
+   "style": "column",
+   "fact": "One of Earth's oldest cities",
+   "say": "Seven: Sah-nah, one of Earth's oldest cities. 2250 meters.",
+   "cap": "Seven: Sanaa, one of Earth's oldest cities. 2,250 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Asmara",
+   "sub": "ERITREA",
+   "value": 2325,
+   "lat": 15.3229,
+   "lon": 38.9251,
+   "style": "column",
+   "fact": "Art Deco in the clouds",
+   "say": "Six: Asmara, famous for its Art Deco streets. 2325 meters.",
+   "cap": "Six: Asmara, famous for its Art Deco streets. 2,325 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Thimphu",
+   "sub": "BHUTAN",
+   "value": 2334,
+   "lat": 27.4728,
+   "lon": 89.639,
+   "style": "column",
+   "fact": "No traffic lights",
+   "say": "Five: Tim-poo, a capital with no traffic lights. 2334 meters.",
+   "cap": "Five: Thimphu, a capital with no traffic lights. 2,334 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Addis Ababa",
+   "sub": "ETHIOPIA",
+   "value": 2355,
+   "lat": 9.03,
+   "lon": 38.74,
+   "style": "column",
+   "fact": "Africa's highest capital",
+   "say": "Four: Addis Ababa, the highest capital in Africa. 2355 meters.",
+   "cap": "Four: Addis Ababa, the highest capital in Africa. 2,355 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Bogotá",
+   "sub": "COLOMBIA",
+   "value": 2625,
+   "lat": 4.711,
+   "lon": -74.0721,
+   "style": "column",
+   "fact": "High on an Andean plateau",
+   "say": "Three: Bogota, high on an Andean plateau. 2625 meters.",
+   "cap": "Three: Bogotá, high on an Andean plateau. 2,625 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Quito",
+   "sub": "ECUADOR",
+   "value": 2850,
+   "lat": -0.1807,
+   "lon": -78.4678,
+   "style": "column",
+   "fact": "Almost on the Equator",
+   "say": "Two: Kee-toe, sitting almost on the Equator. 2850 meters.",
+   "cap": "Two: Quito, sitting almost on the Equator. 2,850 meters."
+  },
+  {
+   "rank": 1,
+   "name": "La Paz",
+   "sub": "BOLIVIA",
+   "value": 3640,
+   "lat": -16.4897,
+   "lon": -68.1193,
+   "style": "column",
+   "fact": "Over 2 miles high",
+   "say": "And number one: Lah Pahz, Bolivia! 3640 meters, over two miles above the sea.",
+   "cap": "And number one: La Paz, Bolivia! 3,640 meters, over two miles above the sea."
+  }
+ ]
+}
