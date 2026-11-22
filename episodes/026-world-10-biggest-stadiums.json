@@ -1,0 +1,178 @@
+{
+ "id": "026-world-10-biggest-stadiums",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   10,
+   32
+  ],
+  "highlight": [
+   "840",
+   "408",
+   "356"
+  ],
+  "scale": 0.2,
+  "frame": [
+   -150,
+   -2,
+   162,
+   62
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 BIGGEST",
+  "STADIUMS"
+ ],
+ "series": "THE WORLD'S 10 BIGGEST STADIUMS",
+ "unit": "seats",
+ "barMin": 95000,
+ "hook": {
+  "say": "The ten biggest stadiums on Earth, ranked. Eight of them are for American college football!"
+ },
+ "outro": {
+  "say": "Which one would you sit in? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE WOULD YOU SIT IN?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Bryant-Denny",
+   "sub": "TUSCALOOSA · ALABAMA",
+   "value": 100077,
+   "lat": 33.208,
+   "lon": -87.55,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of the Crimson Tide",
+   "say": "Number ten: Bryant-Denny, home of the Crimson Tide. 100077 seats.",
+   "cap": "Number ten: Bryant-Denny, home of the Crimson Tide. 100,077 seats."
+  },
+  {
+   "rank": 9,
+   "name": "Texas Memorial",
+   "sub": "AUSTIN · TEXAS",
+   "value": 100119,
+   "lat": 30.2836,
+   "lon": -97.7325,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of the Longhorns",
+   "say": "Nine: Texas Memorial, home of the Longhorns. 100119 seats.",
+   "cap": "Nine: Texas Memorial, home of the Longhorns. 100,119 seats."
+  },
+  {
+   "rank": 8,
+   "name": "Neyland Stadium",
+   "sub": "KNOXVILLE · TENNESSEE",
+   "value": 101915,
+   "lat": 35.955,
+   "lon": -83.925,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "On the Tennessee River",
+   "say": "Eight: Nee-land Stadium, on the Tennessee River. 101915 seats.",
+   "cap": "Eight: Neyland Stadium, on the Tennessee River. 101,915 seats."
+  },
+  {
+   "rank": 7,
+   "name": "Tiger Stadium",
+   "sub": "BATON ROUGE · LOUISIANA",
+   "value": 102321,
+   "lat": 30.412,
+   "lon": -91.184,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Nicknamed Death Valley",
+   "say": "Seven: Tiger Stadium, nicknamed Death Valley. 102321 seats.",
+   "cap": "Seven: Tiger Stadium, nicknamed Death Valley. 102,321 seats."
+  },
+  {
+   "rank": 6,
+   "name": "Kyle Field",
+   "sub": "COLLEGE STATION · TEXAS",
+   "value": 102733,
+   "lat": 30.61,
+   "lon": -96.34,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of the 12th Man",
+   "say": "Six: Kyle Field, home of the Twelfth Man. 102733 seats.",
+   "cap": "Six: Kyle Field, home of the Twelfth Man. 102,733 seats."
+  },
+  {
+   "rank": 5,
+   "name": "Ohio Stadium",
+   "sub": "COLUMBUS · OHIO",
+   "value": 102780,
+   "lat": 40.0017,
+   "lon": -83.0197,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "The Horseshoe",
+   "say": "Five: Ohio Stadium, the Horseshoe. 102780 seats.",
+   "cap": "Five: Ohio Stadium, the Horseshoe. 102,780 seats."
+  },
+  {
+   "rank": 4,
+   "name": "Beaver Stadium",
+   "sub": "STATE COLLEGE · PENNSYLVANIA",
+   "value": 106572,
+   "lat": 40.812,
+   "lon": -77.856,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of Penn State",
+   "say": "Four: Beaver Stadium, home of Penn State. 106572 seats.",
+   "cap": "Four: Beaver Stadium, home of Penn State. 106,572 seats."
+  },
+  {
+   "rank": 3,
+   "name": "Michigan Stadium",
+   "sub": "ANN ARBOR · MICHIGAN",
+   "value": 107601,
+   "lat": 42.2658,
+   "lon": -83.7487,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "The Big House",
+   "say": "Three: Michigan Stadium, the Big House. 107601 seats.",
+   "cap": "Three: Michigan Stadium, the Big House. 107,601 seats."
+  },
+  {
+   "rank": 2,
+   "name": "Rungrado May Day",
+   "sub": "PYONGYANG · NORTH KOREA",
+   "value": 114000,
+   "lat": 39.0496,
+   "lon": 125.7755,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Officially claims 150,000",
+   "say": "Two: Roong-rah-doe May Day, though officially it claims more. 114000 seats.",
+   "cap": "Two: Rungrado May Day, though officially it claims more. 114,000 seats."
+  },
+  {
+   "rank": 1,
+   "name": "Narendra Modi",
+   "sub": "AHMEDABAD · INDIA",
+   "value": 132000,
+   "lat": 23.0919,
+   "lon": 72.5975,
+   "style": "column",
+   "radius": 0.12,
+   "fact": "Built for cricket",
+   "say": "And number one: Narendra Modi Stadium! 132000 seats, built for cricket.",
+   "cap": "And number one: Narendra Modi Stadium! 132,000 seats, built for cricket."
+  }
+ ]
+}

@@ -32,6 +32,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 biggest lakes in the USA by area — 023-usa-10-largest-lakes
 - [x] The 10 busiest airports in the world by passengers — 024-world-10-busiest-airports
 - [x] The 10 tallest buildings in the USA — 025-usa-10-tallest-buildings
+- [x] The 10 biggest stadiums in the world by capacity — 026-world-10-biggest-stadiums
 
 ## Queue
 - [ ] The 10 highest mountains in Europe
@@ -42,6 +43,8 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [ ] The 10 longest bridges in Türkiye (style: column)
 - [ ] The 10 highest cities in Türkiye by elevation (style: column)
 - [ ] The 10 longest rivers in the USA (style: column at the river mouths)
-- [ ] The 10 biggest stadiums in the world by capacity (style: column, map.scale ~0.12)
 - [ ] The 10 longest rivers in Türkiye (style: column at the river mouths)
 - [ ] The 10 highest dams in Türkiye (style: column)
+- [ ] The 10 biggest football stadiums in Türkiye by capacity (style: column)
+- [ ] The 10 most visited countries in the world (style: column, map.scale ~0.12)
+- [ ] The 10 smallest US states by area (style: column)
