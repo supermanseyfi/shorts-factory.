@@ -1,0 +1,172 @@
+{
+ "id": "016-world-10-largest-islands",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   10,
+   30
+  ],
+  "highlight": [
+   "304",
+   "598",
+   "360",
+   "450",
+   "392",
+   "826",
+   "124"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -150,
+   -32,
+   165,
+   86
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 LARGEST",
+  "ISLANDS"
+ ],
+ "series": "THE WORLD'S 10 LARGEST ISLANDS",
+ "unit": "km²",
+ "barMin": 0,
+ "hook": {
+  "say": "The ten largest islands on Earth, ranked. Number one is three times the size of Texas!"
+ },
+ "outro": {
+  "say": "Should Australia count? Comment below!"
+ },
+ "outroLines": [
+  "SHOULD AUSTRALIA COUNT?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Ellesmere",
+   "sub": "CANADA",
+   "value": 196236,
+   "lat": 79.8,
+   "lon": -78,
+   "style": "column",
+   "fact": "Canada's northernmost island",
+   "say": "Number ten: Elz-meer, Canada's northernmost island. 196,000 square kilometers.",
+   "cap": "Number ten: Ellesmere, Canada's northernmost island. 196,000 square kilometers."
+  },
+  {
+   "rank": 9,
+   "name": "Great Britain",
+   "sub": "UNITED KINGDOM",
+   "value": 209331,
+   "lat": 54,
+   "lon": -2,
+   "style": "column",
+   "fact": "Europe's most populated island",
+   "say": "Nine: Great Britain, Europe's most populated island. 209,000.",
+   "cap": "Nine: Great Britain, Europe's most populated island. 209,000."
+  },
+  {
+   "rank": 8,
+   "name": "Victoria Island",
+   "sub": "CANADA",
+   "value": 217291,
+   "lat": 71,
+   "lon": -110,
+   "style": "column",
+   "fact": "Only about 2,000 people",
+   "say": "Eight: Victoria Island, home to just two thousand people. 217,000.",
+   "cap": "Eight: Victoria Island, home to just two thousand people. 217,000."
+  },
+  {
+   "rank": 7,
+   "name": "Honshu",
+   "sub": "JAPAN",
+   "value": 227898,
+   "lat": 36,
+   "lon": 138,
+   "style": "column",
+   "fact": "Over 100 million people",
+   "say": "Seven: Honshu, home to over a hundred million. 228,000.",
+   "cap": "Seven: Honshu, home to over a hundred million. 228,000."
+  },
+  {
+   "rank": 6,
+   "name": "Sumatra",
+   "sub": "INDONESIA",
+   "value": 443066,
+   "lat": 0,
+   "lon": 102,
+   "style": "column",
+   "fact": "Crossed by the Equator",
+   "say": "Six: Sumatra, crossed by the Equator. 443,000.",
+   "cap": "Six: Sumatra, crossed by the Equator. 443,000."
+  },
+  {
+   "rank": 5,
+   "name": "Baffin Island",
+   "sub": "CANADA",
+   "value": 507451,
+   "lat": 68,
+   "lon": -70,
+   "style": "column",
+   "fact": "Canada's largest island",
+   "say": "Five: Baffin Island, Canada's largest island. 507,000.",
+   "cap": "Five: Baffin Island, Canada's largest island. 507,000."
+  },
+  {
+   "rank": 4,
+   "name": "Madagascar",
+   "sub": "INDIAN OCEAN",
+   "value": 587295,
+   "lat": -19,
+   "lon": 46.7,
+   "style": "column",
+   "fact": "Wildlife found nowhere else",
+   "say": "Four: Madagascar, full of wildlife found nowhere else. 587,000.",
+   "cap": "Four: Madagascar, full of wildlife found nowhere else. 587,000."
+  },
+  {
+   "rank": 3,
+   "name": "Borneo",
+   "sub": "INDONESIA / MALAYSIA / BRUNEI",
+   "value": 748168,
+   "lat": 1,
+   "lon": 114,
+   "style": "column",
+   "fact": "Shared by three countries",
+   "say": "Three: Borneo, shared by three countries. 748,000.",
+   "cap": "Three: Borneo, shared by three countries. 748,000."
+  },
+  {
+   "rank": 2,
+   "name": "New Guinea",
+   "sub": "INDONESIA / PAPUA NEW GUINEA",
+   "value": 821400,
+   "lat": -5.5,
+   "lon": 141,
+   "style": "column",
+   "fact": "Over 800 languages",
+   "say": "Two: New Guinea, home to over eight hundred languages. 821,000.",
+   "cap": "Two: New Guinea, home to over eight hundred languages. 821,000."
+  },
+  {
+   "rank": 1,
+   "name": "Greenland",
+   "sub": "KINGDOM OF DENMARK",
+   "value": 2166086,
+   "lat": 72,
+   "lon": -40,
+   "style": "column",
+   "fact": "80% covered in ice",
+   "say": "And number one: Greenland! Two-point-one-seven million square kilometers, mostly covered in ice.",
+   "cap": "And number one: Greenland! 2.17 million square kilometers, mostly covered in ice."
+  }
+ ]
+}
