@@ -31,6 +31,8 @@ Voice model files (~350 MB) download once from GitHub releases into voices/.
   Optional `map.frame` [lonMin, latMin, lonMax, latMax] frames the hook overview on a region instead of the whole
   highlighted country, and `map.outroZoom` (>1) pulls the outro camera back; use both with `map.scale` 2-3 when the
   items are clustered in a small part of a big country (see episode 002, Alaska).
+  `map.outro: "overview"` ends on the top-down hook view instead of the low fly-out: use it when the items span a
+  wide map (see episode 004, USA cities at `map.scale` 0.5).
 - `items` (exactly the ranking, worst -> best): `rank, name, sub, value, lat, lon, style, fact, say, cap`.
   `style`: `volcano` | `jagged` | `massif` (3D mountains) or `column` (3D bar: cities, lakes, buildings, anything).
 - `say` is what the voice reads, `cap` what the caption shows; same word count. Respell foreign names for the voice

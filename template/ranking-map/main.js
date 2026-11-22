@@ -85,7 +85,7 @@ for (const [lon, lat, rx, rz, rot] of (ep.map.lakes || [])) {
   m.scale.set(rx, 1, rz); m.rotation.y = rot; m.position.copy(P(lon, lat)).setY(GROUND + .004); scene.add(m);
 }
 if (!trRing) { const xs = ep.items.map(i => i.lon), ys = ep.items.map(i => i.lat); trRing = [[Math.min(...xs) - 3, Math.min(...ys) - 2], [Math.max(...xs) + 3, Math.max(...ys) + 2]]; }
-const BB = trRing.reduce((b, [x, y]) => [Math.min(b[0], x), Math.min(b[1], y), Math.max(b[2], x), Math.max(b[3], y)], [999, 999, -999, -999]);
+const BB = ep.map.frame || trRing.reduce((b, [x, y]) => [Math.min(b[0], x), Math.min(b[1], y), Math.max(b[2], x), Math.max(b[3], y)], [999, 999, -999, -999]);
 // relief hills (instanced), clustered with noise
 {
   const r = rng(7), g = new THREE.ConeGeometry(1, 1, 5, 1).translate(0, .5, 0), m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), list = [];
@@ -95,7 +95,7 @@ const BB = trRing.reduce((b, [x, y]) => [Math.min(b[0], x), Math.min(b[1], y), M
     const east = fbm(lon * .35, lat * .35, 11), dens = .08 + 1.1 * fbm(lon * .9, lat * .9, 3) * east;
     if (r() > dens) continue;
     const p = P(lon, lat); if (avoid.some(a => a.distanceTo(p) < .5)) continue;
-    const h = (.03 + .16 * r() * r()) * (.6 + east * 1.0), w = h * (1.2 + r());
+    const h = (.03 + .16 * r() * r()) * (.6 + east * 1.0) * clamp(MS, .3, 1), w = h * (1.2 + r());   // smaller relief on zoomed-out maps
     q.setFromAxisAngle(new THREE.Vector3(0, 1, 0), r() * 6.28);
     list.push(m4.clone().compose(p.setY(GROUND - .002), q.clone(), new THREE.Vector3(w, h, w)));
   }
@@ -166,7 +166,7 @@ function buildColumn(it, idx) {   // generic 3D bar for non-mountain rankings (c
   const Hh = it.value / MAXV * 1.5, R = it.radius || .13, top = it.rank <= 3;
   const g = new THREE.CylinderGeometry(R, R * 1.08, Hh, 6).translate(0, Hh / 2, 0), col = [], pos = g.attributes.position;
   const c0 = new THREE.Color('#0d5d86'), c1 = new THREE.Color(top ? '#ffd24d' : '#7ff0ff');
-  for (let i = 0; i < pos.count; i++) { const c = new THREE.Color().lerpColors(c0, c1, Math.pow(pos.getY(i) / Hh, 1.5)); col.push(c.r, c.g, c.b); }
+  for (let i = 0; i < pos.count; i++) { const c = new THREE.Color().lerpColors(c0, c1, Math.pow(clamp(pos.getY(i) / Hh), 1.5)); col.push(c.r, c.g, c.b); }
   g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
   const mesh = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: .35, metalness: .2, emissive: top ? '#6b4a00' : '#0a4a66', emissiveIntensity: .7 }));
   const grp = new THREE.Group(); grp.add(mesh); grp.position.copy(P(it.lon, it.lat)).setY(GROUND - .001);
@@ -197,6 +197,7 @@ const IC = mts.reduce((a, m) => a.add(m.base), new THREE.Vector3()).multiplyScal
 const OZ = ep.map.outroZoom || 1;   // >1 pulls the outro camera back when the items are spread far apart
 const OUT_A = { pos: new THREE.Vector3(IC.x + (SP * 1.25 + 2.2) * OZ, (SP * .45 + 2.2) * OZ, IC.z + (SP * .9 + 2.2) * OZ), look: new THREE.Vector3(IC.x + .6, .3, IC.z), fov: 40 };
 const OUT_B = { pos: new THREE.Vector3(IC.x + (SP * 1.45 + 2.6) * OZ, (SP * .65 + 2.6) * OZ, IC.z + (SP * 1.1 + 2.8) * OZ), look: new THREE.Vector3(IC.x + .3, .3, IC.z), fov: 40 };
+if (ep.map.outro === 'overview') { Object.assign(OUT_A, OVER_B); Object.assign(OUT_B, OVER_A); }   // wide maps: end on the top-down overview so every pin is in frame
 function itemPose(m, k, idx) {   // k: 0..1 through the segment
   const top = m.it.rank === 1, ang = top ? -2.95 + .95 * k : (-2.1 + idx * 0.47) + .32 * k * (idx % 2 ? -1 : 1);
   const d = (2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = .30 - .05 * k;

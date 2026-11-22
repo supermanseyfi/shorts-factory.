@@ -1,0 +1,168 @@
+{
+ "id": "004-usa-10-biggest-cities",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.1
+ },
+ "map": {
+  "center": [
+   -96,
+   38
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 0.5,
+  "frame": [
+   -125,
+   24.5,
+   -66.5,
+   49.5
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S",
+  "10 BIGGEST",
+  "CITIES"
+ ],
+ "series": "AMERICA'S 10 BIGGEST CITIES",
+ "unit": "",
+ "barMin": 0,
+ "hook": {
+  "say": "America's ten biggest cities, ranked. Four of them are in Texas!"
+ },
+ "outro": {
+  "say": "Is your city on the list? Comment below!"
+ },
+ "outroLines": [
+  "IS YOUR CITY ON THE LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Fort Worth",
+   "sub": "TEXAS",
+   "value": 1028117,
+   "lat": 32.7555,
+   "lon": -97.3308,
+   "style": "column",
+   "fact": "New to the top 10",
+   "say": "Number ten: Fort Worth, brand new to the top ten. Just over 1 million people.",
+   "cap": "Number ten: Fort Worth, brand new to the top ten. Just over 1 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 9,
+   "name": "Dallas",
+   "sub": "TEXAS",
+   "value": 1329491,
+   "lat": 32.7767,
+   "lon": -96.797,
+   "style": "column",
+   "fact": "30 miles from Fort Worth",
+   "say": "Nine: Dallas, just thirty miles down the road. One-point-three million people.",
+   "cap": "Nine: Dallas, just thirty miles down the road. 1.3 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 8,
+   "name": "San Diego",
+   "sub": "CALIFORNIA",
+   "value": 1406106,
+   "lat": 32.7157,
+   "lon": -117.1611,
+   "style": "column",
+   "fact": "On the Mexican border",
+   "say": "Eight: San Diego, right on the Mexican border. One-point-four million people.",
+   "cap": "Eight: San Diego, right on the Mexican border. 1.4 million people."
+  },
+  {
+   "rank": 7,
+   "name": "San Antonio",
+   "sub": "TEXAS",
+   "value": 1548422,
+   "lat": 29.4241,
+   "lon": -98.4936,
+   "style": "column",
+   "fact": "Home of the Alamo",
+   "say": "Seven: San Antonio, home of the Alamo. One-point-five million people.",
+   "cap": "Seven: San Antonio, home of the Alamo. 1.5 million people."
+  },
+  {
+   "rank": 6,
+   "name": "Philadelphia",
+   "sub": "PENNSYLVANIA",
+   "value": 1574281,
+   "lat": 39.9526,
+   "lon": -75.1652,
+   "style": "column",
+   "fact": "Where America was born",
+   "say": "Six: Philadelphia, where America was born. One-point-six million people.",
+   "cap": "Six: Philadelphia, where America was born. 1.6 million people."
+  },
+  {
+   "rank": 5,
+   "name": "Phoenix",
+   "sub": "ARIZONA",
+   "value": 1665481,
+   "lat": 33.4484,
+   "lon": -112.074,
+   "style": "column",
+   "fact": "A giant in the desert",
+   "say": "Five: Phoenix, a giant in the desert. One-point-seven million people.",
+   "cap": "Five: Phoenix, a giant in the desert. 1.7 million people."
+  },
+  {
+   "rank": 4,
+   "name": "Houston",
+   "sub": "TEXAS",
+   "value": 2397315,
+   "lat": 29.7604,
+   "lon": -95.3698,
+   "style": "column",
+   "fact": "Space City",
+   "say": "Four: Houston, the Space City. Two-point-four million people.",
+   "cap": "Four: Houston, the Space City. 2.4 million people."
+  },
+  {
+   "rank": 3,
+   "name": "Chicago",
+   "sub": "ILLINOIS",
+   "value": 2731585,
+   "lat": 41.8781,
+   "lon": -87.6298,
+   "style": "column",
+   "fact": "The Windy City",
+   "say": "Three: Chicago, the Windy City. Two-point-seven million people.",
+   "cap": "Three: Chicago, the Windy City. 2.7 million people."
+  },
+  {
+   "rank": 2,
+   "name": "Los Angeles",
+   "sub": "CALIFORNIA",
+   "value": 3869089,
+   "lat": 34.0522,
+   "lon": -118.2437,
+   "style": "column",
+   "fact": "The City of Angels",
+   "say": "Two: Los Angeles, the City of Angels. Three-point-nine million people.",
+   "cap": "Two: Los Angeles, the City of Angels. 3.9 million people."
+  },
+  {
+   "rank": 1,
+   "name": "New York City",
+   "sub": "NEW YORK",
+   "value": 8584629,
+   "lat": 40.7128,
+   "lon": -74.006,
+   "style": "column",
+   "fact": "More than double L.A.",
+   "say": "And number one: New York City! Eight-point-six million people, more than double Los Angeles.",
+   "cap": "And number one: New York City! 8.6 million people, more than double Los Angeles."
+  }
+ ]
+}
