@@ -1,0 +1,171 @@
+{
+ "id": "024-world-10-busiest-airports",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   20,
+   30
+  ],
+  "highlight": [
+   "840",
+   "156",
+   "792",
+   "826",
+   "392",
+   "784"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -150,
+   -5,
+   172,
+   68
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 BUSIEST",
+  "AIRPORTS"
+ ],
+ "series": "THE WORLD'S 10 BUSIEST AIRPORTS",
+ "unit": "",
+ "barMin": 70000000,
+ "hook": {
+  "say": "The ten busiest airports on Earth, ranked. Four of them are in the United States!"
+ },
+ "outro": {
+  "say": "Which ones have you flown through? Comment below!"
+ },
+ "outroLines": [
+  "WHICH HAVE YOU FLOWN THROUGH?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Denver",
+   "sub": "DEN · USA",
+   "value": 82427962,
+   "lat": 39.86,
+   "lon": -104.67,
+   "style": "column",
+   "fact": "America's largest by area",
+   "say": "Number ten: Denver, America's largest airport by area. Eighty-two-point-four million passengers.",
+   "cap": "Number ten: Denver, America's largest airport by area. 82.4 million passengers."
+  },
+  {
+   "rank": 9,
+   "name": "Guangzhou",
+   "sub": "CAN · CHINA",
+   "value": 83582952,
+   "lat": 23.39,
+   "lon": 113.31,
+   "style": "column",
+   "fact": "Gateway to southern China",
+   "say": "Nine: Gwahng-joe, the gateway to southern China. Eighty-three-point-six million passengers.",
+   "cap": "Nine: Guangzhou, the gateway to southern China. 83.6 million passengers."
+  },
+  {
+   "rank": 8,
+   "name": "Istanbul",
+   "sub": "IST · TÜRKİYE",
+   "value": 84437710,
+   "lat": 41.26,
+   "lon": 28.74,
+   "style": "column",
+   "fact": "Opened only in 2018",
+   "say": "Eight: Istanbul, opened just eight years ago. Eighty-four-point-four million passengers.",
+   "cap": "Eight: Istanbul, opened just eight years ago. 84.4 million passengers."
+  },
+  {
+   "rank": 7,
+   "name": "London Heathrow",
+   "sub": "LHR · UNITED KINGDOM",
+   "value": 84482126,
+   "lat": 51.47,
+   "lon": -0.45,
+   "style": "column",
+   "fact": "The busiest in Europe",
+   "say": "Seven: London Heathrow, the busiest in Europe. Eighty-four-point-five million passengers.",
+   "cap": "Seven: London Heathrow, the busiest in Europe. 84.5 million passengers."
+  },
+  {
+   "rank": 6,
+   "name": "Chicago O'Hare",
+   "sub": "ORD · USA",
+   "value": 84856018,
+   "lat": 41.98,
+   "lon": -87.9,
+   "style": "column",
+   "fact": "No. 1 for takeoffs and landings",
+   "say": "Six: Chicago O'Hare, number one for takeoffs and landings. Eighty-four-point-nine million passengers.",
+   "cap": "Six: Chicago O'Hare, number one for takeoffs and landings. 84.9 million passengers."
+  },
+  {
+   "rank": 5,
+   "name": "Shanghai Pudong",
+   "sub": "PVG · CHINA",
+   "value": 84994548,
+   "lat": 31.14,
+   "lon": 121.8,
+   "style": "column",
+   "fact": "Up from tenth place",
+   "say": "Five: Shanghai Poo-dong, up from tenth place. Eighty-five-point-zero million passengers.",
+   "cap": "Five: Shanghai Pudong, up from tenth place. 85.0 million passengers."
+  },
+  {
+   "rank": 4,
+   "name": "Dallas Fort Worth",
+   "sub": "DFW · USA",
+   "value": 85660127,
+   "lat": 32.9,
+   "lon": -97.04,
+   "style": "column",
+   "fact": "Bigger than Manhattan",
+   "say": "Four: Dallas Fort Worth, bigger than Manhattan. Eighty-five-point-seven million passengers.",
+   "cap": "Four: Dallas Fort Worth, bigger than Manhattan. 85.7 million passengers."
+  },
+  {
+   "rank": 3,
+   "name": "Tokyo Haneda",
+   "sub": "HND · JAPAN",
+   "value": 91679814,
+   "lat": 35.55,
+   "lon": 139.78,
+   "style": "column",
+   "fact": "Minutes from central Tokyo",
+   "say": "Three: Tokyo Haneda, minutes from central Tokyo. Ninety-one-point-seven million passengers.",
+   "cap": "Three: Tokyo Haneda, minutes from central Tokyo. 91.7 million passengers."
+  },
+  {
+   "rank": 2,
+   "name": "Dubai",
+   "sub": "DXB · UAE",
+   "value": 95192160,
+   "lat": 25.25,
+   "lon": 55.36,
+   "style": "column",
+   "fact": "No. 1 for international travel",
+   "say": "Two: Dubai, number one for international travel. Ninety-five-point-two million passengers.",
+   "cap": "Two: Dubai, number one for international travel. 95.2 million passengers."
+  },
+  {
+   "rank": 1,
+   "name": "Atlanta",
+   "sub": "ATL · USA",
+   "value": 106302208,
+   "lat": 33.64,
+   "lon": -84.43,
+   "style": "column",
+   "fact": "The busiest for decades",
+   "say": "And number one: Atlanta! 106 million passengers, the busiest for decades.",
+   "cap": "And number one: Atlanta! 106 million passengers, the busiest for decades."
+  }
+ ]
+}
