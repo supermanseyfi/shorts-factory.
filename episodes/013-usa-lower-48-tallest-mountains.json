@@ -1,0 +1,177 @@
+{
+ "id": "013-usa-lower-48-tallest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -113,
+   40
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 3,
+  "frame": [
+   -125.5,
+   31,
+   -102,
+   49.5
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE LOWER 48'S",
+  "10 TALLEST",
+  "MOUNTAINS"
+ ],
+ "series": "LOWER 48 · 10 TALLEST MOUNTAINS",
+ "unit": "ft",
+ "metersPerUnit": 0.3048,
+ "barMin": 14200,
+ "hook": {
+  "say": "The ten tallest mountains in the lower forty-eight, ranked. Seven are in Colorado!"
+ },
+ "outro": {
+  "say": "Climbed a fourteener? Comment below!"
+ },
+ "outroLines": [
+  "CLIMBED A FOURTEENER?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Crestone Peak",
+   "sub": "SANGRE DE CRISTO · COLORADO",
+   "value": 14300,
+   "lat": 37.9669,
+   "lon": -105.5856,
+   "style": "jagged",
+   "radius": 0.5,
+   "fact": "One of Colorado's hardest",
+   "say": "Number ten: Crestone Peak, one of Colorado's hardest. 14300 feet.",
+   "cap": "Number ten: Crestone Peak, one of Colorado's hardest. 14,300 feet."
+  },
+  {
+   "rank": 9,
+   "name": "Uncompahgre Peak",
+   "sub": "SAN JUAN MOUNTAINS · COLORADO",
+   "value": 14321,
+   "lat": 38.0717,
+   "lon": -107.4622,
+   "style": "massif",
+   "radius": 0.6,
+   "fact": "Roof of the San Juans",
+   "say": "Nine: Un-cum-pah-gray Peak, roof of the San Juans. 14321 feet.",
+   "cap": "Nine: Uncompahgre Peak, roof of the San Juans. 14,321 feet."
+  },
+  {
+   "rank": 8,
+   "name": "La Plata Peak",
+   "sub": "SAWATCH RANGE · COLORADO",
+   "value": 14343,
+   "lat": 39.0294,
+   "lon": -106.4728,
+   "style": "massif",
+   "radius": 0.42,
+   "fact": "Its name means silver",
+   "say": "Eight: La Plata Peak, its name means silver. 14343 feet.",
+   "cap": "Eight: La Plata Peak, its name means silver. 14,343 feet."
+  },
+  {
+   "rank": 7,
+   "name": "Blanca Peak",
+   "sub": "SANGRE DE CRISTO · COLORADO",
+   "value": 14351,
+   "lat": 37.5775,
+   "lon": -105.4856,
+   "style": "jagged",
+   "radius": 0.55,
+   "fact": "Sacred to the Navajo",
+   "say": "Seven: Blanca Peak, sacred to the Navajo. 14351 feet.",
+   "cap": "Seven: Blanca Peak, sacred to the Navajo. 14,351 feet."
+  },
+  {
+   "rank": 6,
+   "name": "Mt. Williamson",
+   "sub": "SIERRA NEVADA · CALIFORNIA",
+   "value": 14379,
+   "lat": 36.6558,
+   "lon": -118.3111,
+   "style": "jagged",
+   "radius": 0.42,
+   "fact": "California's second highest",
+   "say": "Six: Mount Williamson, California's second highest. 14379 feet.",
+   "cap": "Six: Mt. Williamson, California's second highest. 14,379 feet."
+  },
+  {
+   "rank": 5,
+   "name": "Mount Rainier",
+   "sub": "CASCADE RANGE · WASHINGTON",
+   "value": 14417,
+   "lat": 46.8528,
+   "lon": -121.7603,
+   "style": "volcano",
+   "radius": 0.8,
+   "fact": "A volcano wrapped in glaciers",
+   "say": "Five: Mount Ruh-neer, a glacier-covered volcano. 14417 feet.",
+   "cap": "Five: Mount Rainier, a glacier-covered volcano. 14,417 feet."
+  },
+  {
+   "rank": 4,
+   "name": "Mount Harvard",
+   "sub": "SAWATCH RANGE · COLORADO",
+   "value": 14421,
+   "lat": 38.9244,
+   "lon": -106.3208,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "Named after the university",
+   "say": "Four: Mount Harvard, named after the university. 14421 feet.",
+   "cap": "Four: Mount Harvard, named after the university. 14,421 feet."
+  },
+  {
+   "rank": 3,
+   "name": "Mount Massive",
+   "sub": "SAWATCH RANGE · COLORADO",
+   "value": 14428,
+   "lat": 39.1875,
+   "lon": -106.4758,
+   "style": "massif",
+   "radius": 0.45,
+   "fact": "Five separate summits",
+   "say": "Three: Mount Massive, with five separate summits. 14428 feet.",
+   "cap": "Three: Mount Massive, with five separate summits. 14,428 feet."
+  },
+  {
+   "rank": 2,
+   "name": "Mount Elbert",
+   "sub": "SAWATCH RANGE · COLORADO",
+   "value": 14440,
+   "lat": 39.1178,
+   "lon": -106.4453,
+   "style": "massif",
+   "radius": 0.48,
+   "fact": "Top of the Rocky Mountains",
+   "say": "Two: Mount Elbert, top of the Rockies. 14440 feet.",
+   "cap": "Two: Mount Elbert, top of the Rockies. 14,440 feet."
+  },
+  {
+   "rank": 1,
+   "name": "Mount Whitney",
+   "sub": "SIERRA NEVADA · CALIFORNIA",
+   "value": 14505,
+   "lat": 36.5786,
+   "lon": -118.292,
+   "style": "jagged",
+   "radius": 0.5,
+   "fact": "85 miles from Death Valley",
+   "say": "And number one: Mount Whitney! 14505 feet, eighty-five miles from Death Valley.",
+   "cap": "And number one: Mount Whitney! 14,505 feet, eighty-five miles from Death Valley."
+  }
+ ]
+}

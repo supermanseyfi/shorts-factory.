@@ -19,6 +19,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 largest provinces of Türkiye by area — 010-turkey-10-largest-provinces
 - [x] The 10 tallest waterfalls in the world — 011-world-10-tallest-waterfalls
 - [x] The 10 largest countries on Earth by area — 012-world-10-largest-countries
+- [x] The 10 tallest mountains in the contiguous USA — 013-usa-lower-48-tallest-mountains
 
 ## Queue
 - [ ] The 10 highest mountains in Europe
@@ -34,4 +35,3 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [ ] The 10 largest deserts on Earth (style: column, map.scale ~0.12)
 - [ ] The 10 longest bridges in Türkiye (style: column)
 - [ ] The 10 most visited national parks in the USA (style: column)
-- [ ] The 10 tallest mountains in the contiguous USA (map: Colorado/California)
