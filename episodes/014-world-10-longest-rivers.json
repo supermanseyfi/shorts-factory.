@@ -1,0 +1,172 @@
+{
+ "id": "014-world-10-longest-rivers",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   20,
+   15
+  ],
+  "highlight": [
+   "643",
+   "180",
+   "032",
+   "156",
+   "840",
+   "076",
+   "818"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -175,
+   -58,
+   192,
+   80
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 LONGEST",
+  "RIVERS"
+ ],
+ "series": "THE WORLD'S 10 LONGEST RIVERS",
+ "unit": "km",
+ "barMin": 4000,
+ "hook": {
+  "say": "The ten longest rivers on Earth, ranked. Scientists still argue about number one!"
+ },
+ "outro": {
+  "say": "Nile or Amazon? Comment below!"
+ },
+ "outroLines": [
+  "NILE OR AMAZON?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Amur",
+   "sub": "RUSSIA / CHINA",
+   "value": 4444,
+   "lat": 52.94,
+   "lon": 141.1,
+   "style": "column",
+   "fact": "Border of Russia and China",
+   "say": "Number ten: Ah-moor, dividing Russia and China. 4444 kilometers.",
+   "cap": "Number ten: Amur, dividing Russia and China. 4,444 kilometers."
+  },
+  {
+   "rank": 9,
+   "name": "Congo",
+   "sub": "CENTRAL AFRICA",
+   "value": 4700,
+   "lat": -6.07,
+   "lon": 12.45,
+   "style": "column",
+   "fact": "Deepest river on Earth",
+   "say": "Nine: Congo, the deepest river on Earth. 4700 kilometers.",
+   "cap": "Nine: Congo, the deepest river on Earth. 4,700 kilometers."
+  },
+  {
+   "rank": 8,
+   "name": "Paraná",
+   "sub": "RÍO DE LA PLATA · SOUTH AMERICA",
+   "value": 4880,
+   "lat": -34.2,
+   "lon": -58.2,
+   "style": "column",
+   "fact": "No. 2 in South America",
+   "say": "Eight: Para-nah, South America's second longest. 4880 kilometers.",
+   "cap": "Eight: Paraná, South America's second longest. 4,880 kilometers."
+  },
+  {
+   "rank": 7,
+   "name": "Ob-Irtysh",
+   "sub": "RUSSIA / KAZAKHSTAN",
+   "value": 5410,
+   "lat": 66.5,
+   "lon": 71.5,
+   "style": "column",
+   "fact": "Flows north to the Arctic",
+   "say": "Seven: Obe-Irtish, flowing north to the Arctic. 5410 kilometers.",
+   "cap": "Seven: Ob-Irtysh, flowing north to the Arctic. 5,410 kilometers."
+  },
+  {
+   "rank": 6,
+   "name": "Yellow River",
+   "sub": "HUANG HE · CHINA",
+   "value": 5464,
+   "lat": 37.76,
+   "lon": 119.16,
+   "style": "column",
+   "fact": "Cradle of Chinese civilization",
+   "say": "Six: Yellow River, cradle of Chinese civilization. 5464 kilometers.",
+   "cap": "Six: Yellow River, cradle of Chinese civilization. 5,464 kilometers."
+  },
+  {
+   "rank": 5,
+   "name": "Yenisei",
+   "sub": "RUSSIA / MONGOLIA",
+   "value": 5539,
+   "lat": 71.8,
+   "lon": 82.7,
+   "style": "column",
+   "fact": "Biggest river into the Arctic",
+   "say": "Five: Yenni-say, the Arctic's biggest river. 5539 kilometers.",
+   "cap": "Five: Yenisei, the Arctic's biggest river. 5,539 kilometers."
+  },
+  {
+   "rank": 4,
+   "name": "Mississippi-Missouri",
+   "sub": "UNITED STATES",
+   "value": 6275,
+   "lat": 29.15,
+   "lon": -89.25,
+   "style": "column",
+   "fact": "Drains 31 US states",
+   "say": "Four: Mississippi-Missouri, draining thirty-one states. 6275 kilometers.",
+   "cap": "Four: Mississippi-Missouri, draining thirty-one states. 6,275 kilometers."
+  },
+  {
+   "rank": 3,
+   "name": "Yangtze",
+   "sub": "CHINA",
+   "value": 6300,
+   "lat": 31.39,
+   "lon": 121.98,
+   "style": "column",
+   "fact": "Longest river in one country",
+   "say": "Three: Yang-see, longest in a single country. 6300 kilometers.",
+   "cap": "Three: Yangtze, longest in a single country. 6,300 kilometers."
+  },
+  {
+   "rank": 2,
+   "name": "Amazon",
+   "sub": "SOUTH AMERICA",
+   "value": 6400,
+   "lat": -0.5,
+   "lon": -50.0,
+   "style": "column",
+   "fact": "The most water of any river",
+   "say": "Two: Amazon, carrying the most water on Earth. 6400 kilometers.",
+   "cap": "Two: Amazon, carrying the most water on Earth. 6,400 kilometers."
+  },
+  {
+   "rank": 1,
+   "name": "Nile",
+   "sub": "NORTHEAST AFRICA",
+   "value": 6650,
+   "lat": 31.5,
+   "lon": 31.0,
+   "style": "column",
+   "fact": "Or is the Amazon longer?",
+   "say": "And number one: the Nile! 6650 kilometers, though some say the Amazon wins.",
+   "cap": "And number one: the Nile! 6,650 kilometers, though some say the Amazon wins."
+  }
+ ]
+}
