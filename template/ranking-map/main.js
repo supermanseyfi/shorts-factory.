@@ -293,7 +293,8 @@ function frame(t) {
     const b = eout(prog(u, .36, .4)); $('name').textContent = it.name; $('name').style.fontSize = (it.name.length > 18 ? 70 : it.name.length > 13 ? 84 : 98) + 'px';
     set($('name'), b * outK, `translateY(${(1 - b) * 60}px)`);
     const c = eout(prog(u, .52, .4)); $('sub').textContent = it.sub; set($('sub'), c * outK, `translateY(${(1 - c) * 40}px)`);
-    const nw = s.words.find(w => /^\d/.test(w.w)), n0 = nw ? nw.t0 - .25 : s.start + 1.2;
+    const nm = s.words.findIndex(w => /[,!]$/.test(w.w)), nw = s.words.find((w, k) => k > nm && /^\d/.test(w.w)) || s.words.find(w => /^\d/.test(w.w)),   // skip digits inside the name (e.g. "432 Park Avenue,")
+      n0 = nw ? nw.t0 - .25 : s.start + 1.2;
     const d = eout(prog(t, n0, .3)), cnt = eout(prog(t, n0 + .05, .95));
     $('altnum').innerHTML = `${fmt(lerp(it.value * .55, it.value, cnt))}<em>${ep.unit}</em>`;
     set($('alt'), d * outK, `translateY(${(1 - d) * 50}px) scale(${1 + .06 * Math.sin(clamp(prog(t, n0 + 1.0, .25)) * Math.PI)})`);
