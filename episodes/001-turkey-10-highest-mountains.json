@@ -1,0 +1,190 @@
+{
+ "id": "001-turkey-10-highest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.18
+ },
+ "map": {
+  "center": [
+   35.2,
+   39.0
+  ],
+  "highlight": [
+   "792"
+  ],
+  "lakes": [
+   [
+    42.95,
+    38.62,
+    0.52,
+    0.3,
+    0.5
+   ],
+   [
+    33.4,
+    38.75,
+    0.17,
+    0.34,
+    0.15
+   ],
+   [
+    31.2,
+    37.72,
+    0.1,
+    0.2,
+    0
+   ],
+   [
+    30.85,
+    38.0,
+    0.09,
+    0.2,
+    0.3
+   ]
+  ]
+ },
+ "title": [
+  "TURKEY'S",
+  "10 HIGHEST",
+  "MOUNTAINS"
+ ],
+ "series": "TURKEY'S 10 HIGHEST MOUNTAINS",
+ "unit": "m",
+ "barMin": 2500,
+ "hook": {
+  "say": "Turkey's ten highest mountains, ranked. Number one is taller than anything in the Alps!"
+ },
+ "outro": {
+  "say": "Which mountain did we miss? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE DID WE MISS?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Medetsiz",
+   "sub": "BOLKAR MOUNTAINS · NİĞDE / MERSİN",
+   "value": 3524,
+   "lat": 37.393,
+   "lon": 34.631,
+   "style": "jagged",
+   "fact": "Summit of the Bolkar range",
+   "say": "Number ten: Medetsiz, summit of the Bolkar range. 3524 meters.",
+   "cap": "Number ten: Medetsiz, summit of the Bolkar range. 3,524 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Mt. Tendürek",
+   "sub": "AĞRI / VAN",
+   "value": 3584,
+   "lat": 39.355,
+   "lon": 43.869,
+   "style": "volcano",
+   "fact": "A sleeping shield volcano",
+   "say": "Nine: Ten-doo-rek, a sleeping volcano. 3584 meters.",
+   "cap": "Nine: Tendürek, a sleeping volcano. 3,584 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Mt. Başet",
+   "sub": "KAVUŞŞAHAP RANGE · VAN",
+   "value": 3684,
+   "lat": 38.05,
+   "lon": 43.55,
+   "style": "massif",
+   "fact": "Van's hidden giant",
+   "say": "Eight: Mount Bah-shet, Van's hidden giant. 3684 meters.",
+   "cap": "Eight: Mount Başet, Van's hidden giant. 3,684 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Demirkazık",
+   "sub": "ALADAĞLAR · NİĞDE",
+   "value": 3756,
+   "lat": 37.8,
+   "lon": 35.16,
+   "style": "jagged",
+   "fact": "Icon of the Aladağlar",
+   "say": "Seven: Demeerkazik, a climber's legend. 3756 meters.",
+   "cap": "Seven: Demirkazık, a climber's legend. 3,756 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Little Ararat",
+   "sub": "KÜÇÜK AĞRI · AĞRI / IĞDIR",
+   "value": 3896,
+   "lat": 39.45,
+   "lon": 44.78,
+   "style": "volcano",
+   "radius": 0.42,
+   "fact": "A near-perfect cone",
+   "say": "Six: Little Ararat, a near-perfect cone. 3896 meters.",
+   "cap": "Six: Little Ararat, a near-perfect cone. 3,896 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Mt. Erciyes",
+   "sub": "KAYSERİ",
+   "value": 3917,
+   "lat": 38.534,
+   "lon": 35.451,
+   "style": "volcano",
+   "fact": "The volcano that shaped Cappadocia",
+   "say": "Five: Air-jee-yes, the volcano that shaped Cappadocia. 3917 meters.",
+   "cap": "Five: Erciyes, the volcano that shaped Cappadocia. 3,917 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Mt. Kaçkar",
+   "sub": "KAÇKAR RANGE · RİZE",
+   "value": 3932,
+   "lat": 40.836,
+   "lon": 41.161,
+   "style": "jagged",
+   "fact": "Roof of the Black Sea coast",
+   "say": "Four: Kotchkar, roof of the Black Sea coast. 3932 meters.",
+   "cap": "Four: Kaçkar, roof of the Black Sea coast. 3,932 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Mt. Süphan",
+   "sub": "BİTLİS",
+   "value": 4058,
+   "lat": 38.93,
+   "lon": 42.83,
+   "style": "volcano",
+   "fact": "Guardian of Lake Van",
+   "say": "Three: Soop-hahn, guardian of Lake Van. 4058 meters.",
+   "cap": "Three: Süphan, guardian of Lake Van. 4,058 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Uludoruk",
+   "sub": "CİLO RANGE · HAKKÂRİ",
+   "value": 4135,
+   "lat": 37.49,
+   "lon": 44.0,
+   "style": "jagged",
+   "fact": "Crowned with glaciers",
+   "say": "Two: Ooloodorook, crowned with glaciers. 4135 meters.",
+   "cap": "Two: Uludoruk, crowned with glaciers. 4,135 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Mount Ararat",
+   "sub": "AĞRI DAĞI · AĞRI / IĞDIR",
+   "value": 5137,
+   "lat": 39.702,
+   "lon": 44.298,
+   "style": "volcano",
+   "radius": 0.8,
+   "fact": "The roof of Turkey",
+   "say": "And number one: Mount Ararat! 5137 meters, the roof of Turkey.",
+   "cap": "And number one: Mount Ararat! 5,137 meters, the roof of Turkey."
+  }
+ ]
+}
