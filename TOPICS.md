@@ -36,7 +36,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 
 ## Queue
 - [ ] The 10 highest mountains in Europe
-- [ ] Japan's 10 highest mountains
+- [x] Japan's 10 highest mountains
 - [ ] The 10 highest mountains in Africa
 - [ ] The 10 most populous cities in Europe (style: column)
 - [ ] The 10 highest mountains in South America
@@ -46,5 +46,5 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [ ] The 10 longest rivers in Türkiye (style: column at the river mouths)
 - [ ] The 10 highest dams in Türkiye (style: column)
 - [x] The 10 biggest football stadiums in Türkiye by capacity (style: column)
-- [ ] The 10 most visited countries in the world (style: column, map.scale ~0.12)
-- [ ] The 10 smallest US states by area (style: column)
+- [x] The 10 most visited countries in the world (style: column, map.scale ~0.12)
+- [x] The 10 smallest US states by area (style: column)

@@ -41,7 +41,7 @@
  "unit": "",
  "barMin": 30000000,
  "hook": {
-  "say": "The ten most visited countries on Earth, ranked. Six of them are in Europe!"
+  "say": "The ten most visited countries on Earth, ranked by tourist arrivals. Six of them are in Europe!"
  },
  "outro": {
   "say": "Which one is on your list? Comment below!"
@@ -60,8 +60,8 @@
    "lon": 23.0,
    "style": "column",
    "fact": "Thousands of islands",
-   "say": "Number ten: Greece, land of thousands of islands. 36 million visitors a year.",
-   "cap": "Number ten: Greece, land of thousands of islands. 36 million visitors a year."
+   "say": "Number ten: Greece, land of thousands of sunny islands. 36 million visitors a year.",
+   "cap": "Number ten: Greece, land of thousands of sunny islands. 36 million visitors a year."
   },
   {
    "rank": 9,
@@ -72,8 +72,8 @@
    "lon": 138.2,
    "style": "column",
    "fact": "A record year",
-   "say": "Nine: Japan, in a record year. Almost 37 million visitors.",
-   "cap": "Nine: Japan, in a record year. Almost 37 million visitors."
+   "say": "Nine: Japan, in a record-breaking year. Almost 37 million visitors.",
+   "cap": "Nine: Japan, in a record-breaking year. Almost 37 million visitors."
   },
   {
    "rank": 8,
@@ -84,8 +84,8 @@
    "lon": 10.3,
    "style": "column",
    "fact": "Heart of Europe",
-   "say": "Eight: Germany, the heart of Europe. Thirty-seven-point-five million visitors.",
-   "cap": "Eight: Germany, the heart of Europe. 37.5 million visitors."
+   "say": "Eight: Germany, right in the heart of Europe. Thirty-seven-point-five million visitors.",
+   "cap": "Eight: Germany, right in the heart of Europe. 37.5 million visitors."
   },
   {
    "rank": 7,
@@ -108,8 +108,8 @@
    "lon": -102.3,
    "style": "column",
    "fact": "Top spot in Latin America",
-   "say": "Six: Mexico, the top spot in Latin America. 45 million visitors.",
-   "cap": "Six: Mexico, the top spot in Latin America. 45 million visitors."
+   "say": "Six: Mexico, the top destination in all of Latin America. 45 million visitors.",
+   "cap": "Six: Mexico, the top destination in all of Latin America. 45 million visitors."
   },
   {
    "rank": 5,
@@ -120,8 +120,8 @@
    "lon": 12.6,
    "style": "column",
    "fact": "Rome, Venice, Florence",
-   "say": "Five: Italy, home of Rome and Venice. Almost 58 million visitors.",
-   "cap": "Five: Italy, home of Rome and Venice. Almost 58 million visitors."
+   "say": "Five: Italy, home of Rome, Venice and Florence. Almost 58 million visitors.",
+   "cap": "Five: Italy, home of Rome, Venice and Florence. Almost 58 million visitors."
   },
   {
    "rank": 4,
@@ -144,8 +144,8 @@
    "lon": -98.5,
    "style": "column",
    "fact": "Earns the most from tourism",
-   "say": "Three: the United States. 72 million visitors, and the most tourism money.",
-   "cap": "Three: the United States. 72 million visitors, and the most tourism money."
+   "say": "Three: the United States. 72 million visitors, and it earns the most money from tourism.",
+   "cap": "Three: the United States. 72 million visitors, and it earns the most money from tourism."
   },
   {
    "rank": 2,
@@ -156,8 +156,8 @@
    "lon": -3.6,
    "style": "column",
    "fact": "Sun, beaches and islands",
-   "say": "Two: Spain, land of sun and beaches. Almost 94 million visitors.",
-   "cap": "Two: Spain, land of sun and beaches. Almost 94 million visitors."
+   "say": "Two: Spain, land of sun, beaches and islands. Almost 94 million visitors.",
+   "cap": "Two: Spain, land of sun, beaches and islands. Almost 94 million visitors."
   },
   {
    "rank": 1,
