@@ -15,11 +15,11 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 highest capital cities in the world — 006-world-10-highest-capitals
 - [x] The 10 highest volcanoes on Earth — 007-earth-10-highest-volcanoes
 - [x] The 10 deepest lakes in the world — 008-world-10-deepest-lakes
+- [x] The 10 largest US states by area — 009-usa-10-largest-states
 
 ## Queue
 - [ ] The 10 highest mountains in Europe
 - [ ] Japan's 10 highest mountains
-- [ ] The 10 largest US states by area (style: column, at state centres)
 - [ ] The 10 highest mountains in Africa
 - [ ] The 10 most populous cities in Europe (style: column)
 - [ ] The 10 highest mountains in South America

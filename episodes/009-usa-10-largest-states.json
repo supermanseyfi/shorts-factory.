@@ -1,0 +1,166 @@
+{
+ "id": "009-usa-10-largest-states",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -115,
+   45
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 0.4,
+  "frame": [
+   -170,
+   24,
+   -66,
+   72
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S",
+  "10 LARGEST",
+  "STATES"
+ ],
+ "series": "AMERICA'S 10 LARGEST STATES",
+ "unit": "sq mi",
+ "barMin": 0,
+ "hook": {
+  "say": "America's ten largest states, ranked. Number one is bigger than the next three combined!"
+ },
+ "outro": {
+  "say": "Which state is your favorite? Comment below!"
+ },
+ "outroLines": [
+  "WHICH STATE IS YOUR FAVORITE?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Wyoming",
+   "sub": "MOUNTAIN WEST",
+   "value": 97813,
+   "lat": 43.0,
+   "lon": -107.55,
+   "style": "column",
+   "fact": "The least populated state",
+   "say": "Number ten: Wyoming, the least populated state. Nearly 98,000 square miles.",
+   "cap": "Number ten: Wyoming, the least populated state. Nearly 98,000 square miles."
+  },
+  {
+   "rank": 9,
+   "name": "Oregon",
+   "sub": "PACIFIC NORTHWEST",
+   "value": 98379,
+   "lat": 43.9,
+   "lon": -120.55,
+   "style": "column",
+   "fact": "Home of America's deepest lake",
+   "say": "Nine: Oregon, home of America's deepest lake. Over 98,000 square miles.",
+   "cap": "Nine: Oregon, home of America's deepest lake. Over 98,000 square miles."
+  },
+  {
+   "rank": 8,
+   "name": "Colorado",
+   "sub": "MOUNTAIN WEST",
+   "value": 104094,
+   "lat": 39.0,
+   "lon": -105.55,
+   "style": "column",
+   "fact": "Highest state on average",
+   "say": "Eight: Colorado, the highest state on average. 104,000 square miles.",
+   "cap": "Eight: Colorado, the highest state on average. 104,000 square miles."
+  },
+  {
+   "rank": 7,
+   "name": "Nevada",
+   "sub": "MOUNTAIN WEST",
+   "value": 110572,
+   "lat": 39.3,
+   "lon": -116.65,
+   "style": "column",
+   "fact": "The driest state",
+   "say": "Seven: Nevada, the driest state. 111,000 square miles.",
+   "cap": "Seven: Nevada, the driest state. 111,000 square miles."
+  },
+  {
+   "rank": 6,
+   "name": "Arizona",
+   "sub": "SOUTHWEST",
+   "value": 113990,
+   "lat": 34.3,
+   "lon": -111.65,
+   "style": "column",
+   "fact": "Home of the Grand Canyon",
+   "say": "Six: Arizona, home of the Grand Canyon. 114,000 square miles.",
+   "cap": "Six: Arizona, home of the Grand Canyon. 114,000 square miles."
+  },
+  {
+   "rank": 5,
+   "name": "New Mexico",
+   "sub": "SOUTHWEST",
+   "value": 121590,
+   "lat": 34.4,
+   "lon": -106.1,
+   "style": "column",
+   "fact": "Land of Enchantment",
+   "say": "Five: New Mexico, the Land of Enchantment. 122,000 square miles.",
+   "cap": "Five: New Mexico, the Land of Enchantment. 122,000 square miles."
+  },
+  {
+   "rank": 4,
+   "name": "Montana",
+   "sub": "MOUNTAIN WEST",
+   "value": 147040,
+   "lat": 47.0,
+   "lon": -109.65,
+   "style": "column",
+   "fact": "Big Sky Country",
+   "say": "Four: Montana, Big Sky Country. 147,000 square miles.",
+   "cap": "Four: Montana, Big Sky Country. 147,000 square miles."
+  },
+  {
+   "rank": 3,
+   "name": "California",
+   "sub": "WEST COAST",
+   "value": 163695,
+   "lat": 37.2,
+   "lon": -119.5,
+   "style": "column",
+   "fact": "The most populated state",
+   "say": "Three: California, the most populated state. 164,000 square miles.",
+   "cap": "Three: California, the most populated state. 164,000 square miles."
+  },
+  {
+   "rank": 2,
+   "name": "Texas",
+   "sub": "SOUTH",
+   "value": 268596,
+   "lat": 31.5,
+   "lon": -99.3,
+   "style": "column",
+   "fact": "Bigger than France",
+   "say": "Two: Texas, bigger than France. 269,000 square miles.",
+   "cap": "Two: Texas, bigger than France. 269,000 square miles."
+  },
+  {
+   "rank": 1,
+   "name": "Alaska",
+   "sub": "THE LAST FRONTIER",
+   "value": 665384,
+   "lat": 64.2,
+   "lon": -152.5,
+   "style": "column",
+   "fact": "Bigger than the next 3 combined",
+   "say": "And number one: Alaska! 665,000 square miles, bigger than the next three combined.",
+   "cap": "And number one: Alaska! 665,000 square miles, bigger than the next three combined."
+  }
+ ]
+}
