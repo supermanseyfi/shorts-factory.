@@ -1,0 +1,178 @@
+{
+ "id": "007-earth-10-highest-volcanoes",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -68.8,
+   -26.5
+  ],
+  "highlight": [
+   "152",
+   "032",
+   "068"
+  ],
+  "scale": 4,
+  "frame": [
+   -75,
+   -35.5,
+   -62.5,
+   -16
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "EARTH'S",
+  "10 HIGHEST",
+  "VOLCANOES"
+ ],
+ "series": "EARTH'S 10 HIGHEST VOLCANOES",
+ "unit": "m",
+ "barMin": 6400,
+ "hook": {
+  "say": "The ten highest volcanoes on Earth, ranked. All in one mountain range!"
+ },
+ "outro": {
+  "say": "Heard of any of them? Comment below!"
+ },
+ "outroLines": [
+  "HEARD OF ANY OF THEM?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Sajama",
+   "sub": "BOLIVIA",
+   "value": 6550,
+   "lat": -18.108,
+   "lon": -68.883,
+   "style": "volcano",
+   "radius": 0.7,
+   "fact": "Bolivia's highest peak",
+   "say": "Number ten: Sahahma, the highest peak in Bolivia. 6550 meters.",
+   "cap": "Number ten: Sajama, the highest peak in Bolivia. 6,550 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Tupungato",
+   "sub": "CHILE / ARGENTINA",
+   "value": 6570,
+   "lat": -33.358,
+   "lon": -69.77,
+   "style": "volcano",
+   "radius": 0.7,
+   "fact": "A giant near Santiago",
+   "say": "Nine: Tupungato, a giant near Santiago. 6570 meters.",
+   "cap": "Nine: Tupungato, a giant near Santiago. 6,570 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Incahuasi",
+   "sub": "CHILE / ARGENTINA",
+   "value": 6621,
+   "lat": -27.033,
+   "lon": -68.296,
+   "style": "volcano",
+   "radius": 0.55,
+   "fact": "House of the Inca",
+   "say": "Eight: Inkawahsee, the house of the Inca. 6621 meters.",
+   "cap": "Eight: Incahuasi, the house of the Inca. 6,621 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Tres Cruces Central",
+   "sub": "CHILE",
+   "value": 6629,
+   "lat": -27.068,
+   "lon": -68.787,
+   "style": "massif",
+   "radius": 0.45,
+   "fact": "One of three crosses",
+   "say": "Seven: Tress Crooses Central, one of three crosses. 6629 meters.",
+   "cap": "Seven: Tres Cruces Central, one of three crosses. 6,629 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Cazadero",
+   "sub": "WALTHER PENCK · ARGENTINA",
+   "value": 6670,
+   "lat": -27.196,
+   "lon": -68.56,
+   "style": "volcano",
+   "radius": 0.45,
+   "fact": "Also called Walther Penck",
+   "say": "Six: Cazadero, also called Valter Penck. 6670 meters.",
+   "cap": "Six: Cazadero, also called Walther Penck. 6,670 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Tres Cruces Sur",
+   "sub": "CHILE / ARGENTINA",
+   "value": 6748,
+   "lat": -27.098,
+   "lon": -68.78,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "Tallest of the three",
+   "say": "Five: Tress Crooses South, tallest of the three. 6748 meters.",
+   "cap": "Five: Tres Cruces Sur, tallest of the three. 6,748 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Llullaillaco",
+   "sub": "CHILE / ARGENTINA",
+   "value": 6752,
+   "lat": -24.72,
+   "lon": -68.537,
+   "style": "volcano",
+   "radius": 0.7,
+   "fact": "Last erupted around 1850",
+   "say": "Four: Yooyai-yahko, the last one seen erupting. 6752 meters.",
+   "cap": "Four: Llullaillaco, the last one seen erupting. 6,752 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Cerro Bonete",
+   "sub": "ARGENTINA",
+   "value": 6759,
+   "lat": -28.018,
+   "lon": -68.756,
+   "style": "volcano",
+   "radius": 0.55,
+   "fact": "In Argentina's high desert",
+   "say": "Three: Serro Bonaytay, hidden in Argentina's desert. 6759 meters.",
+   "cap": "Three: Cerro Bonete, hidden in Argentina's desert. 6,759 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Monte Pissis",
+   "sub": "ARGENTINA",
+   "value": 6793,
+   "lat": -27.755,
+   "lon": -68.799,
+   "style": "volcano",
+   "radius": 0.6,
+   "fact": "No. 3 peak in the Americas",
+   "say": "Two: Montay Peeseess, third highest in the Americas. 6793 meters.",
+   "cap": "Two: Monte Pissis, third highest in the Americas. 6,793 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Ojos del Salado",
+   "sub": "CHILE / ARGENTINA",
+   "value": 6893,
+   "lat": -27.109,
+   "lon": -68.541,
+   "style": "volcano",
+   "radius": 0.6,
+   "fact": "Earth's highest volcano",
+   "say": "And number one: Ohos del Salado, Earth's highest volcano! 6893 meters.",
+   "cap": "And number one: Ojos del Salado, Earth's highest volcano! 6,893 meters."
+  }
+ ]
+}

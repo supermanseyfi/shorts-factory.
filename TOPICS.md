@@ -13,9 +13,9 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 biggest cities in the USA by population — 004-usa-10-biggest-cities
 - [x] The 10 biggest cities in Türkiye by population — 005-turkey-10-biggest-cities
 - [x] The 10 highest capital cities in the world — 006-world-10-highest-capitals
+- [x] The 10 highest volcanoes on Earth — 007-earth-10-highest-volcanoes
 
 ## Queue
-- [ ] The 10 highest volcanoes on Earth
 - [ ] The 10 highest mountains in Europe
 - [ ] The 10 deepest lakes in the world (style: column, map.scale ~0.12)
 - [ ] Japan's 10 highest mountains
