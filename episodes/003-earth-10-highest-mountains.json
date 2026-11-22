@@ -1,0 +1,179 @@
+{
+ "id": "003-earth-10-highest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   81.5,
+   31.5
+  ],
+  "highlight": [
+   "524",
+   "156",
+   "356",
+   "586"
+  ],
+  "scale": 3,
+  "frame": [
+   72.5,
+   26.0,
+   90.5,
+   37.5
+  ],
+  "outroZoom": 1.0
+ },
+ "title": [
+  "EARTH'S",
+  "10 HIGHEST",
+  "MOUNTAINS"
+ ],
+ "series": "EARTH'S 10 HIGHEST MOUNTAINS",
+ "unit": "m",
+ "barMin": 7800,
+ "hook": {
+  "say": "The ten highest mountains on Earth, ranked. Eight of them touch one small country!"
+ },
+ "outro": {
+  "say": "Could you name all ten? Comment below!"
+ },
+ "outroLines": [
+  "COULD YOU NAME ALL 10?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Annapurna",
+   "sub": "NEPAL",
+   "value": 8091,
+   "lat": 28.5956,
+   "lon": 83.8203,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "First 8,000er ever climbed",
+   "say": "Number ten: Anna-poorna, the first giant ever climbed. 8091 meters.",
+   "cap": "Number ten: Annapurna, the first giant ever climbed. 8,091 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Nanga Parbat",
+   "sub": "PAKISTAN",
+   "value": 8126,
+   "lat": 35.2372,
+   "lon": 74.5892,
+   "style": "massif",
+   "radius": 0.55,
+   "fact": "Western end of the Himalaya",
+   "say": "Nine: Nung-ga Par-but, the western end of the Himalaya. 8126 meters.",
+   "cap": "Nine: Nanga Parbat, the western end of the Himalaya. 8,126 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Manaslu",
+   "sub": "NEPAL",
+   "value": 8163,
+   "lat": 28.55,
+   "lon": 84.5597,
+   "style": "jagged",
+   "radius": 0.5,
+   "fact": "Mountain of the spirit",
+   "say": "Eight: Monnasloo, the mountain of the spirit. 8163 meters.",
+   "cap": "Eight: Manaslu, the mountain of the spirit. 8,163 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Dhaulagiri",
+   "sub": "NEPAL",
+   "value": 8167,
+   "lat": 28.6967,
+   "lon": 83.4931,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "The white mountain",
+   "say": "Seven: Dowlageery, the white mountain. 8167 meters.",
+   "cap": "Seven: Dhaulagiri, the white mountain. 8,167 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Cho Oyu",
+   "sub": "NEPAL / CHINA",
+   "value": 8188,
+   "lat": 28.0942,
+   "lon": 86.6608,
+   "style": "massif",
+   "radius": 0.42,
+   "fact": "The turquoise goddess",
+   "say": "Six: Cho Oh-you, the turquoise goddess. 8188 meters.",
+   "cap": "Six: Cho Oyu, the turquoise goddess. 8,188 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Makalu",
+   "sub": "NEPAL / CHINA",
+   "value": 8485,
+   "lat": 27.8897,
+   "lon": 87.0889,
+   "style": "jagged",
+   "radius": 0.38,
+   "fact": "A four-sided pyramid",
+   "say": "Five: Mah-kah-loo, a perfect four-sided pyramid. 8485 meters.",
+   "cap": "Five: Makalu, a perfect four-sided pyramid. 8,485 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Lhotse",
+   "sub": "NEPAL / CHINA",
+   "value": 8516,
+   "lat": 27.9617,
+   "lon": 86.9331,
+   "style": "jagged",
+   "radius": 0.3,
+   "fact": "Everest's next-door neighbor",
+   "say": "Four: Loat-say, Everest's next-door neighbor. 8516 meters.",
+   "cap": "Four: Lhotse, Everest's next-door neighbor. 8,516 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Kangchenjunga",
+   "sub": "NEPAL / INDIA",
+   "value": 8586,
+   "lat": 27.7033,
+   "lon": 88.1475,
+   "style": "massif",
+   "radius": 0.55,
+   "fact": "Five treasures of snow",
+   "say": "Three: Kahnchenjoonga, the five treasures of snow. 8586 meters.",
+   "cap": "Three: Kangchenjunga, the five treasures of snow. 8,586 meters."
+  },
+  {
+   "rank": 2,
+   "name": "K2",
+   "sub": "PAKISTAN / CHINA · KARAKORAM",
+   "value": 8611,
+   "lat": 35.8814,
+   "lon": 76.5133,
+   "style": "jagged",
+   "radius": 0.55,
+   "fact": "The Savage Mountain",
+   "say": "Two: Kay-two, the savage mountain. 8611 meters.",
+   "cap": "Two: K2, the Savage Mountain. 8,611 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Mount Everest",
+   "sub": "NEPAL / CHINA",
+   "value": 8849,
+   "lat": 27.9881,
+   "lon": 86.925,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "The roof of the world",
+   "say": "And number one: Mount Everest! 8849 meters, the roof of the world.",
+   "cap": "And number one: Mount Everest! 8,849 meters, the roof of the world."
+  }
+ ]
+}

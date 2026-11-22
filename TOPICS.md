@@ -9,9 +9,9 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 ## Done
 - [x] Turkey's 10 highest mountains — 001-turkey-10-highest-mountains
 - [x] The 10 tallest mountains in the USA — 002-usa-10-tallest-mountains
+- [x] The 10 highest mountains on Earth — 003-earth-10-highest-mountains
 
 ## Queue
-- [ ] The 10 highest mountains on Earth (map: Himalaya/Karakoram)
 - [ ] The 10 biggest cities in the USA by population (style: column)
 - [ ] The 10 biggest cities in Türkiye by population (style: column)
 - [ ] The 10 highest capital cities in the world (style: column, map.scale ~0.12)

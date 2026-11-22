@@ -233,7 +233,7 @@ $('pins').innerHTML = ep.items.map(i => `<div class="pin ${i.rank <= 3 ? 'g' : '
 const pinEls = [...document.querySelectorAll('.pin')];
 const BMIN = ep.barMin || 0, fmt = n => Math.round(n).toLocaleString(LOC);
 { const step = Math.pow(10, Math.floor(Math.log10(MAXV - BMIN))), tk = []; for (let v = Math.ceil((BMIN + step * .2) / step) * step; v <= MAXV; v += step) tk.push(v);
-  $('bar').insertAdjacentHTML('beforeend', tk.map(v => `<span style="left:${(v - BMIN) / (MAXV - BMIN) * 100}%">${fmt(v)}</span>`).join('')); }
+  $('bar').insertAdjacentHTML('beforeend', tk.map(v => `<span style="left:${(v - BMIN) / (MAXV - BMIN) * 100}%">${v >= 1e6 ? v / 1e6 + 'M' : fmt(v)}</span>`).join('')); }
 const set = (el, o, tf) => { el.style.opacity = o; if (tf !== undefined) el.style.transform = tf; };
 // caption chunks
 const chunks = [];
@@ -292,7 +292,7 @@ function frame(t) {
     const b = eout(prog(u, .36, .4)); $('name').textContent = it.name; $('name').style.fontSize = (it.name.length > 13 ? 84 : 98) + 'px';
     set($('name'), b * outK, `translateY(${(1 - b) * 60}px)`);
     const c = eout(prog(u, .52, .4)); $('sub').textContent = it.sub; set($('sub'), c * outK, `translateY(${(1 - c) * 40}px)`);
-    const nw = s.words.find(w => /\d/.test(w.w)), n0 = nw ? nw.t0 - .25 : s.start + 1.2;
+    const nw = s.words.find(w => /^\d/.test(w.w)), n0 = nw ? nw.t0 - .25 : s.start + 1.2;
     const d = eout(prog(t, n0, .3)), cnt = eout(prog(t, n0 + .05, .95));
     $('altnum').innerHTML = `${fmt(lerp(it.value * .55, it.value, cnt))}<em>${ep.unit}</em>`;
     set($('alt'), d * outK, `translateY(${(1 - d) * 50}px) scale(${1 + .06 * Math.sin(clamp(prog(t, n0 + 1.0, .25)) * Math.PI)})`);

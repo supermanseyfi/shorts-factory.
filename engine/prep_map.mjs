@@ -3,6 +3,7 @@ import fs from 'fs'; import { feature } from 'topojson-client';
 const topo = JSON.parse(fs.readFileSync('node_modules/world-atlas/countries-50m.json'));
 const fc = feature(topo, topo.objects.countries);
 const ep = JSON.parse(fs.readFileSync(process.argv[2])); const [cx, cy] = ep.map.center; const sp = 22 / (ep.map.scale || 1); const box = [cx - sp, cy - sp / 2, cx + sp, cy + sp / 2];
+if (ep.map.frame) { const f = ep.map.frame, m = 8; box[0] = Math.min(box[0], f[0] - m); box[1] = Math.min(box[1], f[1] - m); box[2] = Math.max(box[2], f[2] + m); box[3] = Math.max(box[3], f[3] + m); }   // neighbours around the overview frame
 const out = [];
 for (const f of fc.features) {
   const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
