@@ -1,0 +1,170 @@
+{
+ "id": "027-turkey-10-biggest-stadiums",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   33.5,
+   39.5
+  ],
+  "highlight": [
+   "792"
+  ],
+  "scale": 2,
+  "outro": "overview"
+ },
+ "title": [
+  "TURKEY'S",
+  "10 BIGGEST",
+  "STADIUMS"
+ ],
+ "series": "TURKEY'S 10 BIGGEST STADIUMS",
+ "unit": "seats",
+ "barMin": 30000,
+ "hook": {
+  "say": "Turkey's ten biggest football stadiums, ranked. Four of them are in Istanbul!"
+ },
+ "outro": {
+  "say": "Which team do you support? Comment below!"
+ },
+ "outroLines": [
+  "WHICH TEAM DO YOU SUPPORT?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Samsun 19 Mayıs",
+   "sub": "SAMSUN",
+   "value": 34303,
+   "lat": 41.227,
+   "lon": 36.459,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of Samsunspor",
+   "say": "Number ten: Samsoon Stadium, home of Samsoon-spor. 34300 seats.",
+   "cap": "Number ten: Samsun Stadium, home of Samsunspor. 34,300 seats."
+  },
+  {
+   "rank": 9,
+   "name": "Kocaeli Stadium",
+   "sub": "İZMİT · KOCAELİ",
+   "value": 34829,
+   "lat": 40.77,
+   "lon": 29.92,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of Kocaelispor",
+   "say": "Nine: Ko-jah-elly Stadium, home of Ko-jah-elly-spor. 34800 seats.",
+   "cap": "Nine: Kocaeli Stadium, home of Kocaelispor. 34,800 seats."
+  },
+  {
+   "rank": 8,
+   "name": "Şenol Güneş",
+   "sub": "TRABZON",
+   "value": 41000,
+   "lat": 41.0,
+   "lon": 39.64,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Built on land won from the sea",
+   "say": "Eight: Shennol Goonesh, built on reclaimed land. 41000 seats.",
+   "cap": "Eight: Şenol Güneş, built on reclaimed land. 41,000 seats."
+  },
+  {
+   "rank": 7,
+   "name": "Konya Stadium",
+   "sub": "KONYA",
+   "value": 41600,
+   "lat": 37.945,
+   "lon": 32.49,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of Konyaspor",
+   "say": "Seven: Konya Stadium, home of Konyaspor. 41600 seats.",
+   "cap": "Seven: Konya Stadium, home of Konyaspor. 41,600 seats."
+  },
+  {
+   "rank": 6,
+   "name": "Beşiktaş Stadium",
+   "sub": "İSTANBUL",
+   "value": 42684,
+   "lat": 41.02,
+   "lon": 29.02,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Right on the Bosphorus",
+   "say": "Six: Beshiktash Stadium, right on the Bosphorus. 42700 seats.",
+   "cap": "Six: Beşiktaş Stadium, right on the Bosphorus. 42,700 seats."
+  },
+  {
+   "rank": 5,
+   "name": "Centennial Atatürk",
+   "sub": "TİMSAH ARENA · BURSA",
+   "value": 43361,
+   "lat": 40.21,
+   "lon": 29.01,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Shaped like a crocodile",
+   "say": "Five: Bursa's Ataturk, shaped like a giant crocodile. 43400 seats.",
+   "cap": "Five: Bursa's Atatürk, shaped like a giant crocodile. 43,400 seats."
+  },
+  {
+   "rank": 4,
+   "name": "Şükrü Saracoğlu",
+   "sub": "FENERBAHÇE · İSTANBUL",
+   "value": 47430,
+   "lat": 40.85,
+   "lon": 29.12,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of Fenerbahçe",
+   "say": "Four: Shookroo Sarajoh-loo, home of Fener-bahchay. 47400 seats.",
+   "cap": "Four: Şükrü Saracoğlu, home of Fenerbahçe. 47,400 seats."
+  },
+  {
+   "rank": 3,
+   "name": "İzmir Atatürk",
+   "sub": "İZMİR",
+   "value": 51337,
+   "lat": 38.436,
+   "lon": 27.176,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Opened in 1971",
+   "say": "Three: Izmeer Ataturk, open since nineteen seventy-one. 51300 seats.",
+   "cap": "Three: İzmir Atatürk, open since nineteen seventy-one. 51,300 seats."
+  },
+  {
+   "rank": 2,
+   "name": "Rams Park",
+   "sub": "GALATASARAY · İSTANBUL",
+   "value": 53978,
+   "lat": 41.2,
+   "lon": 28.98,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of Galatasaray",
+   "say": "Two: Rams Park, home of Galatasaray. 54000 seats.",
+   "cap": "Two: Rams Park, home of Galatasaray. 54,000 seats."
+  },
+  {
+   "rank": 1,
+   "name": "Atatürk Olympic",
+   "sub": "İSTANBUL",
+   "value": 77563,
+   "lat": 41.07,
+   "lon": 28.7,
+   "style": "column",
+   "radius": 0.12,
+   "fact": "2 Champions League finals",
+   "say": "And number one: the Ataturk Olympic Stadium! 77600 seats, host of two Champions League finals.",
+   "cap": "And number one: the Atatürk Olympic Stadium! 77,600 seats, host of two Champions League finals."
+  }
+ ]
+}
