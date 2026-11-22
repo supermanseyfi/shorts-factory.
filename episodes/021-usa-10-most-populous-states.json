@@ -1,0 +1,166 @@
+{
+ "id": "021-usa-10-most-populous-states",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   -96,
+   38
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 0.5,
+  "frame": [
+   -125,
+   24.5,
+   -66.5,
+   49.5
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S 10",
+  "MOST POPULOUS",
+  "STATES"
+ ],
+ "series": "AMERICA'S 10 MOST POPULOUS STATES",
+ "unit": "",
+ "barMin": 0,
+ "hook": {
+  "say": "America's ten most populous states, ranked. The top three hold over a quarter of all Americans!"
+ },
+ "outro": {
+  "say": "Is your state on the list? Comment below!"
+ },
+ "outroLines": [
+  "IS YOUR STATE ON THE LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Michigan",
+   "sub": "MIDWEST",
+   "value": 10127884,
+   "lat": 44.3,
+   "lon": -85.0,
+   "style": "column",
+   "fact": "Touches four Great Lakes",
+   "say": "Number ten: Michigan, touching four Great Lakes. Ten-point-one million people.",
+   "cap": "Number ten: Michigan, touching four Great Lakes. 10.1 million people."
+  },
+  {
+   "rank": 9,
+   "name": "North Carolina",
+   "sub": "SOUTHEAST",
+   "value": 11197968,
+   "lat": 35.5,
+   "lon": -79.4,
+   "style": "column",
+   "fact": "Growing fast",
+   "say": "Nine: North Carolina, and growing fast. Eleven-point-two million people.",
+   "cap": "Nine: North Carolina, and growing fast. 11.2 million people."
+  },
+  {
+   "rank": 8,
+   "name": "Georgia",
+   "sub": "SOUTHEAST",
+   "value": 11302748,
+   "lat": 32.7,
+   "lon": -83.4,
+   "style": "column",
+   "fact": "The Peach State",
+   "say": "Eight: Georgia, the Peach State. Eleven-point-three million people.",
+   "cap": "Eight: Georgia, the Peach State. 11.3 million people."
+  },
+  {
+   "rank": 7,
+   "name": "Ohio",
+   "sub": "MIDWEST",
+   "value": 11900510,
+   "lat": 40.3,
+   "lon": -82.8,
+   "style": "column",
+   "fact": "Birthplace of 7 presidents",
+   "say": "Seven: Ohio, birthplace of seven presidents. Eleven-point-nine million people.",
+   "cap": "Seven: Ohio, birthplace of seven presidents. 11.9 million people."
+  },
+  {
+   "rank": 6,
+   "name": "Illinois",
+   "sub": "MIDWEST",
+   "value": 12719141,
+   "lat": 40.0,
+   "lon": -89.2,
+   "style": "column",
+   "fact": "Home of Chicago",
+   "say": "Six: Illinois, home of Chicago. Twelve-point-seven million people.",
+   "cap": "Six: Illinois, home of Chicago. 12.7 million people."
+  },
+  {
+   "rank": 5,
+   "name": "Pennsylvania",
+   "sub": "NORTHEAST",
+   "value": 13059432,
+   "lat": 40.9,
+   "lon": -77.8,
+   "style": "column",
+   "fact": "The Keystone State",
+   "say": "Five: Pennsylvania, the Keystone State. Thirteen-point-one million people.",
+   "cap": "Five: Pennsylvania, the Keystone State. 13.1 million people."
+  },
+  {
+   "rank": 4,
+   "name": "New York",
+   "sub": "NORTHEAST",
+   "value": 20002427,
+   "lat": 42.9,
+   "lon": -75.5,
+   "style": "column",
+   "fact": "Home of America's biggest city",
+   "say": "Four: New York, home of America's biggest city. Just over 20 million people.",
+   "cap": "Four: New York, home of America's biggest city. Just over 20 million people."
+  },
+  {
+   "rank": 3,
+   "name": "Florida",
+   "sub": "SOUTHEAST",
+   "value": 23462518,
+   "lat": 28.6,
+   "lon": -81.7,
+   "style": "column",
+   "fact": "Passed New York in 2014",
+   "say": "Three: Florida, it passed New York in twenty fourteen. Twenty-three-point-five million people.",
+   "cap": "Three: Florida, it passed New York in twenty fourteen. 23.5 million people."
+  },
+  {
+   "rank": 2,
+   "name": "Texas",
+   "sub": "SOUTH",
+   "value": 31709821,
+   "lat": 31.5,
+   "lon": -99.3,
+   "style": "column",
+   "fact": "The Lone Star State",
+   "say": "Two: Texas, the Lone Star State. Thirty-one-point-seven million people.",
+   "cap": "Two: Texas, the Lone Star State. 31.7 million people."
+  },
+  {
+   "rank": 1,
+   "name": "California",
+   "sub": "WEST COAST",
+   "value": 39355309,
+   "lat": 37.2,
+   "lon": -119.5,
+   "style": "column",
+   "fact": "1 in 9 Americans",
+   "say": "And number one: California! Thirty-nine-point-four million people, more than one in nine Americans.",
+   "cap": "And number one: California! 39.4 million people, more than one in nine Americans."
+  }
+ ]
+}
