@@ -1,0 +1,159 @@
+{
+ "id": "010-turkey-10-largest-provinces",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   35.2,
+   39.0
+  ],
+  "highlight": [
+   "792"
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "TURKEY'S",
+  "10 LARGEST",
+  "PROVINCES"
+ ],
+ "series": "TURKEY'S 10 LARGEST PROVINCES",
+ "unit": "km²",
+ "barMin": 10000,
+ "hook": {
+  "say": "Turkey's ten largest provinces, ranked. Number one is bigger than Belgium!"
+ },
+ "outro": {
+  "say": "Is your province on the list? Comment below!"
+ },
+ "outroLines": [
+  "IS YOUR PROVINCE ON THE LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Diyarbakır",
+   "sub": "SOUTHEASTERN ANATOLIA",
+   "value": 15168,
+   "lat": 37.91,
+   "lon": 40.24,
+   "style": "column",
+   "fact": "Famous black city walls",
+   "say": "Number ten: Dee-yarbakur, famous for its black city walls. 15,200 square kilometers.",
+   "cap": "Number ten: Diyarbakır, famous for its black city walls. 15,200 square kilometers."
+  },
+  {
+   "rank": 9,
+   "name": "Mersin",
+   "sub": "MEDITERRANEAN REGION",
+   "value": 16010,
+   "lat": 36.8,
+   "lon": 34.63,
+   "style": "column",
+   "fact": "A long Mediterranean coast",
+   "say": "Nine: Mairseen, with a long Mediterranean coast. 16,000 square kilometers.",
+   "cap": "Nine: Mersin, with a long Mediterranean coast. 16,000 square kilometers."
+  },
+  {
+   "rank": 8,
+   "name": "Kayseri",
+   "sub": "CENTRAL ANATOLIA",
+   "value": 16970,
+   "lat": 38.73,
+   "lon": 35.48,
+   "style": "column",
+   "fact": "Home of Mount Erciyes",
+   "say": "Eight: Kyseri, home of Mount Air-jee-yes. 17,000 square kilometers.",
+   "cap": "Eight: Kayseri, home of Mount Erciyes. 17,000 square kilometers."
+  },
+  {
+   "rank": 7,
+   "name": "Şanlıurfa",
+   "sub": "SOUTHEASTERN ANATOLIA",
+   "value": 19242,
+   "lat": 37.16,
+   "lon": 38.8,
+   "style": "column",
+   "fact": "Home of Göbekli Tepe",
+   "say": "Seven: Shanluh-Urfa, home of the world's oldest temple. 19,200 square kilometers.",
+   "cap": "Seven: Şanlıurfa, home of the world's oldest temple. 19,200 square kilometers."
+  },
+  {
+   "rank": 6,
+   "name": "Antalya",
+   "sub": "MEDITERRANEAN REGION",
+   "value": 20177,
+   "lat": 36.9,
+   "lon": 30.7,
+   "style": "column",
+   "fact": "Turkey's tourism capital",
+   "say": "Six: Ahn-tahl-ya, Turkey's tourism capital. 20,200 square kilometers.",
+   "cap": "Six: Antalya, Turkey's tourism capital. 20,200 square kilometers."
+  },
+  {
+   "rank": 5,
+   "name": "Van",
+   "sub": "EASTERN ANATOLIA",
+   "value": 20921,
+   "lat": 38.49,
+   "lon": 43.38,
+   "style": "column",
+   "fact": "Turkey's largest lake",
+   "say": "Five: Vahn, with Turkey's largest lake. 20,900 square kilometers.",
+   "cap": "Five: Van, with Turkey's largest lake. 20,900 square kilometers."
+  },
+  {
+   "rank": 4,
+   "name": "Erzurum",
+   "sub": "EASTERN ANATOLIA",
+   "value": 25006,
+   "lat": 39.9,
+   "lon": 41.27,
+   "style": "column",
+   "fact": "One of Turkey's highest cities",
+   "say": "Four: Air-zoo-room, one of Turkey's highest cities. 25,000 square kilometers.",
+   "cap": "Four: Erzurum, one of Turkey's highest cities. 25,000 square kilometers."
+  },
+  {
+   "rank": 3,
+   "name": "Ankara",
+   "sub": "CENTRAL ANATOLIA",
+   "value": 25632,
+   "lat": 39.93,
+   "lon": 32.86,
+   "style": "column",
+   "fact": "The capital",
+   "say": "Three: Ankara, the capital. 25,600 square kilometers.",
+   "cap": "Three: Ankara, the capital. 25,600 square kilometers."
+  },
+  {
+   "rank": 2,
+   "name": "Sivas",
+   "sub": "CENTRAL ANATOLIA",
+   "value": 28164,
+   "lat": 39.75,
+   "lon": 37.02,
+   "style": "column",
+   "fact": "In the heart of Anatolia",
+   "say": "Two: See-vahss, in the heart of Anatolia. 28,200 square kilometers.",
+   "cap": "Two: Sivas, in the heart of Anatolia. 28,200 square kilometers."
+  },
+  {
+   "rank": 1,
+   "name": "Konya",
+   "sub": "CENTRAL ANATOLIA",
+   "value": 40838,
+   "lat": 37.87,
+   "lon": 32.49,
+   "style": "column",
+   "fact": "Bigger than Belgium",
+   "say": "And number one: Konya! 40,800 square kilometers, bigger than Belgium.",
+   "cap": "And number one: Konya! 40,800 square kilometers, bigger than Belgium."
+  }
+ ]
+}
