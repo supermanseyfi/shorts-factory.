@@ -1,0 +1,182 @@
+{
+ "id": "022-world-10-largest-deserts",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   10,
+   5
+  ],
+  "highlight": [
+   "010",
+   "304",
+   "012",
+   "434",
+   "818",
+   "562",
+   "148",
+   "466",
+   "478",
+   "729",
+   "682",
+   "036",
+   "496",
+   "072",
+   "032",
+   "840"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -175,
+   -88,
+   192,
+   84
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 LARGEST",
+  "DESERTS"
+ ],
+ "series": "THE WORLD'S 10 LARGEST DESERTS",
+ "unit": "km²",
+ "barMin": 0,
+ "heightPow": 0.5,
+ "hook": {
+  "say": "The ten largest deserts on Earth, ranked. The top two have no sand at all!"
+ },
+ "outro": {
+  "say": "Did you expect the Sahara? Comment below!"
+ },
+ "outroLines": [
+  "EXPECTED THE SAHARA?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Great Basin",
+   "sub": "UNITED STATES",
+   "value": 492000,
+   "lat": 40,
+   "lon": -116.5,
+   "style": "column",
+   "fact": "Largest desert in the USA",
+   "say": "Number ten: Great Basin, the largest desert in the USA. 492,000 square kilometers.",
+   "cap": "Number ten: Great Basin, the largest desert in the USA. 492,000 square kilometers."
+  },
+  {
+   "rank": 9,
+   "name": "Syrian Desert",
+   "sub": "MIDDLE EAST",
+   "value": 500000,
+   "lat": 33,
+   "lon": 39.5,
+   "style": "column",
+   "fact": "Ancient caravan routes",
+   "say": "Nine: Syrian Desert, crossed by ancient caravan routes. 500,000.",
+   "cap": "Nine: Syrian Desert, crossed by ancient caravan routes. 500,000."
+  },
+  {
+   "rank": 8,
+   "name": "Patagonian",
+   "sub": "ARGENTINA / CHILE",
+   "value": 673000,
+   "lat": -45,
+   "lon": -69,
+   "style": "column",
+   "fact": "Largest in the Americas",
+   "say": "Eight: Patagonian, the largest in the Americas. 673,000.",
+   "cap": "Eight: Patagonian, the largest in the Americas. 673,000."
+  },
+  {
+   "rank": 7,
+   "name": "Kalahari",
+   "sub": "SOUTHERN AFRICA",
+   "value": 900000,
+   "lat": -23,
+   "lon": 22,
+   "style": "column",
+   "fact": "Home of the meerkats",
+   "say": "Seven: Kalahari, home of the meerkats. 900,000.",
+   "cap": "Seven: Kalahari, home of the meerkats. 900,000."
+  },
+  {
+   "rank": 6,
+   "name": "Gobi",
+   "sub": "CHINA / MONGOLIA",
+   "value": 1295000,
+   "lat": 43,
+   "lon": 105,
+   "style": "column",
+   "fact": "First dinosaur eggs found here",
+   "say": "Six: Gobi, where the first dinosaur eggs were found. One-point-three million.",
+   "cap": "Six: Gobi, where the first dinosaur eggs were found. 1.3 million."
+  },
+  {
+   "rank": 5,
+   "name": "Great Australian",
+   "sub": "AUSTRALIA",
+   "value": 1371000,
+   "lat": -25,
+   "lon": 130,
+   "style": "column",
+   "fact": "Several deserts in one",
+   "say": "Five: Great Australian, several deserts counted as one. One-point-four million.",
+   "cap": "Five: Great Australian, several deserts counted as one. 1.4 million."
+  },
+  {
+   "rank": 4,
+   "name": "Arabian",
+   "sub": "ARABIAN PENINSULA",
+   "value": 2330000,
+   "lat": 22,
+   "lon": 48,
+   "style": "column",
+   "fact": "Earth's largest sand sea",
+   "say": "Four: Arabian, with the largest sand sea on Earth. Two-point-three million.",
+   "cap": "Four: Arabian, with the largest sand sea on Earth. 2.3 million."
+  },
+  {
+   "rank": 3,
+   "name": "Sahara",
+   "sub": "NORTH AFRICA",
+   "value": 9200000,
+   "lat": 23,
+   "lon": 10,
+   "style": "column",
+   "fact": "Almost the size of the USA",
+   "say": "Three: Sahara, almost the size of the USA. Nine-point-two million.",
+   "cap": "Three: Sahara, almost the size of the USA. 9.2 million."
+  },
+  {
+   "rank": 2,
+   "name": "Arctic",
+   "sub": "POLAR DESERT",
+   "value": 13900000,
+   "lat": 76,
+   "lon": -42,
+   "style": "column",
+   "fact": "Ice and tundra, not sand",
+   "say": "Two: Arctic, made of ice and tundra. Thirteen-point-nine million.",
+   "cap": "Two: Arctic, made of ice and tundra. 13.9 million."
+  },
+  {
+   "rank": 1,
+   "name": "Antarctic",
+   "sub": "POLAR DESERT",
+   "value": 14200000,
+   "lat": -80,
+   "lon": 60,
+   "style": "column",
+   "fact": "The driest continent",
+   "say": "And number one: Antarctica! Fourteen-point-two million square kilometers, the driest continent on Earth.",
+   "cap": "And number one: Antarctica! 14.2 million square kilometers, the driest continent on Earth."
+  }
+ ]
+}
