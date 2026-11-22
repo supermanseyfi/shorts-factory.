@@ -1,0 +1,175 @@
+{
+ "id": "017-world-10-most-populous-countries",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   20,
+   20
+  ],
+  "highlight": [
+   "231",
+   "643",
+   "050",
+   "076",
+   "566",
+   "586",
+   "360",
+   "840",
+   "156",
+   "356"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -170,
+   -50,
+   185,
+   80
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 MOST POPULOUS",
+  "COUNTRIES"
+ ],
+ "series": "THE WORLD'S 10 MOST POPULOUS COUNTRIES",
+ "unit": "M",
+ "barMin": 0,
+ "hook": {
+  "say": "The ten most populous countries on Earth, ranked. Two of them hold a third of humanity!"
+ },
+ "outro": {
+  "say": "Is your country on the list? Comment below!"
+ },
+ "outroLines": [
+  "IS YOUR COUNTRY ON THE LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Ethiopia",
+   "sub": "EAST AFRICA",
+   "value": 139,
+   "lat": 9,
+   "lon": 39.5,
+   "style": "column",
+   "fact": "Fastest growing on this list",
+   "say": "Number ten: Ethiopia, the fastest growing on this list. 139 million.",
+   "cap": "Number ten: Ethiopia, the fastest growing on this list. 139 million."
+  },
+  {
+   "rank": 9,
+   "name": "Russia",
+   "sub": "EUROPE / ASIA",
+   "value": 143,
+   "lat": 60,
+   "lon": 90,
+   "style": "column",
+   "fact": "Biggest country, but shrinking",
+   "say": "Nine: Russia, the biggest country, but shrinking. 143 million.",
+   "cap": "Nine: Russia, the biggest country, but shrinking. 143 million."
+  },
+  {
+   "rank": 8,
+   "name": "Bangladesh",
+   "sub": "SOUTH ASIA",
+   "value": 178,
+   "lat": 24,
+   "lon": 90,
+   "style": "column",
+   "fact": "Smaller than Florida",
+   "say": "Eight: Bangladesh, packed into an area smaller than Florida. 178 million.",
+   "cap": "Eight: Bangladesh, packed into an area smaller than Florida. 178 million."
+  },
+  {
+   "rank": 7,
+   "name": "Brazil",
+   "sub": "SOUTH AMERICA",
+   "value": 214,
+   "lat": -10,
+   "lon": -53,
+   "style": "column",
+   "fact": "South America's giant",
+   "say": "Seven: Brazil, the giant of South America. 214 million.",
+   "cap": "Seven: Brazil, the giant of South America. 214 million."
+  },
+  {
+   "rank": 6,
+   "name": "Nigeria",
+   "sub": "WEST AFRICA",
+   "value": 242,
+   "lat": 9.5,
+   "lon": 8,
+   "style": "column",
+   "fact": "Africa's most populous",
+   "say": "Six: Nigeria, the most populous in Africa. 242 million.",
+   "cap": "Six: Nigeria, the most populous in Africa. 242 million."
+  },
+  {
+   "rank": 5,
+   "name": "Pakistan",
+   "sub": "SOUTH ASIA",
+   "value": 259,
+   "lat": 30,
+   "lon": 69.5,
+   "style": "column",
+   "fact": "+4 million every year",
+   "say": "Five: Pakistan, adding four million people a year. 259 million.",
+   "cap": "Five: Pakistan, adding four million people a year. 259 million."
+  },
+  {
+   "rank": 4,
+   "name": "Indonesia",
+   "sub": "SOUTHEAST ASIA",
+   "value": 288,
+   "lat": -2,
+   "lon": 113,
+   "style": "column",
+   "fact": "17,000 islands",
+   "say": "Four: Indonesia, spread across seventeen thousand islands. 288 million.",
+   "cap": "Four: Indonesia, spread across seventeen thousand islands. 288 million."
+  },
+  {
+   "rank": 3,
+   "name": "United States",
+   "sub": "NORTH AMERICA",
+   "value": 349,
+   "lat": 39.5,
+   "lon": -98.5,
+   "style": "column",
+   "fact": "Third, but far behind",
+   "say": "Three: United States, third, but far behind the top two. 349 million.",
+   "cap": "Three: United States, third, but far behind the top two. 349 million."
+  },
+  {
+   "rank": 2,
+   "name": "China",
+   "sub": "EAST ASIA",
+   "value": 1413,
+   "lat": 35,
+   "lon": 103,
+   "style": "column",
+   "fact": "Now shrinking every year",
+   "say": "Two: China, now shrinking every year. One-point-four-one billion.",
+   "cap": "Two: China, now shrinking every year. 1.41 billion."
+  },
+  {
+   "rank": 1,
+   "name": "India",
+   "sub": "SOUTH ASIA",
+   "value": 1477,
+   "lat": 22,
+   "lon": 79,
+   "style": "column",
+   "fact": "1 in 6 people on Earth",
+   "say": "And number one: India! One-point-four-eight billion people, more than one in six humans.",
+   "cap": "And number one: India! 1.48 billion people, more than one in six humans."
+  }
+ ]
+}
