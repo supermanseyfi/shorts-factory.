@@ -163,7 +163,7 @@ function buildMountain(it, idx) {
   return { it, grp, mesh, Hh, R, pk, dot, beam, ring, halo, clouds, pts, pv, base: grp.position.clone() };
 }
 function buildColumn(it, idx) {   // generic 3D bar for non-mountain rankings (cities, lakes, buildings...)
-  const Hh = it.value / MAXV * 1.5, R = it.radius || .13, top = it.rank <= 3;
+  const Hh = Math.pow(it.value / MAXV, ep.heightPow || 1) * 1.5, R = it.radius || .13, top = it.rank <= 3;   // heightPow < 1 keeps small values visible when the range is huge
   const g = new THREE.CylinderGeometry(R, R * 1.08, Hh + GROUND, 6).translate(0, (Hh - GROUND) / 2, 0), col = [], pos = g.attributes.position;   // base reaches sea level so columns on water or unhighlighted land don't float
   const c0 = new THREE.Color('#0d5d86'), c1 = new THREE.Color(top ? '#ffd24d' : '#7ff0ff');
   for (let i = 0; i < pos.count; i++) { const c = new THREE.Color().lerpColors(c0, c1, Math.pow(clamp(pos.getY(i) / Hh), 1.5)); col.push(c.r, c.g, c.b); }

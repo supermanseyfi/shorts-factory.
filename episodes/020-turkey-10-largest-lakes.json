@@ -1,0 +1,170 @@
+{
+ "id": "020-turkey-10-largest-lakes",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   35.2,
+   39.0
+  ],
+  "highlight": [
+   "792"
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "TURKEY'S",
+  "10 LARGEST",
+  "LAKES"
+ ],
+ "series": "TURKEY'S 10 LARGEST LAKES",
+ "unit": "km²",
+ "barMin": 0,
+ "heightPow": 0.5,
+ "hook": {
+  "say": "Turkey's ten largest lakes, ranked. Number one is bigger than Luxembourg!"
+ },
+ "outro": {
+  "say": "Which lake have you visited? Comment below!"
+ },
+ "outroLines": [
+  "WHICH LAKE HAVE YOU VISITED?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Lake Çıldır",
+   "sub": "ARDAHAN / KARS",
+   "value": 115,
+   "lat": 41.03,
+   "lon": 43.25,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Freezes solid every winter",
+   "say": "Number ten: Lake Chuldir, frozen solid every winter. 115 square kilometers.",
+   "cap": "Number ten: Lake Çıldır, frozen solid every winter. 115 square kilometers."
+  },
+  {
+   "rank": 9,
+   "name": "Lake Uluabat",
+   "sub": "BURSA",
+   "value": 134,
+   "lat": 40.17,
+   "lon": 28.6,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Home of a stork village",
+   "say": "Nine: Lake Ooloo-abaht, home of a famous stork village. 134 square kilometers.",
+   "cap": "Nine: Lake Uluabat, home of a famous stork village. 134 square kilometers."
+  },
+  {
+   "rank": 8,
+   "name": "Lake Acıgöl",
+   "sub": "DENİZLİ / AFYONKARAHİSAR",
+   "value": 153,
+   "lat": 37.82,
+   "lon": 29.88,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Its name means bitter lake",
+   "say": "Eight: Lake Ahjuh-gurl, its name means bitter lake. 153 square kilometers.",
+   "cap": "Eight: Lake Acıgöl, its name means bitter lake. 153 square kilometers."
+  },
+  {
+   "rank": 7,
+   "name": "Lake Manyas",
+   "sub": "BALIKESİR",
+   "value": 166,
+   "lat": 40.2,
+   "lon": 27.97,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "A paradise for birds",
+   "say": "Seven: Lake Mahnyas, a paradise for birds. 166 square kilometers.",
+   "cap": "Seven: Lake Manyas, a paradise for birds. 166 square kilometers."
+  },
+  {
+   "rank": 6,
+   "name": "Lake Burdur",
+   "sub": "BURDUR / ISPARTA",
+   "value": 200,
+   "lat": 37.73,
+   "lon": 30.18,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Salty and shrinking",
+   "say": "Six: Lake Boordoor, salty and shrinking fast. 200 square kilometers.",
+   "cap": "Six: Lake Burdur, salty and shrinking fast. 200 square kilometers."
+  },
+  {
+   "rank": 5,
+   "name": "Lake İznik",
+   "sub": "BURSA",
+   "value": 308,
+   "lat": 40.43,
+   "lon": 29.53,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "A sunken basilica",
+   "say": "Five: Lake Izneek, hiding a sunken basilica. 308 square kilometers.",
+   "cap": "Five: Lake İznik, hiding a sunken basilica. 308 square kilometers."
+  },
+  {
+   "rank": 4,
+   "name": "Lake Eğirdir",
+   "sub": "ISPARTA",
+   "value": 482,
+   "lat": 38.05,
+   "lon": 30.87,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Famous for changing colors",
+   "say": "Four: Lake Eh-eerdeer, famous for changing colors. 482 square kilometers.",
+   "cap": "Four: Lake Eğirdir, famous for changing colors. 482 square kilometers."
+  },
+  {
+   "rank": 3,
+   "name": "Lake Beyşehir",
+   "sub": "KONYA / ISPARTA",
+   "value": 656,
+   "lat": 37.78,
+   "lon": 31.52,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Largest freshwater lake",
+   "say": "Three: Lake Bay-sheheer, Turkey's largest freshwater lake. 656 square kilometers.",
+   "cap": "Three: Lake Beyşehir, Turkey's largest freshwater lake. 656 square kilometers."
+  },
+  {
+   "rank": 2,
+   "name": "Lake Tuz",
+   "sub": "AKSARAY / ANKARA / KONYA",
+   "value": 1500,
+   "lat": 38.75,
+   "lon": 33.4,
+   "style": "column",
+   "radius": 0.1,
+   "fact": "Turns pink in summer",
+   "say": "Two: Lake Tooz, the salt lake that turns pink. 1500 square kilometers.",
+   "cap": "Two: Lake Tuz, the salt lake that turns pink. 1,500 square kilometers."
+  },
+  {
+   "rank": 1,
+   "name": "Lake Van",
+   "sub": "VAN / BİTLİS",
+   "value": 3755,
+   "lat": 38.63,
+   "lon": 42.9,
+   "style": "column",
+   "radius": 0.13,
+   "fact": "Bigger than Luxembourg",
+   "say": "And number one: Lake Vahn! 3755 square kilometers, bigger than Luxembourg.",
+   "cap": "And number one: Lake Van! 3,755 square kilometers, bigger than Luxembourg."
+  }
+ ]
+}

@@ -38,6 +38,7 @@ Voice model files (~350 MB) download once from GitHub releases into voices/.
 - `say` is what the voice reads, `cap` what the caption shows; same word count. Respell foreign names for the voice
   (`python3 engine/tts.py --phonemes "Soop-hahn"` prints how it will be pronounced). Write numbers as digits.
 - `metersPerUnit`: set 0.3048 when `unit` is "ft" so 3D mountain shapes and snow lines still use metres.
+- `heightPow` (columns only, e.g. 0.5): compresses column heights when the biggest value dwarfs the rest.
 - `barMin`: left end of the value bar. `voice.speed`: raise (max ~1.25) until the video is 55-62 s.
 
 ## Rules for every episode
