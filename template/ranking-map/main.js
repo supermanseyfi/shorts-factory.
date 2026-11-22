@@ -290,7 +290,7 @@ function frame(t) {
     const a = eback(prog(u, .06, .34));
     $('rank').className = 'abs' + (it.rank <= 3 ? ' gold' : ''); $('rank').lastElementChild.textContent = it.rank;
     set($('rank'), clamp(a * 3) * outK, `scale(${lerp(2.2, 1, a)}) rotate(${(1 - a) * -6}deg)`);
-    const b = eout(prog(u, .36, .4)); $('name').textContent = it.name; $('name').style.fontSize = (it.name.length > 13 ? 84 : 98) + 'px';
+    const b = eout(prog(u, .36, .4)); $('name').textContent = it.name; $('name').style.fontSize = (it.name.length > 18 ? 70 : it.name.length > 13 ? 84 : 98) + 'px';
     set($('name'), b * outK, `translateY(${(1 - b) * 60}px)`);
     const c = eout(prog(u, .52, .4)); $('sub').textContent = it.sub; set($('sub'), c * outK, `translateY(${(1 - c) * 40}px)`);
     const nw = s.words.find(w => /^\d/.test(w.w)), n0 = nw ? nw.t0 - .25 : s.start + 1.2;

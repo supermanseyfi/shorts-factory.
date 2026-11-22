@@ -1,0 +1,166 @@
+{
+ "id": "019-usa-10-most-visited-national-parks",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   -96,
+   38
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 0.5,
+  "frame": [
+   -125,
+   24.5,
+   -66.5,
+   49.5
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S 10",
+  "MOST VISITED",
+  "PARKS"
+ ],
+ "series": "AMERICA'S 10 MOST VISITED NATIONAL PARKS",
+ "unit": "",
+ "barMin": 0,
+ "hook": {
+  "say": "America's ten most visited national parks, ranked. Number one gets more than double number two!"
+ },
+ "outro": {
+  "say": "Which park is your favorite? Comment below!"
+ },
+ "outroLines": [
+  "WHICH PARK IS YOUR FAVORITE?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Glacier",
+   "sub": "MONTANA",
+   "value": 3136557,
+   "lat": 48.7,
+   "lon": -113.8,
+   "style": "column",
+   "fact": "Crown of the Continent",
+   "say": "Number ten: Glacier, the Crown of the Continent. Three-point-one million visits.",
+   "cap": "Number ten: Glacier, the Crown of the Continent. 3.1 million visits."
+  },
+  {
+   "rank": 9,
+   "name": "Olympic",
+   "sub": "WASHINGTON",
+   "value": 3584187,
+   "lat": 47.8,
+   "lon": -123.6,
+   "style": "column",
+   "fact": "Rainforest, glaciers and coast",
+   "say": "Nine: Olympic, with rainforest, glaciers and coast. Three-point-six million visits.",
+   "cap": "Nine: Olympic, with rainforest, glaciers and coast. 3.6 million visits."
+  },
+  {
+   "rank": 8,
+   "name": "Grand Teton",
+   "sub": "WYOMING",
+   "value": 3800648,
+   "lat": 43.75,
+   "lon": -110.7,
+   "style": "column",
+   "fact": "Yellowstone's neighbor",
+   "say": "Eight: Grand Teton, right next to Yellowstone. Three-point-eight million visits.",
+   "cap": "Eight: Grand Teton, right next to Yellowstone. 3.8 million visits."
+  },
+  {
+   "rank": 7,
+   "name": "Acadia",
+   "sub": "MAINE",
+   "value": 4079318,
+   "lat": 44.35,
+   "lon": -68.21,
+   "style": "column",
+   "fact": "America's first sunrise",
+   "say": "Seven: Acadia, famous for America's first sunrise. Four-point-one million visits.",
+   "cap": "Seven: Acadia, famous for America's first sunrise. 4.1 million visits."
+  },
+  {
+   "rank": 6,
+   "name": "Rocky Mountain",
+   "sub": "COLORADO",
+   "value": 4171431,
+   "lat": 40.34,
+   "lon": -105.68,
+   "style": "column",
+   "fact": "A road above 12,000 feet",
+   "say": "Six: Rocky Mountain, with a road above twelve thousand feet. Four-point-two million visits.",
+   "cap": "Six: Rocky Mountain, with a road above twelve thousand feet. 4.2 million visits."
+  },
+  {
+   "rank": 5,
+   "name": "Yosemite",
+   "sub": "CALIFORNIA",
+   "value": 4278413,
+   "lat": 37.87,
+   "lon": -119.54,
+   "style": "column",
+   "fact": "Home of El Capitan",
+   "say": "Five: Yosemite, home of El Capitan. Four-point-three million visits.",
+   "cap": "Five: Yosemite, home of El Capitan. 4.3 million visits."
+  },
+  {
+   "rank": 4,
+   "name": "Grand Canyon",
+   "sub": "ARIZONA",
+   "value": 4430653,
+   "lat": 36.1,
+   "lon": -112.1,
+   "style": "column",
+   "fact": "A mile deep",
+   "say": "Four: Grand Canyon, a full mile deep. Four-point-four million visits.",
+   "cap": "Four: Grand Canyon, a full mile deep. 4.4 million visits."
+  },
+  {
+   "rank": 3,
+   "name": "Yellowstone",
+   "sub": "WYOMING / MONTANA / IDAHO",
+   "value": 4762988,
+   "lat": 44.6,
+   "lon": -110.5,
+   "style": "column",
+   "fact": "World's first national park",
+   "say": "Three: Yellowstone, the world's first national park. Four-point-eight million visits.",
+   "cap": "Three: Yellowstone, the world's first national park. 4.8 million visits."
+  },
+  {
+   "rank": 2,
+   "name": "Zion",
+   "sub": "UTAH",
+   "value": 4984525,
+   "lat": 37.3,
+   "lon": -113.05,
+   "style": "column",
+   "fact": "Utah's red rock canyon",
+   "say": "Two: Zion, Utah's red rock canyon. Nearly 5 million visits.",
+   "cap": "Two: Zion, Utah's red rock canyon. Nearly 5 million visits."
+  },
+  {
+   "rank": 1,
+   "name": "Great Smoky Mountains",
+   "sub": "TENNESSEE / NORTH CAROLINA",
+   "value": 11527939,
+   "lat": 35.61,
+   "lon": -83.49,
+   "style": "column",
+   "fact": "And it's free to enter",
+   "say": "And number one: the Great Smoky Mountains! Eleven-point-five million visits, and it's free to enter.",
+   "cap": "And number one: the Great Smoky Mountains! 11.5 million visits, and it's free to enter."
+  }
+ ]
+}
