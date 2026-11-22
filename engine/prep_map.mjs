@@ -8,7 +8,8 @@ const out = [];
 for (const f of fc.features) {
   const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
   for (const p of polys) {
-    const ring = p[0];
+    let ring = p[0];
+    if (p.length > 1 && ring.every(([, y]) => y < -89)) ring = [...p[1].slice(0, -1), [180, -89.9], [-180, -89.9]];   // Antarctica: the coast is stored as the second ring
     if (!ring.some(([x, y]) => x > box[0] && x < box[2] && y > box[1] && y < box[3])) continue;
     out.push({ id: f.id, name: f.properties.name, ring: ring.map(([x, y]) => [+x.toFixed(3), +y.toFixed(3)]) });
   }

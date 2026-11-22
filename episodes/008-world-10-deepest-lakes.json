@@ -1,0 +1,174 @@
+{
+ "id": "008-world-10-deepest-lakes",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   0,
+   0
+  ],
+  "highlight": [
+   "643",
+   "834",
+   "010",
+   "152",
+   "454",
+   "417",
+   "124",
+   "840",
+   "360"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -135,
+   -85,
+   135,
+   72
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 DEEPEST",
+  "LAKES"
+ ],
+ "series": "THE WORLD'S 10 DEEPEST LAKES",
+ "unit": "m",
+ "barMin": 400,
+ "hook": {
+  "say": "The ten deepest lakes on Earth, ranked. Number one is over a mile deep!"
+ },
+ "outro": {
+  "say": "Would you swim in one? Comment below!"
+ },
+ "outroLines": [
+  "WOULD YOU SWIM IN ONE?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Lake Matano",
+   "sub": "INDONESIA",
+   "value": 590,
+   "lat": -2.48,
+   "lon": 121.33,
+   "style": "column",
+   "fact": "Deepest lake on an island",
+   "say": "Number ten: Lake Matano, the deepest lake on any island. 590 meters.",
+   "cap": "Number ten: Lake Matano, the deepest lake on any island. 590 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Crater Lake",
+   "sub": "OREGON · USA",
+   "value": 594,
+   "lat": 42.94,
+   "lon": -122.1,
+   "style": "column",
+   "fact": "Inside a collapsed volcano",
+   "say": "Nine: Crater Lake, inside a collapsed volcano. 594 meters.",
+   "cap": "Nine: Crater Lake, inside a collapsed volcano. 594 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Great Slave Lake",
+   "sub": "CANADA",
+   "value": 614,
+   "lat": 61.67,
+   "lon": -114.0,
+   "style": "column",
+   "fact": "Deepest in North America",
+   "say": "Eight: Great Slave Lake, the deepest in North America. 614 meters.",
+   "cap": "Eight: Great Slave Lake, the deepest in North America. 614 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Issyk-Kul",
+   "sub": "KYRGYZSTAN",
+   "value": 668,
+   "lat": 42.4,
+   "lon": 77.3,
+   "style": "column",
+   "fact": "The lake that never freezes",
+   "say": "Seven: Issik-Kool, the lake that never freezes. 668 meters.",
+   "cap": "Seven: Issyk-Kul, the lake that never freezes. 668 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Lake Malawi",
+   "sub": "EAST AFRICA",
+   "value": 706,
+   "lat": -12.0,
+   "lon": 34.5,
+   "style": "column",
+   "fact": "Most fish species of any lake",
+   "say": "Six: Lake Malawi, with more fish species than any other lake. 706 meters.",
+   "cap": "Six: Lake Malawi, with more fish species than any other lake. 706 meters."
+  },
+  {
+   "rank": 5,
+   "name": "O'Higgins-San Martín",
+   "sub": "CHILE / ARGENTINA",
+   "value": 836,
+   "lat": -48.83,
+   "lon": -72.6,
+   "style": "column",
+   "fact": "Deepest in the Americas",
+   "say": "Five: O'Higgins San-Marteen, the deepest in the Americas. 836 meters.",
+   "cap": "Five: O'Higgins-San Martín, the deepest in the Americas. 836 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Lake Vostok",
+   "sub": "ANTARCTICA",
+   "value": 900,
+   "lat": -77.5,
+   "lon": 106.0,
+   "style": "column",
+   "fact": "Hidden under the ice",
+   "say": "Four: Lake Vostok, hidden under Antarctic ice. 900 meters.",
+   "cap": "Four: Lake Vostok, hidden under Antarctic ice. 900 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Caspian Sea",
+   "sub": "EUROPE / ASIA",
+   "value": 1025,
+   "lat": 39.0,
+   "lon": 51.0,
+   "style": "column",
+   "fact": "The largest lake on Earth",
+   "say": "Three: Caspian Sea, the largest lake on Earth. 1025 meters.",
+   "cap": "Three: Caspian Sea, the largest lake on Earth. 1,025 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Lake Tanganyika",
+   "sub": "EAST AFRICA",
+   "value": 1470,
+   "lat": -6.5,
+   "lon": 29.6,
+   "style": "column",
+   "fact": "The longest lake in the world",
+   "say": "Two: Lake Tangan-yeeka, the longest lake in the world. 1470 meters.",
+   "cap": "Two: Lake Tanganyika, the longest lake in the world. 1,470 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Lake Baikal",
+   "sub": "SIBERIA · RUSSIA",
+   "value": 1642,
+   "lat": 53.5,
+   "lon": 108.0,
+   "style": "column",
+   "fact": "1/5 of Earth's fresh water",
+   "say": "And number one: Lake Bykal! 1642 meters, holding a fifth of Earth's fresh water.",
+   "cap": "And number one: Lake Baikal! 1,642 meters, holding a fifth of Earth's fresh water."
+  }
+ ]
+}

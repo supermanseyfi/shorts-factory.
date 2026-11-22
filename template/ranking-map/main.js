@@ -164,7 +164,7 @@ function buildMountain(it, idx) {
 }
 function buildColumn(it, idx) {   // generic 3D bar for non-mountain rankings (cities, lakes, buildings...)
   const Hh = it.value / MAXV * 1.5, R = it.radius || .13, top = it.rank <= 3;
-  const g = new THREE.CylinderGeometry(R, R * 1.08, Hh, 6).translate(0, Hh / 2, 0), col = [], pos = g.attributes.position;
+  const g = new THREE.CylinderGeometry(R, R * 1.08, Hh + GROUND, 6).translate(0, (Hh - GROUND) / 2, 0), col = [], pos = g.attributes.position;   // base reaches sea level so columns on water or unhighlighted land don't float
   const c0 = new THREE.Color('#0d5d86'), c1 = new THREE.Color(top ? '#ffd24d' : '#7ff0ff');
   for (let i = 0; i < pos.count; i++) { const c = new THREE.Color().lerpColors(c0, c1, Math.pow(clamp(pos.getY(i) / Hh), 1.5)); col.push(c.r, c.g, c.b); }
   g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
@@ -234,7 +234,7 @@ $('pins').innerHTML = ep.items.map(i => `<div class="pin ${i.rank <= 3 ? 'g' : '
 const pinEls = [...document.querySelectorAll('.pin')];
 const BMIN = ep.barMin || 0, fmt = n => Math.round(n).toLocaleString(LOC);
 { let step = Math.pow(10, Math.floor(Math.log10(MAXV - BMIN))); if ((MAXV - BMIN) / step < 3) step /= 2; const tk = []; for (let v = Math.ceil((BMIN + step * .2) / step) * step; v <= MAXV; v += step) tk.push(v);
-  $('bar').insertAdjacentHTML('beforeend', tk.map(v => `<span style="left:${(v - BMIN) / (MAXV - BMIN) * 100}%">${v >= 1e6 ? v / 1e6 + 'M' : fmt(v)}</span>`).join('')); }
+  $('bar').insertAdjacentHTML('beforeend', tk.map(v => `<span style="left:${(v - BMIN) / (MAXV - BMIN) * 100}%">${v >= 1e6 ? v / 1e6 + 'M' : v >= 1e5 ? v / 1e3 + 'K' : fmt(v)}</span>`).join('')); }
 const set = (el, o, tf) => { el.style.opacity = o; if (tf !== undefined) el.style.transform = tf; };
 // caption chunks
 const chunks = [];
