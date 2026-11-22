@@ -1,0 +1,176 @@
+{
+ "id": "029-japan-10-highest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   138.0,
+   35.9
+  ],
+  "highlight": [
+   "392"
+  ],
+  "scale": 8,
+  "frame": [
+   136.9,
+   34.9,
+   139.3,
+   36.9
+  ],
+  "outroZoom": 1.2
+ },
+ "title": [
+  "JAPAN'S",
+  "10 HIGHEST",
+  "MOUNTAINS"
+ ],
+ "series": "JAPAN'S 10 HIGHEST MOUNTAINS",
+ "unit": "m",
+ "barMin": 3000,
+ "hook": {
+  "say": "Japan's ten highest mountains, ranked. Number one towers almost 600 meters above all the others!"
+ },
+ "outro": {
+  "say": "Would you climb Mount Fuji? Comment below!"
+ },
+ "outroLines": [
+  "WOULD YOU CLIMB MOUNT FUJI?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Mount Obami",
+   "sub": "NORTHERN ALPS · NAGANO / GIFU",
+   "value": 3101,
+   "lat": 36.3319,
+   "lon": 137.6469,
+   "style": "massif",
+   "fact": "On the ridge to Mount Yari",
+   "say": "Number ten: Mount Oh-bah-mee, on the ridge to Mount Yari. 3101 meters.",
+   "cap": "Number ten: Mount Ōbami, on the ridge to Mount Yari. 3,101 meters.",
+   "radius": 0.3
+  },
+  {
+   "rank": 9,
+   "name": "Mount Kitahotaka",
+   "sub": "NORTHERN ALPS · NAGANO / GIFU",
+   "value": 3106,
+   "lat": 36.3022,
+   "lon": 137.6528,
+   "style": "jagged",
+   "fact": "North peak of the Hotaka group",
+   "say": "Nine: Kee-tah-hoe-tah-kah, the north peak of the Hotaka group. 3106 meters.",
+   "cap": "Nine: Kitahotaka, the north peak of the Hotaka group. 3,106 meters.",
+   "radius": 0.3
+  },
+  {
+   "rank": 8,
+   "name": "Mount Karasawa",
+   "sub": "NORTHERN ALPS · NAGANO / GIFU",
+   "value": 3110,
+   "lat": 36.2953,
+   "lon": 137.6478,
+   "style": "jagged",
+   "fact": "Above a famous glacial bowl",
+   "say": "Eight: Mount Kah-rah-sah-wah, above a famous glacial bowl. 3110 meters.",
+   "cap": "Eight: Mount Karasawa, above a famous glacial bowl. 3,110 meters.",
+   "radius": 0.3
+  },
+  {
+   "rank": 7,
+   "name": "Mount Akaishi",
+   "sub": "SOUTHERN ALPS · NAGANO / SHIZUOKA",
+   "value": 3121,
+   "lat": 35.4611,
+   "lon": 138.1572,
+   "style": "massif",
+   "fact": "Its name means red stone",
+   "say": "Seven: Mount Ah-kah-ee-shee. Its name means red stone. 3121 meters.",
+   "cap": "Seven: Mount Akaishi. Its name means red stone. 3,121 meters.",
+   "radius": 0.4
+  },
+  {
+   "rank": 6,
+   "name": "Mount Warusawa",
+   "sub": "SOUTHERN ALPS · SHIZUOKA",
+   "value": 3141,
+   "lat": 35.5008,
+   "lon": 138.1828,
+   "style": "massif",
+   "fact": "Also called Higashi-dake",
+   "say": "Six: Mount Wah-roo-sah-wah, deep in the Southern Alps. 3141 meters.",
+   "cap": "Six: Mount Warusawa, deep in the Southern Alps. 3,141 meters.",
+   "radius": 0.4
+  },
+  {
+   "rank": 5,
+   "name": "Mount Yari",
+   "sub": "NORTHERN ALPS · NAGANO / GIFU",
+   "value": 3180,
+   "lat": 36.3419,
+   "lon": 137.6475,
+   "style": "jagged",
+   "fact": "The Matterhorn of Japan",
+   "say": "Five: Mount Yari, the Matterhorn of Japan. 3180 meters.",
+   "cap": "Five: Mount Yari, the Matterhorn of Japan. 3,180 meters.",
+   "radius": 0.3
+  },
+  {
+   "rank": 4,
+   "name": "Mount Aino",
+   "sub": "SOUTHERN ALPS · YAMANASHI / SHIZUOKA",
+   "value": 3190,
+   "lat": 35.6461,
+   "lon": 138.2283,
+   "style": "massif",
+   "fact": "Tied for third highest",
+   "say": "Four: Mount Eye-no, tied for third place. 3190 meters.",
+   "cap": "Four: Mount Aino, tied for third place. 3,190 meters.",
+   "radius": 0.4
+  },
+  {
+   "rank": 3,
+   "name": "Mount Okuhotaka",
+   "sub": "NORTHERN ALPS · NAGANO / GIFU",
+   "value": 3190,
+   "lat": 36.2892,
+   "lon": 137.6481,
+   "style": "jagged",
+   "fact": "Top of the Northern Alps",
+   "say": "Three: Oh-koo-hoe-tah-kah, the top of the Northern Alps. Also 3190 meters.",
+   "cap": "Three: Okuhotaka, the top of the Northern Alps. Also 3,190 meters.",
+   "radius": 0.34
+  },
+  {
+   "rank": 2,
+   "name": "Mount Kita",
+   "sub": "SOUTHERN ALPS · YAMANASHI",
+   "value": 3193,
+   "lat": 35.6744,
+   "lon": 138.2389,
+   "style": "jagged",
+   "fact": "Highest non-volcanic peak in Japan",
+   "say": "Two: Mount Kita, Japan's highest peak that is not a volcano. 3193 meters.",
+   "cap": "Two: Mount Kita, Japan's highest peak that is not a volcano. 3,193 meters.",
+   "radius": 0.42
+  },
+  {
+   "rank": 1,
+   "name": "Mount Fuji",
+   "sub": "YAMANASHI / SHIZUOKA",
+   "value": 3776,
+   "lat": 35.3606,
+   "lon": 138.7274,
+   "style": "volcano",
+   "fact": "Japan's sacred volcano",
+   "say": "And number one: Mount Fuji! 3776 meters, Japan's sacred volcano.",
+   "cap": "And number one: Mount Fuji! 3,776 meters, Japan's sacred volcano.",
+   "radius": 0.8
+  }
+ ]
+}

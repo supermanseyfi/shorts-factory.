@@ -1,0 +1,177 @@
+{
+ "id": "028-usa-10-smallest-states",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -76,
+   41
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 1.2,
+  "frame": [
+   -84,
+   36.5,
+   -66.5,
+   46.5
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S",
+  "10 SMALLEST",
+  "STATES"
+ ],
+ "series": "AMERICA'S 10 SMALLEST STATES",
+ "unit": "sq mi",
+ "barMin": 0,
+ "hook": {
+  "say": "America's ten smallest states, ranked. Number one would fit inside Alaska over 400 times!"
+ },
+ "outro": {
+  "say": "Have you been to any of them? Comment below!"
+ },
+ "outroLines": [
+  "HAVE YOU BEEN TO ANY?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "West Virginia",
+   "sub": "THE MOUNTAIN STATE",
+   "value": 24230,
+   "lat": 38.6,
+   "lon": -80.6,
+   "style": "column",
+   "fact": "Almost entirely mountains",
+   "say": "Number ten: West Virginia, almost entirely mountains. About 24,000 square miles.",
+   "cap": "Number ten: West Virginia, almost entirely mountains. About 24,000 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 9,
+   "name": "Maryland",
+   "sub": "THE OLD LINE STATE",
+   "value": 12406,
+   "lat": 39.3,
+   "lon": -77.2,
+   "style": "column",
+   "fact": "Wraps around Chesapeake Bay",
+   "say": "Nine: Maryland, wrapped around Chesapeake Bay. 12,400 square miles.",
+   "cap": "Nine: Maryland, wrapped around Chesapeake Bay. 12,400 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 8,
+   "name": "Hawaii",
+   "sub": "THE ALOHA STATE",
+   "value": 10932,
+   "lat": 19.6,
+   "lon": -155.5,
+   "style": "column",
+   "fact": "Over 40% of it is water",
+   "say": "Eight: Hawaii, far out in the Pacific. 10,900 square miles, much of it water.",
+   "cap": "Eight: Hawaii, far out in the Pacific. 10,900 square miles, much of it water.",
+   "radius": 0.08
+  },
+  {
+   "rank": 7,
+   "name": "Massachusetts",
+   "sub": "THE BAY STATE",
+   "value": 10554,
+   "lat": 42.3,
+   "lon": -71.9,
+   "style": "column",
+   "fact": "Home of Boston",
+   "say": "Seven: Massachusetts, home of Boston. 10,500 square miles.",
+   "cap": "Seven: Massachusetts, home of Boston. 10,500 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 6,
+   "name": "Vermont",
+   "sub": "THE GREEN MOUNTAIN STATE",
+   "value": 9616,
+   "lat": 44.0,
+   "lon": -72.7,
+   "style": "column",
+   "fact": "Famous for maple syrup",
+   "say": "Six: Vermont, famous for maple syrup. 9600 square miles.",
+   "cap": "Six: Vermont, famous for maple syrup. 9,600 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 5,
+   "name": "New Hampshire",
+   "sub": "THE GRANITE STATE",
+   "value": 9349,
+   "lat": 43.7,
+   "lon": -71.55,
+   "style": "column",
+   "fact": "Shortest ocean coast of any state",
+   "say": "Five: New Hampshire, with the shortest ocean coastline. 9300 square miles.",
+   "cap": "Five: New Hampshire, with the shortest ocean coastline. 9,300 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 4,
+   "name": "New Jersey",
+   "sub": "THE GARDEN STATE",
+   "value": 8723,
+   "lat": 40.1,
+   "lon": -74.6,
+   "style": "column",
+   "fact": "The most crowded state",
+   "say": "Four: New Jersey, the most crowded state. 8700 square miles.",
+   "cap": "Four: New Jersey, the most crowded state. 8,700 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 3,
+   "name": "Connecticut",
+   "sub": "THE CONSTITUTION STATE",
+   "value": 5543,
+   "lat": 41.6,
+   "lon": -72.7,
+   "style": "column",
+   "fact": "Between New York and Boston",
+   "say": "Three: Connecticut, between New York and Boston. 5500 square miles.",
+   "cap": "Three: Connecticut, between New York and Boston. 5,500 square miles.",
+   "radius": 0.08
+  },
+  {
+   "rank": 2,
+   "name": "Delaware",
+   "sub": "THE FIRST STATE",
+   "value": 2489,
+   "lat": 39.0,
+   "lon": -75.5,
+   "style": "column",
+   "fact": "First to ratify the Constitution",
+   "say": "Two: Delaware, the very first state. Just 2500 square miles.",
+   "cap": "Two: Delaware, the very first state. Just 2,500 square miles.",
+   "radius": 0.07
+  },
+  {
+   "rank": 1,
+   "name": "Rhode Island",
+   "sub": "THE OCEAN STATE",
+   "value": 1545,
+   "lat": 41.68,
+   "lon": -71.55,
+   "style": "column",
+   "fact": "Fits in Alaska 430 times",
+   "say": "And number one: Rhode Island! Only 1545 square miles, the smallest state of all.",
+   "cap": "And number one: Rhode Island! Only 1,545 square miles, the smallest state of all.",
+   "radius": 0.07
+  }
+ ],
+ "heightPow": 0.6
+}

@@ -1,0 +1,175 @@
+{
+ "id": "030-world-10-most-visited-countries",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   10,
+   35
+  ],
+  "highlight": [
+   "250",
+   "724",
+   "840",
+   "792",
+   "380",
+   "484",
+   "826",
+   "276",
+   "392",
+   "300"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -150,
+   -5,
+   172,
+   68
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 MOST VISITED",
+  "COUNTRIES"
+ ],
+ "series": "THE WORLD'S 10 MOST VISITED COUNTRIES",
+ "unit": "",
+ "barMin": 30000000,
+ "hook": {
+  "say": "The ten most visited countries on Earth, ranked. Six of them are in Europe!"
+ },
+ "outro": {
+  "say": "Which one is on your list? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE IS ON YOUR LIST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Greece",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 36000000.0,
+   "lat": 38.5,
+   "lon": 23.0,
+   "style": "column",
+   "fact": "Thousands of islands",
+   "say": "Number ten: Greece, land of thousands of islands. 36 million visitors a year.",
+   "cap": "Number ten: Greece, land of thousands of islands. 36 million visitors a year."
+  },
+  {
+   "rank": 9,
+   "name": "Japan",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 36900000.0,
+   "lat": 36.2,
+   "lon": 138.2,
+   "style": "column",
+   "fact": "A record year",
+   "say": "Nine: Japan, in a record year. Almost 37 million visitors.",
+   "cap": "Nine: Japan, in a record year. Almost 37 million visitors."
+  },
+  {
+   "rank": 8,
+   "name": "Germany",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 37500000.0,
+   "lat": 51.0,
+   "lon": 10.3,
+   "style": "column",
+   "fact": "Heart of Europe",
+   "say": "Eight: Germany, the heart of Europe. Thirty-seven-point-five million visitors.",
+   "cap": "Eight: Germany, the heart of Europe. 37.5 million visitors."
+  },
+  {
+   "rank": 7,
+   "name": "United Kingdom",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 41800000.0,
+   "lat": 53.0,
+   "lon": -1.8,
+   "style": "column",
+   "fact": "London leads the way",
+   "say": "Seven: the United Kingdom, led by London. Almost 42 million visitors.",
+   "cap": "Seven: the United Kingdom, led by London. Almost 42 million visitors."
+  },
+  {
+   "rank": 6,
+   "name": "Mexico",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 45000000.0,
+   "lat": 23.5,
+   "lon": -102.3,
+   "style": "column",
+   "fact": "Top spot in Latin America",
+   "say": "Six: Mexico, the top spot in Latin America. 45 million visitors.",
+   "cap": "Six: Mexico, the top spot in Latin America. 45 million visitors."
+  },
+  {
+   "rank": 5,
+   "name": "Italy",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 57800000.0,
+   "lat": 42.8,
+   "lon": 12.6,
+   "style": "column",
+   "fact": "Rome, Venice, Florence",
+   "say": "Five: Italy, home of Rome and Venice. Almost 58 million visitors.",
+   "cap": "Five: Italy, home of Rome and Venice. Almost 58 million visitors."
+  },
+  {
+   "rank": 4,
+   "name": "Türkiye",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 60600000.0,
+   "lat": 39.0,
+   "lon": 35.0,
+   "style": "column",
+   "fact": "Where Europe meets Asia",
+   "say": "Four: Turkey, where Europe meets Asia. Over 60 million visitors.",
+   "cap": "Four: Türkiye, where Europe meets Asia. Over 60 million visitors."
+  },
+  {
+   "rank": 3,
+   "name": "United States",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 72400000.0,
+   "lat": 39.5,
+   "lon": -98.5,
+   "style": "column",
+   "fact": "Earns the most from tourism",
+   "say": "Three: the United States. 72 million visitors, and the most tourism money.",
+   "cap": "Three: the United States. 72 million visitors, and the most tourism money."
+  },
+  {
+   "rank": 2,
+   "name": "Spain",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 93800000.0,
+   "lat": 40.2,
+   "lon": -3.6,
+   "style": "column",
+   "fact": "Sun, beaches and islands",
+   "say": "Two: Spain, land of sun and beaches. Almost 94 million visitors.",
+   "cap": "Two: Spain, land of sun and beaches. Almost 94 million visitors."
+  },
+  {
+   "rank": 1,
+   "name": "France",
+   "sub": "2024 TOURIST ARRIVALS",
+   "value": 100000000,
+   "lat": 46.6,
+   "lon": 2.5,
+   "style": "column",
+   "fact": "More visitors than residents",
+   "say": "And number one: France! About 100 million visitors, more than the people living there.",
+   "cap": "And number one: France! About 100 million visitors, more than the people living there."
+  }
+ ]
+}
