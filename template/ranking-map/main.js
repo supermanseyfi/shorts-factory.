@@ -111,7 +111,8 @@ const MAXV = Math.max(...ep.items.map(i => i.value));
 const rock1 = new THREE.Color('#3b4657'), rock2 = new THREE.Color('#8b8f9a'), snow = new THREE.Color('#f4fbff'), warm = new THREE.Color('#7a5a48');
 function buildMountain(it, idx) {
   if (it.style === 'column') return buildColumn(it, idx);
-  const Hh = it.value / MAXV * 1.3, R = it.radius || ({ volcano: .66, jagged: .68, massif: .74 }[it.style] * Math.sqrt(it.value / 4000));
+  const VM = it.value * (ep.metersPerUnit || 1);   // value in metres (set metersPerUnit: 0.3048 when the unit is feet)
+  const Hh = it.value / MAXV * 1.3, R = it.radius || ({ volcano: .66, jagged: .68, massif: .74 }[it.style] * Math.sqrt(VM / 4000));
   const N = 72, seed = idx * 31 + 5;
   const g = new THREE.PlaneGeometry(2 * R, 2 * R, N, N).rotateX(-Math.PI / 2), pos = g.attributes.position, hs = new Float32Array(pos.count);
   let mx = 0;
@@ -130,7 +131,7 @@ function buildMountain(it, idx) {
     }
     hs[i] = Math.max(0, h); mx = Math.max(mx, hs[i]);
   }
-  const snowLine = clamp(.93 - (it.value - 3000) / 3600, .4, .8), col = [];
+  const snowLine = clamp(.93 - (VM - 3000) / 3600, .4, .8), col = [];
   for (let i = 0; i < pos.count; i++) {
     const f = hs[i] / mx; pos.setY(i, f * Hh);
     const x = pos.getX(i), z = pos.getZ(i), n = fbm(x * 7, z * 7, seed + 9), c = new THREE.Color();
@@ -188,12 +189,14 @@ const motes = (() => { const n = 500, a = new Float32Array(n * 3), r = rng(99), 
 
 // ---------- camera choreography ----------
 const segs = ep.segments;
-const bA = P(BB[0], BB[1]), bB = P(BB[2], BB[3]), MC = bA.clone().add(bB).multiplyScalar(.5), WX = bB.x - bA.x;   // highlighted country extent
+const CB = ep.map.frame || BB, bA = P(CB[0], CB[1]), bB = P(CB[2], CB[3]), MC = bA.clone().add(bB).multiplyScalar(.5), WX = bB.x - bA.x;   // highlighted country extent
+scene.fog.density = 0.028 * clamp(15 / WX, .2, 1);
 const OVER_A = { pos: new THREE.Vector3(MC.x, 1.8 * WX, MC.z + 1.28 * WX), look: new THREE.Vector3(MC.x, 0, MC.z - .2 * WX), fov: 46 };
 const OVER_B = { pos: new THREE.Vector3(MC.x + .08 * WX, 1.42 * WX, MC.z + 1.08 * WX), look: new THREE.Vector3(MC.x + .08 * WX, 0, MC.z - .15 * WX), fov: 46 };
 const IC = mts.reduce((a, m) => a.add(m.base), new THREE.Vector3()).multiplyScalar(1 / mts.length), SP = Math.max(2.5, ...mts.map(m => m.base.distanceTo(IC)));   // items centroid / spread
-const OUT_A = { pos: new THREE.Vector3(IC.x + SP * 1.25 + 2.2, SP * .45 + 2.2, IC.z + SP * .9 + 2.2), look: new THREE.Vector3(IC.x + .6, .3, IC.z), fov: 40 };
-const OUT_B = { pos: new THREE.Vector3(IC.x + SP * 1.45 + 2.6, SP * .65 + 2.6, IC.z + SP * 1.1 + 2.8), look: new THREE.Vector3(IC.x + .3, .3, IC.z), fov: 40 };
+const OZ = ep.map.outroZoom || 1;   // >1 pulls the outro camera back when the items are spread far apart
+const OUT_A = { pos: new THREE.Vector3(IC.x + (SP * 1.25 + 2.2) * OZ, (SP * .45 + 2.2) * OZ, IC.z + (SP * .9 + 2.2) * OZ), look: new THREE.Vector3(IC.x + .6, .3, IC.z), fov: 40 };
+const OUT_B = { pos: new THREE.Vector3(IC.x + (SP * 1.45 + 2.6) * OZ, (SP * .65 + 2.6) * OZ, IC.z + (SP * 1.1 + 2.8) * OZ), look: new THREE.Vector3(IC.x + .3, .3, IC.z), fov: 40 };
 function itemPose(m, k, idx) {   // k: 0..1 through the segment
   const top = m.it.rank === 1, ang = top ? -2.95 + .95 * k : (-2.1 + idx * 0.47) + .32 * k * (idx % 2 ? -1 : 1);
   const d = (2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = .30 - .05 * k;

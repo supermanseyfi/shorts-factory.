@@ -1,0 +1,172 @@
+{
+ "id": "002-usa-10-tallest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -145.0,
+   61.2
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 3,
+  "frame": [
+   -155.5,
+   57.5,
+   -134.5,
+   64.5
+  ],
+  "outroZoom": 1.4
+ },
+ "title": [
+  "AMERICA'S",
+  "10 TALLEST",
+  "MOUNTAINS"
+ ],
+ "series": "AMERICA'S 10 TALLEST MOUNTAINS",
+ "unit": "ft",
+ "metersPerUnit": 0.3048,
+ "barMin": 13000,
+ "hook": {
+  "say": "America's ten tallest mountains, ranked. Every single one is in Alaska!"
+ },
+ "outro": {
+  "say": "Which one would you climb? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE WOULD YOU CLIMB?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Mount Hunter",
+   "sub": "BEGGUYA · ALASKA RANGE",
+   "value": 14573,
+   "lat": 62.9504,
+   "lon": -151.0915,
+   "style": "jagged",
+   "radius": 0.36,
+   "fact": "Denali's fierce neighbor",
+   "say": "Number ten: Mount Hunter, Denali's fierce little neighbor. 14573 feet.",
+   "cap": "Number ten: Mount Hunter, Denali's fierce little neighbor. 14,573 feet."
+  },
+  {
+   "rank": 9,
+   "name": "Mount Bear",
+   "sub": "SAINT ELIAS MOUNTAINS",
+   "value": 14831,
+   "lat": 61.2834,
+   "lon": -141.1433,
+   "style": "jagged",
+   "radius": 0.45,
+   "fact": "Four miles from Canada",
+   "say": "Nine: Mount Bear, just four miles from Canada. 14831 feet.",
+   "cap": "Nine: Mount Bear, just four miles from Canada. 14,831 feet."
+  },
+  {
+   "rank": 8,
+   "name": "Mount Hubbard",
+   "sub": "ALASKA / YUKON BORDER",
+   "value": 14951,
+   "lat": 60.3194,
+   "lon": -139.0726,
+   "style": "massif",
+   "fact": "Shared with the Yukon",
+   "say": "Eight: Mount Hubbard, shared with the Yukon. 14951 feet.",
+   "cap": "Eight: Mount Hubbard, shared with the Yukon. 14,951 feet."
+  },
+  {
+   "rank": 7,
+   "name": "Mt. Fairweather",
+   "sub": "ALASKA / BRITISH COLUMBIA",
+   "value": 15325,
+   "lat": 58.9064,
+   "lon": -137.5265,
+   "style": "jagged",
+   "fact": "12 miles from the ocean",
+   "say": "Seven: Mount Fairweather, rising straight from the Pacific coast. 15325 feet.",
+   "cap": "Seven: Mount Fairweather, rising straight from the Pacific coast. 15,325 feet."
+  },
+  {
+   "rank": 6,
+   "name": "Mount Sanford",
+   "sub": "WRANGELL MOUNTAINS",
+   "value": 16237,
+   "lat": 62.2132,
+   "lon": -144.1292,
+   "style": "volcano",
+   "fact": "A giant shield volcano",
+   "say": "Six: Mount Sanford, a giant shield volcano. 16237 feet.",
+   "cap": "Six: Mount Sanford, a giant shield volcano. 16,237 feet."
+  },
+  {
+   "rank": 5,
+   "name": "Mount Blackburn",
+   "sub": "WRANGELL MOUNTAINS",
+   "value": 16390,
+   "lat": 61.7305,
+   "lon": -143.4031,
+   "style": "volcano",
+   "fact": "King of the Wrangells",
+   "say": "Five: Mount Blackburn, king of the Wrangle Mountains. 16390 feet.",
+   "cap": "Five: Mount Blackburn, king of the Wrangell Mountains. 16,390 feet."
+  },
+  {
+   "rank": 4,
+   "name": "Mount Bona",
+   "sub": "SAINT ELIAS MOUNTAINS",
+   "value": 16550,
+   "lat": 61.3856,
+   "lon": -141.7495,
+   "style": "volcano",
+   "radius": 0.55,
+   "fact": "Highest volcano in the USA",
+   "say": "Four: Mount Bona, the highest volcano in the country. 16550 feet.",
+   "cap": "Four: Mount Bona, the highest volcano in the country. 16,550 feet."
+  },
+  {
+   "rank": 3,
+   "name": "Mount Foraker",
+   "sub": "SULTANA · ALASKA RANGE",
+   "value": 17400,
+   "lat": 62.9604,
+   "lon": -151.3998,
+   "style": "massif",
+   "radius": 0.42,
+   "fact": "Known as Denali's wife",
+   "say": "Three: Mount Forakker, known as Denali's wife. 17400 feet.",
+   "cap": "Three: Mount Foraker, known as Denali's wife. 17,400 feet."
+  },
+  {
+   "rank": 2,
+   "name": "Mt. Saint Elias",
+   "sub": "ALASKA / YUKON BORDER",
+   "value": 18009,
+   "lat": 60.2927,
+   "lon": -140.9307,
+   "style": "jagged",
+   "fact": "No. 2 in Canada too",
+   "say": "Two: Mount Saint Elias, second highest in Canada too. 18009 feet.",
+   "cap": "Two: Mount Saint Elias, second highest in Canada too. 18,009 feet."
+  },
+  {
+   "rank": 1,
+   "name": "Denali",
+   "sub": "MOUNT McKINLEY · ALASKA RANGE",
+   "value": 20310,
+   "lat": 63.069,
+   "lon": -151.0063,
+   "style": "massif",
+   "radius": 0.62,
+   "fact": "The roof of North America",
+   "say": "And number one: Denali! 20310 feet, the roof of North America.",
+   "cap": "And number one: Denali! 20,310 feet, the roof of North America."
+  }
+ ]
+}
