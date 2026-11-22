@@ -1,0 +1,167 @@
+{
+ "id": "023-usa-10-largest-lakes",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -115,
+   45
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 0.4,
+  "frame": [
+   -170,
+   24,
+   -66,
+   72
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S",
+  "10 LARGEST",
+  "LAKES"
+ ],
+ "series": "AMERICA'S 10 LARGEST LAKES",
+ "unit": "sq mi",
+ "barMin": 0,
+ "heightPow": 0.5,
+ "hook": {
+  "say": "America's ten largest lakes, ranked. Number one is almost as big as South Carolina!"
+ },
+ "outro": {
+  "say": "Seen all five Great Lakes? Comment below!"
+ },
+ "outroLines": [
+  "SEEN ALL 5 GREAT LAKES?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Lake Oahe",
+   "sub": "NORTH DAKOTA / SOUTH DAKOTA",
+   "value": 685,
+   "lat": 45.0,
+   "lon": -100.5,
+   "style": "column",
+   "fact": "Man-made, on the Missouri",
+   "say": "Number ten: Lake Oh-wah-hee, man-made on the Missouri. 685 square miles.",
+   "cap": "Number ten: Lake Oahe, man-made on the Missouri. 685 square miles."
+  },
+  {
+   "rank": 9,
+   "name": "Lake Okeechobee",
+   "sub": "FLORIDA",
+   "value": 730,
+   "lat": 26.95,
+   "lon": -80.8,
+   "style": "column",
+   "fact": "Florida's inland sea",
+   "say": "Nine: Lake Okeechobee, Florida's inland sea. 730 square miles.",
+   "cap": "Nine: Lake Okeechobee, Florida's inland sea. 730 square miles."
+  },
+  {
+   "rank": 8,
+   "name": "Great Salt Lake",
+   "sub": "UTAH",
+   "value": 950,
+   "lat": 41.1,
+   "lon": -112.5,
+   "style": "column",
+   "fact": "Saltier than the ocean",
+   "say": "Eight: Great Salt Lake, saltier than the ocean. 950 square miles.",
+   "cap": "Eight: Great Salt Lake, saltier than the ocean. 950 square miles."
+  },
+  {
+   "rank": 7,
+   "name": "Iliamna Lake",
+   "sub": "ALASKA",
+   "value": 1014,
+   "lat": 59.5,
+   "lon": -155.0,
+   "style": "column",
+   "fact": "Largest lake in Alaska",
+   "say": "Seven: Illy-amna Lake, the largest lake in Alaska. 1014 square miles.",
+   "cap": "Seven: Iliamna Lake, the largest lake in Alaska. 1,014 square miles."
+  },
+  {
+   "rank": 6,
+   "name": "Lake of the Woods",
+   "sub": "MINNESOTA / CANADA",
+   "value": 1679,
+   "lat": 49.2,
+   "lon": -94.8,
+   "style": "column",
+   "fact": "Over 14,000 islands",
+   "say": "Six: Lake of the Woods, with fourteen thousand islands. 1679 square miles.",
+   "cap": "Six: Lake of the Woods, with fourteen thousand islands. 1,679 square miles."
+  },
+  {
+   "rank": 5,
+   "name": "Lake Ontario",
+   "sub": "NEW YORK / CANADA",
+   "value": 7340,
+   "lat": 43.65,
+   "lon": -77.8,
+   "style": "column",
+   "fact": "The smallest Great Lake",
+   "say": "Five: Lake Ontario, the smallest Great Lake. 7340 square miles.",
+   "cap": "Five: Lake Ontario, the smallest Great Lake. 7,340 square miles."
+  },
+  {
+   "rank": 4,
+   "name": "Lake Erie",
+   "sub": "OHIO / PA / NY / MICHIGAN / CANADA",
+   "value": 9910,
+   "lat": 42.2,
+   "lon": -81.2,
+   "style": "column",
+   "fact": "The shallowest Great Lake",
+   "say": "Four: Lake Erie, the shallowest Great Lake. 9910 square miles.",
+   "cap": "Four: Lake Erie, the shallowest Great Lake. 9,910 square miles."
+  },
+  {
+   "rank": 3,
+   "name": "Lake Michigan",
+   "sub": "THE ONLY ONE ENTIRELY IN THE USA",
+   "value": 22300,
+   "lat": 44.0,
+   "lon": -87.0,
+   "style": "column",
+   "fact": "Entirely inside the USA",
+   "say": "Three: Lake Michigan, entirely inside the USA. 22300 square miles.",
+   "cap": "Three: Lake Michigan, entirely inside the USA. 22,300 square miles."
+  },
+  {
+   "rank": 2,
+   "name": "Lake Huron",
+   "sub": "MICHIGAN / CANADA",
+   "value": 23000,
+   "lat": 44.8,
+   "lon": -82.4,
+   "style": "column",
+   "fact": "Largest lake island on Earth",
+   "say": "Two: Lake Huron, with Earth's largest lake island. 23000 square miles.",
+   "cap": "Two: Lake Huron, with Earth's largest lake island. 23,000 square miles."
+  },
+  {
+   "rank": 1,
+   "name": "Lake Superior",
+   "sub": "MICHIGAN / MINNESOTA / WISCONSIN / CANADA",
+   "value": 31700,
+   "lat": 47.7,
+   "lon": -87.5,
+   "style": "column",
+   "fact": "Earth's largest freshwater lake",
+   "say": "And number one: Lake Superior! 31700 square miles, Earth's largest freshwater lake.",
+   "cap": "And number one: Lake Superior! 31,700 square miles, Earth's largest freshwater lake."
+  }
+ ]
+}
