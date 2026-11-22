@@ -24,6 +24,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 highest mountains in North America — 015-north-america-10-highest-mountains
 - [x] The 10 largest islands on Earth by area — 016-world-10-largest-islands
 - [x] The 10 most populous countries on Earth — 017-world-10-most-populous-countries
+- [x] The 10 tallest buildings in the world — 018-world-10-tallest-buildings
 
 ## Queue
 - [ ] The 10 highest mountains in Europe
@@ -32,7 +33,6 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [ ] The 10 most populous cities in Europe (style: column)
 - [ ] The 10 highest mountains in South America
 - [ ] The 10 largest lakes in Türkiye (style: column)
-- [ ] The 10 tallest buildings in the world (style: column, map.scale ~0.12)
 - [ ] The 10 largest deserts on Earth (style: column, map.scale ~0.12)
 - [ ] The 10 longest bridges in Türkiye (style: column)
 - [ ] The 10 most visited national parks in the USA (style: column)

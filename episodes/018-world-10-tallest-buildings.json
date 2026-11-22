@@ -1,0 +1,175 @@
+{
+ "id": "018-world-10-tallest-buildings",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.2
+ },
+ "map": {
+  "center": [
+   40,
+   25
+  ],
+  "highlight": [
+   "156",
+   "840",
+   "410",
+   "682",
+   "458",
+   "784"
+  ],
+  "scale": 0.12,
+  "frame": [
+   -105,
+   -12,
+   150,
+   62
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "THE WORLD'S",
+  "10 TALLEST",
+  "BUILDINGS"
+ ],
+ "series": "THE WORLD'S 10 TALLEST BUILDINGS",
+ "unit": "m",
+ "barMin": 400,
+ "hook": {
+  "say": "The ten tallest buildings on Earth, ranked. Five of them are in China!"
+ },
+ "outro": {
+  "say": "Which one would you go up? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE WOULD YOU GO UP?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "CITIC Tower",
+   "sub": "BEIJING · CHINA",
+   "value": 528,
+   "lat": 40.3,
+   "lon": 116.0,
+   "style": "column",
+   "fact": "Shaped like a wine vessel",
+   "say": "Number ten: Sittic Tower, shaped like an ancient wine vessel. 528 meters.",
+   "cap": "Number ten: CITIC Tower, shaped like an ancient wine vessel. 528 meters.",
+   "radius": 0.08
+  },
+  {
+   "rank": 9,
+   "name": "Tianjin CTF",
+   "sub": "TIANJIN · CHINA",
+   "value": 530,
+   "lat": 38.7,
+   "lon": 118.1,
+   "style": "column",
+   "fact": "Tied with number eight",
+   "say": "Nine: Tianjin C-T-F, tied with number eight. 530 meters.",
+   "cap": "Nine: Tianjin CTF, tied with number eight. 530 meters.",
+   "radius": 0.08
+  },
+  {
+   "rank": 8,
+   "name": "Guangzhou CTF",
+   "sub": "GUANGZHOU · CHINA",
+   "value": 530,
+   "lat": 23.5,
+   "lon": 112.9,
+   "style": "column",
+   "fact": "Super-fast elevators",
+   "say": "Eight: Gwahng-joe C-T-F, with super-fast elevators. 530 meters.",
+   "cap": "Eight: Guangzhou CTF, with super-fast elevators. 530 meters.",
+   "radius": 0.08
+  },
+  {
+   "rank": 7,
+   "name": "One World Trade",
+   "sub": "NEW YORK · USA",
+   "value": 541,
+   "lat": 40.713,
+   "lon": -74.013,
+   "style": "column",
+   "fact": "Exactly 1,776 feet",
+   "say": "Seven: One World Trade, exactly seventeen seventy-six feet. 541 meters.",
+   "cap": "Seven: One World Trade, exactly seventeen seventy-six feet. 541 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Lotte World Tower",
+   "sub": "SEOUL · SOUTH KOREA",
+   "value": 555,
+   "lat": 37.5126,
+   "lon": 127.1026,
+   "style": "column",
+   "fact": "Glass floor near the top",
+   "say": "Six: Lottay World Tower, with a glass floor near the top. 555 meters.",
+   "cap": "Six: Lotte World Tower, with a glass floor near the top. 555 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Ping An Centre",
+   "sub": "SHENZHEN · CHINA",
+   "value": 599,
+   "lat": 22.2,
+   "lon": 114.6,
+   "style": "column",
+   "fact": "Wrapped in stainless steel",
+   "say": "Five: Ping Ahn Centre, wrapped in stainless steel. 599 meters.",
+   "cap": "Five: Ping An Centre, wrapped in stainless steel. 599 meters.",
+   "radius": 0.08
+  },
+  {
+   "rank": 4,
+   "name": "Makkah Clock Tower",
+   "sub": "MECCA · SAUDI ARABIA",
+   "value": 601,
+   "lat": 21.419,
+   "lon": 39.826,
+   "style": "column",
+   "fact": "World's largest clock face",
+   "say": "Four: Makkah Clock Tower, with the world's largest clock face. 601 meters.",
+   "cap": "Four: Makkah Clock Tower, with the world's largest clock face. 601 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Shanghai Tower",
+   "sub": "SHANGHAI · CHINA",
+   "value": 632,
+   "lat": 31.2335,
+   "lon": 121.5056,
+   "style": "column",
+   "fact": "Twists 120° as it rises",
+   "say": "Three: Shanghai Tower, twisting as it rises. 632 meters.",
+   "cap": "Three: Shanghai Tower, twisting as it rises. 632 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Merdeka 118",
+   "sub": "KUALA LUMPUR · MALAYSIA",
+   "value": 679,
+   "lat": 3.1415,
+   "lon": 101.7005,
+   "style": "column",
+   "fact": "118 floors",
+   "say": "Two: Merdeka One-eighteen, named for its floors. 679 meters.",
+   "cap": "Two: Merdeka 118, named for its floors. 679 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Burj Khalifa",
+   "sub": "DUBAI · UAE",
+   "value": 828,
+   "lat": 25.1972,
+   "lon": 55.2744,
+   "style": "column",
+   "fact": "Unbeaten since 2010",
+   "say": "And number one: Burj Kaleefa! 828 meters, unbeaten since twenty ten.",
+   "cap": "And number one: Burj Khalifa! 828 meters, unbeaten since twenty ten."
+  }
+ ]
+}
