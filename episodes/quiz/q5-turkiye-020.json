@@ -1,0 +1,151 @@
+{
+ "id": "q5-turkiye-020",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "TURKISH",
+  "SPORTS",
+  "LEGENDS"
+ ],
+ "hook": {
+  "say": "Football, wrestling and a pocket-sized Olympic hero. Five questions on Turkish sport. Number five is a record!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which Turkish club won the UEFA Cup in 2000?",
+   "say": "Which Turkish club won the UEFA Cup in 2000?",
+   "options": [
+    "Trabzonspor",
+    "Beşiktaş",
+    "Fenerbahçe",
+    "Galatasaray"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏆"
+   },
+   "fact": "Galatasaray beat Arsenal on penalties in the final.",
+   "sayAnswer": "Galatasaray! They beat Arsenal on penalties in the final.",
+   "src": [
+    "https://en.wikipedia.org/wiki/2000_UEFA_Cup_final",
+    "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What do wrestlers cover themselves in at Edirne's Kırkpınar festival?",
+   "say": "What do wrestlers cover themselves in at the Kirk-pinar festival in Eh-deer-neh?",
+   "options": [
+    "Flour",
+    "Honey",
+    "Olive oil",
+    "Mud"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🤼"
+   },
+   "fact": "Kırkpınar oil wrestling is on UNESCO's intangible heritage list.",
+   "sayAnswer": "Olive oil! Kirk-pinar oil wrestling is on UNESCO's intangible heritage list.",
+   "src": [
+    "https://en.wikipedia.org/wiki/K%C4%B1rkp%C4%B1nar",
+    "https://ich.unesco.org/en/RL/kirkpinar-oil-wrestling-festival-00386"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Türkiye's \"Sultans of the Net\" are the women's national team in what?",
+   "say": "Turkey's Sultans of the Net are the women's national team in which sport?",
+   "options": [
+    "Tennis",
+    "Basketball",
+    "Handball",
+    "Volleyball"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏐"
+   },
+   "fact": "They won their first European Championship in 2023.",
+   "sayAnswer": "Volleyball! They won their first European Championship in 2023.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Turkey_women%27s_national_volleyball_team",
+    "https://en.wikipedia.org/wiki/2023_Women%27s_European_Volleyball_Championship"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "\"Pocket Hercules\" Naim Süleymanoğlu won 3 Olympic golds in which sport?",
+   "say": "Pocket Hercules, Na-eem Sue-lay-man-oh-loo, won 3 Olympic golds in which sport?",
+   "options": [
+    "Weightlifting",
+    "Judo",
+    "Boxing",
+    "Wrestling"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏋️"
+   },
+   "fact": "He won gold in 1988, 1992 and 1996, standing just 1.47 m tall.",
+   "sayAnswer": "Weightlifting! He won gold in 1988, 1992 and 1996, standing just 1 meter 47 tall.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Naim_S%C3%BCleymano%C4%9Flu",
+    "https://olympics.com/en/athletes/naim-suleymanoglu"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Hakan Şükür scored the fastest goal in World Cup history. How fast?",
+   "say": "Hakan Shoo-koor scored the fastest goal in World Cup history. How fast?",
+   "options": [
+    "4 seconds",
+    "11 seconds",
+    "19 seconds",
+    "27 seconds"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⚽"
+   },
+   "fact": "He scored against South Korea in 2002, when Türkiye finished third.",
+   "sayAnswer": "11 seconds! He scored against South Korea in 2002, when Turkey finished third.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+    "https://www.guinnessworldrecords.com/world-records/fastest-goal-in-a-football-soccer-fifa-world-cup-match"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

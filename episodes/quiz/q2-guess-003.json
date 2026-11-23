@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-003",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE STATE",
+ "title": [
+  "GUESS",
+  "THE",
+  "US STATE"
+ ],
+ "hook": {
+  "say": "Think you know the United States? Name these five states from their outlines alone. The last one is sneaky!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Texas",
+    "Oklahoma",
+    "Nevada",
+    "Montana"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:48"
+    ]
+   },
+   "fact": "Texas is the largest of the 48 contiguous states.",
+   "sayAnswer": "Texas! It is the largest of the 48 contiguous states.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Texas"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Louisiana",
+    "Florida",
+    "Georgia",
+    "South Carolina"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:12"
+    ]
+   },
+   "fact": "Florida has the longest coastline of the 48 contiguous states.",
+   "sayAnswer": "Florida! It has the longest coastline of the 48 contiguous states.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Florida"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Nevada",
+    "Oregon",
+    "Idaho",
+    "California"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:06"
+    ]
+   },
+   "fact": "California has more people than any other US state.",
+   "sayAnswer": "California! It has more people than any other US state.",
+   "src": [
+    "https://en.wikipedia.org/wiki/California"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Wisconsin",
+    "Minnesota",
+    "Michigan",
+    "Maine"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:26"
+    ]
+   },
+   "fact": "Michigan touches 4 of the 5 Great Lakes and looks like a mitten.",
+   "sayAnswer": "Michigan! It touches 4 of the 5 Great Lakes, and it looks like a mitten.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Michigan"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Mississippi",
+    "Louisiana",
+    "Alabama",
+    "Arkansas"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:22"
+    ]
+   },
+   "fact": "Louisiana is the only US state divided into parishes instead of counties.",
+   "sayAnswer": "Louisiana! It is the only US state divided into parishes instead of counties.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Louisiana"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

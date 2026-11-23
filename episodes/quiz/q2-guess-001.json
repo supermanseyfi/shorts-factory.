@@ -1,0 +1,137 @@
+{
+ "id": "q2-guess-001",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS",
+  "THE",
+  "COUNTRY"
+ ],
+ "hook": {
+  "say": "Can you name a country just from its shape? Five outlines, and the last one is tough!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Greece",
+    "Italy",
+    "Portugal",
+    "Croatia"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:380"
+    ]
+   },
+   "fact": "Italy: the famous boot, with Sicily at its toe.",
+   "sayAnswer": "Italy! The famous boot, with Sicily at its toe.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Argentina",
+    "Peru",
+    "Norway",
+    "Chile"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:152"
+    ]
+   },
+   "fact": "Chile is over 4,000 km long but only about 180 km wide.",
+   "sayAnswer": "Chile! It is over 4000 kilometers long, but only about 180 wide.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "India",
+    "Pakistan",
+    "Brazil",
+    "Saudi Arabia"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:356"
+    ]
+   },
+   "fact": "India: home to more people than any other country.",
+   "sayAnswer": "India! Home to more people than any other country.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Philippines",
+    "New Zealand",
+    "Japan",
+    "United Kingdom"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:392"
+    ]
+   },
+   "fact": "Japan is made up of more than 14,000 islands.",
+   "sayAnswer": "Japan! It is made up of more than 14,000 islands.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Kazakhstan",
+    "Mongolia",
+    "Türkiye",
+    "Ukraine"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:792"
+    ]
+   },
+   "fact": "Türkiye: the bridge between Europe and Asia.",
+   "sayAnswer": "Turkey! The bridge between Europe and Asia.",
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

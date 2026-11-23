@@ -1,0 +1,141 @@
+{
+ "id": "q4-truefalse-017",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "TÜRKİYE",
+  "FACT OR",
+  "FAKE?"
+ ],
+ "hook": {
+  "say": "True or false? Five more facts about Turkey, three seconds each. The last one rewrote the history books!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Türkiye uses a single time zone.",
+   "say": "Turkey uses a single time zone.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🕒"
+   },
+   "fact": "The whole country has been on UTC+3 all year round since 2016.",
+   "sayAnswer": "True! The whole country runs on 1 time, with no clock changes since 2016.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Time_in_Turkey",
+    "https://en.wikipedia.org/wiki/UTC%2B03:00"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Bosphorus connects the Black Sea to the Aegean Sea.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🚢"
+   },
+   "fact": "It links the Black Sea to the Sea of Marmara.",
+   "sayAnswer": "False! It links the Black Sea to the Sea of Marmara.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bosporus",
+    "https://www.britannica.com/place/Bosporus"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Tigris and the Euphrates both begin in Türkiye.",
+   "say": "The Tigris and the Euphrates both begin in Turkey.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏞️"
+   },
+   "fact": "Both great rivers rise in the mountains of eastern Türkiye.",
+   "sayAnswer": "True! Both great rivers rise in the mountains of eastern Turkey.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tigris%E2%80%93Euphrates_river_system",
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Lake Van, Türkiye's largest lake, is a freshwater lake.",
+   "say": "Lake Van, Turkey's largest lake, is a freshwater lake.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "💧"
+   },
+   "fact": "Lake Van is a salty soda lake with no outlet.",
+   "sayAnswer": "False! Lake Van is a salty soda lake with no outlet.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Van",
+    "https://www.britannica.com/place/Lake-Van"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Göbekli Tepe in Türkiye is thousands of years older than Stonehenge.",
+   "say": "Gobekli Tepe in Turkey is thousands of years older than Stonehenge.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🗿"
+   },
+   "fact": "Built around 9500 BCE, it predates Stonehenge by some 6,000 years.",
+   "sayAnswer": "True! Its carved stone pillars are about 6000 years older than Stonehenge.",
+   "src": [
+    "https://www.britannica.com/place/Gobekli-Tepe",
+    "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

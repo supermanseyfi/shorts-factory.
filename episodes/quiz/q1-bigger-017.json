@@ -1,0 +1,168 @@
+{
+ "id": "q1-bigger-017",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "EUROPE:",
+  "SMALL BUT",
+  "TRICKY"
+ ],
+ "hook": {
+  "say": "Europe's smaller countries are surprisingly hard to rank. Which is bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Bulgaria or Greece?",
+   "options": [
+    "Bulgaria",
+    "Greece"
+   ],
+   "answer": 1,
+   "values": [
+    110879,
+    131957
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:100",
+     "c:300"
+    ]
+   },
+   "fact": "Greece is about 19% bigger than Bulgaria.",
+   "sayAnswer": "Greece! It is about nineteen percent bigger than Bulgaria.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Portugal or Austria?",
+   "options": [
+    "Portugal",
+    "Austria"
+   ],
+   "answer": 0,
+   "values": [
+    92090,
+    83878
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:620",
+     "c:040"
+    ]
+   },
+   "fact": "Portugal is about 10% bigger than Austria.",
+   "sayAnswer": "Portugal! It is about ten percent bigger than Austria.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Ireland or Czechia?",
+   "say": "Which is bigger: Ireland or the Czech Republic?",
+   "options": [
+    "Ireland",
+    "Czechia"
+   ],
+   "answer": 1,
+   "values": [
+    70273,
+    78871
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:372",
+     "c:203"
+    ]
+   },
+   "fact": "Czechia is about 12% bigger than the Republic of Ireland.",
+   "sayAnswer": "The Czech Republic! It is about twelve percent bigger than the Republic of Ireland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Switzerland or Estonia?",
+   "options": [
+    "Switzerland",
+    "Estonia"
+   ],
+   "answer": 1,
+   "values": [
+    41291,
+    45339
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:756",
+     "c:233"
+    ]
+   },
+   "fact": "Estonia is about 10% bigger than Switzerland.",
+   "sayAnswer": "Estonia! It is about ten percent bigger than Switzerland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Poland or Italy?",
+   "options": [
+    "Poland",
+    "Italy"
+   ],
+   "answer": 0,
+   "values": [
+    312685,
+    302068
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:616",
+     "c:380"
+    ]
+   },
+   "fact": "Poland is about 3.5% bigger than Italy.",
+   "sayAnswer": "Poland! It is about three and a half percent bigger than Italy.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-018",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "THE",
+  "AMERICAS",
+  "TRUE/FALSE"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about the Americas, three seconds each. Number five twists your mental map!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Ecuador is named after the Equator.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇪🇨"
+   },
+   "fact": "Ecuador is simply the Spanish word for equator.",
+   "sayAnswer": "True! Ecuador is simply the Spanish word for equator.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ecuador",
+    "https://en.wikipedia.org/wiki/List_of_country-name_etymologies"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Amazon rainforest lies entirely in Brazil.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌳"
+   },
+   "fact": "Only about 60% is in Brazil. Peru, Colombia and others share the rest.",
+   "sayAnswer": "False! Only about 60 percent is in Brazil. 8 other countries share the rest.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Amazon_rainforest",
+    "https://en.wikipedia.org/wiki/Amazon_basin"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Brazil is named after a tree.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌲"
+   },
+   "fact": "The name comes from brazilwood, a tree prized for its red dye.",
+   "sayAnswer": "True! The name comes from brazilwood, a tree once prized for its red dye.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Name_of_Brazil",
+    "https://en.wikipedia.org/wiki/List_of_country-name_etymologies"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Aconcagua, the highest peak outside Asia, is in Chile.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "It stands in Argentina, close to the Chilean border.",
+   "sayAnswer": "False! It stands in Argentina, close to the border with Chile.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Aconcagua",
+    "https://www.britannica.com/place/Mount-Aconcagua"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Panama Canal's Atlantic end is west of its Pacific end.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🚢"
+   },
+   "fact": "The canal runs northwest to southeast across a bend in the isthmus.",
+   "sayAnswer": "True! Panama bends like an S, so ships heading to the Pacific actually sail southeast.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Panama_Canal",
+    "https://en.wikipedia.org/wiki/Geography_of_Panama"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

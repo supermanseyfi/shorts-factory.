@@ -1,0 +1,151 @@
+{
+ "id": "q3-geo-017",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "BORDERS QUIZ",
+ "title": [
+  "WHO IS",
+  "THE",
+  "NEIGHBOR?"
+ ],
+ "hook": {
+  "say": "Borders and neighbors! Five questions, three seconds each. The map gets tricky at the end."
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which is the only country that borders Portugal?",
+   "options": [
+    "France",
+    "Spain",
+    "Morocco",
+    "Andorra"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:620"
+    ]
+   },
+   "fact": "Their border was set in 1297 and is among the oldest in the world.",
+   "sayAnswer": "Spain! Their border was set in 1297, and is among the oldest in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Portugal%E2%80%93Spain_border"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which two countries share the world's longest border?",
+   "options": [
+    "Russia and China",
+    "USA and Mexico",
+    "Canada and USA",
+    "Chile and Argentina"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "📏"
+   },
+   "fact": "It runs 8,891 km, including the long border between Canada and Alaska.",
+   "sayAnswer": "Canada and the U.S.A! Their border runs 8,891 kilometers, including the long stretch between Canada and Alaska.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Canada%E2%80%93United_States_border"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which tiny country lies between France and Spain?",
+   "options": [
+    "Monaco",
+    "Andorra",
+    "San Marino",
+    "Luxembourg"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "Andorra's two princes are a Spanish bishop and the president of France.",
+   "sayAnswer": "Andorra! Its two princes are a Spanish bishop, and the president of France.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Andorra",
+    "https://www.britannica.com/place/Andorra"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is completely surrounded by South Africa?",
+   "options": [
+    "Eswatini",
+    "Botswana",
+    "Lesotho",
+    "Malawi"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:710"
+    ]
+   },
+   "fact": "All of Lesotho lies above 1,400 meters, higher than any other country.",
+   "sayAnswer": "Leh-soo-too! All of it lies above 1,400 meters. No other country has such a high lowest point.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lesotho",
+    "https://www.britannica.com/place/Lesotho"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is surrounded by Senegal on three sides?",
+   "options": [
+    "The Gambia",
+    "Guinea-Bissau",
+    "Togo",
+    "Sierra Leone"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:686"
+    ]
+   },
+   "fact": "The Gambia, mainland Africa's smallest country, is under 50 km wide.",
+   "sayAnswer": "The Gambia! It is the smallest country on the African mainland, and it is under 50 kilometers wide.",
+   "src": [
+    "https://en.wikipedia.org/wiki/The_Gambia",
+    "https://www.britannica.com/place/The-Gambia"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

@@ -1,0 +1,145 @@
+{
+ "id": "q3-geo-018",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "CONTINENTS QUIZ",
+ "title": [
+  "CONTINENTS",
+  "QUIZ",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Everybody knows the continents. Or do they? Five questions, three seconds each. Go!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which is the largest continent?",
+   "options": [
+    "Africa",
+    "Asia",
+    "North America",
+    "Antarctica"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌏"
+   },
+   "fact": "Asia holds about 30% of Earth's land and about 60% of its people.",
+   "sayAnswer": "Asia! It holds about 30 percent of Earth's land, and about 60 percent of its people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Continent"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the smallest continent?",
+   "options": [
+    "Europe",
+    "Antarctica",
+    "Australia",
+    "South America"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🦘"
+   },
+   "fact": "Australia covers about 7.6 million square km. Asia is almost 6 times bigger.",
+   "sayAnswer": "Australia! It covers about 7.6 million square kilometers. Asia is almost 6 times bigger.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Continent"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "On which continent is the Atacama, the driest non-polar desert?",
+   "options": [
+    "Africa",
+    "Asia",
+    "Australia",
+    "South America"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🌵"
+   },
+   "fact": "The Atacama runs along the Pacific coast of northern Chile.",
+   "sayAnswer": "South America! The Atacama runs along the Pacific coast of northern Chile.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "https://www.britannica.com/place/Atacama-Desert"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which continent is crossed by both the equator and the prime meridian?",
+   "options": [
+    "South America",
+    "Europe",
+    "Africa",
+    "Asia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌍"
+   },
+   "fact": "The two lines meet in the Atlantic, just off Africa's west coast.",
+   "sayAnswer": "Africa! The two lines meet in the Atlantic Ocean, just off Africa's west coast.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Prime_meridian",
+    "https://www.britannica.com/place/Africa"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which continent holds most of Earth's fresh water?",
+   "options": [
+    "Antarctica",
+    "North America",
+    "Asia",
+    "South America"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧊"
+   },
+   "fact": "Antarctica's ice sheet locks up well over half of Earth's fresh water.",
+   "sayAnswer": "Antarctica! Its ice sheet locks up well over half of all the fresh water on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Antarctic_ice_sheet",
+    "https://nsidc.org/learn/parts-cryosphere/ice-sheets/ice-sheet-quick-facts"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

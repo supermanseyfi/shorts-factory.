@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-019",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "HARD MODE"
+ ],
+ "hook": {
+  "say": "Hard mode! No famous outlines this time, only five shapes for true map experts. Can you get even three?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Nepal",
+    "Bangladesh",
+    "Sri Lanka",
+    "Cambodia"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:050"
+    ]
+   },
+   "fact": "Bangladesh: over 170 million people in one of the most crowded countries on Earth.",
+   "sayAnswer": "Bangladesh! Over 170 million people live in one of the most crowded countries on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bangladesh"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Cameroon",
+    "Ghana",
+    "Gabon",
+    "Nigeria"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:120"
+    ]
+   },
+   "fact": "Cameroon has two official languages: French and English.",
+   "sayAnswer": "Cameroon! It has 2 official languages: French and English.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Languages_of_Cameroon"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Vietnam",
+    "Cambodia",
+    "Myanmar",
+    "Laos"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:418"
+    ]
+   },
+   "fact": "Laos is the only landlocked country in Southeast Asia.",
+   "sayAnswer": "Laos! It is the only landlocked country in Southeast Asia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Lithuania",
+    "Poland",
+    "Belarus",
+    "Latvia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:112"
+    ]
+   },
+   "fact": "Belarus: forests cover more than 40% of the country.",
+   "sayAnswer": "Belarus! Forests cover more than 40 percent of the country.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Belarus"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Tajikistan",
+    "Kyrgyzstan",
+    "Turkmenistan",
+    "Uzbekistan"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:417"
+    ]
+   },
+   "fact": "Kyrgyzstan: Issyk-Kul is the second-largest mountain lake in the world.",
+   "sayAnswer": "Kyrgyzstan! Its lake Issyk-Kul is the second largest mountain lake in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Issyk-Kul"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

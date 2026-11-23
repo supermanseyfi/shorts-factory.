@@ -1,0 +1,174 @@
+{
+ "id": "q1-bigger-009",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "STATE VS",
+  "COUNTRY:",
+  "ROUND 2"
+ ],
+ "hook": {
+  "say": "US states against whole countries, round two. Which is bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: the US state of Georgia or Greece?",
+   "say": "Which is bigger: the U S state of Georgia, or Greece?",
+   "options": [
+    "Georgia (US state)",
+    "Greece"
+   ],
+   "answer": 0,
+   "values": [
+    153910,
+    131957
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:13",
+     "c:300"
+    ]
+   },
+   "fact": "The US state of Georgia is about 17% bigger than Greece.",
+   "sayAnswer": "Georgia! The U S state is about seventeen percent bigger than Greece.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: South Korea or Tennessee?",
+   "options": [
+    "South Korea",
+    "Tennessee"
+   ],
+   "answer": 1,
+   "values": [
+    100432,
+    109153
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:410",
+     "s:47"
+    ]
+   },
+   "fact": "Tennessee is 9% bigger than South Korea, home to 51 million people.",
+   "sayAnswer": "Tennessee! It is nine percent bigger than South Korea, which is home to fifty-one million people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Oregon or Romania?",
+   "options": [
+    "Oregon",
+    "Romania"
+   ],
+   "answer": 0,
+   "values": [
+    254799,
+    238398
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:41",
+     "c:642"
+    ]
+   },
+   "fact": "Oregon is about 7% bigger than Romania.",
+   "sayAnswer": "Oregon! It is about seven percent bigger than Romania.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Minnesota or UK?",
+   "say": "Which is bigger: Minnesota or the U K?",
+   "options": [
+    "Minnesota",
+    "UK"
+   ],
+   "answer": 1,
+   "values": [
+    225163,
+    244376
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:27",
+     "c:826"
+    ]
+   },
+   "fact": "The UK is about 9% bigger than Minnesota.",
+   "sayAnswer": "The U K! It is about nine percent bigger than Minnesota.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Italy or New Mexico?",
+   "options": [
+    "Italy",
+    "New Mexico"
+   ],
+   "answer": 1,
+   "values": [
+    302068,
+    314917
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:380",
+     "s:35"
+    ]
+   },
+   "fact": "New Mexico is about 4% bigger than Italy, with about 2 million people.",
+   "sayAnswer": "New Mexico! It is about four percent bigger than Italy, with only about two million people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

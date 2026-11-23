@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-008",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "MOUNTAIN",
+  "MYTHS",
+  "BUSTED"
+ ],
+ "hook": {
+  "say": "True or false? Five mountain facts, three seconds each. Number five makes Everest look small!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Mount Kilimanjaro is in Kenya.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🦒"
+   },
+   "fact": "Africa's highest mountain stands entirely in Tanzania.",
+   "sayAnswer": "False! Africa's highest mountain stands entirely in Tanzania.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "https://www.britannica.com/place/Kilimanjaro"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "K2 is the second-highest mountain on Earth.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "K2 rises 8,611 m. Only Mount Everest is higher.",
+   "sayAnswer": "True! K2 rises 8611 meters. Only Everest is higher.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Eight-thousander",
+    "https://www.britannica.com/place/K2"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Every mountain above 8,000 metres is in Asia.",
+   "say": "Every mountain above 8000 meters is in Asia.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "All 14 are in the Himalaya and Karakoram ranges.",
+   "sayAnswer": "True! All 14 of them are in the Himalaya and Karakoram ranges.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Eight-thousander"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Mount Everest sits on the border of Nepal and India.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🚩"
+   },
+   "fact": "Its summit is on the border between Nepal and China.",
+   "sayAnswer": "False! Its summit is on the border between Nepal and China.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Everest",
+    "https://en.wikipedia.org/wiki/Eight-thousander"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Measured from its base, Mauna Kea is taller than Mount Everest.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "From the ocean floor, Hawaii's Mauna Kea rises more than 10,210 m.",
+   "sayAnswer": "True! From the sea floor, Hawaii's Mauna Kea rises more than 10000 meters.",
+   "src": [
+    "https://oceanservice.noaa.gov/facts/highestpoint.html",
+    "https://en.wikipedia.org/wiki/Mauna_Kea"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-014",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "POLAR",
+  "FACTS",
+  "OR FAKES?"
+ ],
+ "hook": {
+  "say": "True or false? Five facts from the ends of the Earth, three seconds each. The last one looks like a horror movie!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Polar bears live in Antarctica.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🐻‍❄️"
+   },
+   "fact": "Polar bears live only in the Arctic, around the North Pole.",
+   "sayAnswer": "False! Polar bears live only in the Arctic, on the other side of the planet.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Polar_bear",
+    "https://en.wikipedia.org/wiki/Antarctica"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The South Pole is colder than the North Pole.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🥶"
+   },
+   "fact": "The South Pole sits high on land. The North Pole floats at sea level.",
+   "sayAnswer": "True! The South Pole sits high up on land. The North Pole is at sea level.",
+   "src": [
+    "https://en.wikipedia.org/wiki/North_Pole",
+    "https://en.wikipedia.org/wiki/South_Pole"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Antarctica has an active volcano.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "Mount Erebus is the southernmost active volcano on Earth.",
+   "sayAnswer": "True! Mount Erebus is the southernmost active volcano on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Erebus",
+    "https://en.wikipedia.org/wiki/Antarctica"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The North Pole sits on solid land.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🧊"
+   },
+   "fact": "There is only drifting sea ice over the Arctic Ocean. No land at all.",
+   "sayAnswer": "False! There is no land there, only sea ice drifting over the Arctic Ocean.",
+   "src": [
+    "https://en.wikipedia.org/wiki/North_Pole",
+    "https://www.britannica.com/place/North-Pole"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "A blood-red waterfall flows from a glacier in Antarctica.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🩸"
+   },
+   "fact": "Blood Falls: salty, iron-rich water that turns red in the air.",
+   "sayAnswer": "True! It is called Blood Falls. Salty, iron-rich water turns rusty red in the air.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Blood_Falls",
+    "https://www.nationalgeographic.com/science/article/blood-falls-antarctica-explained"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

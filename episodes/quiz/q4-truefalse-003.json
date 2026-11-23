@@ -1,0 +1,136 @@
+{
+ "id": "q4-truefalse-003",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "YOUR MAP",
+  "IS LYING",
+  "TO YOU"
+ ],
+ "hook": {
+  "say": "True or false? Flat maps stretch the truth. Five size facts, three seconds each. The last one fools map lovers!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Greenland is about the same size as Africa.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🗺️"
+   },
+   "fact": "It only looks that way on Mercator maps. Africa is 14 times larger.",
+   "sayAnswer": "False! It only looks that way on flat maps. Africa is 14 times larger.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mercator_projection",
+    "https://en.wikipedia.org/wiki/List_of_islands_by_area"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Antarctica is bigger than Europe.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧊"
+   },
+   "fact": "Antarctica is 14.2 million km², about 40% larger than Europe.",
+   "sayAnswer": "True! Antarctica is about 40 percent larger than Europe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Antarctica",
+    "https://www.britannica.com/place/Antarctica"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Almost all of South America lies east of Florida.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "South America sits far to the east. Nearly all of it is east of Miami.",
+   "sayAnswer": "True! South America sits far to the east. Nearly all of it is east of Miami.",
+   "src": [
+    "https://www.nationalgeographic.com/culture/article/all-over-the-map-mental-mapping-misconceptions"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Brazil is bigger than the contiguous United States.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇧🇷"
+   },
+   "fact": "Brazil: 8.5 million km². The lower 48 states: 8.1 million km².",
+   "sayAnswer": "True! Brazil is slightly bigger than the lower 48 states put together.",
+   "src": [
+    "https://www.nationalgeographic.com/culture/article/all-over-the-map-mental-mapping-misconceptions",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Alaska is bigger than Mexico.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "❄️"
+   },
+   "fact": "Mexico is 1.96 million km². Alaska is 1.72 million km².",
+   "sayAnswer": "False! Maps inflate Alaska. Mexico is actually the bigger one.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area",
+    "https://mylifeelsewhere.com/country-size-comparison/alaska-usa/mexico"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

@@ -1,0 +1,2246 @@
+[
+ {
+  "id": "q2-guess-002",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "EUROPE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Five European countries, five outlines. You get 3 seconds each, and the last one is the hardest!",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Spain",
+     "Germany",
+     "France",
+     "Poland"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:250"
+     ]
+    },
+    "fact": "France: its mainland is nicknamed the Hexagon for its six-sided shape.",
+    "sayAnswer": "France! Its mainland is nicknamed the Hexagon, because of its six-sided shape.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Metropolitan_France"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Spain",
+     "Portugal",
+     "France",
+     "Morocco"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:724"
+     ]
+    },
+    "fact": "Spain: home to the Sagrada Família, under construction since 1882.",
+    "sayAnswer": "Spain! Home to the Sagrada Familia, under construction since 1882.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Ireland",
+     "Iceland",
+     "Norway",
+     "United Kingdom"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:826"
+     ]
+    },
+    "fact": "United Kingdom: England, Scotland, Wales and Northern Ireland in one country.",
+    "sayAnswer": "The United Kingdom! England, Scotland, Wales and Northern Ireland, all in one country.",
+    "src": [
+     "https://en.wikipedia.org/wiki/United_Kingdom"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Poland",
+     "Germany",
+     "Austria",
+     "Belarus"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:276"
+     ]
+    },
+    "fact": "Germany is the most populous country in the European Union.",
+    "sayAnswer": "Germany! It is the most populous country in the European Union.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Germany"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Romania",
+     "Germany",
+     "Poland",
+     "Hungary"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:616"
+     ]
+    },
+    "fact": "Poland: its capital Warsaw lies on the Vistula, the country's longest river.",
+    "sayAnswer": "Poland! Its capital, Warsaw, lies on the Vistula, the longest river in the country.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Vistula"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-003",
+  "series": "GUESS THE STATE",
+  "title": [
+   "GUESS",
+   "THE",
+   "US STATE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Think you know the United States? Name these five states from their outlines alone. The last one is sneaky!",
+  "qs": [
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Texas",
+     "Oklahoma",
+     "Nevada",
+     "Montana"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:48"
+     ]
+    },
+    "fact": "Texas is the largest of the 48 contiguous states.",
+    "sayAnswer": "Texas! It is the largest of the 48 contiguous states.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Texas"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Louisiana",
+     "Florida",
+     "Georgia",
+     "South Carolina"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:12"
+     ]
+    },
+    "fact": "Florida has the longest coastline of the 48 contiguous states.",
+    "sayAnswer": "Florida! It has the longest coastline of the 48 contiguous states.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Florida"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Nevada",
+     "Oregon",
+     "Idaho",
+     "California"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:06"
+     ]
+    },
+    "fact": "California has more people than any other US state.",
+    "sayAnswer": "California! It has more people than any other US state.",
+    "src": [
+     "https://en.wikipedia.org/wiki/California"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Wisconsin",
+     "Minnesota",
+     "Michigan",
+     "Maine"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:26"
+     ]
+    },
+    "fact": "Michigan touches 4 of the 5 Great Lakes and looks like a mitten.",
+    "sayAnswer": "Michigan! It touches 4 of the 5 Great Lakes, and it looks like a mitten.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Michigan"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Mississippi",
+     "Louisiana",
+     "Alabama",
+     "Arkansas"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:22"
+     ]
+    },
+    "fact": "Louisiana is the only US state divided into parishes instead of counties.",
+    "sayAnswer": "Louisiana! It is the only US state divided into parishes instead of counties.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Louisiana"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-004",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "AFRICA"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Africa has 54 countries. Can you name these five from their shapes alone? It gets harder every round!",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Namibia",
+     "Botswana",
+     "Tanzania",
+     "South Africa"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:710"
+     ]
+    },
+    "fact": "South Africa has three capital cities: Pretoria, Cape Town and Bloemfontein.",
+    "sayAnswer": "South Africa! It has 3 capital cities: Pretoria, Cape Town and Bloemfontein.",
+    "src": [
+     "https://en.wikipedia.org/wiki/South_Africa"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Egypt",
+     "Libya",
+     "Sudan",
+     "Saudi Arabia"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:818"
+     ]
+    },
+    "fact": "Egypt: home to the Great Pyramid, the last ancient wonder still standing.",
+    "sayAnswer": "Egypt! Home to the Great Pyramid, the last ancient wonder still standing.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Libya",
+     "Mali",
+     "Algeria",
+     "Niger"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:012"
+     ]
+    },
+    "fact": "Algeria is the largest country in Africa.",
+    "sayAnswer": "Algeria! It is the largest country in Africa.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Algeria"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Uganda",
+     "Kenya",
+     "Ethiopia",
+     "Tanzania"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:404"
+     ]
+    },
+    "fact": "Kenya: the equator runs right across the middle of the country.",
+    "sayAnswer": "Kenya! The equator runs right across the middle of the country.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Kenya"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Mozambique",
+     "Madagascar",
+     "Malawi",
+     "Zimbabwe"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:508"
+     ]
+    },
+    "fact": "Mozambique: its national flag features an AK-47 rifle.",
+    "sayAnswer": "Mozambique! Its national flag features an AK 47 rifle.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Flag_of_Mozambique"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-005",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "ASIA"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Asia is the biggest continent on Earth. Can you name these five Asian countries from their outlines?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "North Korea",
+     "Vietnam",
+     "South Korea",
+     "Cambodia"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:410"
+     ]
+    },
+    "fact": "South Korea: its alphabet, Hangul, was created in the 1440s by King Sejong.",
+    "sayAnswer": "South Korea! Its alphabet, Hangul, was created in the 1440s by King Sejong.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Hangul"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Mongolia",
+     "Kazakhstan",
+     "Uzbekistan",
+     "Iran"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:398"
+     ]
+    },
+    "fact": "Kazakhstan is the largest landlocked country in the world.",
+    "sayAnswer": "Kazakhstan! It is the largest landlocked country in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Mongolia",
+     "Kazakhstan",
+     "Kyrgyzstan",
+     "Turkmenistan"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:496"
+     ]
+    },
+    "fact": "Mongolia is the most sparsely populated sovereign country on Earth.",
+    "sayAnswer": "Mongolia! It is the most sparsely populated sovereign country on Earth.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mongolia"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Bhutan",
+     "Bangladesh",
+     "Tajikistan",
+     "Nepal"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:524"
+     ]
+    },
+    "fact": "Nepal has the only national flag in the world that is not a rectangle.",
+    "sayAnswer": "Nepal! It has the only national flag in the world that is not a rectangle.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Flag_of_Nepal"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Thailand",
+     "Laos",
+     "Myanmar",
+     "Vietnam"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:104"
+     ]
+    },
+    "fact": "Myanmar, once called Burma, is the largest country in mainland Southeast Asia.",
+    "sayAnswer": "Myanmar! Once called Burma, it is the largest country in mainland Southeast Asia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Myanmar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-006",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "SOUTH AMERICA"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "South America, five shapes. The first one is a gift, but can you still score five out of five?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Argentina",
+     "Brazil",
+     "Colombia",
+     "Venezuela"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:076"
+     ]
+    },
+    "fact": "Brazil borders every South American country except Chile and Ecuador.",
+    "sayAnswer": "Brazil! It borders every South American country except Chile and Ecuador.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Brazil"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Argentina",
+     "Peru",
+     "Paraguay",
+     "Uruguay"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:032"
+     ]
+    },
+    "fact": "Argentina: home to Aconcagua, the highest mountain outside Asia.",
+    "sayAnswer": "Argentina! Home to Aconcagua, the highest mountain outside Asia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Aconcagua"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Ecuador",
+     "Bolivia",
+     "Colombia",
+     "Peru"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:604"
+     ]
+    },
+    "fact": "Peru: home to Machu Picchu, a 15th-century Inca citadel in the Andes.",
+    "sayAnswer": "Peru! Home to Machu Picchu, a 15th century Inca citadel in the Andes.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Machu_Picchu"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Venezuela",
+     "Ecuador",
+     "Colombia",
+     "Peru"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:170"
+     ]
+    },
+    "fact": "Colombia is named after the explorer Christopher Columbus.",
+    "sayAnswer": "Colombia! It is named after the explorer Christopher Columbus.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Name_of_Colombia"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Paraguay",
+     "Bolivia",
+     "Peru",
+     "Uruguay"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:068"
+     ]
+    },
+    "fact": "Bolivia: home to Salar de Uyuni, the largest salt flat in the world.",
+    "sayAnswer": "Bolivia! Home to Salar de Uyuni, the largest salt flat in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Salar_de_Uyuni"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-007",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "ISLAND",
+   "NATION"
+  ],
+  "sub": "5 ISLANDS · 3 SECONDS EACH",
+  "hook": "Five countries completely surrounded by sea. Can you name each island nation from its outline alone?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "New Zealand",
+     "Australia",
+     "Madagascar",
+     "Papua New Guinea"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:036"
+     ]
+    },
+    "fact": "Australia: its mainland is the smallest continent in the world.",
+    "sayAnswer": "Australia! Its mainland is the smallest continent in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Australia"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Sri Lanka",
+     "Cuba",
+     "Mozambique",
+     "Madagascar"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:450"
+     ]
+    },
+    "fact": "Madagascar is the fourth-largest island in the world.",
+    "sayAnswer": "Madagascar! It is the fourth largest island in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Madagascar"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "New Zealand",
+     "Japan",
+     "United Kingdom",
+     "Philippines"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:554"
+     ]
+    },
+    "fact": "New Zealand: Cook Strait splits its North and South Islands.",
+    "sayAnswer": "New Zealand! The Cook Strait splits its North and South Islands.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Cook_Strait"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Ireland",
+     "Iceland",
+     "Sri Lanka",
+     "Jamaica"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:352"
+     ]
+    },
+    "fact": "Iceland: Reykjavík is the northernmost capital of any sovereign state.",
+    "sayAnswer": "Iceland! Its capital, Reykjavik, is the northernmost capital of any sovereign state.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Jamaica",
+     "Dominican Republic",
+     "Cuba",
+     "Haiti"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:192"
+     ]
+    },
+    "fact": "Cuba is the largest island in the Caribbean.",
+    "sayAnswer": "Cuba! It is the largest island in the Caribbean.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Cuba"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-008",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "COUNTRIES",
+   "THAT LOOK",
+   "LIKE THINGS"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "A teardrop, an elephant, a letter S. These five countries all look like something. Can you name them?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Madagascar",
+     "Sri Lanka",
+     "Ireland",
+     "Cuba"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:144"
+     ]
+    },
+    "fact": "Sri Lanka: this teardrop-shaped island was called Ceylon until 1972.",
+    "sayAnswer": "Sri Lanka! This teardrop shaped island was called Ceylon until 1972.",
+    "src": [
+     "https://www.britannica.com/place/Sri-Lanka",
+     "https://currentaffairs.adda247.com/which-country-is-known-as-the-tear-drop-of-india/"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Vietnam",
+     "Myanmar",
+     "Malaysia",
+     "Thailand"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:764"
+     ]
+    },
+    "fact": "Thailand: Thais often say their country is shaped like an elephant's head.",
+    "sayAnswer": "Thailand! Thais often say their country is shaped like an elephant's head.",
+    "src": [
+     "https://kids.britannica.com/kids/article/Thailand/345800"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Vietnam",
+     "Laos",
+     "Thailand",
+     "Cambodia"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:704"
+     ]
+    },
+    "fact": "Vietnam: roughly S-shaped, and only about 50 km wide at its narrowest.",
+    "sayAnswer": "Vietnam! It is roughly S shaped, and only about 50 kilometers wide at its narrowest.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Vietnam"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Sweden",
+     "Norway",
+     "Finland",
+     "Estonia"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:246"
+     ]
+    },
+    "fact": "Finland: its outline is known as the Maiden of Finland, a woman with a raised arm.",
+    "sayAnswer": "Finland! Its outline is known as the Maiden of Finland, a woman with a raised arm.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Finnish_Maiden",
+     "https://bigthink.com/?p=73424"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Slovenia",
+     "Croatia",
+     "Albania",
+     "Greece"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:191"
+     ]
+    },
+    "fact": "Croatia: shaped like a horseshoe, with more than 1,000 islands and islets.",
+    "sayAnswer": "Croatia! It is shaped like a horseshoe, with more than 1000 islands and islets.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Croatia"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-009",
+  "series": "NEIGHBOURS OF TÜRKIYE",
+  "title": [
+   "GUESS THE",
+   "NEIGHBOUR",
+   "OF TÜRKIYE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Turkey shares a border with eight countries. Here are five of them. Can you name each one from its shape?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Greece",
+     "Bulgaria",
+     "Croatia",
+     "Albania"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:300"
+     ]
+    },
+    "fact": "Greece has the longest coastline in the Mediterranean.",
+    "sayAnswer": "Greece! It has the longest coastline in the Mediterranean.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Greece"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Iraq",
+     "Afghanistan",
+     "Iran",
+     "Saudi Arabia"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:364"
+     ]
+    },
+    "fact": "Iran was officially known as Persia in the West until 1935.",
+    "sayAnswer": "Iran! It was officially known as Persia in the West until 1935.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Name_of_Iran"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Syria",
+     "Iraq",
+     "Jordan",
+     "Iran"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:368"
+     ]
+    },
+    "fact": "Iraq: both the Tigris and the Euphrates flow through it.",
+    "sayAnswer": "Iraq! Both the Tigris and the Euphrates flow through it.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Iraq"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Romania",
+     "Greece",
+     "Hungary",
+     "Bulgaria"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:100"
+     ]
+    },
+    "fact": "Bulgaria: its Rose Valley is one of the world's top sources of rose oil.",
+    "sayAnswer": "Bulgaria! Its Rose Valley is one of the world's top sources of rose oil.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Rose_Valley,_Bulgaria"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Armenia",
+     "Azerbaijan",
+     "Georgia",
+     "Bulgaria"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:268"
+     ]
+    },
+    "fact": "Georgia: people have been making wine here for about 8,000 years.",
+    "sayAnswer": "Georgia! People have been making wine here for about 8000 years.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Georgian_wine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-010",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "NORTH AMERICA"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "From the Arctic down to the tropics: five North American countries. Easy start, tricky finish. Ready?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Canada",
+     "United States",
+     "Mexico",
+     "Brazil"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:840"
+     ]
+    },
+    "fact": "United States: 50 states and one federal capital, Washington, D.C.",
+    "sayAnswer": "The United States! 50 states and one federal capital, Washington D.C.",
+    "src": [
+     "https://en.wikipedia.org/wiki/United_States"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Canada",
+     "United States",
+     "Australia",
+     "Norway"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:124"
+     ]
+    },
+    "fact": "Canada has the longest coastline of any country in the world.",
+    "sayAnswer": "Canada! It has the longest coastline of any country in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Canada"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Guatemala",
+     "Colombia",
+     "Peru",
+     "Mexico"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:484"
+     ]
+    },
+    "fact": "Mexico has more native Spanish speakers than any other country.",
+    "sayAnswer": "Mexico! It has more native Spanish speakers than any other country.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mexico"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Costa Rica",
+     "Nicaragua",
+     "Panama",
+     "Honduras"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:591"
+     ]
+    },
+    "fact": "Panama: its canal, opened in 1914, links the Atlantic and Pacific oceans.",
+    "sayAnswer": "Panama! Its canal, opened in 1914, links the Atlantic and Pacific oceans.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Panama_Canal"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Honduras",
+     "Guatemala",
+     "Nicaragua",
+     "Costa Rica"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:320"
+     ]
+    },
+    "fact": "Guatemala: home to Tikal, one of the largest cities of the ancient Maya.",
+    "sayAnswer": "Guatemala! Home to Tikal, one of the largest cities of the ancient Maya.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Tikal"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-011",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "NORTH EUROPE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Fjords, forests and thousands of islands. Can you name these five countries of Northern Europe by shape?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Sweden",
+     "Finland",
+     "Norway",
+     "Iceland"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:578"
+     ]
+    },
+    "fact": "Norway: its longest fjord, the Sognefjord, runs about 205 km inland.",
+    "sayAnswer": "Norway! Its longest fjord, the Sognefjord, runs about 205 kilometers inland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Sognefjord"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Sweden",
+     "Norway",
+     "Finland",
+     "Denmark"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:752"
+     ]
+    },
+    "fact": "Sweden is the largest and most populous of the Nordic countries.",
+    "sayAnswer": "Sweden! It is the largest and most populous of the Nordic countries.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Sweden"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Iceland",
+     "United Kingdom",
+     "Denmark",
+     "Ireland"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:372"
+     ]
+    },
+    "fact": "Ireland: so green that the island is nicknamed the Emerald Isle.",
+    "sayAnswer": "Ireland! So green that the island is nicknamed the Emerald Isle.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Ireland"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Netherlands",
+     "Denmark",
+     "Estonia",
+     "Belgium"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:208"
+     ]
+    },
+    "fact": "Denmark: its capital Copenhagen sits mainly on the island of Zealand.",
+    "sayAnswer": "Denmark! Its capital, Copenhagen, sits mainly on the island of Zealand.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Copenhagen"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Latvia",
+     "Lithuania",
+     "Estonia",
+     "Finland"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:233"
+     ]
+    },
+    "fact": "Estonia has more than 2,000 islands in the Baltic Sea.",
+    "sayAnswer": "Estonia! It has more than 2000 islands in the Baltic Sea.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_islands_of_Estonia"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-012",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "EUROPE",
+   "HARD",
+   "MODE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Europe on hard mode! No boots, no easy islands. Can you still name all five countries by their shape?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Portugal",
+     "Spain",
+     "Ireland",
+     "Albania"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:620"
+     ]
+    },
+    "fact": "Portugal: Cabo da Roca is the westernmost point of mainland Europe.",
+    "sayAnswer": "Portugal! Its Cabo da Roca is the westernmost point of mainland Europe.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Cabo_da_Roca"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Bulgaria",
+     "Hungary",
+     "Poland",
+     "Romania"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:642"
+     ]
+    },
+    "fact": "Romania: the Danube ends here, in the best-preserved river delta in Europe.",
+    "sayAnswer": "Romania! The Danube ends here, in the best preserved river delta in Europe.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Danube_Delta"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Switzerland",
+     "Austria",
+     "Czechia",
+     "Slovakia"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:040"
+     ]
+    },
+    "fact": "Austria: the birthplace of Mozart, born in Salzburg in 1756.",
+    "sayAnswer": "Austria! The birthplace of Mozart, who was born in Salzburg in 1756.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Slovakia",
+     "Hungary",
+     "Czechia",
+     "Austria"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:203"
+     ]
+    },
+    "fact": "Czechia: Prague Castle is the largest ancient castle in the world.",
+    "sayAnswer": "Czechia! Prague Castle is the largest ancient castle in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Prague_Castle"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Hungary",
+     "Slovakia",
+     "Romania",
+     "Serbia"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:348"
+     ]
+    },
+    "fact": "Hungary: home to Lake Balaton, the largest lake in Central Europe.",
+    "sayAnswer": "Hungary! Home to Lake Balaton, the largest lake in Central Europe.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Lake_Balaton"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-013",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "NO COAST",
+   "LANDLOCKED",
+   "COUNTRIES"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "None of these five countries touches the ocean. Can you name every landlocked country from its outline?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Austria",
+     "Switzerland",
+     "Czechia",
+     "Hungary"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:756"
+     ]
+    },
+    "fact": "Switzerland has 4 national languages: German, French, Italian and Romansh.",
+    "sayAnswer": "Switzerland! It has 4 national languages: German, French, Italian and Romansh.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Languages_of_Switzerland"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Afghanistan",
+     "Uzbekistan",
+     "Nepal",
+     "Mongolia"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:004"
+     ]
+    },
+    "fact": "Afghanistan: its capital Kabul lies about 1,800 m above sea level.",
+    "sayAnswer": "Afghanistan! Its capital, Kabul, lies about 1800 meters above sea level.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Kabul"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Niger",
+     "Mali",
+     "Zambia",
+     "Chad"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:148"
+     ]
+    },
+    "fact": "Chad is named after Lake Chad, on its western edge.",
+    "sayAnswer": "Chad! It is named after Lake Chad, on its western edge.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Chad"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Bolivia",
+     "Uruguay",
+     "Paraguay",
+     "Zambia"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:600"
+     ]
+    },
+    "fact": "Paraguay is one of only two landlocked countries in South America.",
+    "sayAnswer": "Paraguay! It is one of only 2 landlocked countries in South America.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Turkmenistan",
+     "Uzbekistan",
+     "Kyrgyzstan",
+     "Tajikistan"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:860"
+     ]
+    },
+    "fact": "Uzbekistan is doubly landlocked: all its neighbours are landlocked too.",
+    "sayAnswer": "Uzbekistan! It is doubly landlocked: all of its neighbours are landlocked too.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-014",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "MIDDLE EAST"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Deserts, ancient cities and the tallest tower on Earth. Name these five Middle Eastern countries by shape!",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Iran",
+     "Egypt",
+     "Saudi Arabia",
+     "Yemen"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:682"
+     ]
+    },
+    "fact": "Saudi Arabia covers about 80% of the Arabian Peninsula.",
+    "sayAnswer": "Saudi Arabia! It covers about 80 percent of the Arabian Peninsula.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Saudi_Arabia"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Oman",
+     "Yemen",
+     "United Arab Emirates",
+     "Qatar"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:512"
+     ]
+    },
+    "fact": "Oman: its capital, Muscat, lies on the Gulf of Oman.",
+    "sayAnswer": "Oman! Its capital, Muscat, lies on the Gulf of Oman.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Muscat"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Oman",
+     "Jordan",
+     "Syria",
+     "Yemen"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:887"
+     ]
+    },
+    "fact": "Yemen: the Old City of Sana'a has been a World Heritage Site since 1986.",
+    "sayAnswer": "Yemen! The Old City of Sanaa has been a World Heritage Site since 1986.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Old_City_of_Sanaa"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Qatar",
+     "United Arab Emirates",
+     "Kuwait",
+     "Oman"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:784"
+     ]
+    },
+    "fact": "United Arab Emirates: home to the Burj Khalifa, the tallest building on Earth.",
+    "sayAnswer": "The United Arab Emirates! Home to the Burj Khalifa, the tallest building on Earth.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Syria",
+     "Iraq",
+     "Jordan",
+     "Lebanon"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:400"
+     ]
+    },
+    "fact": "Jordan: home to Petra, the Rose City carved into sandstone cliffs.",
+    "sayAnswer": "Jordan! Home to Petra, the Rose City carved into sandstone cliffs.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Petra"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-015",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "AFRICA 2"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Back to Africa for round two, and this time it is tougher. Five more outlines. How many can you name?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Ghana",
+     "Cameroon",
+     "Nigeria",
+     "Niger"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:566"
+     ]
+    },
+    "fact": "Nigeria has more people than any other country in Africa.",
+    "sayAnswer": "Nigeria! It has more people than any other country in Africa.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Nigeria"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Ethiopia",
+     "Kenya",
+     "Sudan",
+     "Chad"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:231"
+     ]
+    },
+    "fact": "Ethiopia is the most populous landlocked country in the world.",
+    "sayAnswer": "Ethiopia! It is the most populous landlocked country in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Angola",
+     "Sudan",
+     "Tanzania",
+     "DR Congo"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:180"
+     ]
+    },
+    "fact": "DR Congo is the second-largest country in Africa, after Algeria.",
+    "sayAnswer": "The Democratic Republic of the Congo! It is the second largest country in Africa, after Algeria.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Botswana",
+     "Namibia",
+     "Angola",
+     "Zimbabwe"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:516"
+     ]
+    },
+    "fact": "Namibia: home to the Namib, which may be the oldest desert in the world.",
+    "sayAnswer": "Namibia! Home to the Namib, which may be the oldest desert in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Namib"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Zimbabwe",
+     "Malawi",
+     "Zambia",
+     "Uganda"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:894"
+     ]
+    },
+    "fact": "Zambia shares the mighty Victoria Falls with its neighbour Zimbabwe.",
+    "sayAnswer": "Zambia! It shares the mighty Victoria Falls with its neighbour Zimbabwe.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Victoria_Falls"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-016",
+  "series": "GUESS THE STATE",
+  "title": [
+   "GUESS THE",
+   "US STATE",
+   "LEVEL 2"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "US states, level 2! A panhandle, a potato giant and three more. Can you name all five by shape?",
+  "qs": [
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Pennsylvania",
+     "New York",
+     "Virginia",
+     "Massachusetts"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:36"
+     ]
+    },
+    "fact": "New York: its capital is Albany, not New York City.",
+    "sayAnswer": "New York! Its capital is Albany, not New York City.",
+    "src": [
+     "https://en.wikipedia.org/wiki/New_York_(state)"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Oklahoma",
+     "Nebraska",
+     "Kansas",
+     "Tennessee"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:40"
+     ]
+    },
+    "fact": "Oklahoma: its famous panhandle is only about 55 km wide.",
+    "sayAnswer": "Oklahoma! Its famous panhandle is only about 55 kilometers wide.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Oklahoma_Panhandle"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Montana",
+     "Nevada",
+     "Utah",
+     "Idaho"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:16"
+     ]
+    },
+    "fact": "Idaho grows almost a third of all the potatoes in the United States.",
+    "sayAnswer": "Idaho! It grows almost a third of all the potatoes in the United States.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Idaho"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Wisconsin",
+     "Iowa",
+     "Minnesota",
+     "North Dakota"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:27"
+     ]
+    },
+    "fact": "Minnesota: the Land of 10,000 Lakes, where the Mississippi River begins.",
+    "sayAnswer": "Minnesota! The Land of 10,000 Lakes, where the Mississippi River begins.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Minnesota"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Kentucky",
+     "Tennessee",
+     "North Carolina",
+     "Virginia"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:47"
+     ]
+    },
+    "fact": "Tennessee borders 8 other states, tied with Missouri for the most.",
+    "sayAnswer": "Tennessee! It borders 8 other states, tied with Missouri for the most.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Tennessee"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-017",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "AMERICAS 2"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Round two in the Americas! The famous shapes are gone. Can you name these five trickier countries?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Colombia",
+     "Venezuela",
+     "Bolivia",
+     "Guyana"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:862"
+     ]
+    },
+    "fact": "Venezuela: home to Angel Falls, the tallest waterfall in the world.",
+    "sayAnswer": "Venezuela! Home to Angel Falls, the tallest waterfall in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Angel_Falls"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Ecuador",
+     "Uruguay",
+     "Paraguay",
+     "Panama"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:218"
+     ]
+    },
+    "fact": "Ecuador: its name is simply the Spanish word for equator.",
+    "sayAnswer": "Ecuador! Its name is simply the Spanish word for equator.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Ecuador"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Paraguay",
+     "Suriname",
+     "Ecuador",
+     "Uruguay"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:858"
+     ]
+    },
+    "fact": "Uruguay hosted and won the very first FIFA World Cup, in 1930.",
+    "sayAnswer": "Uruguay! It hosted and won the very first FIFA World Cup, in 1930.",
+    "src": [
+     "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Honduras",
+     "Costa Rica",
+     "Nicaragua",
+     "Guatemala"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:558"
+     ]
+    },
+    "fact": "Nicaragua is the largest country in Central America.",
+    "sayAnswer": "Nicaragua! It is the largest country in Central America.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Nicaragua"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Suriname",
+     "Guyana",
+     "Uruguay",
+     "Belize"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:328"
+     ]
+    },
+    "fact": "Guyana is the only South American country with English as its official language.",
+    "sayAnswer": "Guyana! It is the only South American country with English as its official language.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Guyana"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-018",
+  "series": "GUESS THE STATE",
+  "title": [
+   "GUESS THE",
+   "US STATE",
+   "WILD WEST"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Head out west! Five big states with lots of straight borders. Can you tell them apart by shape alone?",
+  "qs": [
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Oregon",
+     "Washington",
+     "Idaho",
+     "Maine"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:53"
+     ]
+    },
+    "fact": "Washington is the only US state named after a president.",
+    "sayAnswer": "Washington! It is the only US state named after a president.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Washington_(state)"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Nevada",
+     "Arizona",
+     "California",
+     "Utah"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:32"
+     ]
+    },
+    "fact": "Nevada is the driest state in the United States.",
+    "sayAnswer": "Nevada! It is the driest state in the United States.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Nevada"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "New Mexico",
+     "Nevada",
+     "Arizona",
+     "Utah"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:04"
+     ]
+    },
+    "fact": "Arizona: home to the Grand Canyon, carved by the Colorado River.",
+    "sayAnswer": "Arizona! Home to the Grand Canyon, carved by the Colorado River.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Grand_Canyon"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Wyoming",
+     "Colorado",
+     "New Mexico",
+     "Utah"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:49"
+     ]
+    },
+    "fact": "Utah: its Great Salt Lake is the largest salt lake in the Western Hemisphere.",
+    "sayAnswer": "Utah! Its Great Salt Lake is the largest salt lake in the Western Hemisphere.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Great_Salt_Lake"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "North Dakota",
+     "Montana",
+     "Wyoming",
+     "South Dakota"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:30"
+     ]
+    },
+    "fact": "Montana is the fourth-largest US state by area.",
+    "sayAnswer": "Montana! It is the fourth largest US state by area.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Montana"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-019",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS THE",
+   "COUNTRY",
+   "HARD MODE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Hard mode! No famous outlines this time, only five shapes for true map experts. Can you get even three?",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Nepal",
+     "Bangladesh",
+     "Sri Lanka",
+     "Cambodia"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:050"
+     ]
+    },
+    "fact": "Bangladesh: over 170 million people in one of the most crowded countries on Earth.",
+    "sayAnswer": "Bangladesh! Over 170 million people live in one of the most crowded countries on Earth.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Bangladesh"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Cameroon",
+     "Ghana",
+     "Gabon",
+     "Nigeria"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:120"
+     ]
+    },
+    "fact": "Cameroon has two official languages: French and English.",
+    "sayAnswer": "Cameroon! It has 2 official languages: French and English.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Languages_of_Cameroon"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Vietnam",
+     "Cambodia",
+     "Myanmar",
+     "Laos"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:418"
+     ]
+    },
+    "fact": "Laos is the only landlocked country in Southeast Asia.",
+    "sayAnswer": "Laos! It is the only landlocked country in Southeast Asia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Lithuania",
+     "Poland",
+     "Belarus",
+     "Latvia"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:112"
+     ]
+    },
+    "fact": "Belarus: forests cover more than 40% of the country.",
+    "sayAnswer": "Belarus! Forests cover more than 40 percent of the country.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Belarus"
+    ]
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Tajikistan",
+     "Kyrgyzstan",
+     "Turkmenistan",
+     "Uzbekistan"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:417"
+     ]
+    },
+    "fact": "Kyrgyzstan: Issyk-Kul is the second-largest mountain lake in the world.",
+    "sayAnswer": "Kyrgyzstan! Its lake Issyk-Kul is the second largest mountain lake in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Issyk-Kul"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-020",
+  "series": "GUESS THE STATE",
+  "title": [
+   "US STATES",
+   "HARD",
+   "MODE"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "US states on hard mode! No Texas, no Florida. Only real map fans can name all five of these.",
+  "qs": [
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Vermont",
+     "New Hampshire",
+     "Maine",
+     "Michigan"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:23"
+     ]
+    },
+    "fact": "Maine is the only US state that borders exactly one other state.",
+    "sayAnswer": "Maine! It is the only US state that borders exactly one other state.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Maine"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Illinois",
+     "Indiana",
+     "Ohio",
+     "Mississippi"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:17"
+     ]
+    },
+    "fact": "Illinois: Chicago is its largest city, but the capital is Springfield.",
+    "sayAnswer": "Illinois! Chicago is its largest city, but the capital is Springfield.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Illinois"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Virginia",
+     "Maryland",
+     "Kentucky",
+     "West Virginia"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:54"
+     ]
+    },
+    "fact": "West Virginia split from Virginia and became a state in 1863.",
+    "sayAnswer": "West Virginia! It split from Virginia and became a state in 1863.",
+    "src": [
+     "https://en.wikipedia.org/wiki/West_Virginia"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Tennessee",
+     "Kentucky",
+     "Virginia",
+     "North Carolina"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:21"
+     ]
+    },
+    "fact": "Kentucky: home to Mammoth Cave, the longest known cave system in the world.",
+    "sayAnswer": "Kentucky! Home to Mammoth Cave, the longest known cave system in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park"
+    ]
+   },
+   {
+    "q": "Which US state is this?",
+    "options": [
+     "Arkansas",
+     "Iowa",
+     "Missouri",
+     "Alabama"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "s:29"
+     ]
+    },
+    "fact": "Missouri: the Gateway Arch in St. Louis is the tallest arch in the world.",
+    "sayAnswer": "Missouri! The Gateway Arch in Saint Louis is the tallest arch in the world.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Gateway_Arch"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,133 @@
+{
+ "id": "q5-turkiye-001",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "TÜRKİYE?"
+ ],
+ "hook": {
+  "say": "How well do you know Turkey? Five questions, three seconds each. Number four trips up even locals!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What is the capital of Türkiye?",
+   "say": "What is the capital of Turkey?",
+   "options": [
+    "Istanbul",
+    "Ankara",
+    "İzmir",
+    "Bursa"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇹🇷"
+   },
+   "fact": "Ankara became the capital in 1923.",
+   "sayAnswer": "Ankara! It became the capital in 1923.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which is Türkiye's highest mountain?",
+   "say": "Which is Turkey's highest mountain?",
+   "options": [
+    "Mount Erciyes",
+    "Mount Kaçkar",
+    "Mount Ararat",
+    "Uludağ"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "Mount Ararat rises to 5,137 meters.",
+   "sayAnswer": "Mount Ararat! It rises to 5137 meters.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which is Türkiye's largest lake?",
+   "say": "Which is Turkey's largest lake?",
+   "options": [
+    "Lake Tuz",
+    "Lake Beyşehir",
+    "Lake Eğirdir",
+    "Lake Van"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "Lake Van is so big that locals call it a sea.",
+   "sayAnswer": "Lake Van! It is so big that locals call it a sea.",
+   "kind": "choice"
+  },
+  {
+   "q": "How many provinces does Türkiye have?",
+   "say": "How many provinces does Turkey have?",
+   "options": [
+    "67",
+    "73",
+    "81",
+    "90"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:792"
+    ]
+   },
+   "fact": "81 provinces, from Edirne in the west to Hakkâri in the east.",
+   "sayAnswer": "Eighty-one! From Edirne in the west, to Hakkari in the east.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which is Türkiye's largest province by area?",
+   "say": "Which is Turkey's largest province by area?",
+   "options": [
+    "Ankara",
+    "Sivas",
+    "Konya",
+    "Erzurum"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🗺️"
+   },
+   "fact": "Konya is bigger than Belgium.",
+   "sayAnswer": "Konya! It is bigger than Belgium.",
+   "kind": "choice"
+  }
+ ]
+}

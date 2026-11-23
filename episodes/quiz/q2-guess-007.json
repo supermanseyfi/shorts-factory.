@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-007",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "ISLAND",
+  "NATION"
+ ],
+ "hook": {
+  "say": "Five countries completely surrounded by sea. Can you name each island nation from its outline alone?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "New Zealand",
+    "Australia",
+    "Madagascar",
+    "Papua New Guinea"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:036"
+    ]
+   },
+   "fact": "Australia: its mainland is the smallest continent in the world.",
+   "sayAnswer": "Australia! Its mainland is the smallest continent in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Australia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Sri Lanka",
+    "Cuba",
+    "Mozambique",
+    "Madagascar"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:450"
+    ]
+   },
+   "fact": "Madagascar is the fourth-largest island in the world.",
+   "sayAnswer": "Madagascar! It is the fourth largest island in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Madagascar"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "New Zealand",
+    "Japan",
+    "United Kingdom",
+    "Philippines"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:554"
+    ]
+   },
+   "fact": "New Zealand: Cook Strait splits its North and South Islands.",
+   "sayAnswer": "New Zealand! The Cook Strait splits its North and South Islands.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cook_Strait"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Ireland",
+    "Iceland",
+    "Sri Lanka",
+    "Jamaica"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:352"
+    ]
+   },
+   "fact": "Iceland: Reykjavík is the northernmost capital of any sovereign state.",
+   "sayAnswer": "Iceland! Its capital, Reykjavik, is the northernmost capital of any sovereign state.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Jamaica",
+    "Dominican Republic",
+    "Cuba",
+    "Haiti"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:192"
+    ]
+   },
+   "fact": "Cuba is the largest island in the Caribbean.",
+   "sayAnswer": "Cuba! It is the largest island in the Caribbean.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cuba"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 ISLANDS · 3 SECONDS EACH"
+}

@@ -1,0 +1,167 @@
+{
+ "id": "q1-bigger-013",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "NEIGHBOURS:",
+  "WHICH ONE",
+  "IS BIGGER?"
+ ],
+ "hook": {
+  "say": "They share a border, but which neighbour is bigger? Five duels, three seconds each. Trust your gut!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Germany or Poland?",
+   "options": [
+    "Germany",
+    "Poland"
+   ],
+   "answer": 0,
+   "values": [
+    357592,
+    312685
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:276",
+     "c:616"
+    ]
+   },
+   "fact": "Germany is about 14% bigger than Poland.",
+   "sayAnswer": "Germany! It is about fourteen percent bigger than Poland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Spain or France?",
+   "options": [
+    "Spain",
+    "France"
+   ],
+   "answer": 1,
+   "values": [
+    505370,
+    551695
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:724",
+     "c:250"
+    ]
+   },
+   "fact": "Mainland France is about 9% bigger than Spain.",
+   "sayAnswer": "France! Mainland France is about nine percent bigger than Spain.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Thailand or Myanmar?",
+   "options": [
+    "Thailand",
+    "Myanmar"
+   ],
+   "answer": 1,
+   "values": [
+    513120,
+    676578
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:764",
+     "c:104"
+    ]
+   },
+   "fact": "Myanmar is about a third bigger than Thailand.",
+   "sayAnswer": "Myanmar! It is about a third bigger than Thailand.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Libya or Egypt?",
+   "options": [
+    "Libya",
+    "Egypt"
+   ],
+   "answer": 0,
+   "values": [
+    1759540,
+    1001450
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:434",
+     "c:818"
+    ]
+   },
+   "fact": "Libya is about 75% bigger than Egypt, with far fewer people.",
+   "sayAnswer": "Libya! It is about seventy-five percent bigger than Egypt, with far fewer people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Colombia or Peru?",
+   "options": [
+    "Colombia",
+    "Peru"
+   ],
+   "answer": 1,
+   "values": [
+    1138910,
+    1285216
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:170",
+     "c:604"
+    ]
+   },
+   "fact": "Peru is about 13% bigger than Colombia.",
+   "sayAnswer": "Peru! It is about thirteen percent bigger than Colombia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

@@ -1,0 +1,147 @@
+{
+ "id": "q3-geo-013",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "MOUNTAINS QUIZ",
+ "title": [
+  "MOUNTAIN",
+  "QUIZ",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Five questions about the world's mountains. They get steeper as you go. Can you reach the summit?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Mount Everest is part of which mountain range?",
+   "options": [
+    "Andes",
+    "Alps",
+    "Himalayas",
+    "Rockies"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "Everest stands 8,849 meters high, on the border of Nepal and China.",
+   "sayAnswer": "The Himalayas! Everest stands 8,849 meters high, on the border of Nepal and China.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Everest",
+    "https://www.britannica.com/place/Mount-Everest"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the longest mountain range on land?",
+   "options": [
+    "Rockies",
+    "Andes",
+    "Himalayas",
+    "Urals"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "The Andes run the whole length of South America, through 7 countries.",
+   "sayAnswer": "The Andes! They run the whole length of South America, through 7 countries.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Andes",
+    "https://www.britannica.com/place/Andes-Mountains"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which mountain range traditionally divides Europe from Asia?",
+   "options": [
+    "Carpathians",
+    "Altai",
+    "Alps",
+    "Urals"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "The Urals stretch about 2,500 km from north to south across Russia.",
+   "sayAnswer": "The Urals! They stretch about 2,500 kilometers from north to south across Russia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ural_Mountains",
+    "https://www.britannica.com/place/Ural-Mountains"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the second-highest mountain on Earth?",
+   "options": [
+    "Kangchenjunga",
+    "K2",
+    "Lhotse",
+    "Makalu"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🥈"
+   },
+   "fact": "K2 is 8,611 meters high. It was the 2nd peak surveyed in the Karakoram.",
+   "sayAnswer": "K2! It is 8,611 meters high. The name means it was the 2nd peak surveyed in the Karakoram range.",
+   "src": [
+    "https://en.wikipedia.org/wiki/K2",
+    "https://www.britannica.com/place/K2"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Measured from base to summit, which is the tallest mountain on Earth?",
+   "options": [
+    "Mount Everest",
+    "Mauna Kea",
+    "Kilimanjaro",
+    "Mont Blanc"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "Mauna Kea in Hawaii rises about 10,200 meters from the ocean floor.",
+   "sayAnswer": "Mow-na Kay-ah! This Hawaiian volcano rises about 10,200 meters from the ocean floor. Most of it is under water.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mauna_Kea",
+    "https://www.usgs.gov/faqs/how-big-are-hawaiian-volcanoes"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

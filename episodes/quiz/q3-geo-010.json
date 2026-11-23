@@ -1,0 +1,150 @@
+{
+ "id": "q3-geo-010",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "US STATES QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "THE 50 STATES?"
+ ],
+ "hook": {
+  "say": "Fifty states, five questions, three seconds each. The last one trips up plenty of Americans!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which state is home to the Grand Canyon?",
+   "options": [
+    "Utah",
+    "Nevada",
+    "Arizona",
+    "Colorado"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏜️"
+   },
+   "fact": "The canyon is 277 miles long and more than a mile deep.",
+   "sayAnswer": "Arizona! The canyon is 277 miles long, and more than a mile deep.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Grand_Canyon",
+    "https://www.britannica.com/place/Grand-Canyon"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the smallest US state by area?",
+   "say": "Which is the smallest U.S. state by area?",
+   "options": [
+    "Delaware",
+    "Rhode Island",
+    "Connecticut",
+    "Hawaii"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🤏"
+   },
+   "fact": "Rhode Island would fit inside Alaska more than 400 times.",
+   "sayAnswer": "Rhode Island! It would fit inside Alaska more than 400 times.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rhode_Island",
+    "https://www.britannica.com/place/Rhode-Island-state"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of California?",
+   "options": [
+    "Los Angeles",
+    "San Francisco",
+    "San Diego",
+    "Sacramento"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:06"
+    ]
+   },
+   "fact": "Sacramento was chosen as California's capital back in 1854.",
+   "sayAnswer": "Sacramento! It was chosen as California's capital back in 1854.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sacramento,_California",
+    "https://www.britannica.com/place/Sacramento-California"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state has the longest coastline?",
+   "say": "Which U.S. state has the longest coastline?",
+   "options": [
+    "Florida",
+    "California",
+    "Alaska",
+    "Hawaii"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "Alaska has about 6,640 miles of coast. Florida is second with 1,350.",
+   "sayAnswer": "Alaska! It has about 6,640 miles of coast. Florida is second, with 1,350.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_coastline"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the only state that borders exactly one other state?",
+   "options": [
+    "Maine",
+    "Florida",
+    "Washington",
+    "Alaska"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "Maine touches only New Hampshire. Its other neighbor is Canada.",
+   "sayAnswer": "Maine! It touches only New Hampshire. Its other neighbor is Canada.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Maine",
+    "https://www.britannica.com/place/Maine-state"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

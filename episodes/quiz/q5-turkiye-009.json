@@ -1,0 +1,151 @@
+{
+ "id": "q5-turkiye-009",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "UNESCO",
+  "TREASURES",
+  "OF TÜRKİYE"
+ ],
+ "hook": {
+  "say": "Turkey is packed with UNESCO World Heritage sites. Five questions. The last one stumps even history fans!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What does the name Pamukkale mean?",
+   "say": "What does the name Pamook-kaleh mean?",
+   "options": [
+    "Snow Palace",
+    "Cotton Castle",
+    "Salt Valley",
+    "White Mountain"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "☁️"
+   },
+   "fact": "Its white terraces are travertine left by hot spring water.",
+   "sayAnswer": "Cotton Castle! Its white terraces are made of travertine, left by hot spring water.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pamukkale",
+    "https://whc.unesco.org/en/list/485"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The Library of Celsus stands in which ancient city?",
+   "say": "The Library of Celsus stands in which ancient city?",
+   "options": [
+    "Ephesus",
+    "Pergamon",
+    "Aspendos",
+    "Troy"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "📚"
+   },
+   "fact": "Ephesus, in İzmir Province, joined the UNESCO list in 2015.",
+   "sayAnswer": "Ephesus! It is in Izmeer Province, and it joined the UNESCO list in 2015.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ephesus",
+    "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which UNESCO-listed town is famous for its Ottoman-era houses?",
+   "say": "Which UNESCO-listed town is famous for its Ottoman-era houses?",
+   "options": [
+    "Amasya",
+    "Beypazarı",
+    "Mardin",
+    "Safranbolu"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏘️"
+   },
+   "fact": "Safranbolu is named after saffron, once grown and traded there.",
+   "sayAnswer": "Saf-ran-bolu! It is named after saffron, which was once grown and traded there.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Safranbolu",
+    "https://whc.unesco.org/en/list/614"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which 9,000-year-old Neolithic town was found near Konya?",
+   "say": "Which 9000 year old Stone Age town was found near Konya?",
+   "options": [
+    "Çatalhöyük",
+    "Hattusa",
+    "Göbekli Tepe",
+    "Alacahöyük"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏺"
+   },
+   "fact": "Most of its houses were entered through a hole in the roof.",
+   "sayAnswer": "Chatal-hoy-uk! Most of its houses were entered through a hole in the roof.",
+   "src": [
+    "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk",
+    "https://whc.unesco.org/en/list/1405"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The UNESCO-listed Great Mosque and Hospital of Divriği is in which province?",
+   "say": "The UNESCO-listed Great Mosque and Hospital of Div-ree is in which province?",
+   "options": [
+    "Konya",
+    "Kayseri",
+    "Erzurum",
+    "Sivas"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🕌"
+   },
+   "fact": "Built in 1228-29, it was among Türkiye's first UNESCO sites in 1985.",
+   "sayAnswer": "See-vas! Built around 1228, it was among Turkey's first UNESCO sites in 1985.",
+   "src": [
+    "https://whc.unesco.org/en/list/358",
+    "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Turkey"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

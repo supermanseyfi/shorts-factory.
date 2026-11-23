@@ -1,0 +1,138 @@
+{
+ "id": "q4-truefalse-007",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "OCEAN",
+  "SECRETS",
+  "REVEALED"
+ ],
+ "hook": {
+  "say": "True or false? Five ocean facts, three seconds each. The last one is hiding deep underwater!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Water covers about 71% of Earth's surface.",
+   "say": "Water covers about 71 percent of Earth's surface.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "About 71% of our planet's surface is covered by water.",
+   "sayAnswer": "True! Roughly 71 percent of our planet's surface is covered by water.",
+   "src": [
+    "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth",
+    "https://en.wikipedia.org/wiki/Ocean"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Atlantic is the deepest ocean.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌀"
+   },
+   "fact": "The Pacific is. Its Mariana Trench plunges almost 11 km down.",
+   "sayAnswer": "False! The Pacific is. Its Mariana Trench plunges almost 11 kilometers down.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ocean",
+    "https://en.wikipedia.org/wiki/Pacific_Ocean"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Pacific Ocean is bigger than all of Earth's land combined.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌏"
+   },
+   "fact": "The Pacific covers 165 million km². All land adds up to about 149 million.",
+   "sayAnswer": "True! The Pacific is so vast that every continent could fit inside it.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pacific_Ocean",
+    "https://oceanservice.noaa.gov/facts/biggestocean.html"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Point Nemo, the ocean's most remote spot, is in the Atlantic.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "📍"
+   },
+   "fact": "It is in the South Pacific, about 2,688 km from the nearest land.",
+   "sayAnswer": "False! It is in the South Pacific, almost 2700 kilometers from the nearest land.",
+   "src": [
+    "https://oceanservice.noaa.gov/facts/nemo.html",
+    "https://en.wikipedia.org/wiki/Point_Nemo"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The world's largest waterfall is underwater.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "💧"
+   },
+   "fact": "The Denmark Strait cataract drops about 3.5 km beneath the sea surface.",
+   "sayAnswer": "True! Between Iceland and Greenland, cold water plunges about 3 and a half kilometers down.",
+   "src": [
+    "https://oceanservice.noaa.gov/facts/largest-waterfall.html",
+    "https://en.wikipedia.org/wiki/Denmark_Strait_cataract"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

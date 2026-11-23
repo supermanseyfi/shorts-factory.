@@ -1,0 +1,146 @@
+{
+ "id": "q3-geo-014",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "RIVERS & LAKES",
+ "title": [
+  "RIVERS",
+  "AND LAKES",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Rivers and lakes! Five questions, three seconds each. Only real map lovers get the last one."
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which river flows through Cairo?",
+   "options": [
+    "Nile",
+    "Tigris",
+    "Niger",
+    "Jordan"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🐊"
+   },
+   "fact": "The Nile flows north, and its basin touches 11 countries.",
+   "sayAnswer": "The Nile! It flows north, and its basin touches 11 countries.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nile"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which river carries the most water in the world?",
+   "options": [
+    "Congo",
+    "Amazon",
+    "Mississippi",
+    "Yangtze"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "💧"
+   },
+   "fact": "The Amazon carries about a fifth of all river water reaching the sea.",
+   "sayAnswer": "The Amazon! It carries about a fifth of all the river water that reaches the sea.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Amazon_River",
+    "https://www.britannica.com/place/Amazon-River"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the deepest lake in the world?",
+   "options": [
+    "Lake Tanganyika",
+    "Lake Superior",
+    "Lake Baikal",
+    "Crater Lake"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🤿"
+   },
+   "fact": "Baikal, in Siberia, is over 1,600 meters deep. It is also the oldest lake.",
+   "sayAnswer": "Lake By-kal! This Siberian lake is over 1,600 meters deep. It is also the oldest lake on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "https://www.britannica.com/place/Lake-Baikal"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Lake Titicaca lies on the border of which two countries?",
+   "options": [
+    "Peru and Bolivia",
+    "Chile and Argentina",
+    "Ecuador and Peru",
+    "Bolivia and Chile"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "⛵"
+   },
+   "fact": "It sits about 3,800 meters up in the Andes, and big ships still sail it.",
+   "sayAnswer": "Peru and Bolivia! The lake sits about 3,800 meters up in the Andes, and big ships still sail it.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Titicaca",
+    "https://www.britannica.com/place/Lake-Titicaca"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which major river crosses the equator twice?",
+   "options": [
+    "Amazon",
+    "Nile",
+    "Congo",
+    "Niger"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🔁"
+   },
+   "fact": "The Congo is also the deepest river known, about 220 meters in places.",
+   "sayAnswer": "The Congo! It is also the deepest river known, about 220 meters in places.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Congo_River",
+    "https://www.thestar.com.my/news/true-or-not/2026/01/27/quickcheck-does-a-major-river-cross-the-equator-twice"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

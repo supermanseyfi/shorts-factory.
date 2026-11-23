@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-005",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "EUROPE",
+  "WILL FOOL",
+  "YOU"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about Europe, three seconds each. Wait for the border at the end!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Rome is farther north than New York City.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏛️"
+   },
+   "fact": "Rome sits at 41.9° north. New York City is at 40.7° north.",
+   "sayAnswer": "True! Rome sits more than 1 degree of latitude north of New York City.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rome",
+    "https://en.wikipedia.org/wiki/New_York_City"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Great Britain and the United Kingdom are the same thing.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇬🇧"
+   },
+   "fact": "Great Britain is the island. The UK also includes Northern Ireland.",
+   "sayAnswer": "False! Great Britain is the island. The United Kingdom also includes Northern Ireland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Terminology_of_the_British_Isles",
+    "https://www.britannica.com/place/Great-Britain-island-Europe"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Most of Iceland is covered in ice.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇮🇸"
+   },
+   "fact": "Glaciers cover only about 10% of Iceland.",
+   "sayAnswer": "False! Glaciers cover only about 10 percent of Iceland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Glaciers_of_Iceland",
+    "https://en.wikipedia.org/wiki/Iceland"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Monaco is smaller than New York's Central Park.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇲🇨"
+   },
+   "fact": "Monaco covers 2.08 km². Central Park covers 3.41 km².",
+   "sayAnswer": "True! Monaco covers about 2 square kilometers. Central Park is over 3.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Monaco",
+    "https://en.wikipedia.org/wiki/Central_Park"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "France's longest land border is with Brazil.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇫🇷"
+   },
+   "fact": "French Guiana borders Brazil for 730 km. The border with Spain is 623 km.",
+   "sayAnswer": "True! French Guiana, part of France, borders Brazil for 730 kilometers.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border",
+    "https://en.wikipedia.org/wiki/French_Guiana"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

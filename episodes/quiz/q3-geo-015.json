@@ -1,0 +1,147 @@
+{
+ "id": "q3-geo-015",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "CITIES QUIZ",
+ "title": [
+  "NAME",
+  "THE CITY",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Can you name the city? Five questions, three seconds each. Careful with the last one!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which city is home to the Christ the Redeemer statue?",
+   "options": [
+    "Lisbon",
+    "Rio de Janeiro",
+    "Buenos Aires",
+    "Lima"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "The statue is 30 meters tall and has watched over Rio since 1931.",
+   "sayAnswer": "Rio de Janeiro! The statue is 30 meters tall, and has watched over the city since 1931.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+    "https://www.britannica.com/topic/Christ-the-Redeemer"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city has the world's tallest building, the Burj Khalifa?",
+   "say": "Which city has the world's tallest building, the Burj Khalifa?",
+   "options": [
+    "Doha",
+    "Abu Dhabi",
+    "Dubai",
+    "Riyadh"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏙️"
+   },
+   "fact": "The Burj Khalifa is 828 meters tall and opened in 2010.",
+   "sayAnswer": "Dubai! The Burj Khalifa is 828 meters tall, and opened in 2010.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Burj_Khalifa",
+    "https://www.britannica.com/topic/Burj-Khalifa"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Italian city is built on more than 100 small islands?",
+   "options": [
+    "Venice",
+    "Naples",
+    "Genoa",
+    "Florence"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🛶"
+   },
+   "fact": "Venice has canals instead of streets, and around 400 bridges.",
+   "sayAnswer": "Venice! It has canals instead of streets, and around 400 bridges.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Venice"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city was once called Constantinople?",
+   "options": [
+    "Athens",
+    "Ankara",
+    "Istanbul",
+    "Alexandria"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🕌"
+   },
+   "fact": "Before that it was Byzantium. The world switched to Istanbul in 1930.",
+   "sayAnswer": "Istanbul! Before that, it was called Byzantium. The world switched to the name Istanbul in 1930.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Names_of_Istanbul",
+    "https://www.britannica.com/place/Istanbul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the northernmost capital of a sovereign country?",
+   "options": [
+    "Oslo",
+    "Helsinki",
+    "Stockholm",
+    "Reykjavik"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "❄️"
+   },
+   "fact": "Reykjavik, Iceland, sits at 64 degrees north, near the Arctic Circle.",
+   "sayAnswer": "Rake-ya-vik! The capital of Iceland sits at 64 degrees north, near the Arctic Circle.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+    "https://guinnessworldrecords.com/world-records/65049-most-northerly-capital-city"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

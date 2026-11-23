@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-010",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "BIZARRE",
+  "BORDER",
+  "FACTS"
+ ],
+ "hook": {
+  "say": "True or false? Five strange border facts, three seconds each. Wait until you hear number five!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "The border between the US and Canada is the world's longest.",
+   "say": "The border between the U.S. and Canada is the world's longest.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇨🇦"
+   },
+   "fact": "It runs 8,891 km, including the border with Alaska.",
+   "sayAnswer": "True! It runs 8891 kilometers, including the border with Alaska.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Canada%E2%80%93United_States_border"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Brazil borders every other country in South America.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇧🇷"
+   },
+   "fact": "Close! Brazil touches all of them except Chile and Ecuador.",
+   "sayAnswer": "False! Close! Brazil touches all of them except Chile and Ecuador.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Borders_of_Brazil",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Mongolia shares a border with Kazakhstan.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🐎"
+   },
+   "fact": "Mongolia has only two neighbours: Russia and China.",
+   "sayAnswer": "False! Mongolia has only 2 neighbors, Russia and China.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders",
+    "https://en.wikipedia.org/wiki/Kazakhstan"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "North Korea shares a border with Russia.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🚧"
+   },
+   "fact": "They meet along the Tumen River for about 17 km.",
+   "sayAnswer": "True! They meet along the Tumen River for about 17 kilometers.",
+   "src": [
+    "https://en.wikipedia.org/wiki/North_Korea%E2%80%93Russia_border",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Canada shares a land border with Denmark.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇩🇰"
+   },
+   "fact": "In 2022 they split tiny Hans Island, between Canada and Greenland.",
+   "sayAnswer": "True! In 2022 they split tiny Hans Island, between Canada and Greenland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hans_Island",
+    "https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

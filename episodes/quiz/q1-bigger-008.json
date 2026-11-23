@@ -1,0 +1,168 @@
+{
+ "id": "q1-bigger-008",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "SOUTH",
+  "AMERICA",
+  "SHOWDOWN"
+ ],
+ "hook": {
+  "say": "South America is bigger than you think. Or is it? Five duels, three seconds each. Stay for the last one!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Argentina or India?",
+   "options": [
+    "Argentina",
+    "India"
+   ],
+   "answer": 1,
+   "values": [
+    2780400,
+    3287263
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:032",
+     "c:356"
+    ]
+   },
+   "fact": "India is about 18% bigger than Argentina.",
+   "sayAnswer": "India! It is about eighteen percent bigger than Argentina.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Chile or Germany?",
+   "options": [
+    "Chile",
+    "Germany"
+   ],
+   "answer": 0,
+   "values": [
+    756102,
+    357592
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:152",
+     "c:276"
+    ]
+   },
+   "fact": "Chile is more than twice the size of Germany, and over 4,000 km long.",
+   "sayAnswer": "Chile! It is more than twice the size of Germany, and more than four thousand kilometres long.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Japan or Paraguay?",
+   "options": [
+    "Japan",
+    "Paraguay"
+   ],
+   "answer": 1,
+   "values": [
+    377975,
+    406752
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:392",
+     "c:600"
+    ]
+   },
+   "fact": "Paraguay is about 8% bigger than Japan.",
+   "sayAnswer": "Paraguay! It is about eight percent bigger than Japan.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Colombia or South Africa?",
+   "options": [
+    "Colombia",
+    "South Africa"
+   ],
+   "answer": 1,
+   "values": [
+    1138910,
+    1219090
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:170",
+     "c:710"
+    ]
+   },
+   "fact": "South Africa is about 7% bigger than Colombia.",
+   "sayAnswer": "South Africa! It is about seven percent bigger than Colombia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Brazil or USA (lower 48)?",
+   "say": "Which is bigger: Brazil or the lower forty-eight U S states?",
+   "options": [
+    "Brazil",
+    "USA (lower 48)"
+   ],
+   "answer": 0,
+   "values": [
+    8510346,
+    8080464
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:076",
+     "c:840"
+    ]
+   },
+   "fact": "Brazil is about 5% bigger than the 48 contiguous US states.",
+   "sayAnswer": "Brazil! It is about five percent bigger than the forty-eight contiguous U S states.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

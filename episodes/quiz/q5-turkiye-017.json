@@ -1,0 +1,149 @@
+{
+ "id": "q5-turkiye-017",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "AEGEAN &",
+  "MEDITERRANEAN",
+  "COAST QUIZ"
+ ],
+ "hook": {
+  "say": "Turquoise water, ancient ruins and a mountain that is on fire. Five questions on Turkey's sunny coasts!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which sea washes Türkiye's west coast?",
+   "say": "Which sea washes Turkey's west coast?",
+   "options": [
+    "Caspian Sea",
+    "Aegean Sea",
+    "Black Sea",
+    "Red Sea"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "Ancient Ephesus and Troy both lie near the Aegean coast.",
+   "sayAnswer": "The Aegean Sea! Ancient Ephesus and Troy both lie near the Aegean coast.",
+   "src": [
+    "https://www.britannica.com/place/Turkey",
+    "https://en.wikipedia.org/wiki/Ephesus"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is a \"gulet\", the star of the Blue Cruise?",
+   "say": "What is a goolet, the star of the Blue Cruise?",
+   "options": [
+    "A wooden sailing boat",
+    "A diving bell",
+    "A grilled fish",
+    "A beach hut"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "⛵"
+   },
+   "fact": "Gulets are built mainly in Bodrum and Marmaris.",
+   "sayAnswer": "A wooden sailing boat! Goolets are built mainly in Bodrum and Marmaris.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gulet",
+    "https://en.wikipedia.org/wiki/Turkish_Riviera"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The Lycian Way hiking trail runs between Fethiye and which city?",
+   "say": "The Lycian Way hiking trail runs between Fet-hee-yeh and which city?",
+   "options": [
+    "Mersin",
+    "Bodrum",
+    "Antalya",
+    "İzmir"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🥾"
+   },
+   "fact": "The waymarked trail along the ancient Lycian coast opened in 1999.",
+   "sayAnswer": "Antalya! The waymarked trail along the ancient Lycian coast opened in 1999.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lycian_Way"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "St Nicholas, the original Santa Claus, was bishop of which city?",
+   "say": "Saint Nicholas, the original Santa Claus, was bishop of which city?",
+   "options": [
+    "Antioch",
+    "Tarsus",
+    "Ephesus",
+    "Myra"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🎅"
+   },
+   "fact": "Myra is today's Demre in Antalya. He was born in nearby Patara.",
+   "sayAnswer": "Myra! That is today's Demre, in Antalya, and he was born in nearby Patara.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Saint_Nicholas",
+    "https://en.wikipedia.org/wiki/Turkish_Riviera"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What makes Yanartaş, near Olympos, so unusual?",
+   "say": "What makes Yanar-tash, near Olympos, so unusual?",
+   "options": [
+    "Flames from the rock",
+    "Pink sand",
+    "Singing caves",
+    "A boiling lake"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🔥"
+   },
+   "fact": "Natural gas fires have burned there for at least 2,500 years.",
+   "sayAnswer": "Flames from the rock! Natural gas fires have burned there for at least 2500 years.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yanarta%C5%9F"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

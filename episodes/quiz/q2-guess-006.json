@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-006",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "SOUTH AMERICA"
+ ],
+ "hook": {
+  "say": "South America, five shapes. The first one is a gift, but can you still score five out of five?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Argentina",
+    "Brazil",
+    "Colombia",
+    "Venezuela"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:076"
+    ]
+   },
+   "fact": "Brazil borders every South American country except Chile and Ecuador.",
+   "sayAnswer": "Brazil! It borders every South American country except Chile and Ecuador.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Brazil"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Argentina",
+    "Peru",
+    "Paraguay",
+    "Uruguay"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:032"
+    ]
+   },
+   "fact": "Argentina: home to Aconcagua, the highest mountain outside Asia.",
+   "sayAnswer": "Argentina! Home to Aconcagua, the highest mountain outside Asia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Aconcagua"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Ecuador",
+    "Bolivia",
+    "Colombia",
+    "Peru"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:604"
+    ]
+   },
+   "fact": "Peru: home to Machu Picchu, a 15th-century Inca citadel in the Andes.",
+   "sayAnswer": "Peru! Home to Machu Picchu, a 15th century Inca citadel in the Andes.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Machu_Picchu"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Venezuela",
+    "Ecuador",
+    "Colombia",
+    "Peru"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:170"
+    ]
+   },
+   "fact": "Colombia is named after the explorer Christopher Columbus.",
+   "sayAnswer": "Colombia! It is named after the explorer Christopher Columbus.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Name_of_Colombia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Paraguay",
+    "Bolivia",
+    "Peru",
+    "Uruguay"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:068"
+    ]
+   },
+   "fact": "Bolivia: home to Salar de Uyuni, the largest salt flat in the world.",
+   "sayAnswer": "Bolivia! Home to Salar de Uyuni, the largest salt flat in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Salar_de_Uyuni"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

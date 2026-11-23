@@ -1,0 +1,1684 @@
+[
+ {
+  "id": "q4-truefalse-002",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "CAPITAL",
+   "CITY",
+   "TRAPS"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five capital city traps. Three seconds each, and the last one sounds made up!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Toronto is the capital of Canada.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇨🇦"
+    },
+    "fact": "The capital is Ottawa. Toronto is just the biggest city.",
+    "sayAnswer": "False! The capital is Ottawa. Toronto is just the biggest city.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Ottawa",
+     "https://www.britannica.com/place/Ottawa"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Wellington is the capital of New Zealand.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇳🇿"
+    },
+    "fact": "Wellington is the capital. Auckland is the largest city.",
+    "sayAnswer": "True! Wellington is the capital. Auckland is only the largest city.",
+    "src": [
+     "https://en.wikipedia.org/wiki/New_Zealand",
+     "https://www.britannica.com/place/Wellington-New-Zealand"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Rio de Janeiro is the capital of Brazil.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇧🇷"
+    },
+    "fact": "Brasília replaced Rio as the capital in 1960.",
+    "sayAnswer": "False! Brasilia replaced Rio as the capital back in 1960.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+     "https://www.britannica.com/place/Brasilia"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "South Africa has three capital cities.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇿🇦"
+    },
+    "fact": "Pretoria, Cape Town and Bloemfontein share the job.",
+    "sayAnswer": "True! Pretoria, Cape Town and Bloemfontein share the job.",
+    "src": [
+     "https://www.cfr.org/blog/south-africas-three-capitals",
+     "https://en.wikipedia.org/wiki/South_Africa"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Nauru has no official capital city.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🏝️"
+    },
+    "fact": "The tiny Pacific island nation has no cities. Yaren is only the de facto capital.",
+    "sayAnswer": "True! The tiny Pacific nation has no cities. Its government simply sits in the Yaren district.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Yaren_District",
+     "https://www.britannica.com/place/Yaren"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-003",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "YOUR MAP",
+   "IS LYING",
+   "TO YOU"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Flat maps stretch the truth. Five size facts, three seconds each. The last one fools map lovers!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Greenland is about the same size as Africa.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🗺️"
+    },
+    "fact": "It only looks that way on Mercator maps. Africa is 14 times larger.",
+    "sayAnswer": "False! It only looks that way on flat maps. Africa is 14 times larger.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mercator_projection",
+     "https://en.wikipedia.org/wiki/List_of_islands_by_area"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Antarctica is bigger than Europe.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🧊"
+    },
+    "fact": "Antarctica is 14.2 million km², about 40% larger than Europe.",
+    "sayAnswer": "True! Antarctica is about 40 percent larger than Europe.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Antarctica",
+     "https://www.britannica.com/place/Antarctica"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Almost all of South America lies east of Florida.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🧭"
+    },
+    "fact": "South America sits far to the east. Nearly all of it is east of Miami.",
+    "sayAnswer": "True! South America sits far to the east. Nearly all of it is east of Miami.",
+    "src": [
+     "https://www.nationalgeographic.com/culture/article/all-over-the-map-mental-mapping-misconceptions"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Brazil is bigger than the contiguous United States.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇧🇷"
+    },
+    "fact": "Brazil: 8.5 million km². The lower 48 states: 8.1 million km².",
+    "sayAnswer": "True! Brazil is slightly bigger than the lower 48 states put together.",
+    "src": [
+     "https://www.nationalgeographic.com/culture/article/all-over-the-map-mental-mapping-misconceptions",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Alaska is bigger than Mexico.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "❄️"
+    },
+    "fact": "Mexico is 1.96 million km². Alaska is 1.72 million km².",
+    "sayAnswer": "False! Maps inflate Alaska. Mexico is actually the bigger one.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area",
+     "https://mylifeelsewhere.com/country-size-comparison/alaska-usa/mexico"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-004",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "USA",
+   "GEOGRAPHY",
+   "TRAPS"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five U.S. geography traps, three seconds each. The last one catches almost everybody!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "New York City is the capital of New York State.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🗽"
+    },
+    "fact": "The state capital is Albany. New York City is just the biggest city.",
+    "sayAnswer": "False! The state capital is Albany. New York City is just the biggest city.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+     "https://en.wikipedia.org/wiki/New_York_City"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Florida is the southernmost US state.",
+    "say": "Florida is the southernmost U.S. state.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🌴"
+    },
+    "fact": "Hawaii reaches much farther south, at Ka Lae on the Big Island.",
+    "sayAnswer": "False! Hawaii reaches much farther south than Florida does.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Four US states meet at one single point.",
+    "say": "Four U.S. states meet at one single point.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "📍"
+    },
+    "fact": "At Four Corners: Arizona, Colorado, New Mexico and Utah.",
+    "sayAnswer": "True! At Four Corners you can touch Arizona, Colorado, New Mexico and Utah at once.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Four_Corners_Monument",
+     "https://www.britannica.com/place/Four-Corners"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Reno, Nevada is farther west than Los Angeles.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🎰"
+    },
+    "fact": "Reno is at 119.8° west. Los Angeles is at about 118.2° west.",
+    "sayAnswer": "True! The California coast curves east, so Reno ends up west of Los Angeles.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Reno,_Nevada",
+     "https://thenevadaindependent.com/article/are-there-6-state-capitals-west-of-los-angeles"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The closest US state to Africa is Maine.",
+    "say": "The closest U.S. state to Africa is Maine.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌍"
+    },
+    "fact": "Quoddy Head, Maine is about 5,076 km from the coast of Morocco.",
+    "sayAnswer": "True! Maine's Quoddy Head is about 5000 kilometers from Morocco. Closer than Florida!",
+    "src": [
+     "https://www.sciencealert.com/which-us-state-is-closest-to-africa",
+     "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-005",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "EUROPE",
+   "WILL FOOL",
+   "YOU"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about Europe, three seconds each. Wait for the border at the end!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Rome is farther north than New York City.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🏛️"
+    },
+    "fact": "Rome sits at 41.9° north. New York City is at 40.7° north.",
+    "sayAnswer": "True! Rome sits more than 1 degree of latitude north of New York City.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Rome",
+     "https://en.wikipedia.org/wiki/New_York_City"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Great Britain and the United Kingdom are the same thing.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇬🇧"
+    },
+    "fact": "Great Britain is the island. The UK also includes Northern Ireland.",
+    "sayAnswer": "False! Great Britain is the island. The United Kingdom also includes Northern Ireland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Terminology_of_the_British_Isles",
+     "https://www.britannica.com/place/Great-Britain-island-Europe"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Most of Iceland is covered in ice.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇮🇸"
+    },
+    "fact": "Glaciers cover only about 10% of Iceland.",
+    "sayAnswer": "False! Glaciers cover only about 10 percent of Iceland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Glaciers_of_Iceland",
+     "https://en.wikipedia.org/wiki/Iceland"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Monaco is smaller than New York's Central Park.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇲🇨"
+    },
+    "fact": "Monaco covers 2.08 km². Central Park covers 3.41 km².",
+    "sayAnswer": "True! Monaco covers about 2 square kilometers. Central Park is over 3.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Monaco",
+     "https://en.wikipedia.org/wiki/Central_Park"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "France's longest land border is with Brazil.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇫🇷"
+    },
+    "fact": "French Guiana borders Brazil for 730 km. The border with Spain is 623 km.",
+    "sayAnswer": "True! French Guiana, part of France, borders Brazil for 730 kilometers.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border",
+     "https://en.wikipedia.org/wiki/French_Guiana"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-006",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "TÜRKİYE",
+   "TRUE OR",
+   "FALSE?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about Turkey, three seconds each. Number five surprises people every Christmas!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Ankara is Türkiye's largest city.",
+    "say": "Ankara is Turkey's largest city.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🏙️"
+    },
+    "fact": "Ankara is the capital. Istanbul is by far the largest city.",
+    "sayAnswer": "False! Ankara is the capital, but Istanbul is by far the largest city.",
+    "src": [
+     "https://www.britannica.com/place/Turkey",
+     "https://www.britannica.com/place/Istanbul"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The ancient city of Troy is in Türkiye.",
+    "say": "The ancient city of Troy is in Turkey.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🐴"
+    },
+    "fact": "The ruins of Troy lie in Çanakkale province, in the northwest.",
+    "sayAnswer": "True! The ruins of Troy lie in northwestern Turkey, not in Greece.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Troy",
+     "https://www.britannica.com/place/Troy-ancient-city-Turkey"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Most of Türkiye's land is in Europe.",
+    "say": "Most of Turkey's land is in Europe.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🗺️"
+    },
+    "fact": "About 97% of Türkiye lies in Asia. Only about 3% is in Europe.",
+    "sayAnswer": "False! About 97 percent of Turkey lies in Asia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Turkey",
+     "https://www.britannica.com/place/Turkey"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Türkiye borders eight countries.",
+    "say": "Turkey borders eight countries.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇹🇷"
+    },
+    "fact": "Greece, Bulgaria, Georgia, Armenia, Azerbaijan, Iran, Iraq and Syria.",
+    "sayAnswer": "True! From Greece and Bulgaria all the way round to Iraq and Syria. 8 neighbors.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Turkey",
+     "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The real Saint Nicholas, the origin of Santa Claus, lived in Türkiye.",
+    "say": "The real Saint Nicholas, the origin of Santa Claus, lived in Turkey.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🎅"
+    },
+    "fact": "He was bishop of Myra, today's Demre on the Mediterranean coast.",
+    "sayAnswer": "True! He was bishop of Myra, now the town of Demre on Turkey's south coast.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Saint_Nicholas",
+     "https://www.britannica.com/biography/Saint-Nicholas"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-007",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "OCEAN",
+   "SECRETS",
+   "REVEALED"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five ocean facts, three seconds each. The last one is hiding deep underwater!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Water covers about 71% of Earth's surface.",
+    "say": "Water covers about 71 percent of Earth's surface.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌊"
+    },
+    "fact": "About 71% of our planet's surface is covered by water.",
+    "sayAnswer": "True! Roughly 71 percent of our planet's surface is covered by water.",
+    "src": [
+     "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth",
+     "https://en.wikipedia.org/wiki/Ocean"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Atlantic is the deepest ocean.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🌀"
+    },
+    "fact": "The Pacific is. Its Mariana Trench plunges almost 11 km down.",
+    "sayAnswer": "False! The Pacific is. Its Mariana Trench plunges almost 11 kilometers down.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Ocean",
+     "https://en.wikipedia.org/wiki/Pacific_Ocean"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Pacific Ocean is bigger than all of Earth's land combined.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌏"
+    },
+    "fact": "The Pacific covers 165 million km². All land adds up to about 149 million.",
+    "sayAnswer": "True! The Pacific is so vast that every continent could fit inside it.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Pacific_Ocean",
+     "https://oceanservice.noaa.gov/facts/biggestocean.html"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Point Nemo, the ocean's most remote spot, is in the Atlantic.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "📍"
+    },
+    "fact": "It is in the South Pacific, about 2,688 km from the nearest land.",
+    "sayAnswer": "False! It is in the South Pacific, almost 2700 kilometers from the nearest land.",
+    "src": [
+     "https://oceanservice.noaa.gov/facts/nemo.html",
+     "https://en.wikipedia.org/wiki/Point_Nemo"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The world's largest waterfall is underwater.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "💧"
+    },
+    "fact": "The Denmark Strait cataract drops about 3.5 km beneath the sea surface.",
+    "sayAnswer": "True! Between Iceland and Greenland, cold water plunges about 3 and a half kilometers down.",
+    "src": [
+     "https://oceanservice.noaa.gov/facts/largest-waterfall.html",
+     "https://en.wikipedia.org/wiki/Denmark_Strait_cataract"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-008",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "MOUNTAIN",
+   "MYTHS",
+   "BUSTED"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five mountain facts, three seconds each. Number five makes Everest look small!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Mount Kilimanjaro is in Kenya.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🦒"
+    },
+    "fact": "Africa's highest mountain stands entirely in Tanzania.",
+    "sayAnswer": "False! Africa's highest mountain stands entirely in Tanzania.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+     "https://www.britannica.com/place/Kilimanjaro"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "K2 is the second-highest mountain on Earth.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "⛰️"
+    },
+    "fact": "K2 rises 8,611 m. Only Mount Everest is higher.",
+    "sayAnswer": "True! K2 rises 8611 meters. Only Everest is higher.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Eight-thousander",
+     "https://www.britannica.com/place/K2"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Every mountain above 8,000 metres is in Asia.",
+    "say": "Every mountain above 8000 meters is in Asia.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🏔️"
+    },
+    "fact": "All 14 are in the Himalaya and Karakoram ranges.",
+    "sayAnswer": "True! All 14 of them are in the Himalaya and Karakoram ranges.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Eight-thousander"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Mount Everest sits on the border of Nepal and India.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🚩"
+    },
+    "fact": "Its summit is on the border between Nepal and China.",
+    "sayAnswer": "False! Its summit is on the border between Nepal and China.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mount_Everest",
+     "https://en.wikipedia.org/wiki/Eight-thousander"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Measured from its base, Mauna Kea is taller than Mount Everest.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌋"
+    },
+    "fact": "From the ocean floor, Hawaii's Mauna Kea rises more than 10,210 m.",
+    "sayAnswer": "True! From the sea floor, Hawaii's Mauna Kea rises more than 10000 meters.",
+    "src": [
+     "https://oceanservice.noaa.gov/facts/highestpoint.html",
+     "https://en.wikipedia.org/wiki/Mauna_Kea"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-009",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "ISLAND",
+   "FACTS",
+   "OR FAKES?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five island facts, three seconds each. The last one sounds impossible!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Madagascar is the world's largest island.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🏝️"
+    },
+    "fact": "Greenland is the largest. Madagascar is only fourth.",
+    "sayAnswer": "False! Greenland is the largest. Madagascar ranks only fourth.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_islands_by_area",
+     "https://www.britannica.com/place/Greenland"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The island of Borneo is shared by three countries.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌴"
+    },
+    "fact": "Indonesia, Malaysia and Brunei all have territory on Borneo.",
+    "sayAnswer": "True! Indonesia, Malaysia and Brunei all have territory on Borneo.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Borneo",
+     "https://en.wikipedia.org/wiki/List_of_islands_by_area"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Sicily is the largest island in the Mediterranean.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇮🇹"
+    },
+    "fact": "Sicily is about 25,500 km², just ahead of Sardinia.",
+    "sayAnswer": "True! Sicily is the largest, just ahead of Sardinia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_islands_by_area",
+     "https://www.britannica.com/place/Sicily"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Japan is made up of just four islands.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇯🇵"
+    },
+    "fact": "A 2023 government count found 14,125 islands.",
+    "sayAnswer": "False! A 2023 government count found 14125 islands.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Geography_of_Japan",
+     "https://en.wikipedia.org/wiki/Japan"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "More people live on the island of Java than in all of Russia.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "👥"
+    },
+    "fact": "Java: about 158 million people. Russia: about 146 million.",
+    "sayAnswer": "True! Java has about 158 million people. Russia has about 146 million.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Java",
+     "https://en.wikipedia.org/wiki/Demographics_of_Russia"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-010",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "BIZARRE",
+   "BORDER",
+   "FACTS"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five strange border facts, three seconds each. Wait until you hear number five!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "The border between the US and Canada is the world's longest.",
+    "say": "The border between the U.S. and Canada is the world's longest.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇨🇦"
+    },
+    "fact": "It runs 8,891 km, including the border with Alaska.",
+    "sayAnswer": "True! It runs 8891 kilometers, including the border with Alaska.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Canada%E2%80%93United_States_border"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Brazil borders every other country in South America.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇧🇷"
+    },
+    "fact": "Close! Brazil touches all of them except Chile and Ecuador.",
+    "sayAnswer": "False! Close! Brazil touches all of them except Chile and Ecuador.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Borders_of_Brazil",
+     "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Mongolia shares a border with Kazakhstan.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🐎"
+    },
+    "fact": "Mongolia has only two neighbours: Russia and China.",
+    "sayAnswer": "False! Mongolia has only 2 neighbors, Russia and China.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders",
+     "https://en.wikipedia.org/wiki/Kazakhstan"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "North Korea shares a border with Russia.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🚧"
+    },
+    "fact": "They meet along the Tumen River for about 17 km.",
+    "sayAnswer": "True! They meet along the Tumen River for about 17 kilometers.",
+    "src": [
+     "https://en.wikipedia.org/wiki/North_Korea%E2%80%93Russia_border",
+     "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Canada shares a land border with Denmark.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇩🇰"
+    },
+    "fact": "In 2022 they split tiny Hans Island, between Canada and Greenland.",
+    "sayAnswer": "True! In 2022 they split tiny Hans Island, between Canada and Greenland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Hans_Island",
+     "https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-011",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "FAMOUS",
+   "CITIES",
+   "TRUE/FALSE"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about famous cities, three seconds each. The last city is slowly disappearing!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Dubai is the capital of the United Arab Emirates.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇦🇪"
+    },
+    "fact": "The capital is Abu Dhabi. Dubai is the largest city.",
+    "sayAnswer": "False! The capital is Abu Dhabi. Dubai is just the largest city.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Abu_Dhabi",
+     "https://www.britannica.com/place/Abu-Dhabi"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Istanbul lies on two continents.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌉"
+    },
+    "fact": "The Bosphorus strait splits the city between Europe and Asia.",
+    "sayAnswer": "True! The Bosphorus strait splits the city between Europe and Asia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Bosporus",
+     "https://www.britannica.com/place/Turkey"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Paris is farther north than Montreal.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🗼"
+    },
+    "fact": "Paris sits at 48.9° north. Montreal is at 45.5° north.",
+    "sayAnswer": "True! Paris is more than 3 degrees of latitude north of Montreal.",
+    "src": [
+     "https://www.nationalgeographic.com/culture/article/all-over-the-map-mental-mapping-misconceptions",
+     "https://en.wikipedia.org/wiki/Montreal"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Casablanca is the capital of Morocco.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇲🇦"
+    },
+    "fact": "The capital is Rabat. Casablanca is the biggest city.",
+    "sayAnswer": "False! The capital is Rabat. Casablanca is only the biggest city.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Rabat",
+     "https://www.britannica.com/place/Rabat"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Mexico City is sinking a little more every year.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇲🇽"
+    },
+    "fact": "Groundwater pumping makes parts of the city sink about 35 cm a year.",
+    "sayAnswer": "True! Pumping out groundwater makes parts of the city sink about 35 centimeters a year.",
+    "src": [
+     "https://eos.org/articles/groundwater-pumping-is-causing-mexico-city-to-sink",
+     "https://en.wikipedia.org/wiki/Mexico_City"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-012",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "USA",
+   "MAP",
+   "SURPRISES"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five more U.S. map surprises, three seconds each. Grab a map for the last one!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Texas is the largest US state.",
+    "say": "Texas is the largest U.S. state.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🤠"
+    },
+    "fact": "Alaska is the largest, about two and a half times the size of Texas.",
+    "sayAnswer": "False! Alaska is the largest, about two and a half times the size of Texas.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area",
+     "https://www.britannica.com/place/Alaska"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "From Detroit, you travel south to reach Canada.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🚗"
+    },
+    "fact": "Windsor, Ontario lies directly south of Detroit, across the river.",
+    "sayAnswer": "True! Windsor, Ontario lies directly south of Detroit, just across the river.",
+    "src": [
+     "https://thecanadianencyclopedia.ca/en/article/windsor-ont",
+     "https://en.wikipedia.org/wiki/Windsor,_Ontario"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Chicago is the capital of Illinois.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🌆"
+    },
+    "fact": "The capital is Springfield. Chicago is the biggest city.",
+    "sayAnswer": "False! The capital is Springfield. Chicago is only the biggest city.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+     "https://www.britannica.com/place/Springfield-Illinois"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Alaska's capital, Juneau, cannot be reached by road.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "⛴️"
+    },
+    "fact": "No roads connect Juneau to the rest of North America. You fly or sail in.",
+    "sayAnswer": "True! No roads lead to Juneau. You have to arrive by plane or by boat.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Juneau,_Alaska",
+     "https://www.britannica.com/place/Juneau"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Part of Virginia lies farther west than Detroit.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🧭"
+    },
+    "fact": "Virginia's western tip reaches 83.7° west. Detroit is at 83.0° west.",
+    "sayAnswer": "True! Virginia's long western tip stretches past the longitude of Detroit.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Cumberland_Gap",
+     "https://en.wikipedia.org/wiki/Detroit"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-013",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "AFRICA",
+   "FACTS",
+   "OR FAKES?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about Africa, three seconds each. The last one ruins a famous assumption!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "The Nile flows from south to north.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🐊"
+    },
+    "fact": "It flows north through Egypt and empties into the Mediterranean.",
+    "sayAnswer": "True! It flows north through Egypt and empties into the Mediterranean Sea.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Nile",
+     "https://www.britannica.com/place/Nile-River"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "It has snowed in the Sahara Desert.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "☃️"
+    },
+    "fact": "Snow fell on the dunes near Ain Sefra, Algeria, in 1979 and again in 2016.",
+    "sayAnswer": "True! Snow has dusted the dunes near Ain Sefra in Algeria more than once.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Sahara",
+     "https://www.usgs.gov/news/earthview-rare-snow-falls-edge-sahara-desert"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Cape of Good Hope is Africa's southernmost point.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "⚓"
+    },
+    "fact": "That is Cape Agulhas, about 55 km farther south.",
+    "sayAnswer": "False! That is Cape Agulhas, about 55 kilometers farther south.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Cape_Agulhas",
+     "https://en.wikipedia.org/wiki/Africa"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Africa is the only continent in all four hemispheres.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌍"
+    },
+    "fact": "Both the Equator and the prime meridian cross Africa.",
+    "sayAnswer": "True! Both the Equator and the prime meridian run right through Africa.",
+    "src": [
+     "https://worldatlas.com/articles/which-continent-is-situated-in-all-four-hemispheres.html",
+     "https://en.wikipedia.org/wiki/Africa"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Egypt has more pyramids than any other country.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🔺"
+    },
+    "fact": "Sudan has at least 230 pyramids. Egypt has about 120 to 140.",
+    "sayAnswer": "False! Sudan has more than 200 pyramids. Egypt has fewer than 150.",
+    "src": [
+     "https://www.guinnessworldrecords.com/world-records/779653-most-ancient-pyramids-country",
+     "https://en.wikipedia.org/wiki/Nubian_pyramids"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-014",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "POLAR",
+   "FACTS",
+   "OR FAKES?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts from the ends of the Earth, three seconds each. The last one looks like a horror movie!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Polar bears live in Antarctica.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🐻‍❄️"
+    },
+    "fact": "Polar bears live only in the Arctic, around the North Pole.",
+    "sayAnswer": "False! Polar bears live only in the Arctic, on the other side of the planet.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Polar_bear",
+     "https://en.wikipedia.org/wiki/Antarctica"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The South Pole is colder than the North Pole.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🥶"
+    },
+    "fact": "The South Pole sits high on land. The North Pole floats at sea level.",
+    "sayAnswer": "True! The South Pole sits high up on land. The North Pole is at sea level.",
+    "src": [
+     "https://en.wikipedia.org/wiki/North_Pole",
+     "https://en.wikipedia.org/wiki/South_Pole"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Antarctica has an active volcano.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌋"
+    },
+    "fact": "Mount Erebus is the southernmost active volcano on Earth.",
+    "sayAnswer": "True! Mount Erebus is the southernmost active volcano on Earth.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Mount_Erebus",
+     "https://en.wikipedia.org/wiki/Antarctica"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The North Pole sits on solid land.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🧊"
+    },
+    "fact": "There is only drifting sea ice over the Arctic Ocean. No land at all.",
+    "sayAnswer": "False! There is no land there, only sea ice drifting over the Arctic Ocean.",
+    "src": [
+     "https://en.wikipedia.org/wiki/North_Pole",
+     "https://www.britannica.com/place/North-Pole"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "A blood-red waterfall flows from a glacier in Antarctica.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🩸"
+    },
+    "fact": "Blood Falls: salty, iron-rich water that turns red in the air.",
+    "sayAnswer": "True! It is called Blood Falls. Salty, iron-rich water turns rusty red in the air.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Blood_Falls",
+     "https://www.nationalgeographic.com/science/article/blood-falls-antarctica-explained"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-015",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "LAKES &",
+   "WATERFALLS",
+   "TRUE/FALSE"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about lakes, seas and waterfalls. Three seconds each. Don't trust the names!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "The Dead Sea is actually a lake.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🧂"
+    },
+    "fact": "It is a landlocked salt lake between Jordan and Israel.",
+    "sayAnswer": "True! Despite the name, it is a landlocked salt lake.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Dead_Sea",
+     "https://www.britannica.com/place/Dead-Sea"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Angel Falls is in Brazil.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "💦"
+    },
+    "fact": "The 979 m waterfall is in Venezuela.",
+    "sayAnswer": "False! The 979 meter waterfall is in Venezuela.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Angel_Falls",
+     "https://www.britannica.com/place/Angel-Falls"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Niagara Falls is the tallest waterfall in North America.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🌈"
+    },
+    "fact": "Niagara drops about 57 m. Yosemite Falls drops 739 m.",
+    "sayAnswer": "False! Niagara drops about 57 meters. Yosemite Falls drops 739.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Niagara_Falls",
+     "https://en.wikipedia.org/wiki/Yosemite_Falls"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Lake Baikal holds about a fifth of Earth's fresh surface water.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🏞️"
+    },
+    "fact": "Baikal in Siberia holds more water than all the Great Lakes combined.",
+    "sayAnswer": "True! One Siberian lake holds more water than all 5 Great Lakes combined.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Lake_Baikal",
+     "https://www.britannica.com/place/Lake-Baikal"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Sargasso Sea has no coastline at all.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌊"
+    },
+    "fact": "It is the only sea bounded by ocean currents instead of land.",
+    "sayAnswer": "True! It is the only sea bordered by ocean currents instead of land.",
+    "src": [
+     "https://oceanservice.noaa.gov/facts/sargassosea.html",
+     "https://en.wikipedia.org/wiki/Sargasso_Sea"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-016",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "EUROPE",
+   "ROUND",
+   "TWO"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five more facts about Europe, three seconds each. Careful with the very last one!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Venice is built on more than 100 islands.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🛶"
+    },
+    "fact": "The city spreads across roughly 120 small islands linked by bridges.",
+    "sayAnswer": "True! The city spreads across roughly 120 small islands linked by bridges.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Venice"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Switzerland is a member of the European Union.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇨🇭"
+    },
+    "fact": "Switzerland sits in the middle of the EU but has never joined.",
+    "sayAnswer": "False! Switzerland is surrounded by the European Union but has never joined.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Member_state_of_the_European_Union",
+     "https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Italy completely surrounds two other countries.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇮🇹"
+    },
+    "fact": "San Marino and Vatican City both lie entirely inside Italy.",
+    "sayAnswer": "True! San Marino and Vatican City both lie entirely inside Italy.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Enclave_and_exclave",
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "London is farther north than Calgary, Canada.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇬🇧"
+    },
+    "fact": "London sits at 51.5° north. Calgary is at 51.0° north.",
+    "sayAnswer": "True! London is about half a degree of latitude north of Calgary.",
+    "src": [
+     "https://en.wikipedia.org/wiki/London",
+     "https://en.wikipedia.org/wiki/Calgary"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Holland is the official name of the Netherlands.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🌷"
+    },
+    "fact": "Holland is only a region: two of the country's twelve provinces.",
+    "sayAnswer": "False! Holland is only a region on the country's west coast.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Holland"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-017",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "TÜRKİYE",
+   "FACT OR",
+   "FAKE?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five more facts about Turkey, three seconds each. The last one rewrote the history books!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Türkiye uses a single time zone.",
+    "say": "Turkey uses a single time zone.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🕒"
+    },
+    "fact": "The whole country has been on UTC+3 all year round since 2016.",
+    "sayAnswer": "True! The whole country runs on 1 time, with no clock changes since 2016.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Time_in_Turkey",
+     "https://en.wikipedia.org/wiki/UTC%2B03:00"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Bosphorus connects the Black Sea to the Aegean Sea.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🚢"
+    },
+    "fact": "It links the Black Sea to the Sea of Marmara.",
+    "sayAnswer": "False! It links the Black Sea to the Sea of Marmara.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Bosporus",
+     "https://www.britannica.com/place/Bosporus"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Tigris and the Euphrates both begin in Türkiye.",
+    "say": "The Tigris and the Euphrates both begin in Turkey.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🏞️"
+    },
+    "fact": "Both great rivers rise in the mountains of eastern Türkiye.",
+    "sayAnswer": "True! Both great rivers rise in the mountains of eastern Turkey.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Tigris%E2%80%93Euphrates_river_system",
+     "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Lake Van, Türkiye's largest lake, is a freshwater lake.",
+    "say": "Lake Van, Turkey's largest lake, is a freshwater lake.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "💧"
+    },
+    "fact": "Lake Van is a salty soda lake with no outlet.",
+    "sayAnswer": "False! Lake Van is a salty soda lake with no outlet.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Lake_Van",
+     "https://www.britannica.com/place/Lake-Van"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Göbekli Tepe in Türkiye is thousands of years older than Stonehenge.",
+    "say": "Gobekli Tepe in Turkey is thousands of years older than Stonehenge.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🗿"
+    },
+    "fact": "Built around 9500 BCE, it predates Stonehenge by some 6,000 years.",
+    "sayAnswer": "True! Its carved stone pillars are about 6000 years older than Stonehenge.",
+    "src": [
+     "https://www.britannica.com/place/Gobekli-Tepe",
+     "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-018",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "THE",
+   "AMERICAS",
+   "TRUE/FALSE"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about the Americas, three seconds each. Number five twists your mental map!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Ecuador is named after the Equator.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇪🇨"
+    },
+    "fact": "Ecuador is simply the Spanish word for equator.",
+    "sayAnswer": "True! Ecuador is simply the Spanish word for equator.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Ecuador",
+     "https://en.wikipedia.org/wiki/List_of_country-name_etymologies"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Amazon rainforest lies entirely in Brazil.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🌳"
+    },
+    "fact": "Only about 60% is in Brazil. Peru, Colombia and others share the rest.",
+    "sayAnswer": "False! Only about 60 percent is in Brazil. 8 other countries share the rest.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Amazon_rainforest",
+     "https://en.wikipedia.org/wiki/Amazon_basin"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Brazil is named after a tree.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌲"
+    },
+    "fact": "The name comes from brazilwood, a tree prized for its red dye.",
+    "sayAnswer": "True! The name comes from brazilwood, a tree once prized for its red dye.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Name_of_Brazil",
+     "https://en.wikipedia.org/wiki/List_of_country-name_etymologies"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Aconcagua, the highest peak outside Asia, is in Chile.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🏔️"
+    },
+    "fact": "It stands in Argentina, close to the Chilean border.",
+    "sayAnswer": "False! It stands in Argentina, close to the border with Chile.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Aconcagua",
+     "https://www.britannica.com/place/Mount-Aconcagua"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Panama Canal's Atlantic end is west of its Pacific end.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🚢"
+    },
+    "fact": "The canal runs northwest to southeast across a bend in the isthmus.",
+    "sayAnswer": "True! Panama bends like an S, so ships heading to the Pacific actually sail southeast.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Panama_Canal",
+     "https://en.wikipedia.org/wiki/Geography_of_Panama"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-019",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "ASIA",
+   "TRUE OR",
+   "FALSE?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about Asia, three seconds each. The last one catches people out!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Kazakhstan is the world's largest landlocked country.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇰🇿"
+    },
+    "fact": "It is the ninth-largest country on Earth and has no ocean coast.",
+    "sayAnswer": "True! It is the ninth-largest country on Earth, with no ocean coastline.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Kazakhstan",
+     "https://en.wikipedia.org/wiki/Landlocked_country"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Bali is a country.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🏝️"
+    },
+    "fact": "Bali is an island and a province of Indonesia.",
+    "sayAnswer": "False! Bali is an island and a province of Indonesia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Bali",
+     "https://en.wikipedia.org/wiki/Provinces_of_Indonesia"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Maldives is the lowest-lying country on Earth.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇲🇻"
+    },
+    "fact": "Its natural ground rises no more than about 2.4 m above the sea.",
+    "sayAnswer": "True! Its natural ground rises only about 2 meters above the sea.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Maldives",
+     "https://www.britannica.com/place/Maldives"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "China, as wide as the continental US, uses just one time zone.",
+    "say": "China, as wide as the continental U.S., uses just one time zone.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🕗"
+    },
+    "fact": "China spans five geographic time zones but uses only Beijing time.",
+    "sayAnswer": "True! China spans 5 geographic time zones but officially uses only Beijing time.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Time_in_China",
+     "https://en.wikipedia.org/wiki/China"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Most Russians live in the Asian part of Russia.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇷🇺"
+    },
+    "fact": "About 80% of Russia's people live in the European part.",
+    "sayAnswer": "False! About 80 percent of Russia's people live in the European part.",
+    "src": [
+     "https://en.wikipedia.org/wiki/European_Russia"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-020",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "WHAT'S IN",
+   "A NAME?",
+   "TRUE/FALSE"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five facts about famous place names, three seconds each. Number five has gone to the dogs!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "The name of the Pacific Ocean means peaceful.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🕊️"
+    },
+    "fact": "Magellan named it Mar Pacífico, the peaceful sea, in 1520.",
+    "sayAnswer": "True! Magellan named it the peaceful sea after finding calm waters.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Pacific_Ocean",
+     "https://oceanservice.noaa.gov/facts/pacific.html"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "America is named after Christopher Columbus.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "⛵"
+    },
+    "fact": "It is named after the Italian explorer Amerigo Vespucci.",
+    "sayAnswer": "False! It is named after the Italian explorer Amerigo Vespucci.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Naming_of_the_Americas",
+     "https://www.britannica.com/biography/Amerigo-Vespucci"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "Argentina is named after the Latin word for silver.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🥈"
+    },
+    "fact": "Argentum is Latin for silver, like the Río de la Plata, the silver river.",
+    "sayAnswer": "True! Argentum is Latin for silver. Explorers hoped to find plenty of it there.",
+    "src": [
+     "https://www.britannica.com/place/Argentina",
+     "https://en.wikipedia.org/wiki/List_of_country-name_etymologies"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "New Zealand is named after a province of the Netherlands.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🇳🇿"
+    },
+    "fact": "Dutch mapmakers named it after their coastal province of Zeeland.",
+    "sayAnswer": "True! Dutch mapmakers named it after their coastal province of Zeeland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/New_Zealand",
+     "https://en.wikipedia.org/wiki/Zeeland"
+    ]
+   },
+   {
+    "kind": "tf",
+    "q": "The Canary Islands are named after canary birds.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🐕"
+    },
+    "fact": "The birds are named after the islands. The name likely comes from dogs.",
+    "sayAnswer": "False! It is the other way round. The name probably comes from the Latin for dogs.",
+    "src": [
+     "https://en.wikipedia.org/wiki/Canary_Islands",
+     "https://www.britannica.com/place/Canary-Islands"
+    ]
+   }
+  ]
+ }
+]

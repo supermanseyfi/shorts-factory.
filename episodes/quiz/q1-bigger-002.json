@@ -1,0 +1,176 @@
+{
+ "id": "q1-bigger-002",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "ONE US STATE",
+  "VS A WHOLE",
+  "COUNTRY"
+ ],
+ "hook": {
+  "say": "One US state against a whole country. Which is bigger? Five duels, three seconds each. The last one is wild!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: California or Italy?",
+   "options": [
+    "California",
+    "Italy"
+   ],
+   "answer": 0,
+   "values": [
+    423967,
+    302068
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:06",
+     "c:380"
+    ]
+   },
+   "fact": "California is about 40% bigger than Italy.",
+   "sayAnswer": "California! It is about forty percent bigger than Italy.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Spain or Texas?",
+   "options": [
+    "Spain",
+    "Texas"
+   ],
+   "answer": 1,
+   "values": [
+    505370,
+    695662
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:724",
+     "s:48"
+    ]
+   },
+   "fact": "Texas is bigger than Spain and Portugal combined.",
+   "sayAnswer": "Texas! It is bigger than Spain and Portugal combined.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Montana or Germany?",
+   "options": [
+    "Montana",
+    "Germany"
+   ],
+   "answer": 0,
+   "values": [
+    380831,
+    357592
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:30",
+     "c:276"
+    ]
+   },
+   "fact": "Montana tops Germany, with 1.1 million people against 83 million.",
+   "sayAnswer": "Montana! It beats Germany, with just over one million people against eighty-three million.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: UK or Wyoming?",
+   "say": "Which is bigger: the U K or Wyoming?",
+   "options": [
+    "UK",
+    "Wyoming"
+   ],
+   "answer": 1,
+   "values": [
+    244376,
+    253335
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:826",
+     "s:56"
+    ]
+   },
+   "fact": "Wyoming is about 4% bigger than the UK, with under 600,000 people.",
+   "sayAnswer": "Wyoming! It is about four percent bigger than the United Kingdom, with fewer than six hundred thousand people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is the biggest: Peru, Alaska or South Africa?",
+   "options": [
+    "Peru",
+    "Alaska",
+    "South Africa"
+   ],
+   "answer": 1,
+   "values": [
+    1285216,
+    1723337,
+    1219090
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:604",
+     "s:02",
+     "c:710"
+    ]
+   },
+   "fact": "Alaska beats Peru and South Africa, with under a million people.",
+   "sayAnswer": "Alaska! It is bigger than Peru, and bigger than South Africa, with fewer than one million people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

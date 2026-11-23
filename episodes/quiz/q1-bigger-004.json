@@ -1,0 +1,168 @@
+{
+ "id": "q1-bigger-004",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "EUROPE:",
+  "WHICH ONE",
+  "IS BIGGER?"
+ ],
+ "hook": {
+  "say": "Europe edition! You have seen this map a thousand times. So which country is bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Spain or Germany?",
+   "options": [
+    "Spain",
+    "Germany"
+   ],
+   "answer": 0,
+   "values": [
+    505370,
+    357592
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:724",
+     "c:276"
+    ]
+   },
+   "fact": "Spain is about 40% bigger than Germany.",
+   "sayAnswer": "Spain! It is about forty percent bigger than Germany.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: UK or Italy?",
+   "say": "Which is bigger: the U K or Italy?",
+   "options": [
+    "UK",
+    "Italy"
+   ],
+   "answer": 1,
+   "values": [
+    244376,
+    302068
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:826",
+     "c:380"
+    ]
+   },
+   "fact": "Italy is almost a quarter bigger than the United Kingdom.",
+   "sayAnswer": "Italy! It is almost a quarter bigger than the United Kingdom.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Germany or Sweden?",
+   "options": [
+    "Germany",
+    "Sweden"
+   ],
+   "answer": 1,
+   "values": [
+    357592,
+    450295
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:276",
+     "c:752"
+    ]
+   },
+   "fact": "Sweden is a quarter bigger than Germany, with an eighth of the people.",
+   "sayAnswer": "Sweden! It is a quarter bigger than Germany, with about an eighth of the people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Germany or Finland?",
+   "options": [
+    "Germany",
+    "Finland"
+   ],
+   "answer": 0,
+   "values": [
+    357592,
+    338145
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:276",
+     "c:246"
+    ]
+   },
+   "fact": "Germany wins, but only by about 6%. Finland is huge.",
+   "sayAnswer": "Germany! But only by about six percent. Finland is huge.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Portugal or Iceland?",
+   "options": [
+    "Portugal",
+    "Iceland"
+   ],
+   "answer": 1,
+   "values": [
+    92090,
+    103000
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:620",
+     "c:352"
+    ]
+   },
+   "fact": "Iceland is about 12% bigger than Portugal, with about 400,000 people.",
+   "sayAnswer": "Iceland! It is about twelve percent bigger than Portugal, with only about four hundred thousand people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

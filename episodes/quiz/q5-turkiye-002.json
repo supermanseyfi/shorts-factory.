@@ -1,0 +1,154 @@
+{
+ "id": "q5-turkiye-002",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "TÜRKİYE",
+  "GEOGRAPHY",
+  "BASICS"
+ ],
+ "hook": {
+  "say": "Think you know where Turkey sits on the map? Five quick questions. The last one fools almost everyone!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Türkiye lies on which two continents?",
+   "say": "Turkey lies on which two continents?",
+   "options": [
+    "Europe and Africa",
+    "Only Asia",
+    "Asia and Africa",
+    "Europe and Asia"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🌍"
+   },
+   "fact": "Most of Türkiye is in Asia; a small part, Thrace, is in Europe.",
+   "sayAnswer": "Europe and Asia! Most of Turkey is in Asia, and a small part, called Thrace, is in Europe.",
+   "src": [
+    "https://www.britannica.com/place/Turkey",
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which strait splits Istanbul between Europe and Asia?",
+   "say": "Which strait splits Istanbul between Europe and Asia?",
+   "options": [
+    "Gibraltar",
+    "Bosphorus",
+    "Hormuz",
+    "Dardanelles"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🚢"
+   },
+   "fact": "The Bosphorus links the Black Sea to the Sea of Marmara.",
+   "sayAnswer": "The Bosphorus! It links the Black Sea to the Sea of Marmara.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bosporus",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "How many geographical regions is Türkiye divided into?",
+   "say": "How many geographical regions is Turkey divided into?",
+   "options": [
+    "5",
+    "9",
+    "7",
+    "12"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:792"
+    ]
+   },
+   "fact": "The seven regions were set by Türkiye's First Geography Congress.",
+   "sayAnswer": "Seven! The 7 regions were set by Turkey's First Geography Congress.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "How many countries share a land border with Türkiye?",
+   "say": "How many countries share a land border with Turkey?",
+   "options": [
+    "8",
+    "6",
+    "7",
+    "10"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:792"
+    ]
+   },
+   "fact": "Greece, Bulgaria, Georgia, Armenia, Azerbaijan, Iran, Iraq and Syria.",
+   "sayAnswer": "Eight! Greece, Bulgaria, Georgia, Armenia, Azerbaijan, Iran, Iraq and Syria.",
+   "src": [
+    "https://www.britannica.com/place/Turkey",
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which sea lies entirely inside Türkiye?",
+   "say": "Which sea lies entirely inside Turkey?",
+   "options": [
+    "Black Sea",
+    "Sea of Marmara",
+    "Aegean Sea",
+    "Sea of Azov"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "The Sea of Marmara connects the Black Sea and the Aegean.",
+   "sayAnswer": "The Sea of Marmara! It connects the Black Sea and the Aegean, and it is all Turkish.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sea_of_Marmara",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

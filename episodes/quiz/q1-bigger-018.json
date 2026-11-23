@@ -1,0 +1,170 @@
+{
+ "id": "q1-bigger-018",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "STATE",
+  "VS STATE",
+  "SHOWDOWN"
+ ],
+ "hook": {
+  "say": "US state against US state. Which is bigger? Five duels, three seconds each. They get harder!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is the biggest: Texas, Alaska or California?",
+   "options": [
+    "Texas",
+    "Alaska",
+    "California"
+   ],
+   "answer": 1,
+   "values": [
+    695662,
+    1723337,
+    423967
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:48",
+     "s:02",
+     "s:06"
+    ]
+   },
+   "fact": "Alaska is bigger than Texas, California and Montana combined.",
+   "sayAnswer": "Alaska! It is bigger than Texas, California and Montana combined.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Oregon or Washington?",
+   "options": [
+    "Oregon",
+    "Washington"
+   ],
+   "answer": 0,
+   "values": [
+    254799,
+    184661
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:41",
+     "s:53"
+    ]
+   },
+   "fact": "Oregon is almost 40% bigger than Washington state.",
+   "sayAnswer": "Oregon! It is almost forty percent bigger than Washington state.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: North Dakota or South Dakota?",
+   "options": [
+    "North Dakota",
+    "South Dakota"
+   ],
+   "answer": 1,
+   "values": [
+    183108,
+    199729
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:38",
+     "s:46"
+    ]
+   },
+   "fact": "South Dakota is about 9% bigger than North Dakota.",
+   "sayAnswer": "South Dakota! It is about nine percent bigger than North Dakota.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Arizona or New Mexico?",
+   "options": [
+    "Arizona",
+    "New Mexico"
+   ],
+   "answer": 1,
+   "values": [
+    295234,
+    314917
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:04",
+     "s:35"
+    ]
+   },
+   "fact": "New Mexico is about 7% bigger than Arizona.",
+   "sayAnswer": "New Mexico! It is about seven percent bigger than Arizona.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Nevada or Colorado?",
+   "options": [
+    "Nevada",
+    "Colorado"
+   ],
+   "answer": 0,
+   "values": [
+    286380,
+    269601
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:32",
+     "s:08"
+    ]
+   },
+   "fact": "Nevada is about 6% bigger than Colorado.",
+   "sayAnswer": "Nevada! It is about six percent bigger than Colorado.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

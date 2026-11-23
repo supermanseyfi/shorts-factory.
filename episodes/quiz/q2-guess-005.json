@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-005",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "ASIA"
+ ],
+ "hook": {
+  "say": "Asia is the biggest continent on Earth. Can you name these five Asian countries from their outlines?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "North Korea",
+    "Vietnam",
+    "South Korea",
+    "Cambodia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:410"
+    ]
+   },
+   "fact": "South Korea: its alphabet, Hangul, was created in the 1440s by King Sejong.",
+   "sayAnswer": "South Korea! Its alphabet, Hangul, was created in the 1440s by King Sejong.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hangul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Mongolia",
+    "Kazakhstan",
+    "Uzbekistan",
+    "Iran"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:398"
+    ]
+   },
+   "fact": "Kazakhstan is the largest landlocked country in the world.",
+   "sayAnswer": "Kazakhstan! It is the largest landlocked country in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Mongolia",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Turkmenistan"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:496"
+    ]
+   },
+   "fact": "Mongolia is the most sparsely populated sovereign country on Earth.",
+   "sayAnswer": "Mongolia! It is the most sparsely populated sovereign country on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mongolia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Bhutan",
+    "Bangladesh",
+    "Tajikistan",
+    "Nepal"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:524"
+    ]
+   },
+   "fact": "Nepal has the only national flag in the world that is not a rectangle.",
+   "sayAnswer": "Nepal! It has the only national flag in the world that is not a rectangle.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Nepal"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Thailand",
+    "Laos",
+    "Myanmar",
+    "Vietnam"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:104"
+    ]
+   },
+   "fact": "Myanmar, once called Burma, is the largest country in mainland Southeast Asia.",
+   "sayAnswer": "Myanmar! Once called Burma, it is the largest country in mainland Southeast Asia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Myanmar"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

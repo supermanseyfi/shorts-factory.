@@ -1,0 +1,149 @@
+{
+ "id": "q5-turkiye-003",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "ISTANBUL QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "ISTANBUL?"
+ ],
+ "hook": {
+  "say": "Istanbul, the city on two continents. Five questions, three seconds each. Can you get the last one?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "By what name was Istanbul long known in the West?",
+   "say": "By what name was Istanbul long known in the West?",
+   "options": [
+    "Constantinople",
+    "Smyrna",
+    "Adrianople",
+    "Antioch"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🕌"
+   },
+   "fact": "Before that it was Byzantium. Istanbul became the official name in 1930.",
+   "sayAnswer": "Constantinople! Before that it was Byzantium. Istanbul became the official name in 1930.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Istanbul",
+    "https://www.britannica.com/place/Istanbul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which emperor built Hagia Sophia, completed in 537?",
+   "say": "Which emperor built Hagia Sophia, completed in the year 537?",
+   "options": [
+    "Hadrian",
+    "Constantine",
+    "Theodosius II",
+    "Justinian I"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏛️"
+   },
+   "fact": "It was built in less than six years, starting in 532.",
+   "sayAnswer": "Justinian the First! It was built in less than 6 years, starting in 532.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hagia_Sophia",
+    "https://en.wikipedia.org/wiki/Istanbul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Istanbul tower was built by the Genoese in 1348?",
+   "say": "Which Istanbul tower was built by the Genoese in 1348?",
+   "options": [
+    "Beyazıt Tower",
+    "Maiden's Tower",
+    "Galata Tower",
+    "Çamlıca Tower"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🗼"
+   },
+   "fact": "Galata Tower was first called the Tower of Christ.",
+   "sayAnswer": "Galata Tower! It was first called the Tower of Christ.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Galata_Tower",
+    "https://en.wikipedia.org/wiki/Istanbul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "About how many shops fill Istanbul's Grand Bazaar?",
+   "say": "About how many shops fill Istanbul's Grand Bazaar?",
+   "options": [
+    "400",
+    "1,000",
+    "2,000",
+    "4,000"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🛍️"
+   },
+   "fact": "The Grand Bazaar has 61 covered streets and over 4,000 shops.",
+   "sayAnswer": "Four thousand! The Grand Bazaar has 61 covered streets and more than 4000 shops.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Istanbul's Tünel is the world's second-oldest subway. When did it open?",
+   "say": "Istanbul's Tunel is the world's second-oldest subway. When did it open?",
+   "options": [
+    "1855",
+    "1875",
+    "1905",
+    "1925"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🚇"
+   },
+   "fact": "It opened in 1875. Only London's Underground is older.",
+   "sayAnswer": "1875! Only London's Underground is older.",
+   "src": [
+    "https://en.wikipedia.org/wiki/T%C3%BCnel"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

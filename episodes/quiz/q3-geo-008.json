@@ -1,0 +1,146 @@
+{
+ "id": "q3-geo-008",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "AFRICA QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "AFRICA?"
+ ],
+ "hook": {
+  "say": "How well do you know Africa? Five questions, three seconds each. Number five surprises almost everyone!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What is the highest mountain in Africa?",
+   "options": [
+    "Mount Kenya",
+    "Kilimanjaro",
+    "Mount Stanley",
+    "Mount Meru"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "Kilimanjaro, in Tanzania, rises 5,895 meters and stands all alone.",
+   "sayAnswer": "Kilimanjaro! It rises 5,895 meters in Tanzania, and it stands all alone, not in a mountain range.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+    "https://www.britannica.com/place/Kilimanjaro"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which African country has the most people?",
+   "options": [
+    "Egypt",
+    "Ethiopia",
+    "Nigeria",
+    "South Africa"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "👥"
+   },
+   "fact": "Nigeria is home to well over 200 million people.",
+   "sayAnswer": "Nigeria! It is home to well over 200 million people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nigeria"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the largest country in Africa by area?",
+   "options": [
+    "Algeria",
+    "DR Congo",
+    "Sudan",
+    "Libya"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌍"
+   },
+   "fact": "Algeria took the title in 2011, when Sudan split into two countries.",
+   "sayAnswer": "Algeria! It took the title in 2011, when Sudan split into two countries.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Algeria",
+    "https://www.britannica.com/place/Algeria"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Victoria Falls is on which river?",
+   "options": [
+    "Nile",
+    "Congo",
+    "Niger",
+    "Zambezi"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "💦"
+   },
+   "fact": "The falls are 1.7 km wide, on the border of Zambia and Zimbabwe.",
+   "sayAnswer": "The Zambezi! The falls are 1.7 kilometers wide, on the border of Zambia and Zimbabwe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Victoria_Falls",
+    "https://www.britannica.com/place/Victoria-Falls-waterfall-Zambia-Zimbabwe"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country has more ancient pyramids than Egypt?",
+   "options": [
+    "Libya",
+    "Sudan",
+    "Ethiopia",
+    "Morocco"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🔺"
+   },
+   "fact": "Sudan has more than 200 pyramids. Egypt has between 120 and 140.",
+   "sayAnswer": "Sudan! It has more than 200 ancient pyramids. Egypt has between 120 and 140.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nubian_pyramids",
+    "https://www.guinnessworldrecords.com/world-records/779653-most-ancient-pyramids-country"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

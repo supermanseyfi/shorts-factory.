@@ -1,0 +1,175 @@
+{
+ "id": "q1-bigger-016",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "MORE PEOPLE?",
+ "title": [
+  "TÜRKİYE:",
+  "WHO HAS",
+  "MORE PEOPLE?"
+ ],
+ "hook": {
+  "say": "Turkey against the world, but this time we count people. Who has more? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which has more people: Türkiye or UK?",
+   "say": "Which has more people: Turkey or the U K?",
+   "options": [
+    "Türkiye",
+    "UK"
+   ],
+   "answer": 0,
+   "values": [
+    87926082,
+    69931528
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:826"
+    ]
+   },
+   "fact": "Türkiye: about 88 million people. UK: about 70 million (UN, 2026).",
+   "sayAnswer": "Turkey! It has about eighty-eight million people. The United Kingdom has about seventy million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Türkiye or Mexico?",
+   "say": "Which has more people: Turkey or Mexico?",
+   "options": [
+    "Türkiye",
+    "Mexico"
+   ],
+   "answer": 1,
+   "values": [
+    87926082,
+    132997658
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:484"
+    ]
+   },
+   "fact": "Mexico has about 133 million people, Türkiye about 88 million (UN, 2026).",
+   "sayAnswer": "Mexico! It has about one hundred and thirty-three million people. Turkey has about eighty-eight million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has the most people: Türkiye, Canada or Australia?",
+   "say": "Which has the most people: Turkey, Canada or Australia?",
+   "options": [
+    "Türkiye",
+    "Canada",
+    "Australia"
+   ],
+   "answer": 0,
+   "values": [
+    87926082,
+    40467728,
+    27227096
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:124",
+     "c:036"
+    ]
+   },
+   "fact": "Türkiye has more people than Canada and Australia combined (UN, 2026).",
+   "sayAnswer": "Turkey! It has more people than Canada and Australia combined.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Türkiye or Vietnam?",
+   "say": "Which has more people: Turkey or Vietnam?",
+   "options": [
+    "Türkiye",
+    "Vietnam"
+   ],
+   "answer": 1,
+   "values": [
+    87926082,
+    102177431
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:704"
+    ]
+   },
+   "fact": "Vietnam has about 102 million people, Türkiye about 88 million (UN, 2026).",
+   "sayAnswer": "Vietnam! It has about one hundred and two million people. Turkey has about eighty-eight million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Türkiye or Ethiopia?",
+   "say": "Which has more people: Turkey or Ethiopia?",
+   "options": [
+    "Türkiye",
+    "Ethiopia"
+   ],
+   "answer": 1,
+   "values": [
+    87926082,
+    138902185
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:231"
+    ]
+   },
+   "fact": "Ethiopia: about 139 million people. Türkiye: about 88 million (UN, 2026).",
+   "sayAnswer": "Ethiopia! It has about one hundred and thirty-nine million people. Turkey has about eighty-eight million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

@@ -1,0 +1,147 @@
+{
+ "id": "q3-geo-019",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "LANDMARKS QUIZ",
+ "title": [
+  "WHICH",
+  "COUNTRY",
+  "IS IT IN?"
+ ],
+ "hook": {
+  "say": "Famous landmarks, but which country are they in? Five questions, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "In which country is the Sagrada Família?",
+   "say": "In which country is the Sagrada Familia church?",
+   "options": [
+    "Italy",
+    "Portugal",
+    "Spain",
+    "Mexico"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "⛪"
+   },
+   "fact": "Work on the Barcelona church began in 1882 and it is still not finished.",
+   "sayAnswer": "Spain! Work on this church in Barcelona began in 1882, and it is still not finished.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "In which country are the Maya ruins of Chichén Itzá?",
+   "say": "In which country are the Maya ruins of Chee-chen Eet-sah?",
+   "options": [
+    "Guatemala",
+    "Mexico",
+    "Peru",
+    "Honduras"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🛕"
+   },
+   "fact": "Its famous step pyramid, El Castillo, is about 30 meters high.",
+   "sayAnswer": "Mexico! The famous step pyramid there, El Castillo, is about 30 meters high.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Chichen_Itza"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "In which country is the rock-carved city of Petra?",
+   "options": [
+    "Egypt",
+    "Jordan",
+    "Morocco",
+    "Iran"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏜️"
+   },
+   "fact": "Petra is called the Rose City, after the sandstone it is carved from.",
+   "sayAnswer": "Jordan! Petra is called the Rose City, after the color of the sandstone it is carved from.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Petra",
+    "https://www.britannica.com/place/Petra-ancient-city-Jordan"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "In which country is the temple of Angkor Wat?",
+   "options": [
+    "Thailand",
+    "Vietnam",
+    "Myanmar",
+    "Cambodia"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🛕"
+   },
+   "fact": "Angkor Wat is the world's largest religious structure.",
+   "sayAnswer": "Cambodia! Angkor Wat is the largest religious structure in the world, and it even appears on Cambodia's flag.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "https://www.britannica.com/topic/Angkor-Wat"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Easter Island and its giant stone heads belong to which country?",
+   "options": [
+    "New Zealand",
+    "Peru",
+    "Chile",
+    "France"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🗿"
+   },
+   "fact": "The island has nearly 900 statues and lies about 3,500 km off Chile.",
+   "sayAnswer": "Chile! The island has nearly 900 statues, and lies about 3,500 kilometers off the coast of Chile.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Easter_Island",
+    "https://www.britannica.com/place/Easter-Island"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

@@ -1,0 +1,148 @@
+{
+ "id": "q3-geo-016",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRICK QUESTIONS",
+ "title": [
+  "5 TRICK",
+  "QUESTIONS",
+  "DON'T BLINK"
+ ],
+ "hook": {
+  "say": "These five geography questions sound easy. They are not. Trust the map, not your gut!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which of these cities is farthest north?",
+   "options": [
+    "New York",
+    "Rome",
+    "Madrid",
+    "Beijing"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "Rome sits at almost 42 degrees north, above New York, Madrid and Beijing.",
+   "sayAnswer": "Rome! It sits at almost 42 degrees north, above New York, Madrid and Beijing.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rome",
+    "https://en.wikipedia.org/wiki/New_York_City"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country has the longest coastline in the world?",
+   "options": [
+    "Russia",
+    "Indonesia",
+    "Canada",
+    "Australia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "Canada has over 200,000 km of coast, counting its thousands of islands.",
+   "sayAnswer": "Canada! It has over 200,000 kilometers of coast, counting its thousands of islands.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline",
+    "https://www.statcan.gc.ca/o1/en/plus/9203-canada-day-were-number-one"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which of these US cities is farthest west?",
+   "say": "Which of these U.S. cities is farthest west?",
+   "options": [
+    "Los Angeles",
+    "San Diego",
+    "Las Vegas",
+    "Reno"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "⬅️"
+   },
+   "fact": "Reno, Nevada, is farther west than Los Angeles, on the Pacific coast.",
+   "sayAnswer": "Reno! This Nevada city is farther west than Los Angeles, which sits on the Pacific coast.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Reno,_Nevada",
+    "https://en.wikipedia.org/wiki/Los_Angeles"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "At their closest, how far apart are Russia and the United States?",
+   "options": [
+    "About 4 km",
+    "About 85 km",
+    "About 400 km",
+    "About 1,500 km"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🤏"
+   },
+   "fact": "Russia's Big Diomede and Alaska's Little Diomede are about 4 km apart.",
+   "sayAnswer": "About 4 kilometers! That is the gap between Russia's Big Diomede island, and Alaska's Little Diomede.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Diomede_Islands",
+    "https://www.britannica.com/place/Diomede-Islands"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "With which country does France share its longest land border?",
+   "options": [
+    "Spain",
+    "Germany",
+    "Belgium",
+    "Brazil"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇫🇷"
+   },
+   "fact": "French Guiana, part of France, shares a 730 km border with Brazil.",
+   "sayAnswer": "Brazil! French Guiana in South America is part of France, and shares a 730 kilometer border with Brazil.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border",
+    "https://en.wikipedia.org/wiki/Borders_of_France"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

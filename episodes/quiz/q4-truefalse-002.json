@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-002",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "CAPITAL",
+  "CITY",
+  "TRAPS"
+ ],
+ "hook": {
+  "say": "True or false? Five capital city traps. Three seconds each, and the last one sounds made up!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Toronto is the capital of Canada.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇨🇦"
+   },
+   "fact": "The capital is Ottawa. Toronto is just the biggest city.",
+   "sayAnswer": "False! The capital is Ottawa. Toronto is just the biggest city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ottawa",
+    "https://www.britannica.com/place/Ottawa"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Wellington is the capital of New Zealand.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇳🇿"
+   },
+   "fact": "Wellington is the capital. Auckland is the largest city.",
+   "sayAnswer": "True! Wellington is the capital. Auckland is only the largest city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/New_Zealand",
+    "https://www.britannica.com/place/Wellington-New-Zealand"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Rio de Janeiro is the capital of Brazil.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇧🇷"
+   },
+   "fact": "Brasília replaced Rio as the capital in 1960.",
+   "sayAnswer": "False! Brasilia replaced Rio as the capital back in 1960.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+    "https://www.britannica.com/place/Brasilia"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "South Africa has three capital cities.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇿🇦"
+   },
+   "fact": "Pretoria, Cape Town and Bloemfontein share the job.",
+   "sayAnswer": "True! Pretoria, Cape Town and Bloemfontein share the job.",
+   "src": [
+    "https://www.cfr.org/blog/south-africas-three-capitals",
+    "https://en.wikipedia.org/wiki/South_Africa"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Nauru has no official capital city.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏝️"
+   },
+   "fact": "The tiny Pacific island nation has no cities. Yaren is only the de facto capital.",
+   "sayAnswer": "True! The tiny Pacific nation has no cities. Its government simply sits in the Yaren district.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Yaren_District",
+    "https://www.britannica.com/place/Yaren"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

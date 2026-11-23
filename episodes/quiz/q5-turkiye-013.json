@@ -1,0 +1,147 @@
+{
+ "id": "q5-turkiye-013",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "TURKISH",
+  "FOOD & DRINK",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Hungry? Five tasty questions about Turkish food and drink. The last ingredient will surprise you!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which salty Turkish drink is made from yogurt and water?",
+   "say": "Which salty Turkish drink is made from yogurt and water?",
+   "options": [
+    "Salep",
+    "Şalgam",
+    "Ayran",
+    "Boza"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🥛"
+   },
+   "fact": "Ayran is simply yogurt, water and a pinch of salt.",
+   "sayAnswer": "Eye-ran! It is simply yogurt, water and a pinch of salt.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ayran",
+    "https://en.wikipedia.org/wiki/Turkish_cuisine"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city is Türkiye's baklava capital?",
+   "say": "Which city is Turkey's baklava capital?",
+   "options": [
+    "Gaziantep",
+    "Trabzon",
+    "Bursa",
+    "Edirne"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🍯"
+   },
+   "fact": "Antep baklava won protected status from the EU in 2013.",
+   "sayAnswer": "Gazi-antep! Its pistachio baklava won protected status from the European Union in 2013.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Baklava"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Türkiye is the world's top producer of which nut?",
+   "say": "Turkey is the world's top producer of which nut?",
+   "options": [
+    "Cashews",
+    "Hazelnuts",
+    "Almonds",
+    "Walnuts"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌰"
+   },
+   "fact": "In 2023 Türkiye grew more than half of the world's hazelnuts.",
+   "sayAnswer": "Hazelnuts! In 2023, Turkey grew more than half of the world's hazelnuts.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hazelnut"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "\"Kahvaltı\", the Turkish word for breakfast, literally means what?",
+   "say": "Kah-val-tuh, the Turkish word for breakfast, literally means what?",
+   "options": [
+    "First bread",
+    "Morning table",
+    "Sunrise meal",
+    "Before coffee"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🍳"
+   },
+   "fact": "Yet the star drink of a Turkish breakfast is black tea.",
+   "sayAnswer": "Before coffee! And yet the star drink of a Turkish breakfast is black tea.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Turkish_cuisine"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Stretchy Maraş ice cream is thickened with salep. What is salep made from?",
+   "say": "Stretchy Marash ice cream is thickened with salep. What is salep made from?",
+   "options": [
+    "Orchid tubers",
+    "Chickpeas",
+    "Goat's milk",
+    "Pine resin"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🍦"
+   },
+   "fact": "Salep is a flour ground from the tubers of wild orchids.",
+   "sayAnswer": "Orchid tubers! Salep is a flour ground from the tubers of wild orchids.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dondurma"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

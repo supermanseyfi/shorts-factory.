@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-010",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "NORTH AMERICA"
+ ],
+ "hook": {
+  "say": "From the Arctic down to the tropics: five North American countries. Easy start, tricky finish. Ready?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Canada",
+    "United States",
+    "Mexico",
+    "Brazil"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:840"
+    ]
+   },
+   "fact": "United States: 50 states and one federal capital, Washington, D.C.",
+   "sayAnswer": "The United States! 50 states and one federal capital, Washington D.C.",
+   "src": [
+    "https://en.wikipedia.org/wiki/United_States"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Canada",
+    "United States",
+    "Australia",
+    "Norway"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:124"
+    ]
+   },
+   "fact": "Canada has the longest coastline of any country in the world.",
+   "sayAnswer": "Canada! It has the longest coastline of any country in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Canada"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Guatemala",
+    "Colombia",
+    "Peru",
+    "Mexico"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:484"
+    ]
+   },
+   "fact": "Mexico has more native Spanish speakers than any other country.",
+   "sayAnswer": "Mexico! It has more native Spanish speakers than any other country.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mexico"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Costa Rica",
+    "Nicaragua",
+    "Panama",
+    "Honduras"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:591"
+    ]
+   },
+   "fact": "Panama: its canal, opened in 1914, links the Atlantic and Pacific oceans.",
+   "sayAnswer": "Panama! Its canal, opened in 1914, links the Atlantic and Pacific oceans.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Panama_Canal"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Honduras",
+    "Guatemala",
+    "Nicaragua",
+    "Costa Rica"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:320"
+    ]
+   },
+   "fact": "Guatemala: home to Tikal, one of the largest cities of the ancient Maya.",
+   "sayAnswer": "Guatemala! Home to Tikal, one of the largest cities of the ancient Maya.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tikal"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

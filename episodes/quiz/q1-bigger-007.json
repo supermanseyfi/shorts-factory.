@@ -1,0 +1,170 @@
+{
+ "id": "q1-bigger-007",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "YOUR MAP",
+  "IS LYING",
+  "TO YOU"
+ ],
+ "hook": {
+  "say": "Flat maps stretch everything near the poles. Can you still tell which is bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Greenland or Australia?",
+   "options": [
+    "Greenland",
+    "Australia"
+   ],
+   "answer": 1,
+   "values": [
+    2166086,
+    7741220
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:304",
+     "c:036"
+    ]
+   },
+   "fact": "Australia is more than three and a half times the size of Greenland.",
+   "sayAnswer": "Australia! It is more than three and a half times the size of Greenland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Madagascar or Sweden?",
+   "options": [
+    "Madagascar",
+    "Sweden"
+   ],
+   "answer": 0,
+   "values": [
+    587041,
+    450295
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:450",
+     "c:752"
+    ]
+   },
+   "fact": "Madagascar is about 30% bigger than Sweden.",
+   "sayAnswer": "Madagascar! It is about thirty percent bigger than Sweden.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: UK or New Zealand?",
+   "say": "Which is bigger: the U K or New Zealand?",
+   "options": [
+    "UK",
+    "New Zealand"
+   ],
+   "answer": 1,
+   "values": [
+    244376,
+    268838
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:826",
+     "c:554"
+    ]
+   },
+   "fact": "New Zealand is about 10% bigger than the United Kingdom.",
+   "sayAnswer": "New Zealand! It is about ten percent bigger than the United Kingdom.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Mexico or Alaska?",
+   "options": [
+    "Mexico",
+    "Alaska"
+   ],
+   "answer": 0,
+   "values": [
+    1964375,
+    1723337
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:484",
+     "s:02"
+    ]
+   },
+   "fact": "Mexico is about 14% bigger than Alaska, the largest US state.",
+   "sayAnswer": "Mexico! It is about fourteen percent bigger than Alaska, the largest U S state.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Greenland or DR Congo?",
+   "say": "Which is bigger: Greenland or the Democratic Republic of the Congo?",
+   "options": [
+    "Greenland",
+    "DR Congo"
+   ],
+   "answer": 1,
+   "values": [
+    2166086,
+    2344858
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:304",
+     "c:180"
+    ]
+   },
+   "fact": "DR Congo is 8% bigger than Greenland, yet looks tiny next to it on maps.",
+   "sayAnswer": "The D R Congo! It is eight percent bigger than Greenland, yet it looks tiny next to it on flat maps.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

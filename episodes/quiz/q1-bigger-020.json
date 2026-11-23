@@ -1,0 +1,167 @@
+{
+ "id": "q1-bigger-020",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "MORE PEOPLE?",
+ "title": [
+  "BIG LAND,",
+  "MORE PEOPLE?",
+  "NOT ALWAYS"
+ ],
+ "hook": {
+  "say": "Does a bigger country mean more people? Not always. Who has more? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which has more people: Mongolia or Ireland?",
+   "options": [
+    "Mongolia",
+    "Ireland"
+   ],
+   "answer": 1,
+   "values": [
+    3556798,
+    5356950
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:496",
+     "c:372"
+    ]
+   },
+   "fact": "Ireland: 5.4 million people. Mongolia, 22 times larger: 3.6 million (2026).",
+   "sayAnswer": "Ireland! It has about five point four million people. Mongolia is twenty-two times larger, with only about three and a half million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Kazakhstan or the Netherlands?",
+   "options": [
+    "Kazakhstan",
+    "Netherlands"
+   ],
+   "answer": 0,
+   "values": [
+    21083626,
+    18448775
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:398",
+     "c:528"
+    ]
+   },
+   "fact": "Kazakhstan: 21 million. Netherlands, 65 times smaller: 18.4 million (2026).",
+   "sayAnswer": "Kazakhstan! It has about twenty-one million people. The Netherlands is sixty-five times smaller, with about eighteen and a half million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Argentina or Kenya?",
+   "options": [
+    "Argentina",
+    "Kenya"
+   ],
+   "answer": 1,
+   "values": [
+    46003734,
+    58636412
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:032",
+     "c:404"
+    ]
+   },
+   "fact": "Kenya has about 59 million people, Argentina about 46 million (UN, 2026).",
+   "sayAnswer": "Kenya! It has about fifty-nine million people. Argentina has about forty-six million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Uganda or Canada?",
+   "options": [
+    "Uganda",
+    "Canada"
+   ],
+   "answer": 0,
+   "values": [
+    52761470,
+    40467728
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:800",
+     "c:124"
+    ]
+   },
+   "fact": "Uganda has about 53 million people, Canada about 40 million (UN, 2026).",
+   "sayAnswer": "Uganda! It has about fifty-three million people. Canada has about forty million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Libya or Switzerland?",
+   "options": [
+    "Libya",
+    "Switzerland"
+   ],
+   "answer": 1,
+   "values": [
+    7539852,
+    9007798
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:434",
+     "c:756"
+    ]
+   },
+   "fact": "Switzerland: 9 million people. Libya, 43 times larger: 7.5 million (2026).",
+   "sayAnswer": "Switzerland! It has about nine million people. Libya is forty-three times larger, with seven and a half million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

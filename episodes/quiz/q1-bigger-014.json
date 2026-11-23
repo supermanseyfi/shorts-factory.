@@ -1,0 +1,172 @@
+{
+ "id": "q1-bigger-014",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "TÜRKİYE",
+  "VS THE WORLD:",
+  "ROUND 2"
+ ],
+ "hook": {
+  "say": "Turkey against the world, round two! Bigger or smaller? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Iraq?",
+   "say": "Which is bigger: Turkey or Iraq?",
+   "options": [
+    "Türkiye",
+    "Iraq"
+   ],
+   "answer": 0,
+   "values": [
+    783562,
+    438317
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:368"
+    ]
+   },
+   "fact": "Türkiye is nearly 80% bigger than Iraq.",
+   "sayAnswer": "Turkey! It is nearly eighty percent bigger than Iraq.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Iran?",
+   "say": "Which is bigger: Turkey or Iran?",
+   "options": [
+    "Türkiye",
+    "Iran"
+   ],
+   "answer": 1,
+   "values": [
+    783562,
+    1648195
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:364"
+    ]
+   },
+   "fact": "Iran is more than twice the size of Türkiye.",
+   "sayAnswer": "Iran! It is more than twice the size of Turkey.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Egypt?",
+   "say": "Which is bigger: Turkey or Egypt?",
+   "options": [
+    "Türkiye",
+    "Egypt"
+   ],
+   "answer": 1,
+   "values": [
+    783562,
+    1001450
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:818"
+    ]
+   },
+   "fact": "Egypt is about 28% bigger than Türkiye.",
+   "sayAnswer": "Egypt! It is about twenty-eight percent bigger than Turkey.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Zambia?",
+   "say": "Which is bigger: Turkey or Zambia?",
+   "options": [
+    "Türkiye",
+    "Zambia"
+   ],
+   "answer": 0,
+   "values": [
+    783562,
+    752612
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:894"
+    ]
+   },
+   "fact": "Türkiye is about 4% bigger than Zambia.",
+   "sayAnswer": "Turkey! It is about four percent bigger than Zambia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Venezuela?",
+   "say": "Which is bigger: Turkey or Venezuela?",
+   "options": [
+    "Türkiye",
+    "Venezuela"
+   ],
+   "answer": 1,
+   "values": [
+    783562,
+    912050
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:862"
+    ]
+   },
+   "fact": "Venezuela is about 16% bigger than Türkiye.",
+   "sayAnswer": "Venezuela! It is about sixteen percent bigger than Turkey.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

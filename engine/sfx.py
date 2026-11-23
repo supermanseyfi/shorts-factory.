@@ -124,6 +124,10 @@ for i, s in enumerate(segs):
         place("fx", impact(1.2), st + .5, .6, send=.5)
         place("fx", whoosh(1.6, 4000, 200)[::-1], ep["duration"] - 1.5, .3, send=.4)
 
+for t0, t1 in ep.get("timers", []):      # quiz countdowns: clock ticks, then a rising answer chime
+    n = int(round((t1 - t0) / .5))
+    for q in range(n): place("fx", tick(1500 if q % 2 else 1150), t0 + q * (t1 - t0) / n, .5, pan=-.15 if q % 2 else .15)
+    for j, nn in enumerate((74, 79, 86)): place("fx", bell(midi(nn), .9), t1 + .05 + j * .07, .3, send=.8)
 # ---------- voice ----------
 venv = np.zeros(N)
 for s in segs:

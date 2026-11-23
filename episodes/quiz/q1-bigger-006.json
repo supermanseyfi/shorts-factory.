@@ -1,0 +1,167 @@
+{
+ "id": "q1-bigger-006",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "MORE PEOPLE?",
+ "title": [
+  "WHO HAS",
+  "MORE",
+  "PEOPLE?"
+ ],
+ "hook": {
+  "say": "Which country has more people? Size on the map tells you nothing. Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which has more people: Germany or Vietnam?",
+   "options": [
+    "Germany",
+    "Vietnam"
+   ],
+   "answer": 1,
+   "values": [
+    83644258,
+    102177431
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:276",
+     "c:704"
+    ]
+   },
+   "fact": "Vietnam: about 102 million people. Germany: about 84 million (UN, 2026).",
+   "sayAnswer": "Vietnam! It has about one hundred and two million people. Germany has about eighty-four million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Mexico or Japan?",
+   "options": [
+    "Mexico",
+    "Japan"
+   ],
+   "answer": 0,
+   "values": [
+    132997658,
+    122427731
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:484",
+     "c:392"
+    ]
+   },
+   "fact": "Mexico has about 133 million people, Japan about 122 million (UN, 2026).",
+   "sayAnswer": "Mexico! It has about one hundred and thirty-three million people. Japan has about one hundred and twenty-two million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Italy or South Africa?",
+   "options": [
+    "Italy",
+    "South Africa"
+   ],
+   "answer": 1,
+   "values": [
+    58926166,
+    65453084
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:380",
+     "c:710"
+    ]
+   },
+   "fact": "South Africa: about 65 million people. Italy: about 59 million (UN, 2026).",
+   "sayAnswer": "South Africa! It has about sixty-five million people. Italy has about fifty-nine million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Madagascar or Australia?",
+   "options": [
+    "Madagascar",
+    "Australia"
+   ],
+   "answer": 0,
+   "values": [
+    33522052,
+    27227096
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:450",
+     "c:036"
+    ]
+   },
+   "fact": "Madagascar: about 33.5 million people. Australia: about 27 million (2026).",
+   "sayAnswer": "Madagascar! It has about thirty-three and a half million people. Australia has about twenty-seven million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Russia or Bangladesh?",
+   "options": [
+    "Russia",
+    "Bangladesh"
+   ],
+   "answer": 1,
+   "values": [
+    143394458,
+    177818044
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:643",
+     "c:050"
+    ]
+   },
+   "fact": "Bangladesh: 178 million people on under 1% of Russia's land (UN, 2026).",
+   "sayAnswer": "Bangladesh! It has one hundred and seventy-eight million people, on less than one percent of Russia's land.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

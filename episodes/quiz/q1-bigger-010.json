@@ -1,0 +1,168 @@
+{
+ "id": "q1-bigger-010",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "ASIA:",
+  "WHICH ONE",
+  "IS BIGGER?"
+ ],
+ "hook": {
+  "say": "Asia edition! The biggest continent hides some real surprises. Which is bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Japan or UK?",
+   "say": "Which is bigger: Japan or the U K?",
+   "options": [
+    "Japan",
+    "UK"
+   ],
+   "answer": 0,
+   "values": [
+    377975,
+    244376
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:392",
+     "c:826"
+    ]
+   },
+   "fact": "Japan is more than one and a half times the size of the UK.",
+   "sayAnswer": "Japan! It is more than one and a half times the size of the United Kingdom.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Mexico or Kazakhstan?",
+   "options": [
+    "Mexico",
+    "Kazakhstan"
+   ],
+   "answer": 1,
+   "values": [
+    1964375,
+    2724910
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:484",
+     "c:398"
+    ]
+   },
+   "fact": "Kazakhstan is almost 40% bigger than Mexico.",
+   "sayAnswer": "Kazakhstan! It is almost forty percent bigger than Mexico.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Thailand or France?",
+   "options": [
+    "Thailand",
+    "France"
+   ],
+   "answer": 1,
+   "values": [
+    513120,
+    551695
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:764",
+     "c:250"
+    ]
+   },
+   "fact": "Mainland France is about 8% bigger than Thailand.",
+   "sayAnswer": "France! Mainland France is about eight percent bigger than Thailand.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Iran or Mongolia?",
+   "options": [
+    "Iran",
+    "Mongolia"
+   ],
+   "answer": 0,
+   "values": [
+    1648195,
+    1564116
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:364",
+     "c:496"
+    ]
+   },
+   "fact": "Iran is about 5% bigger than Mongolia.",
+   "sayAnswer": "Iran! It is about five percent bigger than Mongolia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: North Korea or South Korea?",
+   "options": [
+    "North Korea",
+    "South Korea"
+   ],
+   "answer": 0,
+   "values": [
+    120538,
+    100432
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:408",
+     "c:410"
+    ]
+   },
+   "fact": "North Korea is about 20% bigger, with half as many people.",
+   "sayAnswer": "North Korea! It is about twenty percent bigger than the South, with half as many people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

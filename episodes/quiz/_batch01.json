@@ -1,0 +1,516 @@
+[
+ {
+  "id": "q3-geo-001",
+  "series": "GEOGRAPHY QUIZ",
+  "title": [
+   "CAN YOU",
+   "GET",
+   "5 OUT OF 5?"
+  ],
+  "hook": "Five geography questions. Three seconds each. Most people miss number five!",
+  "qs": [
+   {
+    "q": "What is the capital of Australia?",
+    "options": [
+     "Sydney",
+     "Melbourne",
+     "Canberra",
+     "Perth"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "emoji",
+     "text": "🇦🇺"
+    },
+    "fact": "Canberra was built to settle the rivalry between Sydney and Melbourne.",
+    "sayAnswer": "Canberra! It was built to settle the rivalry between Sydney and Melbourne.",
+    "src": []
+   },
+   {
+    "q": "Which is the smallest country in the world?",
+    "options": [
+     "Monaco",
+     "Vatican City",
+     "San Marino",
+     "Malta"
+    ],
+    "answer": 1,
+    "fact": "Vatican City covers less than half a square kilometer.",
+    "sayAnswer": "Vatican City! It covers less than half a square kilometer.",
+    "src": []
+   },
+   {
+    "q": "Which is the largest desert on Earth?",
+    "options": [
+     "Sahara",
+     "Gobi",
+     "Arabian",
+     "Antarctica"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "emoji",
+     "text": "🏜️"
+    },
+    "fact": "A desert is defined by low rainfall, and Antarctica is the driest continent.",
+    "sayAnswer": "Antarctica! A desert just means very little rain, and it is the driest continent.",
+    "src": []
+   },
+   {
+    "q": "Which country has the most time zones?",
+    "options": [
+     "Russia",
+     "France",
+     "United States",
+     "China"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🕒"
+    },
+    "fact": "France has 12, thanks to its overseas territories. Russia has 11.",
+    "sayAnswer": "France! It has twelve, thanks to its overseas territories. Russia has eleven.",
+    "src": []
+   },
+   {
+    "q": "Which country has the most islands?",
+    "options": [
+     "Indonesia",
+     "Philippines",
+     "Sweden",
+     "Japan"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "emoji",
+     "text": "🏝️"
+    },
+    "fact": "Sweden has more than 260,000 islands. Most are uninhabited.",
+    "sayAnswer": "Sweden! It has more than 260,000 islands, and most are uninhabited.",
+    "src": []
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-001",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "WHICH",
+   "ONE IS",
+   "BIGGER?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Which one is bigger? Maps lie, so trust your gut. Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Texas or France?",
+    "options": [
+     "Texas",
+     "France"
+    ],
+    "answer": 0,
+    "values": [
+     695662,
+     551695
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:48",
+      "c:250"
+     ]
+    },
+    "fact": "Texas is about a quarter bigger than mainland France.",
+    "sayAnswer": "Texas! It is about a quarter bigger than mainland France.",
+    "src": []
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Texas?",
+    "say": "Which is bigger: Turkey or Texas?",
+    "options": [
+     "Türkiye",
+     "Texas"
+    ],
+    "answer": 0,
+    "values": [
+     783562,
+     695662
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "s:48"
+     ]
+    },
+    "fact": "Türkiye beats Texas by an area the size of Austria.",
+    "sayAnswer": "Turkey! It beats Texas by an area the size of Austria.",
+    "src": []
+   },
+   {
+    "kind": "duel",
+    "q": "Which is the biggest: California, Japan or Germany?",
+    "options": [
+     "California",
+     "Japan",
+     "Germany"
+    ],
+    "answer": 0,
+    "values": [
+     423967,
+     377975,
+     357592
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:06",
+      "c:392",
+      "c:276"
+     ]
+    },
+    "fact": "California is bigger than both Japan and Germany.",
+    "sayAnswer": "California! It is bigger than both Japan and Germany.",
+    "src": []
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Alaska or Mongolia?",
+    "options": [
+     "Alaska",
+     "Mongolia"
+    ],
+    "answer": 0,
+    "values": [
+     1723337,
+     1564116
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:02",
+      "c:496"
+     ]
+    },
+    "fact": "Alaska alone is bigger than Iran, and twice the size of Texas.",
+    "sayAnswer": "Alaska! On its own, it is bigger than Iran, and more than twice the size of Texas.",
+    "src": []
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Greenland or India?",
+    "options": [
+     "Greenland",
+     "India"
+    ],
+    "answer": 1,
+    "values": [
+     2166086,
+     3287263
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:304",
+      "c:356"
+     ]
+    },
+    "fact": "Flat maps stretch Greenland. India is really 50% bigger.",
+    "sayAnswer": "India! Flat maps stretch Greenland. India is really fifty percent bigger.",
+    "src": []
+   }
+  ]
+ },
+ {
+  "id": "q4-truefalse-001",
+  "series": "TRUE OR FALSE?",
+  "title": [
+   "TRUE",
+   "OR",
+   "FALSE?"
+  ],
+  "sub": "5 FACTS · 3 SECONDS EACH",
+  "hook": "True or false? Five geography facts that fool almost everyone. Three seconds each!",
+  "qs": [
+   {
+    "kind": "tf",
+    "q": "Istanbul is the capital of Türkiye.",
+    "say": "Istanbul is the capital of Turkey.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇹🇷"
+    },
+    "fact": "The capital is Ankara, and has been since 1923.",
+    "sayAnswer": "False! The capital is Ankara, and has been since 1923.",
+    "src": []
+   },
+   {
+    "kind": "tf",
+    "q": "Africa is bigger than China, India and the USA combined.",
+    "say": "Africa is bigger than China, India and the U.S.A. combined.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌍"
+    },
+    "fact": "Africa is 30 million km². Those three together are about 23 million.",
+    "sayAnswer": "True! Africa is thirty million square kilometers. Those three together are about twenty-three million.",
+    "src": []
+   },
+   {
+    "kind": "tf",
+    "q": "Mount Everest's summit is the farthest point from the centre of the Earth.",
+    "say": "Mount Everest's summit is the farthest point from the center of the Earth.",
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🏔️"
+    },
+    "fact": "That is Chimborazo in Ecuador, because the Earth bulges at the equator.",
+    "sayAnswer": "False! That is Chimborazo in Ecuador, because the Earth bulges at the equator.",
+    "src": []
+   },
+   {
+    "kind": "tf",
+    "q": "Alaska is both the westernmost and the easternmost US state.",
+    "say": "Alaska is both the westernmost and the easternmost U.S. state.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🧭"
+    },
+    "fact": "Its Aleutian Islands cross the 180° line into the Eastern Hemisphere.",
+    "sayAnswer": "True! Its Aleutian Islands cross the 180 degree line into the Eastern Hemisphere.",
+    "src": []
+   },
+   {
+    "kind": "tf",
+    "q": "Australia is wider than the Moon.",
+    "answer": 0,
+    "visual": {
+     "type": "emoji",
+     "text": "🌕"
+    },
+    "fact": "Australia is about 4,000 km across. The Moon is 3,474 km wide.",
+    "sayAnswer": "True! Australia is about 4000 kilometers across. The Moon is only 3474 kilometers wide.",
+    "src": []
+   }
+  ]
+ },
+ {
+  "id": "q2-guess-001",
+  "series": "GUESS THE COUNTRY",
+  "title": [
+   "GUESS",
+   "THE",
+   "COUNTRY"
+  ],
+  "sub": "5 SHAPES · 3 SECONDS EACH",
+  "hook": "Can you name a country just from its shape? Five outlines, and the last one is tough!",
+  "qs": [
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Greece",
+     "Italy",
+     "Portugal",
+     "Croatia"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:380"
+     ]
+    },
+    "fact": "Italy: the famous boot, with Sicily at its toe.",
+    "sayAnswer": "Italy! The famous boot, with Sicily at its toe.",
+    "src": []
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Argentina",
+     "Peru",
+     "Norway",
+     "Chile"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:152"
+     ]
+    },
+    "fact": "Chile is over 4,000 km long but only about 180 km wide.",
+    "sayAnswer": "Chile! It is over 4000 kilometers long, but only about 180 wide.",
+    "src": []
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "India",
+     "Pakistan",
+     "Brazil",
+     "Saudi Arabia"
+    ],
+    "answer": 0,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:356"
+     ]
+    },
+    "fact": "India: home to more people than any other country.",
+    "sayAnswer": "India! Home to more people than any other country.",
+    "src": []
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Philippines",
+     "New Zealand",
+     "Japan",
+     "United Kingdom"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:392"
+     ]
+    },
+    "fact": "Japan is made up of more than 14,000 islands.",
+    "sayAnswer": "Japan! It is made up of more than 14,000 islands.",
+    "src": []
+   },
+   {
+    "q": "Which country is this?",
+    "options": [
+     "Kazakhstan",
+     "Mongolia",
+     "Türkiye",
+     "Ukraine"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:792"
+     ]
+    },
+    "fact": "Türkiye: the bridge between Europe and Asia.",
+    "sayAnswer": "Turkey! The bridge between Europe and Asia.",
+    "src": []
+   }
+  ]
+ },
+ {
+  "id": "q5-turkiye-001",
+  "series": "TÜRKİYE QUIZ",
+  "title": [
+   "HOW WELL",
+   "DO YOU KNOW",
+   "TÜRKİYE?"
+  ],
+  "hook": "How well do you know Turkey? Five questions, three seconds each. Number four trips up even locals!",
+  "qs": [
+   {
+    "q": "What is the capital of Türkiye?",
+    "say": "What is the capital of Turkey?",
+    "options": [
+     "Istanbul",
+     "Ankara",
+     "İzmir",
+     "Bursa"
+    ],
+    "answer": 1,
+    "visual": {
+     "type": "emoji",
+     "text": "🇹🇷"
+    },
+    "fact": "Ankara became the capital in 1923.",
+    "sayAnswer": "Ankara! It became the capital in 1923.",
+    "src": []
+   },
+   {
+    "q": "Which is Türkiye's highest mountain?",
+    "say": "Which is Turkey's highest mountain?",
+    "options": [
+     "Mount Erciyes",
+     "Mount Kaçkar",
+     "Mount Ararat",
+     "Uludağ"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "emoji",
+     "text": "🏔️"
+    },
+    "fact": "Mount Ararat rises to 5,137 meters.",
+    "sayAnswer": "Mount Ararat! It rises to 5137 meters.",
+    "src": []
+   },
+   {
+    "q": "Which is Türkiye's largest lake?",
+    "say": "Which is Turkey's largest lake?",
+    "options": [
+     "Lake Tuz",
+     "Lake Beyşehir",
+     "Lake Eğirdir",
+     "Lake Van"
+    ],
+    "answer": 3,
+    "visual": {
+     "type": "emoji",
+     "text": "🌊"
+    },
+    "fact": "Lake Van is so big that locals call it a sea.",
+    "sayAnswer": "Lake Van! It is so big that locals call it a sea.",
+    "src": []
+   },
+   {
+    "q": "How many provinces does Türkiye have?",
+    "say": "How many provinces does Turkey have?",
+    "options": [
+     "67",
+     "73",
+     "81",
+     "90"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "shapes",
+     "ids": [
+      "c:792"
+     ]
+    },
+    "fact": "81 provinces, from Edirne in the west to Hakkâri in the east.",
+    "sayAnswer": "Eighty-one! From Edirne in the west, to Hakkari in the east.",
+    "src": []
+   },
+   {
+    "q": "Which is Türkiye's largest province by area?",
+    "say": "Which is Turkey's largest province by area?",
+    "options": [
+     "Ankara",
+     "Sivas",
+     "Konya",
+     "Erzurum"
+    ],
+    "answer": 2,
+    "visual": {
+     "type": "emoji",
+     "text": "🗺️"
+    },
+    "fact": "Konya is bigger than Belgium.",
+    "sayAnswer": "Konya! It is bigger than Belgium.",
+    "src": []
+   }
+  ]
+ }
+]

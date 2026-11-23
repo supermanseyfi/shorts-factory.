@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-011",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "FAMOUS",
+  "CITIES",
+  "TRUE/FALSE"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about famous cities, three seconds each. The last city is slowly disappearing!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Dubai is the capital of the United Arab Emirates.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇦🇪"
+   },
+   "fact": "The capital is Abu Dhabi. Dubai is the largest city.",
+   "sayAnswer": "False! The capital is Abu Dhabi. Dubai is just the largest city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Abu_Dhabi",
+    "https://www.britannica.com/place/Abu-Dhabi"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Istanbul lies on two continents.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌉"
+   },
+   "fact": "The Bosphorus strait splits the city between Europe and Asia.",
+   "sayAnswer": "True! The Bosphorus strait splits the city between Europe and Asia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bosporus",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Paris is farther north than Montreal.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🗼"
+   },
+   "fact": "Paris sits at 48.9° north. Montreal is at 45.5° north.",
+   "sayAnswer": "True! Paris is more than 3 degrees of latitude north of Montreal.",
+   "src": [
+    "https://www.nationalgeographic.com/culture/article/all-over-the-map-mental-mapping-misconceptions",
+    "https://en.wikipedia.org/wiki/Montreal"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Casablanca is the capital of Morocco.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇲🇦"
+   },
+   "fact": "The capital is Rabat. Casablanca is the biggest city.",
+   "sayAnswer": "False! The capital is Rabat. Casablanca is only the biggest city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rabat",
+    "https://www.britannica.com/place/Rabat"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Mexico City is sinking a little more every year.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇲🇽"
+   },
+   "fact": "Groundwater pumping makes parts of the city sink about 35 cm a year.",
+   "sayAnswer": "True! Pumping out groundwater makes parts of the city sink about 35 centimeters a year.",
+   "src": [
+    "https://eos.org/articles/groundwater-pumping-is-causing-mexico-city-to-sink",
+    "https://en.wikipedia.org/wiki/Mexico_City"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

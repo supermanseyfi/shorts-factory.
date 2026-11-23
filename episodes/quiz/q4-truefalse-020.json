@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-020",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "WHAT'S IN",
+  "A NAME?",
+  "TRUE/FALSE"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about famous place names, three seconds each. Number five has gone to the dogs!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "The name of the Pacific Ocean means peaceful.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🕊️"
+   },
+   "fact": "Magellan named it Mar Pacífico, the peaceful sea, in 1520.",
+   "sayAnswer": "True! Magellan named it the peaceful sea after finding calm waters.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pacific_Ocean",
+    "https://oceanservice.noaa.gov/facts/pacific.html"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "America is named after Christopher Columbus.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛵"
+   },
+   "fact": "It is named after the Italian explorer Amerigo Vespucci.",
+   "sayAnswer": "False! It is named after the Italian explorer Amerigo Vespucci.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Naming_of_the_Americas",
+    "https://www.britannica.com/biography/Amerigo-Vespucci"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Argentina is named after the Latin word for silver.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🥈"
+   },
+   "fact": "Argentum is Latin for silver, like the Río de la Plata, the silver river.",
+   "sayAnswer": "True! Argentum is Latin for silver. Explorers hoped to find plenty of it there.",
+   "src": [
+    "https://www.britannica.com/place/Argentina",
+    "https://en.wikipedia.org/wiki/List_of_country-name_etymologies"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "New Zealand is named after a province of the Netherlands.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇳🇿"
+   },
+   "fact": "Dutch mapmakers named it after their coastal province of Zeeland.",
+   "sayAnswer": "True! Dutch mapmakers named it after their coastal province of Zeeland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/New_Zealand",
+    "https://en.wikipedia.org/wiki/Zeeland"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Canary Islands are named after canary birds.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🐕"
+   },
+   "fact": "The birds are named after the islands. The name likely comes from dogs.",
+   "sayAnswer": "False! It is the other way round. The name probably comes from the Latin for dogs.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Canary_Islands",
+    "https://www.britannica.com/place/Canary-Islands"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

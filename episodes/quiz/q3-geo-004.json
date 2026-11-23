@@ -1,0 +1,144 @@
+{
+ "id": "q3-geo-004",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "FLAG QUIZ",
+ "title": [
+  "WHOSE",
+  "FLAG",
+  "IS THIS?"
+ ],
+ "hook": {
+  "say": "Five flags, three seconds each. The first one is easy. The last one has a twin. Ready?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Whose flag is this?",
+   "options": [
+    "China",
+    "Japan",
+    "South Korea",
+    "Bangladesh"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇯🇵"
+   },
+   "fact": "Japan calls its flag the Hinomaru, meaning the circle of the sun.",
+   "sayAnswer": "Japan! The Japanese call it the Hee-no-mah-roo, which means the circle of the sun.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Japan"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Whose flag is this?",
+   "options": [
+    "Canada",
+    "Peru",
+    "Austria",
+    "Lebanon"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇨🇦"
+   },
+   "fact": "The maple leaf flag only dates from 1965. Its leaf has 11 points.",
+   "sayAnswer": "Canada! The maple leaf flag only dates from 1965, and its leaf has 11 points.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Canada"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Whose flag is this?",
+   "options": [
+    "Portugal",
+    "Jamaica",
+    "Brazil",
+    "Bolivia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🇧🇷"
+   },
+   "fact": "Its 27 stars stand for Brazil's 26 states and the Federal District.",
+   "sayAnswer": "Brazil! Its 27 stars stand for the 26 states, plus the Federal District.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+    "https://www.britannica.com/topic/flag-of-Brazil"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Whose flag is this?",
+   "options": [
+    "Bhutan",
+    "Sri Lanka",
+    "Mongolia",
+    "Nepal"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇳🇵"
+   },
+   "fact": "Nepal's is the only national flag that is not a rectangle.",
+   "sayAnswer": "Nepal! It is the only national flag in the world that is not a rectangle.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Nepal"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Whose flag is this?",
+   "options": [
+    "Italy",
+    "Ivory Coast",
+    "Ireland",
+    "India"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🇮🇪"
+   },
+   "fact": "Ivory Coast flies the same colors in reverse: orange, white, green.",
+   "sayAnswer": "Ireland! Ivory Coast flies the same three colors in reverse order: orange, white, green.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Ireland",
+    "https://www.britannica.com/topic/flag-of-Cote-dIvoire"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 FLAGS · 3 SECONDS EACH"
+}

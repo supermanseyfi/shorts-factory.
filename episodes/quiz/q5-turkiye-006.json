@@ -1,0 +1,150 @@
+{
+ "id": "q5-turkiye-006",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "LAKES",
+  "& RIVERS",
+  "OF TÜRKİYE"
+ ],
+ "hook": {
+  "say": "Rivers, lakes and one word you use without knowing it is Turkish geography. Five questions, go!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which two great rivers rise in Türkiye and flow on to Iraq?",
+   "say": "Which two great rivers rise in Turkey and flow on to Iraq?",
+   "options": [
+    "Danube and Volga",
+    "Nile and Jordan",
+    "Euphrates and Tigris",
+    "Indus and Ganges"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏞️"
+   },
+   "fact": "They meet in Iraq and flow into the Persian Gulf.",
+   "sayAnswer": "The Euphrates and the Tigris! They meet in Iraq and flow into the Persian Gulf.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Euphrates",
+    "https://en.wikipedia.org/wiki/Tigris"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which giant salt lake lies in the heart of Central Anatolia?",
+   "say": "Which giant salt lake lies in the heart of Central Anatolia?",
+   "options": [
+    "Lake Sapanca",
+    "Lake Tuz",
+    "Lake Van",
+    "Lake İznik"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🧂"
+   },
+   "fact": "Tuz means salt. It is Türkiye's second-largest lake.",
+   "sayAnswer": "Lake Tooz! Tooz means salt, and it is Turkey's second-largest lake.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Tuz",
+    "https://www.britannica.com/place/Lake-Tuz"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the longest river flowing entirely within Türkiye?",
+   "say": "Which is the longest river flowing entirely within Turkey?",
+   "options": [
+    "Yeşilırmak",
+    "Sakarya",
+    "Seyhan",
+    "Kızılırmak"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏞️"
+   },
+   "fact": "Kızılırmak means Red River. It flows into the Black Sea.",
+   "sayAnswer": "The Kizil-irmak! Its name means Red River, and it flows into the Black Sea.",
+   "src": [
+    "https://en.wikipedia.org/wiki/K%C4%B1z%C4%B1l%C4%B1rmak_River",
+    "https://www.britannica.com/place/Kizil-River"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Turkish river gave English the word \"meander\"?",
+   "say": "Which Turkish river gave English the word meander?",
+   "options": [
+    "Göksu",
+    "Büyük Menderes",
+    "Gediz",
+    "Aras"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "〰️"
+   },
+   "fact": "The ancient Greeks called this winding river the Maeander.",
+   "sayAnswer": "The Menderes! The ancient Greeks called this winding river the Meander.",
+   "src": [
+    "https://en.wikipedia.org/wiki/B%C3%BCy%C3%BCk_Menderes_River",
+    "https://www.britannica.com/place/Menderes-River"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is Türkiye's largest freshwater lake?",
+   "say": "Which is Turkey's largest freshwater lake?",
+   "options": [
+    "Lake İznik",
+    "Lake Çıldır",
+    "Lake Beyşehir",
+    "Lake Eğirdir"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "💧"
+   },
+   "fact": "Lake Beyşehir covers about 650 km² in Konya and Isparta provinces.",
+   "sayAnswer": "Lake Bay-sheh-heer! It covers about 650 square kilometres in Konya and Isparta provinces.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Bey%C5%9Fehir"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

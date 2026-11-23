@@ -1,0 +1,151 @@
+{
+ "id": "q5-turkiye-016",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "CAPPADOCIA QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "CAPPADOCIA?"
+ ],
+ "hook": {
+  "say": "Balloons, fairy chimneys and cities hidden underground. Five questions on Cappadocia. Ready?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What fills the sky over Cappadocia at sunrise?",
+   "say": "What fills the sky over Cappadocia at sunrise?",
+   "options": [
+    "Hot-air balloons",
+    "Fireworks",
+    "Kites",
+    "Paragliders"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🎈"
+   },
+   "fact": "Balloons drift over the valleys around Göreme at dawn.",
+   "sayAnswer": "Hot-air balloons! They drift over the valleys around Guh-reh-meh at dawn.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cappadocia",
+    "https://en.wikipedia.org/wiki/G%C3%B6reme"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What are Cappadocia's tall rock spires called?",
+   "say": "What are Cappadocia's tall rock spires called?",
+   "options": [
+    "Dragon teeth",
+    "Giant's fingers",
+    "Stone candles",
+    "Fairy chimneys"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🧚"
+   },
+   "fact": "Wind and water carved them from soft volcanic rock.",
+   "sayAnswer": "Fairy chimneys! Wind and water carved them from soft volcanic rock.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cappadocia",
+    "https://whc.unesco.org/en/list/357"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Göreme, the heart of Cappadocia, is in which province?",
+   "say": "Guh-reh-meh, the heart of Cappadocia, is in which province?",
+   "options": [
+    "Konya",
+    "Kayseri",
+    "Nevşehir",
+    "Aksaray"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "📍"
+   },
+   "fact": "Göreme National Park has been a UNESCO site since 1985.",
+   "sayAnswer": "Nev-sheh-heer! Guh-reh-meh National Park has been a UNESCO site since 1985.",
+   "src": [
+    "https://en.wikipedia.org/wiki/G%C3%B6reme",
+    "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Cappadocia's soft rock was laid down by what?",
+   "say": "Cappadocia's soft rock was laid down by what?",
+   "options": [
+    "Glaciers",
+    "Volcanic eruptions",
+    "River floods",
+    "Ancient seas"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "Erciyes, Hasan and Göllüdağ volcanoes blanketed the region.",
+   "sayAnswer": "Volcanic eruptions! Three ancient volcanoes, including Mount Air-jee-yes, blanketed the region.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cappadocia",
+    "https://whc.unesco.org/en/list/357"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "About how many people could Derinkuyu underground city shelter?",
+   "say": "About how many people could Deh-rin-koo-yoo underground city shelter?",
+   "options": [
+    "500",
+    "2,000",
+    "20,000",
+    "200,000"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🕳️"
+   },
+   "fact": "Derinkuyu goes down about 85 metres below the surface.",
+   "sayAnswer": "Twenty thousand! The city goes down about 85 meters below the surface.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Derinkuyu_underground_city",
+    "https://www.iflscience.com/derinkuyu-the-ancient-underground-cave-city-that-can-house-20000-people-69287"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

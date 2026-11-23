@@ -1,0 +1,146 @@
+{
+ "id": "q3-geo-020",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "CAPITALS QUIZ",
+ "title": [
+  "CAPITALS",
+  "LEVEL:",
+  "HARD"
+ ],
+ "hook": {
+  "say": "You know these countries. But do you know their capitals? Five questions, and they keep getting harder!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What is the capital of India?",
+   "options": [
+    "Mumbai",
+    "New Delhi",
+    "Kolkata",
+    "Bengaluru"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇮🇳"
+   },
+   "fact": "New Delhi was inaugurated as the capital in 1931.",
+   "sayAnswer": "New Delhi! It was inaugurated as the capital in 1931.",
+   "src": [
+    "https://en.wikipedia.org/wiki/New_Delhi",
+    "https://www.britannica.com/place/New-Delhi"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Vietnam?",
+   "options": [
+    "Ho Chi Minh City",
+    "Da Nang",
+    "Hanoi",
+    "Hue"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🇻🇳"
+   },
+   "fact": "Ho Chi Minh City is bigger, but Hanoi in the north is the capital.",
+   "sayAnswer": "Hanoi! Ho Chi Minh City is bigger, but Hanoi in the north is the capital.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hanoi"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Pakistan?",
+   "options": [
+    "Islamabad",
+    "Karachi",
+    "Lahore",
+    "Rawalpindi"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇵🇰"
+   },
+   "fact": "Islamabad was built in the 1960s to replace Karachi as the capital.",
+   "sayAnswer": "Islamabad! It was built in the 1960s to replace Karachi as the capital.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Islamabad",
+    "https://www.britannica.com/place/Islamabad"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Nigeria?",
+   "options": [
+    "Lagos",
+    "Kano",
+    "Ibadan",
+    "Abuja"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇳🇬"
+   },
+   "fact": "Abuja, a planned city, took over from Lagos in 1991.",
+   "sayAnswer": "Ah-boo-ja! This planned city took over from Lagos in 1991.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Abuja",
+    "https://www.britannica.com/place/Abuja-national-capital-Nigeria"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Kazakhstan?",
+   "options": [
+    "Almaty",
+    "Astana",
+    "Tashkent",
+    "Bishkek"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇰🇿"
+   },
+   "fact": "Astana was renamed Nur-Sultan in 2019, then changed back in 2022.",
+   "sayAnswer": "Astana! It was renamed Noor Sultan in 2019, then changed back to Astana in 2022.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Astana",
+    "https://www.britannica.com/place/Astana"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

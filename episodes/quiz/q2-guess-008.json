@@ -1,0 +1,154 @@
+{
+ "id": "q2-guess-008",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "COUNTRIES",
+  "THAT LOOK",
+  "LIKE THINGS"
+ ],
+ "hook": {
+  "say": "A teardrop, an elephant, a letter S. These five countries all look like something. Can you name them?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Madagascar",
+    "Sri Lanka",
+    "Ireland",
+    "Cuba"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:144"
+    ]
+   },
+   "fact": "Sri Lanka: this teardrop-shaped island was called Ceylon until 1972.",
+   "sayAnswer": "Sri Lanka! This teardrop shaped island was called Ceylon until 1972.",
+   "src": [
+    "https://www.britannica.com/place/Sri-Lanka",
+    "https://currentaffairs.adda247.com/which-country-is-known-as-the-tear-drop-of-india/"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Vietnam",
+    "Myanmar",
+    "Malaysia",
+    "Thailand"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:764"
+    ]
+   },
+   "fact": "Thailand: Thais often say their country is shaped like an elephant's head.",
+   "sayAnswer": "Thailand! Thais often say their country is shaped like an elephant's head.",
+   "src": [
+    "https://kids.britannica.com/kids/article/Thailand/345800"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Vietnam",
+    "Laos",
+    "Thailand",
+    "Cambodia"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:704"
+    ]
+   },
+   "fact": "Vietnam: roughly S-shaped, and only about 50 km wide at its narrowest.",
+   "sayAnswer": "Vietnam! It is roughly S shaped, and only about 50 kilometers wide at its narrowest.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Vietnam"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Sweden",
+    "Norway",
+    "Finland",
+    "Estonia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:246"
+    ]
+   },
+   "fact": "Finland: its outline is known as the Maiden of Finland, a woman with a raised arm.",
+   "sayAnswer": "Finland! Its outline is known as the Maiden of Finland, a woman with a raised arm.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Finnish_Maiden",
+    "https://bigthink.com/?p=73424"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Slovenia",
+    "Croatia",
+    "Albania",
+    "Greece"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:191"
+    ]
+   },
+   "fact": "Croatia: shaped like a horseshoe, with more than 1,000 islands and islets.",
+   "sayAnswer": "Croatia! It is shaped like a horseshoe, with more than 1000 islands and islets.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Croatia"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

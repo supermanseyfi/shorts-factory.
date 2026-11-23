@@ -1,0 +1,142 @@
+{
+ "id": "q4-truefalse-006",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "TÜRKİYE",
+  "TRUE OR",
+  "FALSE?"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about Turkey, three seconds each. Number five surprises people every Christmas!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Ankara is Türkiye's largest city.",
+   "say": "Ankara is Turkey's largest city.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏙️"
+   },
+   "fact": "Ankara is the capital. Istanbul is by far the largest city.",
+   "sayAnswer": "False! Ankara is the capital, but Istanbul is by far the largest city.",
+   "src": [
+    "https://www.britannica.com/place/Turkey",
+    "https://www.britannica.com/place/Istanbul"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The ancient city of Troy is in Türkiye.",
+   "say": "The ancient city of Troy is in Turkey.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🐴"
+   },
+   "fact": "The ruins of Troy lie in Çanakkale province, in the northwest.",
+   "sayAnswer": "True! The ruins of Troy lie in northwestern Turkey, not in Greece.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Troy",
+    "https://www.britannica.com/place/Troy-ancient-city-Turkey"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Most of Türkiye's land is in Europe.",
+   "say": "Most of Turkey's land is in Europe.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🗺️"
+   },
+   "fact": "About 97% of Türkiye lies in Asia. Only about 3% is in Europe.",
+   "sayAnswer": "False! About 97 percent of Turkey lies in Asia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Türkiye borders eight countries.",
+   "say": "Turkey borders eight countries.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇹🇷"
+   },
+   "fact": "Greece, Bulgaria, Georgia, Armenia, Azerbaijan, Iran, Iraq and Syria.",
+   "sayAnswer": "True! From Greece and Bulgaria all the way round to Iraq and Syria. 8 neighbors.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The real Saint Nicholas, the origin of Santa Claus, lived in Türkiye.",
+   "say": "The real Saint Nicholas, the origin of Santa Claus, lived in Turkey.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🎅"
+   },
+   "fact": "He was bishop of Myra, today's Demre on the Mediterranean coast.",
+   "sayAnswer": "True! He was bishop of Myra, now the town of Demre on Turkey's south coast.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Saint_Nicholas",
+    "https://www.britannica.com/biography/Saint-Nicholas"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

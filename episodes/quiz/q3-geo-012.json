@@ -1,0 +1,148 @@
+{
+ "id": "q3-geo-012",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "ISLANDS QUIZ",
+ "title": [
+  "ISLAND",
+  "QUIZ",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Five questions about the world's islands. Three seconds each. Can you make it to the end?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which is the largest island in the world?",
+   "options": [
+    "Madagascar",
+    "Borneo",
+    "New Guinea",
+    "Greenland"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏝️"
+   },
+   "fact": "About 80% of Greenland lies under a giant sheet of ice.",
+   "sayAnswer": "Greenland! About 80 percent of it lies under a giant sheet of ice.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Greenland",
+    "https://www.britannica.com/place/Greenland"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The island of Bali belongs to which country?",
+   "options": [
+    "Thailand",
+    "Indonesia",
+    "Philippines",
+    "Malaysia"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌴"
+   },
+   "fact": "Bali is the only Hindu-majority province in Indonesia.",
+   "sayAnswer": "Indonesia! Bali is the only province in Indonesia with a Hindu majority.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bali"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the largest island in the Mediterranean Sea?",
+   "options": [
+    "Sardinia",
+    "Cyprus",
+    "Sicily",
+    "Crete"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "Sicily is also home to Etna, Europe's tallest active volcano.",
+   "sayAnswer": "Sicily! It is also home to Mount Etna, the tallest active volcano in Europe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sicily",
+    "https://www.britannica.com/place/Sicily"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Madagascar lies in which ocean?",
+   "options": [
+    "Atlantic",
+    "Indian",
+    "Pacific",
+    "Southern"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:450"
+    ]
+   },
+   "fact": "About 90% of Madagascar's wildlife lives nowhere else on Earth.",
+   "sayAnswer": "The Indian Ocean! About 90 percent of Madagascar's wildlife lives nowhere else on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Madagascar",
+    "https://www.britannica.com/place/Madagascar"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which island is shared by three countries?",
+   "options": [
+    "Borneo",
+    "New Guinea",
+    "Hispaniola",
+    "Timor"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧩"
+   },
+   "fact": "Indonesia, Malaysia and Brunei share Borneo, the 3rd largest island.",
+   "sayAnswer": "Borneo! Indonesia, Malaysia and Brunei share it. It is the 3rd largest island in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Borneo",
+    "https://www.britannica.com/place/Borneo-island-Pacific-Ocean"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

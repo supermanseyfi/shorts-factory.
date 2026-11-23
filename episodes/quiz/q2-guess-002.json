@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-002",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "EUROPE"
+ ],
+ "hook": {
+  "say": "Five European countries, five outlines. You get 3 seconds each, and the last one is the hardest!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Spain",
+    "Germany",
+    "France",
+    "Poland"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:250"
+    ]
+   },
+   "fact": "France: its mainland is nicknamed the Hexagon for its six-sided shape.",
+   "sayAnswer": "France! Its mainland is nicknamed the Hexagon, because of its six-sided shape.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Metropolitan_France"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Spain",
+    "Portugal",
+    "France",
+    "Morocco"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:724"
+    ]
+   },
+   "fact": "Spain: home to the Sagrada Família, under construction since 1882.",
+   "sayAnswer": "Spain! Home to the Sagrada Familia, under construction since 1882.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Ireland",
+    "Iceland",
+    "Norway",
+    "United Kingdom"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:826"
+    ]
+   },
+   "fact": "United Kingdom: England, Scotland, Wales and Northern Ireland in one country.",
+   "sayAnswer": "The United Kingdom! England, Scotland, Wales and Northern Ireland, all in one country.",
+   "src": [
+    "https://en.wikipedia.org/wiki/United_Kingdom"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Poland",
+    "Germany",
+    "Austria",
+    "Belarus"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:276"
+    ]
+   },
+   "fact": "Germany is the most populous country in the European Union.",
+   "sayAnswer": "Germany! It is the most populous country in the European Union.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Germany"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Romania",
+    "Germany",
+    "Poland",
+    "Hungary"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:616"
+    ]
+   },
+   "fact": "Poland: its capital Warsaw lies on the Vistula, the country's longest river.",
+   "sayAnswer": "Poland! Its capital, Warsaw, lies on the Vistula, the longest river in the country.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Vistula"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

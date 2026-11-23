@@ -1,0 +1,149 @@
+{
+ "id": "q5-turkiye-004",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "TURKISH",
+  "CITIES",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Five Turkish cities, five questions. Easy at the start, but the last one catches most people out!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "In which city is Anıtkabir, the mausoleum of Atatürk?",
+   "say": "In which city is Anit-kabir, the mausoleum of Ataturk?",
+   "options": [
+    "Ankara",
+    "Istanbul",
+    "İzmir",
+    "Samsun"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏛️"
+   },
+   "fact": "Anıtkabir was completed in 1953 in the capital, Ankara.",
+   "sayAnswer": "Ankara! The mausoleum was completed in 1953 in the capital.",
+   "src": [
+    "https://en.wikipedia.org/wiki/An%C4%B1tkabir",
+    "https://www.britannica.com/biography/Kemal-Ataturk"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Turkish city was known in antiquity as Smyrna?",
+   "say": "Which Turkish city was known in ancient times as Smyrna?",
+   "options": [
+    "Adana",
+    "İzmir",
+    "Antalya",
+    "Bursa"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⚓"
+   },
+   "fact": "İzmir is Türkiye's third most populous city, on the Aegean coast.",
+   "sayAnswer": "Izmeer! It is Turkey's third most populous city, on the Aegean coast.",
+   "src": [
+    "https://en.wikipedia.org/wiki/%C4%B0zmir",
+    "https://www.britannica.com/place/Izmir"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city holds Rumi's tomb and is home of the whirling dervishes?",
+   "say": "Which city holds Rumi's tomb and is home of the whirling dervishes?",
+   "options": [
+    "Konya",
+    "Kayseri",
+    "Eskişehir",
+    "Sivas"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌀"
+   },
+   "fact": "Rumi's turquoise-domed tomb is now the Mevlana Museum.",
+   "sayAnswer": "Konya! Rumi's turquoise-domed tomb is now the Mevlana Museum.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Konya"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Licence plates starting with 01 belong to which province?",
+   "say": "Licence plates starting with zero one belong to which province?",
+   "options": [
+    "Adıyaman",
+    "Ankara",
+    "Adana",
+    "Istanbul"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🚗"
+   },
+   "fact": "Adana is 01, Ankara is 06 and Istanbul is 34.",
+   "sayAnswer": "Adana! Adana is zero one, Ankara is zero six, and Istanbul is 34.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Provinces_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is Türkiye's smallest province by area?",
+   "say": "Which is Turkey's smallest province by area?",
+   "options": [
+    "Bayburt",
+    "Yalova",
+    "Bartın",
+    "Kilis"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🔍"
+   },
+   "fact": "Yalova covers only about 850 square kilometres.",
+   "sayAnswer": "Yalova! It covers only about 850 square kilometres.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Provinces_of_Turkey",
+    "https://kureansiklopedi.com/en/detay/yalova-il-7"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

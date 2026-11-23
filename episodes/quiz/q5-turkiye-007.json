@@ -1,0 +1,150 @@
+{
+ "id": "q5-turkiye-007",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "SEAS",
+  "& COASTS",
+  "OF TÜRKİYE"
+ ],
+ "hook": {
+  "say": "Turkey has sea on three sides. Do you really know its coasts? Five questions, starting easy!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which sea lies along Türkiye's northern coast?",
+   "say": "Which sea lies along Turkey's northern coast?",
+   "options": [
+    "Caspian Sea",
+    "Black Sea",
+    "Adriatic Sea",
+    "Red Sea"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "The eastern Black Sea coast is the rainiest part of Türkiye.",
+   "sayAnswer": "The Black Sea! Its eastern coast is the rainiest part of Turkey.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which strait links the Aegean Sea to the Sea of Marmara?",
+   "say": "Which strait links the Aegean Sea to the Sea of Marmara?",
+   "options": [
+    "Dardanelles",
+    "Strait of Messina",
+    "Kerch Strait",
+    "Bosphorus"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🚢"
+   },
+   "fact": "In antiquity the Dardanelles were known as the Hellespont.",
+   "sayAnswer": "The Dardanelles! In ancient times they were known as the Hellespont.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dardanelles",
+    "https://en.wikipedia.org/wiki/Sea_of_Marmara"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city is the tourism capital of the Turkish Riviera?",
+   "say": "Which city is the tourism capital of the Turkish Riviera?",
+   "options": [
+    "Trabzon",
+    "Samsun",
+    "Mersin",
+    "Antalya"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏖️"
+   },
+   "fact": "Antalya is Türkiye's biggest international sea resort.",
+   "sayAnswer": "Antalya! It is Turkey's biggest international sea resort.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Antalya",
+    "https://en.wikipedia.org/wiki/Turkish_Riviera"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The famous Blue Lagoon of Ölüdeniz is near which town?",
+   "say": "The famous Blue Lagoon of Uh-lu-deniz is near which town?",
+   "options": [
+    "Kuşadası",
+    "Alanya",
+    "Fethiye",
+    "Bodrum"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🪂"
+   },
+   "fact": "Ölüdeniz means Dead Sea, named for its calm waters.",
+   "sayAnswer": "Fet-hee-yeh! The lagoon's Turkish name means Dead Sea, because its waters are so calm.",
+   "src": [
+    "https://en.wikipedia.org/wiki/%C3%96l%C3%BCdeniz"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Who built Bodrum's seaside castle in the 15th century?",
+   "say": "Who built Bodrum's seaside castle in the 15th century?",
+   "options": [
+    "The Byzantines",
+    "Knights of St John",
+    "The Ottomans",
+    "The Venetians"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏰"
+   },
+   "fact": "The knights reused stones from the ancient Mausoleum of Halicarnassus.",
+   "sayAnswer": "The Knights of Saint John! They reused stones from the ancient Mausoleum of Halicarnassus.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Bodrum_Castle",
+    "https://www.britannica.com/place/Bodrum"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

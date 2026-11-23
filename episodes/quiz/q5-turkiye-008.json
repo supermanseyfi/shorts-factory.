@@ -1,0 +1,153 @@
+{
+ "id": "q5-turkiye-008",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "TÜRKİYE'S",
+  "NEIGHBOURS",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Eight neighbours, five questions. Almost nobody knows which border is the shortest. Do you?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which of these countries does NOT border Türkiye?",
+   "say": "Which of these countries does not border Turkey?",
+   "options": [
+    "Romania",
+    "Syria",
+    "Greece",
+    "Iran"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:792"
+    ]
+   },
+   "fact": "Türkiye has eight land neighbours. Romania is across the Black Sea.",
+   "sayAnswer": "Romania! Turkey has 8 land neighbours, and Romania lies across the Black Sea.",
+   "src": [
+    "https://www.britannica.com/place/Turkey",
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which eastern neighbour of Türkiye is this?",
+   "say": "Which eastern neighbour of Turkey is this?",
+   "options": [
+    "Armenia",
+    "Georgia",
+    "Iran",
+    "Iraq"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:364"
+    ]
+   },
+   "fact": "Iran borders Türkiye in the east, not far from Mount Ararat.",
+   "sayAnswer": "Iran! It borders Turkey in the east, not far from Mount Ararat.",
+   "src": [
+    "https://www.britannica.com/place/Turkey",
+    "https://en.wikipedia.org/wiki/Do%C4%9Fubayaz%C4%B1t"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "With which country does Türkiye share its longest land border?",
+   "say": "With which country does Turkey share its longest land border?",
+   "options": [
+    "Bulgaria",
+    "Syria",
+    "Iran",
+    "Iraq"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "📏"
+   },
+   "fact": "The border with Syria stretches for more than 800 kilometres.",
+   "sayAnswer": "Syria! That border stretches for more than 800 kilometres.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The Meriç (Maritsa) river forms much of Türkiye's border with whom?",
+   "say": "The Maritsa river forms much of Turkey's border with which country?",
+   "options": [
+    "Greece",
+    "Georgia",
+    "Bulgaria",
+    "Syria"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏞️"
+   },
+   "fact": "The river is called Meriç in Turkish and Evros in Greek.",
+   "sayAnswer": "Greece! The river is called Meh-rich in Turkish, and Evros in Greek.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Greece%E2%80%93Turkey_border",
+    "https://www.britannica.com/place/Maritsa-River"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "With which country does Türkiye share its shortest land border?",
+   "say": "With which country does Turkey share its shortest land border?",
+   "options": [
+    "Greece",
+    "Azerbaijan",
+    "Georgia",
+    "Armenia"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🤏"
+   },
+   "fact": "The border with Azerbaijan's Nakhchivan is less than 20 km long.",
+   "sayAnswer": "Azerbaijan! The border with its Nakhchivan region is less than 20 kilometres long.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Turkey"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

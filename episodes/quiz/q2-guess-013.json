@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-013",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "NO COAST",
+  "LANDLOCKED",
+  "COUNTRIES"
+ ],
+ "hook": {
+  "say": "None of these five countries touches the ocean. Can you name every landlocked country from its outline?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Austria",
+    "Switzerland",
+    "Czechia",
+    "Hungary"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:756"
+    ]
+   },
+   "fact": "Switzerland has 4 national languages: German, French, Italian and Romansh.",
+   "sayAnswer": "Switzerland! It has 4 national languages: German, French, Italian and Romansh.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Languages_of_Switzerland"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Afghanistan",
+    "Uzbekistan",
+    "Nepal",
+    "Mongolia"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:004"
+    ]
+   },
+   "fact": "Afghanistan: its capital Kabul lies about 1,800 m above sea level.",
+   "sayAnswer": "Afghanistan! Its capital, Kabul, lies about 1800 meters above sea level.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kabul"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Niger",
+    "Mali",
+    "Zambia",
+    "Chad"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:148"
+    ]
+   },
+   "fact": "Chad is named after Lake Chad, on its western edge.",
+   "sayAnswer": "Chad! It is named after Lake Chad, on its western edge.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Chad"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Bolivia",
+    "Uruguay",
+    "Paraguay",
+    "Zambia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:600"
+    ]
+   },
+   "fact": "Paraguay is one of only two landlocked countries in South America.",
+   "sayAnswer": "Paraguay! It is one of only 2 landlocked countries in South America.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:860"
+    ]
+   },
+   "fact": "Uzbekistan is doubly landlocked: all its neighbours are landlocked too.",
+   "sayAnswer": "Uzbekistan! It is doubly landlocked: all of its neighbours are landlocked too.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

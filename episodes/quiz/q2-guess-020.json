@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-020",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE STATE",
+ "title": [
+  "US STATES",
+  "HARD",
+  "MODE"
+ ],
+ "hook": {
+  "say": "US states on hard mode! No Texas, no Florida. Only real map fans can name all five of these."
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Vermont",
+    "New Hampshire",
+    "Maine",
+    "Michigan"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:23"
+    ]
+   },
+   "fact": "Maine is the only US state that borders exactly one other state.",
+   "sayAnswer": "Maine! It is the only US state that borders exactly one other state.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Maine"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Illinois",
+    "Indiana",
+    "Ohio",
+    "Mississippi"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:17"
+    ]
+   },
+   "fact": "Illinois: Chicago is its largest city, but the capital is Springfield.",
+   "sayAnswer": "Illinois! Chicago is its largest city, but the capital is Springfield.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Illinois"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Virginia",
+    "Maryland",
+    "Kentucky",
+    "West Virginia"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:54"
+    ]
+   },
+   "fact": "West Virginia split from Virginia and became a state in 1863.",
+   "sayAnswer": "West Virginia! It split from Virginia and became a state in 1863.",
+   "src": [
+    "https://en.wikipedia.org/wiki/West_Virginia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Tennessee",
+    "Kentucky",
+    "Virginia",
+    "North Carolina"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:21"
+    ]
+   },
+   "fact": "Kentucky: home to Mammoth Cave, the longest known cave system in the world.",
+   "sayAnswer": "Kentucky! Home to Mammoth Cave, the longest known cave system in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Arkansas",
+    "Iowa",
+    "Missouri",
+    "Alabama"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:29"
+    ]
+   },
+   "fact": "Missouri: the Gateway Arch in St. Louis is the tallest arch in the world.",
+   "sayAnswer": "Missouri! The Gateway Arch in Saint Louis is the tallest arch in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gateway_Arch"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

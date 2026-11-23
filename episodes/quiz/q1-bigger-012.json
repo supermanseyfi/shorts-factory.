@@ -1,0 +1,169 @@
+{
+ "id": "q1-bigger-012",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "ISLAND",
+  "NATIONS:",
+  "WHO'S BIGGER?"
+ ],
+ "hook": {
+  "say": "Islands only! Well, almost. Which one is bigger? Five duels, three seconds each. Number five is a monster."
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: UK or Madagascar?",
+   "say": "Which is bigger: the U K or Madagascar?",
+   "options": [
+    "UK",
+    "Madagascar"
+   ],
+   "answer": 1,
+   "values": [
+    244376,
+    587041
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:826",
+     "c:450"
+    ]
+   },
+   "fact": "Madagascar is about 2.4 times the size of the United Kingdom.",
+   "sayAnswer": "Madagascar! It is about two point four times the size of the United Kingdom.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Japan or New Zealand?",
+   "options": [
+    "Japan",
+    "New Zealand"
+   ],
+   "answer": 0,
+   "values": [
+    377975,
+    268838
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:392",
+     "c:554"
+    ]
+   },
+   "fact": "Japan is about 40% bigger than New Zealand.",
+   "sayAnswer": "Japan! It is about forty percent bigger than New Zealand.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Ireland or Iceland?",
+   "options": [
+    "Ireland",
+    "Iceland"
+   ],
+   "answer": 1,
+   "values": [
+    70273,
+    103000
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:372",
+     "c:352"
+    ]
+   },
+   "fact": "Iceland is almost 50% bigger than the Republic of Ireland.",
+   "sayAnswer": "Iceland! It is almost fifty percent bigger than the Republic of Ireland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Cuba or Iceland?",
+   "options": [
+    "Cuba",
+    "Iceland"
+   ],
+   "answer": 0,
+   "values": [
+    109884,
+    103000
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:192",
+     "c:352"
+    ]
+   },
+   "fact": "Cuba is about 7% bigger than Iceland.",
+   "sayAnswer": "Cuba! It is about seven percent bigger than Iceland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: California or Papua New Guinea?",
+   "options": [
+    "California",
+    "Papua New Guinea"
+   ],
+   "answer": 1,
+   "values": [
+    423967,
+    462840
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:06",
+     "c:598"
+    ]
+   },
+   "fact": "Papua New Guinea is about 9% bigger than California.",
+   "sayAnswer": "Papua New Guinea! It is about nine percent bigger than California.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

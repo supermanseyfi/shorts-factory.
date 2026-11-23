@@ -1,0 +1,175 @@
+{
+ "id": "q1-bigger-003",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "TÜRKİYE",
+  "VS",
+  "THE WORLD"
+ ],
+ "hook": {
+  "say": "Turkey against the world! Which one is bigger? Five duels, three seconds each. The last one surprises almost everyone."
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Germany?",
+   "say": "Which is bigger: Turkey or Germany?",
+   "options": [
+    "Türkiye",
+    "Germany"
+   ],
+   "answer": 0,
+   "values": [
+    783562,
+    357592
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:276"
+    ]
+   },
+   "fact": "Türkiye is more than twice the size of Germany.",
+   "sayAnswer": "Turkey! It is more than twice the size of Germany.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or France?",
+   "say": "Which is bigger: Turkey or France?",
+   "options": [
+    "Türkiye",
+    "France"
+   ],
+   "answer": 0,
+   "values": [
+    783562,
+    551695
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:250"
+    ]
+   },
+   "fact": "Türkiye is about 40% bigger than mainland France.",
+   "sayAnswer": "Turkey! It is about forty percent bigger than mainland France.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is the biggest: Türkiye, Japan or Italy?",
+   "say": "Which is the biggest: Turkey, Japan or Italy?",
+   "options": [
+    "Türkiye",
+    "Japan",
+    "Italy"
+   ],
+   "answer": 0,
+   "values": [
+    783562,
+    377975,
+    302068
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:392",
+     "c:380"
+    ]
+   },
+   "fact": "Türkiye is bigger than Japan and Italy combined.",
+   "sayAnswer": "Turkey! It is bigger than Japan and Italy combined.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Nigeria?",
+   "say": "Which is bigger: Turkey or Nigeria?",
+   "options": [
+    "Türkiye",
+    "Nigeria"
+   ],
+   "answer": 1,
+   "values": [
+    783562,
+    923768
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:566"
+    ]
+   },
+   "fact": "Nigeria is about 18% bigger, and has nearly three times the people.",
+   "sayAnswer": "Nigeria! It is about eighteen percent bigger than Turkey, and has nearly three times as many people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Namibia?",
+   "say": "Which is bigger: Turkey or Namibia?",
+   "options": [
+    "Türkiye",
+    "Namibia"
+   ],
+   "answer": 1,
+   "values": [
+    783562,
+    824292
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "c:516"
+    ]
+   },
+   "fact": "Namibia is 5% bigger than Türkiye, with only about 3 million people.",
+   "sayAnswer": "Namibia! It is five percent bigger than Turkey, with only about three million people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

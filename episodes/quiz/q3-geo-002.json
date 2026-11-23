@@ -1,0 +1,146 @@
+{
+ "id": "q3-geo-002",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "CAPITALS QUIZ",
+ "title": [
+  "THE CAPITAL",
+  "IS NOT",
+  "THE BIG CITY"
+ ],
+ "hook": {
+  "say": "Five countries where the capital is not the most famous city. Three seconds each. Can you get all five?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What is the capital of Canada?",
+   "options": [
+    "Toronto",
+    "Ottawa",
+    "Montreal",
+    "Vancouver"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇨🇦"
+   },
+   "fact": "Queen Victoria picked Ottawa as the capital in 1857.",
+   "sayAnswer": "Ottawa! Queen Victoria picked it as the capital in 1857.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ottawa",
+    "https://www.britannica.com/place/Ottawa"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Brazil?",
+   "options": [
+    "Rio de Janeiro",
+    "São Paulo",
+    "Salvador",
+    "Brasília"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇧🇷"
+   },
+   "fact": "Brasília was built from scratch and replaced Rio de Janeiro in 1960.",
+   "sayAnswer": "Brasilia! It was built from scratch, and replaced Rio de Janeiro as the capital in 1960.",
+   "src": [
+    "https://www.britannica.com/place/Brasilia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of New Zealand?",
+   "options": [
+    "Wellington",
+    "Auckland",
+    "Christchurch",
+    "Queenstown"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇳🇿"
+   },
+   "fact": "Wellington is the southernmost capital of any sovereign country.",
+   "sayAnswer": "Wellington! It is the southernmost capital of any sovereign country in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Wellington",
+    "https://www.britannica.com/place/Wellington-New-Zealand"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Morocco?",
+   "options": [
+    "Casablanca",
+    "Marrakesh",
+    "Rabat",
+    "Fez"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🇲🇦"
+   },
+   "fact": "Casablanca is Morocco's biggest city, but the government sits in Rabat.",
+   "sayAnswer": "Rabat! Casablanca is Morocco's biggest city, but the government sits in Rabat.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rabat",
+    "https://www.britannica.com/place/Rabat"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the capital of Myanmar?",
+   "options": [
+    "Yangon",
+    "Mandalay",
+    "Bagan",
+    "Naypyidaw"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇲🇲"
+   },
+   "fact": "Myanmar moved its government from Yangon to brand-new Naypyidaw in 2005.",
+   "sayAnswer": "Nay-pee-daw! Myanmar moved its government there from Yangon in 2005, to a brand new city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Naypyidaw",
+    "https://www.britannica.com/place/Nay-Pyi-Taw"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

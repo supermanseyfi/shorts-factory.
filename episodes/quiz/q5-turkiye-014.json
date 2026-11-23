@@ -1,0 +1,147 @@
+{
+ "id": "q5-turkiye-014",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "NATURE",
+  "& WILDLIFE",
+  "OF TÜRKİYE"
+ ],
+ "hook": {
+  "say": "Swimming cats, giant dogs and one of the world's rarest birds. Five questions on Turkey's wildlife!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which big guardian dog comes from Sivas Province?",
+   "say": "Which big guardian dog comes from See-vas Province?",
+   "options": [
+    "Kangal",
+    "Samoyed",
+    "Akita",
+    "Saluki"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🐕"
+   },
+   "fact": "Kangals have guarded flocks from wolves for centuries.",
+   "sayAnswer": "The Kangal! Kangals have guarded flocks from wolves for centuries.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kangal_Shepherd_Dog"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which flower reached Europe from the Ottoman Empire in the 1500s?",
+   "say": "Which flower reached Europe from the Ottoman Empire in the 1500s?",
+   "options": [
+    "Sunflower",
+    "Orchid",
+    "Tulip",
+    "Rose"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌷"
+   },
+   "fact": "The word tulip is thought to come from a word for turban.",
+   "sayAnswer": "The tulip! The word tulip is thought to come from a word for turban.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tulip"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Turkish cat is nicknamed the \"swimming cat\"?",
+   "say": "Which Turkish cat is nicknamed the swimming cat?",
+   "options": [
+    "Van cat",
+    "Anatolian cat",
+    "Aegean cat",
+    "Angora cat"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🐈"
+   },
+   "fact": "Van cats, from the Lake Van region, can have odd-coloured eyes.",
+   "sayAnswer": "The Van cat! Van cats, from the Lake Van region, can have odd-coloured eyes.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Turkish_Van"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "İztuzu Beach near Dalyan is a protected nesting site for which animal?",
+   "say": "Iz-too-zoo Beach, near Dalyan, is a protected nesting site for which animal?",
+   "options": [
+    "Monk seals",
+    "Flamingos",
+    "Pelicans",
+    "Loggerhead turtles"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🐢"
+   },
+   "fact": "The beach has been protected since 1988.",
+   "sayAnswer": "Loggerhead turtles! The beach has been protected since 1988.",
+   "src": [
+    "https://en.wikipedia.org/wiki/%C4%B0ztuzu_Beach"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which very rare bird is protected at Birecik in Şanlıurfa?",
+   "say": "Which very rare bird is protected at Bee-reh-jik, in Shan-luh-oor-fa?",
+   "options": [
+    "Great bustard",
+    "Imperial eagle",
+    "Northern bald ibis",
+    "Dalmatian pelican"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🐦"
+   },
+   "fact": "A breeding station has cared for Birecik's bald ibises since the 1970s.",
+   "sayAnswer": "The northern bald ibis! A breeding station has cared for the birds there since the 1970s.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Northern_bald_ibis",
+    "https://www.ktb.gov.tr/EN-100047/thermit-ibis-kelaynak-birds.html"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

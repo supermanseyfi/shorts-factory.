@@ -1,0 +1,139 @@
+{
+ "id": "q4-truefalse-004",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "USA",
+  "GEOGRAPHY",
+  "TRAPS"
+ ],
+ "hook": {
+  "say": "True or false? Five U.S. geography traps, three seconds each. The last one catches almost everybody!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "New York City is the capital of New York State.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🗽"
+   },
+   "fact": "The state capital is Albany. New York City is just the biggest city.",
+   "sayAnswer": "False! The state capital is Albany. New York City is just the biggest city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+    "https://en.wikipedia.org/wiki/New_York_City"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Florida is the southernmost US state.",
+   "say": "Florida is the southernmost U.S. state.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌴"
+   },
+   "fact": "Hawaii reaches much farther south, at Ka Lae on the Big Island.",
+   "sayAnswer": "False! Hawaii reaches much farther south than Florida does.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Four US states meet at one single point.",
+   "say": "Four U.S. states meet at one single point.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "📍"
+   },
+   "fact": "At Four Corners: Arizona, Colorado, New Mexico and Utah.",
+   "sayAnswer": "True! At Four Corners you can touch Arizona, Colorado, New Mexico and Utah at once.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Four_Corners_Monument",
+    "https://www.britannica.com/place/Four-Corners"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Reno, Nevada is farther west than Los Angeles.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🎰"
+   },
+   "fact": "Reno is at 119.8° west. Los Angeles is at about 118.2° west.",
+   "sayAnswer": "True! The California coast curves east, so Reno ends up west of Los Angeles.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Reno,_Nevada",
+    "https://thenevadaindependent.com/article/are-there-6-state-capitals-west-of-los-angeles"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The closest US state to Africa is Maine.",
+   "say": "The closest U.S. state to Africa is Maine.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌍"
+   },
+   "fact": "Quoddy Head, Maine is about 5,076 km from the coast of Morocco.",
+   "sayAnswer": "True! Maine's Quoddy Head is about 5000 kilometers from Morocco. Closer than Florida!",
+   "src": [
+    "https://www.sciencealert.com/which-us-state-is-closest-to-africa",
+    "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

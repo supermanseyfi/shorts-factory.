@@ -1,0 +1,138 @@
+{
+ "id": "q4-truefalse-012",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "USA",
+  "MAP",
+  "SURPRISES"
+ ],
+ "hook": {
+  "say": "True or false? Five more U.S. map surprises, three seconds each. Grab a map for the last one!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Texas is the largest US state.",
+   "say": "Texas is the largest U.S. state.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🤠"
+   },
+   "fact": "Alaska is the largest, about two and a half times the size of Texas.",
+   "sayAnswer": "False! Alaska is the largest, about two and a half times the size of Texas.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area",
+    "https://www.britannica.com/place/Alaska"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "From Detroit, you travel south to reach Canada.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🚗"
+   },
+   "fact": "Windsor, Ontario lies directly south of Detroit, across the river.",
+   "sayAnswer": "True! Windsor, Ontario lies directly south of Detroit, just across the river.",
+   "src": [
+    "https://thecanadianencyclopedia.ca/en/article/windsor-ont",
+    "https://en.wikipedia.org/wiki/Windsor,_Ontario"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Chicago is the capital of Illinois.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌆"
+   },
+   "fact": "The capital is Springfield. Chicago is the biggest city.",
+   "sayAnswer": "False! The capital is Springfield. Chicago is only the biggest city.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+    "https://www.britannica.com/place/Springfield-Illinois"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Alaska's capital, Juneau, cannot be reached by road.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "⛴️"
+   },
+   "fact": "No roads connect Juneau to the rest of North America. You fly or sail in.",
+   "sayAnswer": "True! No roads lead to Juneau. You have to arrive by plane or by boat.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Juneau,_Alaska",
+    "https://www.britannica.com/place/Juneau"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Part of Virginia lies farther west than Detroit.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "Virginia's western tip reaches 83.7° west. Detroit is at 83.0° west.",
+   "sayAnswer": "True! Virginia's long western tip stretches past the longitude of Detroit.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cumberland_Gap",
+    "https://en.wikipedia.org/wiki/Detroit"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

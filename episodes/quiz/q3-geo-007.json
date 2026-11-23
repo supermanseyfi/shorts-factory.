@@ -1,0 +1,145 @@
+{
+ "id": "q3-geo-007",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "ASIA QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "ASIA?"
+ ],
+ "hook": {
+  "say": "How well do you know Asia, the biggest continent on Earth? Five questions, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "In which country is the Taj Mahal?",
+   "options": [
+    "Pakistan",
+    "India",
+    "Iran",
+    "Nepal"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🕌"
+   },
+   "fact": "Emperor Shah Jahan built it as a tomb for his wife, Mumtaz Mahal.",
+   "sayAnswer": "India! Emperor Shah Jahan built it as a tomb for his wife, Mumtaz Mahal.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Taj_Mahal"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the highest mountain in Japan?",
+   "options": [
+    "Mount Aso",
+    "Mount Tate",
+    "Mount Fuji",
+    "Mount Ontake"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🗻"
+   },
+   "fact": "Mount Fuji is 3,776 meters high and last erupted in 1707.",
+   "sayAnswer": "Mount Fuji! It is 3,776 meters high, and it last erupted in 1707.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Fuji",
+    "https://www.britannica.com/place/Mount-Fuji"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city was called Edo until 1868?",
+   "options": [
+    "Kyoto",
+    "Osaka",
+    "Seoul",
+    "Tokyo"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏯"
+   },
+   "fact": "The new name, Tokyo, simply means Eastern Capital.",
+   "sayAnswer": "Tokyo! The new name simply means Eastern Capital.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Edo"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The Gobi Desert stretches across which two countries?",
+   "options": [
+    "China and Mongolia",
+    "India and Pakistan",
+    "Iran and Iraq",
+    "Kazakhstan and Russia"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🐪"
+   },
+   "fact": "The Gobi is a cold desert. Frost and even snow can cover its dunes.",
+   "sayAnswer": "China and Mongolia! The Gobi is a cold desert. Frost and even snow can cover its dunes.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Gobi_Desert",
+    "https://www.britannica.com/place/Gobi"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the only landlocked country in Southeast Asia?",
+   "options": [
+    "Cambodia",
+    "Laos",
+    "Vietnam",
+    "Thailand"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "Laos is boxed in by China, Vietnam, Cambodia, Thailand and Myanmar.",
+   "sayAnswer": "Laos! It is boxed in by China, Vietnam, Cambodia, Thailand and Myanmar.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country",
+    "https://www.britannica.com/place/Laos"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

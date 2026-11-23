@@ -1,0 +1,150 @@
+{
+ "id": "q3-geo-009",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "AMERICAS QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "THE AMERICAS?"
+ ],
+ "hook": {
+  "say": "From Alaska to Patagonia: how well do you know the Americas? Five questions, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "In which country is Machu Picchu?",
+   "say": "In which country is Mah-choo Peek-choo?",
+   "options": [
+    "Bolivia",
+    "Peru",
+    "Ecuador",
+    "Mexico"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "The Inca built it in the 1400s, about 2,430 meters up in the Andes.",
+   "sayAnswer": "Peru! The Inca built Mah-choo Peek-choo in the 1400s, about 2,430 meters up in the Andes.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "https://whc.unesco.org/en/list/274"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the largest country in South America?",
+   "options": [
+    "Argentina",
+    "Colombia",
+    "Peru",
+    "Brazil"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🌎"
+   },
+   "fact": "Brazil covers nearly half of the whole continent.",
+   "sayAnswer": "Brazil! It covers nearly half of the whole continent.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Brazil",
+    "https://www.britannica.com/place/Brazil"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is the highest mountain in the Americas?",
+   "options": [
+    "Mount Logan",
+    "Chimborazo",
+    "Aconcagua",
+    "Huascarán"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "Aconcagua, in Argentina, is the highest peak anywhere outside Asia.",
+   "sayAnswer": "Ah-con-cah-gwa! This giant in Argentina is the highest peak anywhere outside Asia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Aconcagua",
+    "https://www.britannica.com/place/Mount-Aconcagua"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which South American country has English as its official language?",
+   "options": [
+    "Suriname",
+    "Guyana",
+    "Belize",
+    "Uruguay"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🗣️"
+   },
+   "fact": "Guyana was a British colony until 1966. Belize is in Central America.",
+   "sayAnswer": "Guy-anna! It was a British colony until 1966. And Belize is in Central America.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Guyana",
+    "https://www.britannica.com/place/Guyana"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which of these countries does NOT border Brazil?",
+   "options": [
+    "Uruguay",
+    "Peru",
+    "Chile",
+    "Colombia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:076"
+    ]
+   },
+   "fact": "Brazil touches every South American country except Chile and Ecuador.",
+   "sayAnswer": "Chile! Brazil touches every country in South America, except Chile and Ecuador.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Brazil",
+    "https://www.britannica.com/place/Brazil"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

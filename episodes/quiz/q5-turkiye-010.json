@@ -1,0 +1,151 @@
+{
+ "id": "q5-turkiye-010",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "ANCIENT",
+  "ANATOLIA",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Troy, the Hittites and the world's oldest monuments are all in Turkey. Five questions on ancient Anatolia!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "The ruins of which legendary city lie in Çanakkale Province?",
+   "say": "The ruins of which legendary city lie in Cha-nak-ka-leh Province?",
+   "options": [
+    "Babylon",
+    "Troy",
+    "Sparta",
+    "Carthage"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🐴"
+   },
+   "fact": "Heinrich Schliemann began excavating Troy in 1870.",
+   "sayAnswer": "Troy! Heinrich Schliemann began excavating it in 1870.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Troy",
+    "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Göbekli Tepe, with the world's oldest known megaliths, is near which city?",
+   "say": "Go-beck-lee Teh-peh, with the world's oldest known megaliths, is near which city?",
+   "options": [
+    "Gaziantep",
+    "Mardin",
+    "Diyarbakır",
+    "Şanlıurfa"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🗿"
+   },
+   "fact": "Its great stone pillars were raised more than 11,000 years ago.",
+   "sayAnswer": "Shan-luh-oor-fa! Its great stone pillars were raised more than 11000 years ago.",
+   "src": [
+    "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+    "https://whc.unesco.org/en/list/1572"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Hattusa was the capital of which Bronze Age empire?",
+   "say": "Hat-too-sha was the capital of which Bronze Age empire?",
+   "options": [
+    "Hittite",
+    "Assyrian",
+    "Persian",
+    "Phrygian"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🦁"
+   },
+   "fact": "Hattusa's ruins lie near Boğazkale in Çorum Province.",
+   "sayAnswer": "The Hittite Empire! The ruins lie near Bo-az-kaleh, in Chorum Province.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Hattusa",
+    "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The Mausoleum at Halicarnassus stood in which modern Turkish town?",
+   "say": "The Mausoleum at Halicarnassus stood in which modern Turkish town?",
+   "options": [
+    "Çeşme",
+    "Marmaris",
+    "Kuşadası",
+    "Bodrum"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏛️"
+   },
+   "fact": "It was the tomb of Mausolus, whose name gave us the word mausoleum.",
+   "sayAnswer": "Bodrum! It was the tomb of Mausolus, whose name gave us the word mausoleum.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+    "https://www.britannica.com/place/Bodrum"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Anatolian kingdom is credited with minting the first coins?",
+   "say": "Which Anatolian kingdom is credited with minting the first coins?",
+   "options": [
+    "Urartu",
+    "Phrygia",
+    "Lydia",
+    "Lycia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🪙"
+   },
+   "fact": "Lydia's capital was Sardis; its early coins were made of electrum.",
+   "sayAnswer": "Lydia! Its capital was Sardis, and its early coins were made of electrum, a mix of gold and silver.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lydia",
+    "https://www.britannica.com/place/Lydia-ancient-region-Anatolia"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

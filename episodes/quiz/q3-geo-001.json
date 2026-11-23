@@ -1,0 +1,122 @@
+{
+ "id": "q3-geo-001",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GEOGRAPHY QUIZ",
+ "title": [
+  "CAN YOU",
+  "GET",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Five geography questions. Three seconds each. Most people miss number five!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What is the capital of Australia?",
+   "options": [
+    "Sydney",
+    "Melbourne",
+    "Canberra",
+    "Perth"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🇦🇺"
+   },
+   "fact": "Canberra was built to settle the rivalry between Sydney and Melbourne.",
+   "sayAnswer": "Canberra! It was built to settle the rivalry between Sydney and Melbourne.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the smallest country in the world?",
+   "options": [
+    "Monaco",
+    "Vatican City",
+    "San Marino",
+    "Malta"
+   ],
+   "answer": 1,
+   "fact": "Vatican City covers less than half a square kilometer.",
+   "sayAnswer": "Vatican City! It covers less than half a square kilometer.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the largest desert on Earth?",
+   "options": [
+    "Sahara",
+    "Gobi",
+    "Arabian",
+    "Antarctica"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🏜️"
+   },
+   "fact": "A desert is defined by low rainfall, and Antarctica is the driest continent.",
+   "sayAnswer": "Antarctica! A desert just means very little rain, and it is the driest continent.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which country has the most time zones?",
+   "options": [
+    "Russia",
+    "France",
+    "United States",
+    "China"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🕒"
+   },
+   "fact": "France has 12, thanks to its overseas territories. Russia has 11.",
+   "sayAnswer": "France! It has twelve, thanks to its overseas territories. Russia has eleven.",
+   "kind": "choice"
+  },
+  {
+   "q": "Which country has the most islands?",
+   "options": [
+    "Indonesia",
+    "Philippines",
+    "Sweden",
+    "Japan"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏝️"
+   },
+   "fact": "Sweden has more than 260,000 islands. Most are uninhabited.",
+   "sayAnswer": "Sweden! It has more than 260,000 islands, and most are uninhabited.",
+   "kind": "choice"
+  }
+ ]
+}

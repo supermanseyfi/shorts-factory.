@@ -1,0 +1,167 @@
+{
+ "id": "q1-bigger-019",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "AFRICA",
+  "VS",
+  "EUROPE"
+ ],
+ "hook": {
+  "say": "Africa against Europe! Flat maps shrink Africa, so which is really bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Greece or Tunisia?",
+   "options": [
+    "Greece",
+    "Tunisia"
+   ],
+   "answer": 1,
+   "values": [
+    131957,
+    163610
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:300",
+     "c:788"
+    ]
+   },
+   "fact": "Tunisia is about 24% bigger than Greece.",
+   "sayAnswer": "Tunisia! It is about twenty-four percent bigger than Greece.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Belarus or Senegal?",
+   "options": [
+    "Belarus",
+    "Senegal"
+   ],
+   "answer": 0,
+   "values": [
+    207600,
+    196712
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:112",
+     "c:686"
+    ]
+   },
+   "fact": "Belarus is about 6% bigger than Senegal.",
+   "sayAnswer": "Belarus! It is about six percent bigger than Senegal.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Germany or Zimbabwe?",
+   "options": [
+    "Germany",
+    "Zimbabwe"
+   ],
+   "answer": 1,
+   "values": [
+    357592,
+    390757
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:276",
+     "c:716"
+    ]
+   },
+   "fact": "Zimbabwe is about 9% bigger than Germany.",
+   "sayAnswer": "Zimbabwe! It is about nine percent bigger than Germany.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Ivory Coast or Italy?",
+   "options": [
+    "Ivory Coast",
+    "Italy"
+   ],
+   "answer": 0,
+   "values": [
+    322462,
+    302068
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:384",
+     "c:380"
+    ]
+   },
+   "fact": "Ivory Coast is about 7% bigger than Italy.",
+   "sayAnswer": "Ivory Coast! It is about seven percent bigger than Italy.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: France or Botswana?",
+   "options": [
+    "France",
+    "Botswana"
+   ],
+   "answer": 1,
+   "values": [
+    551695,
+    582000
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:250",
+     "c:072"
+    ]
+   },
+   "fact": "Botswana beats mainland France by 5%, with about 2.5 million people.",
+   "sayAnswer": "Botswana! It beats mainland France by five percent, with only about two and a half million people.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

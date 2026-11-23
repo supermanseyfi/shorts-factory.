@@ -1,0 +1,135 @@
+{
+ "id": "q4-truefalse-016",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "EUROPE",
+  "ROUND",
+  "TWO"
+ ],
+ "hook": {
+  "say": "True or false? Five more facts about Europe, three seconds each. Careful with the very last one!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Venice is built on more than 100 islands.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🛶"
+   },
+   "fact": "The city spreads across roughly 120 small islands linked by bridges.",
+   "sayAnswer": "True! The city spreads across roughly 120 small islands linked by bridges.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Venice"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Switzerland is a member of the European Union.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇨🇭"
+   },
+   "fact": "Switzerland sits in the middle of the EU but has never joined.",
+   "sayAnswer": "False! Switzerland is surrounded by the European Union but has never joined.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Member_state_of_the_European_Union",
+    "https://en.wikipedia.org/wiki/Switzerland%E2%80%93European_Union_relations"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Italy completely surrounds two other countries.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇮🇹"
+   },
+   "fact": "San Marino and Vatican City both lie entirely inside Italy.",
+   "sayAnswer": "True! San Marino and Vatican City both lie entirely inside Italy.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Enclave_and_exclave",
+    "https://en.wikipedia.org/wiki/Landlocked_country"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "London is farther north than Calgary, Canada.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇬🇧"
+   },
+   "fact": "London sits at 51.5° north. Calgary is at 51.0° north.",
+   "sayAnswer": "True! London is about half a degree of latitude north of Calgary.",
+   "src": [
+    "https://en.wikipedia.org/wiki/London",
+    "https://en.wikipedia.org/wiki/Calgary"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Holland is the official name of the Netherlands.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌷"
+   },
+   "fact": "Holland is only a region: two of the country's twelve provinces.",
+   "sayAnswer": "False! Holland is only a region on the country's west coast.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Holland"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-013",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "AFRICA",
+  "FACTS",
+  "OR FAKES?"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about Africa, three seconds each. The last one ruins a famous assumption!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "The Nile flows from south to north.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🐊"
+   },
+   "fact": "It flows north through Egypt and empties into the Mediterranean.",
+   "sayAnswer": "True! It flows north through Egypt and empties into the Mediterranean Sea.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nile",
+    "https://www.britannica.com/place/Nile-River"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "It has snowed in the Sahara Desert.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "☃️"
+   },
+   "fact": "Snow fell on the dunes near Ain Sefra, Algeria, in 1979 and again in 2016.",
+   "sayAnswer": "True! Snow has dusted the dunes near Ain Sefra in Algeria more than once.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sahara",
+    "https://www.usgs.gov/news/earthview-rare-snow-falls-edge-sahara-desert"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Cape of Good Hope is Africa's southernmost point.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⚓"
+   },
+   "fact": "That is Cape Agulhas, about 55 km farther south.",
+   "sayAnswer": "False! That is Cape Agulhas, about 55 kilometers farther south.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cape_Agulhas",
+    "https://en.wikipedia.org/wiki/Africa"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Africa is the only continent in all four hemispheres.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌍"
+   },
+   "fact": "Both the Equator and the prime meridian cross Africa.",
+   "sayAnswer": "True! Both the Equator and the prime meridian run right through Africa.",
+   "src": [
+    "https://worldatlas.com/articles/which-continent-is-situated-in-all-four-hemispheres.html",
+    "https://en.wikipedia.org/wiki/Africa"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Egypt has more pyramids than any other country.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🔺"
+   },
+   "fact": "Sudan has at least 230 pyramids. Egypt has about 120 to 140.",
+   "sayAnswer": "False! Sudan has more than 200 pyramids. Egypt has fewer than 150.",
+   "src": [
+    "https://www.guinnessworldrecords.com/world-records/779653-most-ancient-pyramids-country",
+    "https://en.wikipedia.org/wiki/Nubian_pyramids"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

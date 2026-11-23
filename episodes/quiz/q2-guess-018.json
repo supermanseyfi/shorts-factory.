@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-018",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE STATE",
+ "title": [
+  "GUESS THE",
+  "US STATE",
+  "WILD WEST"
+ ],
+ "hook": {
+  "say": "Head out west! Five big states with lots of straight borders. Can you tell them apart by shape alone?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Oregon",
+    "Washington",
+    "Idaho",
+    "Maine"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:53"
+    ]
+   },
+   "fact": "Washington is the only US state named after a president.",
+   "sayAnswer": "Washington! It is the only US state named after a president.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Washington_(state)"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Nevada",
+    "Arizona",
+    "California",
+    "Utah"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:32"
+    ]
+   },
+   "fact": "Nevada is the driest state in the United States.",
+   "sayAnswer": "Nevada! It is the driest state in the United States.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nevada"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "New Mexico",
+    "Nevada",
+    "Arizona",
+    "Utah"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:04"
+    ]
+   },
+   "fact": "Arizona: home to the Grand Canyon, carved by the Colorado River.",
+   "sayAnswer": "Arizona! Home to the Grand Canyon, carved by the Colorado River.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Grand_Canyon"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Wyoming",
+    "Colorado",
+    "New Mexico",
+    "Utah"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:49"
+    ]
+   },
+   "fact": "Utah: its Great Salt Lake is the largest salt lake in the Western Hemisphere.",
+   "sayAnswer": "Utah! Its Great Salt Lake is the largest salt lake in the Western Hemisphere.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Salt_Lake"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "North Dakota",
+    "Montana",
+    "Wyoming",
+    "South Dakota"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:30"
+    ]
+   },
+   "fact": "Montana is the fourth-largest US state by area.",
+   "sayAnswer": "Montana! It is the fourth largest US state by area.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Montana"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

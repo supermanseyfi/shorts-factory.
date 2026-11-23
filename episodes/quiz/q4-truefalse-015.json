@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-015",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "LAKES &",
+  "WATERFALLS",
+  "TRUE/FALSE"
+ ],
+ "hook": {
+  "say": "True or false? Five facts about lakes, seas and waterfalls. Three seconds each. Don't trust the names!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "The Dead Sea is actually a lake.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧂"
+   },
+   "fact": "It is a landlocked salt lake between Jordan and Israel.",
+   "sayAnswer": "True! Despite the name, it is a landlocked salt lake.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dead_Sea",
+    "https://www.britannica.com/place/Dead-Sea"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Angel Falls is in Brazil.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "💦"
+   },
+   "fact": "The 979 m waterfall is in Venezuela.",
+   "sayAnswer": "False! The 979 meter waterfall is in Venezuela.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Angel_Falls",
+    "https://www.britannica.com/place/Angel-Falls"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Niagara Falls is the tallest waterfall in North America.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌈"
+   },
+   "fact": "Niagara drops about 57 m. Yosemite Falls drops 739 m.",
+   "sayAnswer": "False! Niagara drops about 57 meters. Yosemite Falls drops 739.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Niagara_Falls",
+    "https://en.wikipedia.org/wiki/Yosemite_Falls"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Lake Baikal holds about a fifth of Earth's fresh surface water.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏞️"
+   },
+   "fact": "Baikal in Siberia holds more water than all the Great Lakes combined.",
+   "sayAnswer": "True! One Siberian lake holds more water than all 5 Great Lakes combined.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal",
+    "https://www.britannica.com/place/Lake-Baikal"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The Sargasso Sea has no coastline at all.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "It is the only sea bounded by ocean currents instead of land.",
+   "sayAnswer": "True! It is the only sea bordered by ocean currents instead of land.",
+   "src": [
+    "https://oceanservice.noaa.gov/facts/sargassosea.html",
+    "https://en.wikipedia.org/wiki/Sargasso_Sea"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

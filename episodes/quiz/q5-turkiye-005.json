@@ -1,0 +1,149 @@
+{
+ "id": "q5-turkiye-005",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "MOUNTAINS",
+  "& VOLCANOES",
+  "OF TÜRKİYE"
+ ],
+ "hook": {
+  "say": "Turkey is a land of mountains and sleeping volcanoes. Five questions. Watch out for the tricky last one!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which mountain range runs parallel to Türkiye's Mediterranean coast?",
+   "say": "Which mountain range runs parallel to Turkey's Mediterranean coast?",
+   "options": [
+    "Zagros Mountains",
+    "Pontic Mountains",
+    "Caucasus",
+    "Taurus Mountains"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "The Taurus separate the Mediterranean coast from the central plateau.",
+   "sayAnswer": "The Taurus Mountains! They separate the Mediterranean coast from the central plateau.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Taurus_Mountains",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Uludağ, a famous ski mountain, rises above which city?",
+   "say": "Oo-loo-dah, a famous ski mountain, rises above which city?",
+   "options": [
+    "İzmir",
+    "Bursa",
+    "Erzurum",
+    "Ankara"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛷️"
+   },
+   "fact": "At 2,543 m, Uludağ is the highest mountain of the Marmara region.",
+   "sayAnswer": "Bursa! At 2543 meters, it is the highest mountain of the Marmara region.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Uluda%C4%9F"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which snow-capped volcano towers over the city of Kayseri?",
+   "say": "Which snow-capped volcano towers over the city of Kai-seri?",
+   "options": [
+    "Mount Hasan",
+    "Mount Nemrut",
+    "Mount Süphan",
+    "Mount Erciyes"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "Erciyes, about 3,917 m, is the highest peak of Central Anatolia.",
+   "sayAnswer": "Mount Air-jee-yes! At about 3917 meters, it is the highest peak of Central Anatolia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Erciyes",
+    "https://www.britannica.com/place/Mount-Erciyes"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What crowns the summit of Mount Nemrut in Adıyaman?",
+   "say": "What crowns the summit of Mount Nemroot in Adi-yaman?",
+   "options": [
+    "Giant stone heads",
+    "An observatory",
+    "A crater lake",
+    "A ski resort"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🗿"
+   },
+   "fact": "King Antiochus I of Commagene built it in the 1st century BC.",
+   "sayAnswer": "Giant stone heads! King Antiochus the First of Commagene built it in the first century B C.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mount_Nemrut",
+    "https://whc.unesco.org/en/list/448"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "A second Mount Nemrut, a volcano with a crater lake, is in which province?",
+   "say": "A second Mount Nemroot, a volcano with a crater lake, is in which province?",
+   "options": [
+    "Ağrı",
+    "Van",
+    "Bitlis",
+    "Kars"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌋"
+   },
+   "fact": "This Nemrut's caldera, beside Lake Van, is the largest in Türkiye.",
+   "sayAnswer": "Bitlis! This Nemroot's caldera, beside Lake Van, is the largest in Turkey.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nemrut_(volcano)"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

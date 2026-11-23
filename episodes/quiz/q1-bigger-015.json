@@ -1,0 +1,169 @@
+{
+ "id": "q1-bigger-015",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "CLASH",
+  "OF THE",
+  "GIANTS"
+ ],
+ "hook": {
+  "say": "The giants of the world map, head to head. Which is bigger? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Canada or USA (lower 48)?",
+   "say": "Which is bigger: Canada or the lower forty-eight U S states?",
+   "options": [
+    "Canada",
+    "USA (lower 48)"
+   ],
+   "answer": 0,
+   "values": [
+    9984670,
+    8080464
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:124",
+     "c:840"
+    ]
+   },
+   "fact": "Canada is almost a quarter bigger than the lower 48 US states.",
+   "sayAnswer": "Canada! It is almost a quarter bigger than the lower forty-eight U S states.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Australia or Brazil?",
+   "options": [
+    "Australia",
+    "Brazil"
+   ],
+   "answer": 1,
+   "values": [
+    7741220,
+    8510346
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:036",
+     "c:076"
+    ]
+   },
+   "fact": "Brazil is about 10% bigger than Australia.",
+   "sayAnswer": "Brazil! It is about ten percent bigger than Australia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: India or Kazakhstan?",
+   "options": [
+    "India",
+    "Kazakhstan"
+   ],
+   "answer": 0,
+   "values": [
+    3287263,
+    2724910
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:356",
+     "c:398"
+    ]
+   },
+   "fact": "India is about 20% bigger than Kazakhstan.",
+   "sayAnswer": "India! It is about twenty percent bigger than Kazakhstan.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Algeria or Argentina?",
+   "options": [
+    "Algeria",
+    "Argentina"
+   ],
+   "answer": 1,
+   "values": [
+    2381741,
+    2780400
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:012",
+     "c:032"
+    ]
+   },
+   "fact": "Argentina is about 17% bigger than Algeria, Africa's largest country.",
+   "sayAnswer": "Argentina! It is about seventeen percent bigger than Algeria, the largest country in Africa.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Australia or USA (lower 48)?",
+   "say": "Which is bigger: Australia or the lower forty-eight U S states?",
+   "options": [
+    "Australia",
+    "USA (lower 48)"
+   ],
+   "answer": 1,
+   "values": [
+    7741220,
+    8080464
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:036",
+     "c:840"
+    ]
+   },
+   "fact": "The lower 48 US states are only about 4% bigger than Australia.",
+   "sayAnswer": "The lower forty-eight! They are only about four percent bigger than Australia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

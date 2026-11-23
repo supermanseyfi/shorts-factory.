@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-017",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "AMERICAS 2"
+ ],
+ "hook": {
+  "say": "Round two in the Americas! The famous shapes are gone. Can you name these five trickier countries?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Colombia",
+    "Venezuela",
+    "Bolivia",
+    "Guyana"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:862"
+    ]
+   },
+   "fact": "Venezuela: home to Angel Falls, the tallest waterfall in the world.",
+   "sayAnswer": "Venezuela! Home to Angel Falls, the tallest waterfall in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Angel_Falls"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Ecuador",
+    "Uruguay",
+    "Paraguay",
+    "Panama"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:218"
+    ]
+   },
+   "fact": "Ecuador: its name is simply the Spanish word for equator.",
+   "sayAnswer": "Ecuador! Its name is simply the Spanish word for equator.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ecuador"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Paraguay",
+    "Suriname",
+    "Ecuador",
+    "Uruguay"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:858"
+    ]
+   },
+   "fact": "Uruguay hosted and won the very first FIFA World Cup, in 1930.",
+   "sayAnswer": "Uruguay! It hosted and won the very first FIFA World Cup, in 1930.",
+   "src": [
+    "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Honduras",
+    "Costa Rica",
+    "Nicaragua",
+    "Guatemala"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:558"
+    ]
+   },
+   "fact": "Nicaragua is the largest country in Central America.",
+   "sayAnswer": "Nicaragua! It is the largest country in Central America.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nicaragua"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Suriname",
+    "Guyana",
+    "Uruguay",
+    "Belize"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:328"
+    ]
+   },
+   "fact": "Guyana is the only South American country with English as its official language.",
+   "sayAnswer": "Guyana! It is the only South American country with English as its official language.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Guyana"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

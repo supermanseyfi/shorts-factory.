@@ -1,0 +1,156 @@
+{
+ "id": "q1-bigger-001",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "WHICH",
+  "ONE IS",
+  "BIGGER?"
+ ],
+ "hook": {
+  "say": "Which one is bigger? Maps lie, so trust your gut. Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Texas or France?",
+   "options": [
+    "Texas",
+    "France"
+   ],
+   "answer": 0,
+   "values": [
+    695662,
+    551695
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:48",
+     "c:250"
+    ]
+   },
+   "fact": "Texas is about a quarter bigger than mainland France.",
+   "sayAnswer": "Texas! It is about a quarter bigger than mainland France."
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Türkiye or Texas?",
+   "say": "Which is bigger: Turkey or Texas?",
+   "options": [
+    "Türkiye",
+    "Texas"
+   ],
+   "answer": 0,
+   "values": [
+    783562,
+    695662
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:792",
+     "s:48"
+    ]
+   },
+   "fact": "Türkiye beats Texas by an area the size of Austria.",
+   "sayAnswer": "Turkey! It beats Texas by an area the size of Austria."
+  },
+  {
+   "kind": "duel",
+   "q": "Which is the biggest: California, Japan or Germany?",
+   "options": [
+    "California",
+    "Japan",
+    "Germany"
+   ],
+   "answer": 0,
+   "values": [
+    423967,
+    377975,
+    357592
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:06",
+     "c:392",
+     "c:276"
+    ]
+   },
+   "fact": "California is bigger than both Japan and Germany.",
+   "sayAnswer": "California! It is bigger than both Japan and Germany."
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Alaska or Mongolia?",
+   "options": [
+    "Alaska",
+    "Mongolia"
+   ],
+   "answer": 0,
+   "values": [
+    1723337,
+    1564116
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:02",
+     "c:496"
+    ]
+   },
+   "fact": "Alaska alone is bigger than Iran, and twice the size of Texas.",
+   "sayAnswer": "Alaska! On its own, it is bigger than Iran, and more than twice the size of Texas."
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Greenland or India?",
+   "options": [
+    "Greenland",
+    "India"
+   ],
+   "answer": 1,
+   "values": [
+    2166086,
+    3287263
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:304",
+     "c:356"
+    ]
+   },
+   "fact": "Flat maps stretch Greenland. India is really 50% bigger.",
+   "sayAnswer": "India! Flat maps stretch Greenland. India is really fifty percent bigger."
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

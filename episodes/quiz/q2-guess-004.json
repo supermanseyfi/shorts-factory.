@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-004",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "AFRICA"
+ ],
+ "hook": {
+  "say": "Africa has 54 countries. Can you name these five from their shapes alone? It gets harder every round!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Namibia",
+    "Botswana",
+    "Tanzania",
+    "South Africa"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:710"
+    ]
+   },
+   "fact": "South Africa has three capital cities: Pretoria, Cape Town and Bloemfontein.",
+   "sayAnswer": "South Africa! It has 3 capital cities: Pretoria, Cape Town and Bloemfontein.",
+   "src": [
+    "https://en.wikipedia.org/wiki/South_Africa"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Egypt",
+    "Libya",
+    "Sudan",
+    "Saudi Arabia"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:818"
+    ]
+   },
+   "fact": "Egypt: home to the Great Pyramid, the last ancient wonder still standing.",
+   "sayAnswer": "Egypt! Home to the Great Pyramid, the last ancient wonder still standing.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Libya",
+    "Mali",
+    "Algeria",
+    "Niger"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:012"
+    ]
+   },
+   "fact": "Algeria is the largest country in Africa.",
+   "sayAnswer": "Algeria! It is the largest country in Africa.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Algeria"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Uganda",
+    "Kenya",
+    "Ethiopia",
+    "Tanzania"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:404"
+    ]
+   },
+   "fact": "Kenya: the equator runs right across the middle of the country.",
+   "sayAnswer": "Kenya! The equator runs right across the middle of the country.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Kenya"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Mozambique",
+    "Madagascar",
+    "Malawi",
+    "Zimbabwe"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:508"
+    ]
+   },
+   "fact": "Mozambique: its national flag features an AK-47 rifle.",
+   "sayAnswer": "Mozambique! Its national flag features an AK 47 rifle.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Flag_of_Mozambique"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

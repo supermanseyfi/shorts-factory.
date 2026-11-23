@@ -1,0 +1,151 @@
+{
+ "id": "q5-turkiye-011",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "OTTOMAN",
+  "EMPIRE",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Six centuries of Ottoman history in five questions. Most people get the last one wrong!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which sultan conquered Constantinople in 1453?",
+   "say": "Which sultan conquered Constantinople in 1453?",
+   "options": [
+    "Osman I",
+    "Mehmed II",
+    "Selim I",
+    "Murad IV"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⚔️"
+   },
+   "fact": "Mehmed the Conqueror was only 21 years old.",
+   "sayAnswer": "Mehmed the Second! Known as the Conqueror, he was only 21 years old.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mehmed_II",
+    "https://www.britannica.com/biography/Mehmed-II-Ottoman-sultan"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which palace was home to Ottoman sultans for nearly four centuries?",
+   "say": "Which palace was home to Ottoman sultans for nearly four centuries?",
+   "options": [
+    "Yıldız Palace",
+    "Beylerbeyi Palace",
+    "Topkapı Palace",
+    "Dolmabahçe Palace"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "👑"
+   },
+   "fact": "Topkapı Palace became a museum in 1924.",
+   "sayAnswer": "Top-kapuh Palace! It became a museum in 1924.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
+    "https://www.britannica.com/topic/Topkapi-Palace-Museum"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Who was the great architect of Istanbul's Süleymaniye Mosque?",
+   "say": "Who was the great architect of Istanbul's Sue-lay-mah-nee-yeh Mosque?",
+   "options": [
+    "Sedefkâr Mehmed Ağa",
+    "Mimar Kemaleddin",
+    "Mimar Hayreddin",
+    "Mimar Sinan"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "📐"
+   },
+   "fact": "Sinan also built the Selimiye Mosque in Edirne, a UNESCO site.",
+   "sayAnswer": "Mee-mar See-nan! He also built the Selimiye Mosque in Eh-deer-neh, a UNESCO site.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent",
+    "https://www.britannica.com/biography/Suleyman-the-Magnificent"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Ottoman sultan reigned the longest?",
+   "say": "Which Ottoman sultan reigned the longest?",
+   "options": [
+    "Abdülhamid II",
+    "Suleiman I",
+    "Selim I",
+    "Mehmed II"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⏳"
+   },
+   "fact": "Suleiman the Magnificent ruled for 46 years, from 1520 to 1566.",
+   "sayAnswer": "Suleiman the Magnificent! He ruled for 46 years, from 1520 to 1566.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent",
+    "https://www.britannica.com/biography/Suleyman-the-Magnificent"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which city was the Ottoman capital just before Istanbul?",
+   "say": "Which city was the Ottoman capital just before Istanbul?",
+   "options": [
+    "Bursa",
+    "Konya",
+    "Edirne",
+    "Söğüt"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏰"
+   },
+   "fact": "Many guess Bursa, but Edirne was the capital until the 1450s.",
+   "sayAnswer": "Eh-deer-neh! Many people guess Bursa, but Eh-deer-neh was the capital until the 1450s.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Edirne",
+    "https://www.britannica.com/place/Edirne"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

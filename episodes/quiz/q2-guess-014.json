@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-014",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "MIDDLE EAST"
+ ],
+ "hook": {
+  "say": "Deserts, ancient cities and the tallest tower on Earth. Name these five Middle Eastern countries by shape!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Iran",
+    "Egypt",
+    "Saudi Arabia",
+    "Yemen"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:682"
+    ]
+   },
+   "fact": "Saudi Arabia covers about 80% of the Arabian Peninsula.",
+   "sayAnswer": "Saudi Arabia! It covers about 80 percent of the Arabian Peninsula.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Saudi_Arabia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Oman",
+    "Yemen",
+    "United Arab Emirates",
+    "Qatar"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:512"
+    ]
+   },
+   "fact": "Oman: its capital, Muscat, lies on the Gulf of Oman.",
+   "sayAnswer": "Oman! Its capital, Muscat, lies on the Gulf of Oman.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Muscat"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Oman",
+    "Jordan",
+    "Syria",
+    "Yemen"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:887"
+    ]
+   },
+   "fact": "Yemen: the Old City of Sana'a has been a World Heritage Site since 1986.",
+   "sayAnswer": "Yemen! The Old City of Sanaa has been a World Heritage Site since 1986.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Old_City_of_Sanaa"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Qatar",
+    "United Arab Emirates",
+    "Kuwait",
+    "Oman"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:784"
+    ]
+   },
+   "fact": "United Arab Emirates: home to the Burj Khalifa, the tallest building on Earth.",
+   "sayAnswer": "The United Arab Emirates! Home to the Burj Khalifa, the tallest building on Earth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Burj_Khalifa"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Syria",
+    "Iraq",
+    "Jordan",
+    "Lebanon"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:400"
+    ]
+   },
+   "fact": "Jordan: home to Petra, the Rose City carved into sandstone cliffs.",
+   "sayAnswer": "Jordan! Home to Petra, the Rose City carved into sandstone cliffs.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Petra"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

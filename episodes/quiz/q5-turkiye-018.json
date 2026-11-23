@@ -1,0 +1,150 @@
+{
+ "id": "q5-turkiye-018",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "BLACK SEA",
+  "REGION",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Green mountains, tea gardens and a famous philosopher. Five questions on Turkey's Black Sea coast!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which crop covers the hills of Rize on the Black Sea?",
+   "say": "Which crop covers the hills of Ree-zeh, on the Black Sea?",
+   "options": [
+    "Tea",
+    "Olives",
+    "Rice",
+    "Cotton"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🍵"
+   },
+   "fact": "Most Turkish tea comes from Rize Province.",
+   "sayAnswer": "Tea! Most Turkish tea comes from Ree-zeh Province.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tea_in_Turkey",
+    "https://en.wikipedia.org/wiki/Rize_Province"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which small fish is the star of Black Sea cooking?",
+   "say": "Which small fish is the star of Black Sea cooking?",
+   "options": [
+    "Tuna",
+    "Hamsi (anchovy)",
+    "Sea bass",
+    "Carp"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🐟"
+   },
+   "fact": "Trabzon is famous across Türkiye for its hamsi.",
+   "sayAnswer": "Hamsi, the anchovy! The city of Trabzon is famous across Turkey for it.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Trabzon",
+    "https://en.wikipedia.org/wiki/Turkish_cuisine"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which monastery clings to a cliff near Trabzon?",
+   "say": "Which monastery clings to a cliff near Trabzon?",
+   "options": [
+    "Alahan",
+    "Mor Gabriel",
+    "Sümela",
+    "Deyrulzafaran"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "⛰️"
+   },
+   "fact": "Sümela sits about 1,200 m up in the Pontic Mountains.",
+   "sayAnswer": "Soo-meh-la! It sits about 1200 meters up in the Pontic Mountains.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sumela_Monastery",
+    "https://en.wikipedia.org/wiki/Trabzon"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which bowed string instrument is typical of the Black Sea coast?",
+   "say": "Which bowed string instrument is typical of the Black Sea coast?",
+   "options": [
+    "Kemençe",
+    "Bağlama",
+    "Ney",
+    "Kanun"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🎻"
+   },
+   "fact": "The Black Sea kemençe has three strings and is played upright.",
+   "sayAnswer": "The keh-men-cheh! It has 3 strings and is played upright.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Kemenche"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Black Sea city was the birthplace of the philosopher Diogenes?",
+   "say": "Which Black Sea city was the birthplace of the philosopher Diogenes?",
+   "options": [
+    "Ordu",
+    "Sinop",
+    "Samsun",
+    "Giresun"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏺"
+   },
+   "fact": "Diogenes the Cynic was born in ancient Sinope around 412 BC.",
+   "sayAnswer": "Sinop! Diogenes the Cynic was born there, in ancient Sinope, around 412 B C.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sinop,_Turkey",
+    "https://www.britannica.com/print/article/164151"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "id": "q5-turkiye-015",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "TÜRKİYE'S",
+  "BIGGEST",
+  "RECORDS"
+ ],
+ "hook": {
+  "say": "The biggest, the longest, the deepest. Five record breakers from Turkey. Can you score five out of five?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which is Türkiye's most populous city?",
+   "say": "Which is Turkey's most populous city?",
+   "options": [
+    "Bursa",
+    "İzmir",
+    "Istanbul",
+    "Ankara"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏙️"
+   },
+   "fact": "More than 15 million people live in Istanbul.",
+   "sayAnswer": "Istanbul! More than 15 million people live there.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Provinces_of_Turkey",
+    "https://www.britannica.com/place/Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What world record does the 1915 Çanakkale Bridge hold?",
+   "say": "What world record does the 1915 Cha-nak-ka-leh Bridge hold?",
+   "options": [
+    "Widest road bridge",
+    "Oldest stone bridge",
+    "Highest rail bridge",
+    "Longest main span"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🌉"
+   },
+   "fact": "Its main span is 2,023 m, the longest of any suspension bridge.",
+   "sayAnswer": "The longest main span! At 2023 meters, it is the longest of any suspension bridge.",
+   "src": [
+    "https://en.wikipedia.org/wiki/1915_%C3%87anakkale_Bridge",
+    "https://guinnessworldrecords.com/world-records/longest-bridge-cable-suspension-bridge"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is Türkiye's largest island?",
+   "say": "Which is Turkey's largest island?",
+   "options": [
+    "Gökçeada",
+    "Bozcaada",
+    "Büyükada",
+    "Marmara Island"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏝️"
+   },
+   "fact": "Gökçeada, in the Aegean Sea, is also known as Imbros.",
+   "sayAnswer": "Gok-cheh-ada! This island in the Aegean Sea is also known as Imbros.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Imbros",
+    "https://en.wikipedia.org/wiki/List_of_extreme_points_of_Turkey"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Marmaray, the rail tunnel under the Bosphorus, holds which record?",
+   "say": "Marmaray, the rail tunnel under the Bosphorus, holds which record?",
+   "options": [
+    "Fastest train line",
+    "Deepest immersed tube",
+    "Oldest sea tunnel",
+    "Longest rail tunnel"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🚆"
+   },
+   "fact": "It lies up to 60 m below sea level and opened in 2013.",
+   "sayAnswer": "The deepest immersed tube tunnel! It lies up to 60 meters below sea level, and opened in 2013.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Marmaray_Tunnel"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which Turkish province has the longest coastline?",
+   "say": "Which Turkish province has the longest coastline?",
+   "options": [
+    "Muğla",
+    "Mersin",
+    "Antalya",
+    "İzmir"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🏖️"
+   },
+   "fact": "Muğla's twisting coast of bays and peninsulas runs over 1,000 km.",
+   "sayAnswer": "Moo-la! Its twisting coast of bays and peninsulas runs for more than 1000 kilometres.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mu%C4%9Fla_Province",
+    "https://kureansiklopedi.com/en/detay/mugla-il-2"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

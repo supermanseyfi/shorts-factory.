@@ -1,0 +1,146 @@
+{
+ "id": "q3-geo-005",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "OCEANS QUIZ",
+ "title": [
+  "OCEANS",
+  "AND SEAS",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Most of our planet is covered by water. How well do you know it? Five questions, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which ocean lies between Africa and Australia?",
+   "options": [
+    "Atlantic",
+    "Pacific",
+    "Indian",
+    "Southern"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "The Indian Ocean is the third largest ocean, and the warmest.",
+   "sayAnswer": "The Indian Ocean! It is the third largest ocean, and the warmest.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Indian_Ocean"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the smallest ocean in the world?",
+   "options": [
+    "Southern",
+    "Arctic",
+    "Indian",
+    "Atlantic"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🧊"
+   },
+   "fact": "The Arctic is also the shallowest of the world's 5 oceans.",
+   "sayAnswer": "The Arctic! It is also the shallowest of the world's 5 oceans.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Arctic_Ocean",
+    "https://www.britannica.com/place/Arctic-Ocean"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which canal links the Mediterranean Sea to the Red Sea?",
+   "options": [
+    "Panama Canal",
+    "Kiel Canal",
+    "Corinth Canal",
+    "Suez Canal"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🚢"
+   },
+   "fact": "The Suez Canal opened in 1869 and runs 193 km through Egypt.",
+   "sayAnswer": "The Suez Canal! It opened in 1869, and runs 193 kilometers through Egypt.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Suez_Canal",
+    "https://www.britannica.com/topic/Suez-Canal"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which strait separates Europe from Africa?",
+   "options": [
+    "Strait of Gibraltar",
+    "Bosphorus",
+    "Strait of Hormuz",
+    "Strait of Dover"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "⚓"
+   },
+   "fact": "At its narrowest, Spain and Morocco are less than 15 km apart.",
+   "sayAnswer": "The Strait of Gibraltar! At its narrowest point, Spain and Morocco are less than 15 kilometers apart.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Strait_of_Gibraltar",
+    "https://www.britannica.com/place/Strait-of-Gibraltar"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the only sea on Earth without a land boundary?",
+   "options": [
+    "Coral Sea",
+    "Sargasso Sea",
+    "Arabian Sea",
+    "Tasman Sea"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🌀"
+   },
+   "fact": "The Sargasso Sea is bordered by four Atlantic currents, not by land.",
+   "sayAnswer": "The Sargasso Sea! It is bordered by four Atlantic Ocean currents, not by land.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sargasso_Sea",
+    "https://oceanservice.noaa.gov/facts/sargassosea.html"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

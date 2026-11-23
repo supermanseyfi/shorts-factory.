@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-011",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "NORTH EUROPE"
+ ],
+ "hook": {
+  "say": "Fjords, forests and thousands of islands. Can you name these five countries of Northern Europe by shape?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Sweden",
+    "Finland",
+    "Norway",
+    "Iceland"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:578"
+    ]
+   },
+   "fact": "Norway: its longest fjord, the Sognefjord, runs about 205 km inland.",
+   "sayAnswer": "Norway! Its longest fjord, the Sognefjord, runs about 205 kilometers inland.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sognefjord"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Sweden",
+    "Norway",
+    "Finland",
+    "Denmark"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:752"
+    ]
+   },
+   "fact": "Sweden is the largest and most populous of the Nordic countries.",
+   "sayAnswer": "Sweden! It is the largest and most populous of the Nordic countries.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sweden"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Iceland",
+    "United Kingdom",
+    "Denmark",
+    "Ireland"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:372"
+    ]
+   },
+   "fact": "Ireland: so green that the island is nicknamed the Emerald Isle.",
+   "sayAnswer": "Ireland! So green that the island is nicknamed the Emerald Isle.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ireland"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Netherlands",
+    "Denmark",
+    "Estonia",
+    "Belgium"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:208"
+    ]
+   },
+   "fact": "Denmark: its capital Copenhagen sits mainly on the island of Zealand.",
+   "sayAnswer": "Denmark! Its capital, Copenhagen, sits mainly on the island of Zealand.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Copenhagen"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Latvia",
+    "Lithuania",
+    "Estonia",
+    "Finland"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:233"
+    ]
+   },
+   "fact": "Estonia has more than 2,000 islands in the Baltic Sea.",
+   "sayAnswer": "Estonia! It has more than 2000 islands in the Baltic Sea.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_islands_of_Estonia"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

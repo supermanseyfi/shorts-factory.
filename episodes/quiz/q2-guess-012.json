@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-012",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "EUROPE",
+  "HARD",
+  "MODE"
+ ],
+ "hook": {
+  "say": "Europe on hard mode! No boots, no easy islands. Can you still name all five countries by their shape?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Portugal",
+    "Spain",
+    "Ireland",
+    "Albania"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:620"
+    ]
+   },
+   "fact": "Portugal: Cabo da Roca is the westernmost point of mainland Europe.",
+   "sayAnswer": "Portugal! Its Cabo da Roca is the westernmost point of mainland Europe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Cabo_da_Roca"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Bulgaria",
+    "Hungary",
+    "Poland",
+    "Romania"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:642"
+    ]
+   },
+   "fact": "Romania: the Danube ends here, in the best-preserved river delta in Europe.",
+   "sayAnswer": "Romania! The Danube ends here, in the best preserved river delta in Europe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Danube_Delta"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Switzerland",
+    "Austria",
+    "Czechia",
+    "Slovakia"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:040"
+    ]
+   },
+   "fact": "Austria: the birthplace of Mozart, born in Salzburg in 1756.",
+   "sayAnswer": "Austria! The birthplace of Mozart, who was born in Salzburg in 1756.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Slovakia",
+    "Hungary",
+    "Czechia",
+    "Austria"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:203"
+    ]
+   },
+   "fact": "Czechia: Prague Castle is the largest ancient castle in the world.",
+   "sayAnswer": "Czechia! Prague Castle is the largest ancient castle in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Prague_Castle"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Hungary",
+    "Slovakia",
+    "Romania",
+    "Serbia"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:348"
+    ]
+   },
+   "fact": "Hungary: home to Lake Balaton, the largest lake in Central Europe.",
+   "sayAnswer": "Hungary! Home to Lake Balaton, the largest lake in Central Europe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Balaton"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

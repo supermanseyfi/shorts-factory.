@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-009",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "NEIGHBOURS OF TÜRKIYE",
+ "title": [
+  "GUESS THE",
+  "NEIGHBOUR",
+  "OF TÜRKIYE"
+ ],
+ "hook": {
+  "say": "Turkey shares a border with eight countries. Here are five of them. Can you name each one from its shape?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Greece",
+    "Bulgaria",
+    "Croatia",
+    "Albania"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:300"
+    ]
+   },
+   "fact": "Greece has the longest coastline in the Mediterranean.",
+   "sayAnswer": "Greece! It has the longest coastline in the Mediterranean.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Greece"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Iraq",
+    "Afghanistan",
+    "Iran",
+    "Saudi Arabia"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:364"
+    ]
+   },
+   "fact": "Iran was officially known as Persia in the West until 1935.",
+   "sayAnswer": "Iran! It was officially known as Persia in the West until 1935.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Name_of_Iran"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Syria",
+    "Iraq",
+    "Jordan",
+    "Iran"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:368"
+    ]
+   },
+   "fact": "Iraq: both the Tigris and the Euphrates flow through it.",
+   "sayAnswer": "Iraq! Both the Tigris and the Euphrates flow through it.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Iraq"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Romania",
+    "Greece",
+    "Hungary",
+    "Bulgaria"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:100"
+    ]
+   },
+   "fact": "Bulgaria: its Rose Valley is one of the world's top sources of rose oil.",
+   "sayAnswer": "Bulgaria! Its Rose Valley is one of the world's top sources of rose oil.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Rose_Valley,_Bulgaria"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Armenia",
+    "Azerbaijan",
+    "Georgia",
+    "Bulgaria"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:268"
+    ]
+   },
+   "fact": "Georgia: people have been making wine here for about 8,000 years.",
+   "sayAnswer": "Georgia! People have been making wine here for about 8000 years.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Georgian_wine"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

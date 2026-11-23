@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-015",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE COUNTRY",
+ "title": [
+  "GUESS THE",
+  "COUNTRY",
+  "AFRICA 2"
+ ],
+ "hook": {
+  "say": "Back to Africa for round two, and this time it is tougher. Five more outlines. How many can you name?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Ghana",
+    "Cameroon",
+    "Nigeria",
+    "Niger"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:566"
+    ]
+   },
+   "fact": "Nigeria has more people than any other country in Africa.",
+   "sayAnswer": "Nigeria! It has more people than any other country in Africa.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Nigeria"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Ethiopia",
+    "Kenya",
+    "Sudan",
+    "Chad"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:231"
+    ]
+   },
+   "fact": "Ethiopia is the most populous landlocked country in the world.",
+   "sayAnswer": "Ethiopia! It is the most populous landlocked country in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Angola",
+    "Sudan",
+    "Tanzania",
+    "DR Congo"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:180"
+    ]
+   },
+   "fact": "DR Congo is the second-largest country in Africa, after Algeria.",
+   "sayAnswer": "The Democratic Republic of the Congo! It is the second largest country in Africa, after Algeria.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Botswana",
+    "Namibia",
+    "Angola",
+    "Zimbabwe"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:516"
+    ]
+   },
+   "fact": "Namibia: home to the Namib, which may be the oldest desert in the world.",
+   "sayAnswer": "Namibia! Home to the Namib, which may be the oldest desert in the world.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Namib"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which country is this?",
+   "options": [
+    "Zimbabwe",
+    "Malawi",
+    "Zambia",
+    "Uganda"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "c:894"
+    ]
+   },
+   "fact": "Zambia shares the mighty Victoria Falls with its neighbour Zimbabwe.",
+   "sayAnswer": "Zambia! It shares the mighty Victoria Falls with its neighbour Zimbabwe.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Victoria_Falls"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

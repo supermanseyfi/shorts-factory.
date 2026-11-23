@@ -1,0 +1,150 @@
+{
+ "id": "q5-turkiye-019",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "EASTERN",
+  "ANATOLIA",
+  "QUIZ"
+ ],
+ "hook": {
+  "say": "Snowy peaks, a legendary train and sleighs on a frozen lake. Five questions on Turkey's wild east!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which eastern city is known for skiing on Mount Palandöken?",
+   "say": "Which eastern city is known for skiing on Mount Palan-duh-ken?",
+   "options": [
+    "Van",
+    "Erzurum",
+    "Elazığ",
+    "Malatya"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "⛷️"
+   },
+   "fact": "Erzurum hosted the Winter Universiade in 2011.",
+   "sayAnswer": "Erzurum! It hosted the Winter Universiade in 2011.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Paland%C3%B6ken_Mountain",
+    "https://en.wikipedia.org/wiki/Erzurum"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The Eastern Express train runs from Ankara to which city?",
+   "say": "The Eastern Express train runs from Ankara to which city?",
+   "options": [
+    "Kars",
+    "Erzincan",
+    "Van",
+    "Diyarbakır"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🚂"
+   },
+   "fact": "The scenic ride covers over 1,300 km and takes about a day.",
+   "sayAnswer": "Kars! The scenic ride covers more than 1300 kilometres and takes about a day.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Eastern_Express"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "What is unusual about the water of Lake Van?",
+   "say": "What is unusual about the water of Lake Van?",
+   "options": [
+    "It is fully frozen",
+    "It is fresh and warm",
+    "It is bright pink",
+    "It is salty soda water"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🧪"
+   },
+   "fact": "Lake Van has no outlet, so salts and soda build up in its water.",
+   "sayAnswer": "It is salty soda water! Lake Van has no outlet, so salts and soda build up in its water.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_Van",
+    "https://www.britannica.com/place/Lake-Van"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "İshak Pasha Palace stands above which town near Mount Ararat?",
+   "say": "Is-hak Pasha Palace stands above which town near Mount Ararat?",
+   "options": [
+    "Tatvan",
+    "Kağızman",
+    "Doğubayazıt",
+    "Sarıkamış"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏰"
+   },
+   "fact": "The palace was completed in 1784, close to the Iranian border.",
+   "sayAnswer": "Doh-oo-bye-yazit! The palace was completed in 1784, close to the Iranian border.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Ishak_Pasha_Palace",
+    "https://en.wikipedia.org/wiki/Do%C4%9Fubayaz%C4%B1t"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "On which frozen lake do horse-drawn sleighs glide every winter?",
+   "say": "On which frozen lake do horse-drawn sleighs glide every winter?",
+   "options": [
+    "Lake Van",
+    "Lake Tuz",
+    "Lake Hazar",
+    "Lake Çıldır"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🛷"
+   },
+   "fact": "Lake Çıldır, between Kars and Ardahan, lies nearly 2,000 m high.",
+   "sayAnswer": "Lake Chil-dir! It lies between Kars and Ardahan, nearly 2000 meters high.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Lake_%C3%87%C4%B1ld%C4%B1r",
+    "https://goturkiye.com/keep-abreast-of-the-frozen-winter-lake-cildir"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

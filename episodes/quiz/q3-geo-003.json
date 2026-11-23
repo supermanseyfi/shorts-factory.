@@ -1,0 +1,147 @@
+{
+ "id": "q3-geo-003",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GEOGRAPHY QUIZ",
+ "title": [
+  "EARTH'S",
+  "BIGGEST",
+  "RECORDS"
+ ],
+ "hook": {
+  "say": "Biggest, tallest, deepest, lowest. Five record breakers, three seconds each. Can you get five out of five?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which is the largest ocean on Earth?",
+   "options": [
+    "Atlantic",
+    "Indian",
+    "Pacific",
+    "Arctic"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🌊"
+   },
+   "fact": "The Pacific is bigger than all of Earth's land put together.",
+   "sayAnswer": "The Pacific! It is bigger than all of the land on Earth put together.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Pacific_Ocean",
+    "https://oceanservice.noaa.gov/facts/biggestocean.html"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the largest country in the world by area?",
+   "options": [
+    "Canada",
+    "China",
+    "United States",
+    "Russia"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🗺️"
+   },
+   "fact": "Russia covers about 17 million square km and spans 11 time zones.",
+   "sayAnswer": "Russia! It covers about 17 million square kilometers, and spans 11 time zones.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Russia",
+    "https://www.britannica.com/place/Russia"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Angel Falls, the world's tallest waterfall, is in which country?",
+   "options": [
+    "Brazil",
+    "Venezuela",
+    "Colombia",
+    "Peru"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "💦"
+   },
+   "fact": "The water drops 979 meters, almost as high as three Eiffel Towers.",
+   "sayAnswer": "Venezuela! The water drops 979 meters. That is almost as high as 3 Eiffel Towers.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Angel_Falls",
+    "https://www.britannica.com/place/Angel-Falls"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The deepest point in the ocean lies in which trench?",
+   "options": [
+    "Mariana Trench",
+    "Tonga Trench",
+    "Puerto Rico Trench",
+    "Java Trench"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🤿"
+   },
+   "fact": "Its Challenger Deep is nearly 11 km down, deeper than Everest is tall.",
+   "sayAnswer": "The Mariana Trench! Its Challenger Deep is nearly 11 kilometers down. That is deeper than Mount Everest is tall.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Challenger_Deep",
+    "https://www.britannica.com/place/Mariana-Trench"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The lowest point on dry land is on the shore of which body of water?",
+   "options": [
+    "Caspian Sea",
+    "Lake Eyre",
+    "Lake Assal",
+    "Dead Sea"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "⬇️"
+   },
+   "fact": "The Dead Sea's shore lies more than 400 meters below sea level.",
+   "sayAnswer": "The Dead Sea! Its shore lies more than 400 meters below sea level.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Dead_Sea",
+    "https://www.britannica.com/place/Dead-Sea"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

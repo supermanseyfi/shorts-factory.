@@ -1,0 +1,169 @@
+{
+ "id": "q1-bigger-005",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "WHICH IS BIGGER?",
+ "title": [
+  "AFRICA",
+  "IS",
+  "HUGE"
+ ],
+ "hook": {
+  "say": "Africa is far bigger than your map makes it look. Five duels, three seconds each. Wait for the last one!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Texas or Nigeria?",
+   "options": [
+    "Texas",
+    "Nigeria"
+   ],
+   "answer": 1,
+   "values": [
+    695662,
+    923768
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "s:48",
+     "c:566"
+    ]
+   },
+   "fact": "Nigeria is about a third bigger than Texas.",
+   "sayAnswer": "Nigeria! It is about a third bigger than Texas.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Madagascar or France?",
+   "options": [
+    "Madagascar",
+    "France"
+   ],
+   "answer": 0,
+   "values": [
+    587041,
+    551695
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:450",
+     "c:250"
+    ]
+   },
+   "fact": "Madagascar, a single island, is bigger than mainland France.",
+   "sayAnswer": "Madagascar! This single island is bigger than mainland France.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Mexico or DR Congo?",
+   "say": "Which is bigger: Mexico or the Democratic Republic of the Congo?",
+   "options": [
+    "Mexico",
+    "DR Congo"
+   ],
+   "answer": 1,
+   "values": [
+    1964375,
+    2344858
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:484",
+     "c:180"
+    ]
+   },
+   "fact": "DR Congo is about 19% bigger than Mexico.",
+   "sayAnswer": "The D R Congo! It is about nineteen percent bigger than Mexico.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Ethiopia or Egypt?",
+   "options": [
+    "Ethiopia",
+    "Egypt"
+   ],
+   "answer": 0,
+   "values": [
+    1104300,
+    1001450
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:231",
+     "c:818"
+    ]
+   },
+   "fact": "Ethiopia is about 10% bigger than Egypt, and has more people too.",
+   "sayAnswer": "Ethiopia! It is about ten percent bigger than Egypt, and it has more people too.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which is bigger: Greenland or Algeria?",
+   "options": [
+    "Greenland",
+    "Algeria"
+   ],
+   "answer": 1,
+   "values": [
+    2166086,
+    2381741
+   ],
+   "unit": "km²",
+   "visual": {
+    "ids": [
+     "c:304",
+     "c:012"
+    ]
+   },
+   "fact": "Algeria is 10% bigger. Flat maps blow Greenland up to Africa's size.",
+   "sayAnswer": "Algeria! It is ten percent bigger. Flat maps blow Greenland up until it looks as big as all of Africa.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

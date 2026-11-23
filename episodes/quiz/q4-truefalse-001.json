@@ -1,0 +1,121 @@
+{
+ "id": "q4-truefalse-001",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "TRUE",
+  "OR",
+  "FALSE?"
+ ],
+ "hook": {
+  "say": "True or false? Five geography facts that fool almost everyone. Three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Istanbul is the capital of Türkiye.",
+   "say": "Istanbul is the capital of Turkey.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇹🇷"
+   },
+   "fact": "The capital is Ankara, and has been since 1923.",
+   "sayAnswer": "False! The capital is Ankara, and has been since 1923.",
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Africa is bigger than China, India and the USA combined.",
+   "say": "Africa is bigger than China, India and the U.S.A. combined.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌍"
+   },
+   "fact": "Africa is 30 million km². Those three together are about 23 million.",
+   "sayAnswer": "True! Africa is thirty million square kilometers. Those three together are about twenty-three million.",
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Mount Everest's summit is the farthest point from the centre of the Earth.",
+   "say": "Mount Everest's summit is the farthest point from the center of the Earth.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏔️"
+   },
+   "fact": "That is Chimborazo in Ecuador, because the Earth bulges at the equator.",
+   "sayAnswer": "False! That is Chimborazo in Ecuador, because the Earth bulges at the equator.",
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Alaska is both the westernmost and the easternmost US state.",
+   "say": "Alaska is both the westernmost and the easternmost U.S. state.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "Its Aleutian Islands cross the 180° line into the Eastern Hemisphere.",
+   "sayAnswer": "True! Its Aleutian Islands cross the 180 degree line into the Eastern Hemisphere.",
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Australia is wider than the Moon.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌕"
+   },
+   "fact": "Australia is about 4,000 km across. The Moon is 3,474 km wide.",
+   "sayAnswer": "True! Australia is about 4000 kilometers across. The Moon is only 3474 kilometers wide.",
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

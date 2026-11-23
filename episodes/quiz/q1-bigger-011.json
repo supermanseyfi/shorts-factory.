@@ -1,0 +1,173 @@
+{
+ "id": "q1-bigger-011",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "MORE PEOPLE?",
+ "title": [
+  "US STATE",
+  "OR COUNTRY:",
+  "MORE PEOPLE?"
+ ],
+ "hook": {
+  "say": "One US state against a whole country. Which has more people? Five duels, three seconds each!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "duel",
+   "q": "Which has more people: Florida or the Netherlands?",
+   "options": [
+    "Florida",
+    "Netherlands"
+   ],
+   "answer": 0,
+   "values": [
+    23462518,
+    18448775
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "s:12",
+     "c:528"
+    ]
+   },
+   "fact": "Florida: 23.5 million people (2025). Netherlands: 18.4 million (2026).",
+   "sayAnswer": "Florida! It has about twenty-three and a half million people. The Netherlands has about eighteen and a half million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: California or Spain?",
+   "options": [
+    "California",
+    "Spain"
+   ],
+   "answer": 1,
+   "values": [
+    39355309,
+    47850793
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "s:06",
+     "c:724"
+    ]
+   },
+   "fact": "Spain: about 48 million people (2026). California: about 39 million (2025).",
+   "sayAnswer": "Spain! It has about forty-eight million people. California has about thirty-nine million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Sweden or Pennsylvania?",
+   "options": [
+    "Sweden",
+    "Pennsylvania"
+   ],
+   "answer": 1,
+   "values": [
+    10701046,
+    13059432
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:752",
+     "s:42"
+    ]
+   },
+   "fact": "Pennsylvania: 13.1 million people (2025). Sweden: 10.7 million (2026).",
+   "sayAnswer": "Pennsylvania! It has about thirteen million people. Sweden has fewer than eleven million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which Georgia has more people: the US state or the country?",
+   "say": "Which Georgia has more people: the U S state, or the country?",
+   "options": [
+    "Georgia (US state)",
+    "Georgia (country)"
+   ],
+   "answer": 0,
+   "values": [
+    11302748,
+    3804642
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "s:13",
+     "c:268"
+    ]
+   },
+   "fact": "The US state has 11.3 million people (2025), about 3 times the country.",
+   "sayAnswer": "The U S state! It has more than eleven million people, about three times as many as the country.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+   ]
+  },
+  {
+   "kind": "duel",
+   "q": "Which has more people: Australia or Texas?",
+   "options": [
+    "Australia",
+    "Texas"
+   ],
+   "answer": 1,
+   "values": [
+    27227096,
+    31709821
+   ],
+   "unit": "people",
+   "visual": {
+    "ids": [
+     "c:036",
+     "s:48"
+    ]
+   },
+   "fact": "Texas: 31.7 million people (2025). All of Australia: 27.2 million (2026).",
+   "sayAnswer": "Texas! It has almost thirty-two million people. The whole of Australia has about twenty-seven million.",
+   "src": [
+    "https://www.worldometers.info/world-population/population-by-country/",
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+   ]
+  }
+ ],
+ "sub": "5 DUELS · 3 SECONDS EACH"
+}

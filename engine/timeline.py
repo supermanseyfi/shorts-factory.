@@ -54,6 +54,7 @@ def build(ep_path, out="build/episode.json", voice_dir="build/voice"):
         s.update(voice=wavp if have else None, vstart=round(t, 3), vdur=round(vdur, 3), words=words)
         tail = {"hook": .25, "item": .3, "outro": 1.5}[s["kind"]]
         if s["kind"] == "item" and ep["items"][s["item"]]["rank"] == 1: tail = 1.1
+        if s["kind"] == "item" and "tail" in ep["items"][s["item"]]: tail = ep["items"][s["item"]]["tail"]
         s["start"] = 0.0 if i == 0 else segs[i - 1]["end"]
         s["end"] = round(t + vdur + tail, 3)
         t = s["end"] + 0.22          # the picture leads the voice by 0.22 s

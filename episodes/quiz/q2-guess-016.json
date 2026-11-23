@@ -1,0 +1,152 @@
+{
+ "id": "q2-guess-016",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "GUESS THE STATE",
+ "title": [
+  "GUESS THE",
+  "US STATE",
+  "LEVEL 2"
+ ],
+ "hook": {
+  "say": "US states, level 2! A panhandle, a potato giant and three more. Can you name all five by shape?"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Pennsylvania",
+    "New York",
+    "Virginia",
+    "Massachusetts"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:36"
+    ]
+   },
+   "fact": "New York: its capital is Albany, not New York City.",
+   "sayAnswer": "New York! Its capital is Albany, not New York City.",
+   "src": [
+    "https://en.wikipedia.org/wiki/New_York_(state)"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Oklahoma",
+    "Nebraska",
+    "Kansas",
+    "Tennessee"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:40"
+    ]
+   },
+   "fact": "Oklahoma: its famous panhandle is only about 55 km wide.",
+   "sayAnswer": "Oklahoma! Its famous panhandle is only about 55 kilometers wide.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Oklahoma_Panhandle"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Montana",
+    "Nevada",
+    "Utah",
+    "Idaho"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:16"
+    ]
+   },
+   "fact": "Idaho grows almost a third of all the potatoes in the United States.",
+   "sayAnswer": "Idaho! It grows almost a third of all the potatoes in the United States.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Idaho"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Wisconsin",
+    "Iowa",
+    "Minnesota",
+    "North Dakota"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:27"
+    ]
+   },
+   "fact": "Minnesota: the Land of 10,000 Lakes, where the Mississippi River begins.",
+   "sayAnswer": "Minnesota! The Land of 10,000 Lakes, where the Mississippi River begins.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Minnesota"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which US state is this?",
+   "options": [
+    "Kentucky",
+    "Tennessee",
+    "North Carolina",
+    "Virginia"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:47"
+    ]
+   },
+   "fact": "Tennessee borders 8 other states, tied with Missouri for the most.",
+   "sayAnswer": "Tennessee! It borders 8 other states, tied with Missouri for the most.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tennessee"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 SHAPES · 3 SECONDS EACH"
+}

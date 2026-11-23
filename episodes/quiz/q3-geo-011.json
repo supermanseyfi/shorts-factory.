@@ -1,0 +1,148 @@
+{
+ "id": "q3-geo-011",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "USA QUIZ",
+ "title": [
+  "USA",
+  "GEOGRAPHY",
+  "5 OUT OF 5?"
+ ],
+ "hook": {
+  "say": "Think you know the United States? Five questions, three seconds each, and the last one is tiny!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Which US state is this?",
+   "say": "Which U.S. state is this?",
+   "options": [
+    "Florida",
+    "Louisiana",
+    "Michigan",
+    "California"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "shapes",
+    "ids": [
+     "s:12"
+    ]
+   },
+   "fact": "Florida has the longest coastline of the lower 48 states.",
+   "sayAnswer": "Florida! It has the longest coastline of the lower 48 states.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_coastline"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the southernmost US state?",
+   "say": "Which is the southernmost U.S. state?",
+   "options": [
+    "Florida",
+    "Texas",
+    "Hawaii",
+    "California"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🧭"
+   },
+   "fact": "Ka Lae, on Hawaii's Big Island, is the southernmost point of all 50 states.",
+   "sayAnswer": "Hawaii! The southern tip of its Big Island is the southernmost point of all 50 states.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "The lowest point in North America is in which state?",
+   "options": [
+    "Nevada",
+    "Arizona",
+    "Louisiana",
+    "California"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "⬇️"
+   },
+   "fact": "Badwater Basin in Death Valley lies about 85 meters below sea level.",
+   "sayAnswer": "California! Badwater Basin, in Death Valley, lies about 280 feet below sea level.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which state is NOT part of the Four Corners?",
+   "options": [
+    "Utah",
+    "Nevada",
+    "Colorado",
+    "New Mexico"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "➕"
+   },
+   "fact": "Arizona, Colorado, New Mexico and Utah all meet at a single point.",
+   "sayAnswer": "Nevada! Arizona, Colorado, New Mexico and Utah all meet at a single point.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Four_Corners"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the least populous US state capital?",
+   "say": "Which is the least populous U.S. state capital?",
+   "options": [
+    "Juneau",
+    "Pierre",
+    "Montpelier",
+    "Augusta"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏘️"
+   },
+   "fact": "Montpelier, Vermont, has about 8,000 people and no McDonald's.",
+   "sayAnswer": "Mont-peel-yer! The capital of Vermont has only about 8,000 people, and no McDonald's.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Montpelier,_Vermont",
+    "https://www.britannica.com/place/Montpelier-Vermont"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

@@ -1,0 +1,137 @@
+{
+ "id": "q4-truefalse-009",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TRUE OR FALSE?",
+ "title": [
+  "ISLAND",
+  "FACTS",
+  "OR FAKES?"
+ ],
+ "hook": {
+  "say": "True or false? Five island facts, three seconds each. The last one sounds impossible!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "kind": "tf",
+   "q": "Madagascar is the world's largest island.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏝️"
+   },
+   "fact": "Greenland is the largest. Madagascar is only fourth.",
+   "sayAnswer": "False! Greenland is the largest. Madagascar ranks only fourth.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_islands_by_area",
+    "https://www.britannica.com/place/Greenland"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "The island of Borneo is shared by three countries.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🌴"
+   },
+   "fact": "Indonesia, Malaysia and Brunei all have territory on Borneo.",
+   "sayAnswer": "True! Indonesia, Malaysia and Brunei all have territory on Borneo.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Borneo",
+    "https://en.wikipedia.org/wiki/List_of_islands_by_area"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Sicily is the largest island in the Mediterranean.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🇮🇹"
+   },
+   "fact": "Sicily is about 25,500 km², just ahead of Sardinia.",
+   "sayAnswer": "True! Sicily is the largest, just ahead of Sardinia.",
+   "src": [
+    "https://en.wikipedia.org/wiki/List_of_islands_by_area",
+    "https://www.britannica.com/place/Sicily"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "Japan is made up of just four islands.",
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🇯🇵"
+   },
+   "fact": "A 2023 government count found 14,125 islands.",
+   "sayAnswer": "False! A 2023 government count found 14125 islands.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Geography_of_Japan",
+    "https://en.wikipedia.org/wiki/Japan"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "kind": "tf",
+   "q": "More people live on the island of Java than in all of Russia.",
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "👥"
+   },
+   "fact": "Java: about 158 million people. Russia: about 146 million.",
+   "sayAnswer": "True! Java has about 158 million people. Russia has about 146 million.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Java",
+    "https://en.wikipedia.org/wiki/Demographics_of_Russia"
+   ],
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ],
+ "sub": "5 FACTS · 3 SECONDS EACH"
+}

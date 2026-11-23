@@ -1,0 +1,151 @@
+{
+ "id": "q5-turkiye-012",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "TÜRKİYE QUIZ",
+ "title": [
+  "ATATÜRK",
+  "& THE",
+  "REPUBLIC"
+ ],
+ "hook": {
+  "say": "How much do you know about Ataturk and the birth of modern Turkey? Five questions on key dates!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Who was the founder and first president of the Republic of Türkiye?",
+   "say": "Who was the founder and first president of the Republic of Turkey?",
+   "options": [
+    "Kâzım Karabekir",
+    "İsmet İnönü",
+    "Celal Bayar",
+    "Mustafa Kemal Atatürk"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇹🇷"
+   },
+   "fact": "Atatürk served as president from 1923 until his death in 1938.",
+   "sayAnswer": "Mustafa Kemal Ataturk! He served as president from 1923 until his death in 1938.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    "https://www.britannica.com/biography/Kemal-Ataturk"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "On which date was the Republic of Türkiye proclaimed?",
+   "say": "On which date was the Republic of Turkey proclaimed?",
+   "options": [
+    "29 October 1923",
+    "23 April 1920",
+    "30 August 1922",
+    "19 May 1919"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "📅"
+   },
+   "fact": "29 October is celebrated every year as Republic Day.",
+   "sayAnswer": "The 29th of October, 1923! It is celebrated every year as Republic Day.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    "https://www.britannica.com/biography/Kemal-Ataturk"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "In which city was Atatürk born in 1881?",
+   "say": "In which city was Ataturk born in 1881?",
+   "options": [
+    "Istanbul",
+    "Thessaloniki",
+    "İzmir",
+    "Ankara"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏠"
+   },
+   "fact": "His birthplace, then called Salonica, is now in Greece.",
+   "sayAnswer": "Thessaloniki! His birthplace, then called Salonica, is now in Greece.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    "https://www.britannica.com/biography/Kemal-Ataturk"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "In which year did Türkiye adopt its Latin-based alphabet?",
+   "say": "In which year did Turkey adopt its Latin-based alphabet?",
+   "options": [
+    "1923",
+    "1934",
+    "1938",
+    "1928"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🔤"
+   },
+   "fact": "The Turkish alphabet has 29 letters, with no Q, W or X.",
+   "sayAnswer": "1928! The Turkish alphabet has 29 letters, with no Q, W or X.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Turkish_alphabet",
+    "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "In which year did Mustafa Kemal receive the surname Atatürk?",
+   "say": "In which year did Mustafa Kemal receive the surname Ataturk?",
+   "options": [
+    "1923",
+    "1934",
+    "1928",
+    "1938"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "✍️"
+   },
+   "fact": "Parliament gave him the name, meaning Father of the Turks.",
+   "sayAnswer": "1934! Parliament gave him the name, which means Father of the Turks.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Surname_Law_(Turkey)",
+    "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+   ],
+   "kind": "choice"
+  }
+ ]
+}

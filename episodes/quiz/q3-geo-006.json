@@ -1,0 +1,146 @@
+{
+ "id": "q3-geo-006",
+ "template": "quiz",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "series": "EUROPE QUIZ",
+ "title": [
+  "HOW WELL",
+  "DO YOU KNOW",
+  "EUROPE?"
+ ],
+ "hook": {
+  "say": "How well do you know Europe? Five questions, three seconds each. The last one stumps most people!"
+ },
+ "outro": {
+  "say": "How many did you get? Comment your score!"
+ },
+ "outroLines": [
+  "HOW MANY DID YOU GET?",
+  "COMMENT YOUR SCORE"
+ ],
+ "ranks": [
+  [
+   "5/5",
+   "GEOGRAPHY GENIUS"
+  ],
+  [
+   "3-4",
+   "WORLD EXPLORER"
+  ],
+  [
+   "0-2",
+   "TIME TO TRAVEL"
+  ]
+ ],
+ "questions": [
+  {
+   "q": "In which country is the Colosseum?",
+   "options": [
+    "Greece",
+    "Spain",
+    "Italy",
+    "France"
+   ],
+   "answer": 2,
+   "visual": {
+    "type": "emoji",
+    "text": "🏛️"
+   },
+   "fact": "Opened in AD 80, it is the largest ancient amphitheater ever built.",
+   "sayAnswer": "Italy! The Colosseum in Rome opened in the year 80, and it is the largest ancient amphitheater ever built.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Colosseum",
+    "https://www.britannica.com/topic/Colosseum"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which is the longest river in Europe?",
+   "options": [
+    "Danube",
+    "Volga",
+    "Rhine",
+    "Dnieper"
+   ],
+   "answer": 1,
+   "visual": {
+    "type": "emoji",
+    "text": "🏞️"
+   },
+   "fact": "The Volga runs about 3,500 km across Russia to the Caspian Sea.",
+   "sayAnswer": "The Volga! It runs about 3,500 kilometers across Russia, to the Caspian Sea.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Volga",
+    "https://www.britannica.com/place/Volga-River"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which European Union country has the most people?",
+   "options": [
+    "France",
+    "Italy",
+    "Spain",
+    "Germany"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🇪🇺"
+   },
+   "fact": "Germany has about 84 million people. France is next, with about 68 million.",
+   "sayAnswer": "Germany! It has about 84 million people. France is next, with about 68 million.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Member_state_of_the_European_Union"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which river flows through four national capitals?",
+   "options": [
+    "Danube",
+    "Rhine",
+    "Seine",
+    "Elbe"
+   ],
+   "answer": 0,
+   "visual": {
+    "type": "emoji",
+    "text": "🛶"
+   },
+   "fact": "Vienna, Bratislava, Budapest and Belgrade all sit on the Danube.",
+   "sayAnswer": "The Danube! Vienna, Bratislava, Budapest and Belgrade all sit on its banks.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Danube",
+    "https://www.britannica.com/place/Danube-River"
+   ],
+   "kind": "choice"
+  },
+  {
+   "q": "Which European country is doubly landlocked?",
+   "options": [
+    "Switzerland",
+    "Luxembourg",
+    "Andorra",
+    "Liechtenstein"
+   ],
+   "answer": 3,
+   "visual": {
+    "type": "emoji",
+    "text": "🔒"
+   },
+   "fact": "Its only neighbors, Switzerland and Austria, are landlocked too.",
+   "sayAnswer": "Lick-ten-stine! Its only neighbors, Switzerland and Austria, are landlocked too. Only Uzbekistan shares that fate.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Landlocked_country",
+    "https://www.britannica.com/place/Liechtenstein"
+   ],
+   "kind": "choice"
+  }
+ ],
+ "sub": "5 QUESTIONS · 3 SECONDS EACH"
+}

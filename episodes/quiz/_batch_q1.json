@@ -1,0 +1,2683 @@
+[
+ {
+  "id": "q1-bigger-002",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "ONE US STATE",
+   "VS A WHOLE",
+   "COUNTRY"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "One US state against a whole country. Which is bigger? Five duels, three seconds each. The last one is wild!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: California or Italy?",
+    "options": [
+     "California",
+     "Italy"
+    ],
+    "answer": 0,
+    "values": [
+     423967,
+     302068
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:06",
+      "c:380"
+     ]
+    },
+    "fact": "California is about 40% bigger than Italy.",
+    "sayAnswer": "California! It is about forty percent bigger than Italy.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Spain or Texas?",
+    "options": [
+     "Spain",
+     "Texas"
+    ],
+    "answer": 1,
+    "values": [
+     505370,
+     695662
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:724",
+      "s:48"
+     ]
+    },
+    "fact": "Texas is bigger than Spain and Portugal combined.",
+    "sayAnswer": "Texas! It is bigger than Spain and Portugal combined.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Montana or Germany?",
+    "options": [
+     "Montana",
+     "Germany"
+    ],
+    "answer": 0,
+    "values": [
+     380831,
+     357592
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:30",
+      "c:276"
+     ]
+    },
+    "fact": "Montana tops Germany, with 1.1 million people against 83 million.",
+    "sayAnswer": "Montana! It beats Germany, with just over one million people against eighty-three million.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: UK or Wyoming?",
+    "say": "Which is bigger: the U K or Wyoming?",
+    "options": [
+     "UK",
+     "Wyoming"
+    ],
+    "answer": 1,
+    "values": [
+     244376,
+     253335
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:826",
+      "s:56"
+     ]
+    },
+    "fact": "Wyoming is about 4% bigger than the UK, with under 600,000 people.",
+    "sayAnswer": "Wyoming! It is about four percent bigger than the United Kingdom, with fewer than six hundred thousand people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is the biggest: Peru, Alaska or South Africa?",
+    "options": [
+     "Peru",
+     "Alaska",
+     "South Africa"
+    ],
+    "answer": 1,
+    "values": [
+     1285216,
+     1723337,
+     1219090
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:604",
+      "s:02",
+      "c:710"
+     ]
+    },
+    "fact": "Alaska beats Peru and South Africa, with under a million people.",
+    "sayAnswer": "Alaska! It is bigger than Peru, and bigger than South Africa, with fewer than one million people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-003",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "TÜRKİYE",
+   "VS",
+   "THE WORLD"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Turkey against the world! Which one is bigger? Five duels, three seconds each. The last one surprises almost everyone.",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Germany?",
+    "say": "Which is bigger: Turkey or Germany?",
+    "options": [
+     "Türkiye",
+     "Germany"
+    ],
+    "answer": 0,
+    "values": [
+     783562,
+     357592
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:276"
+     ]
+    },
+    "fact": "Türkiye is more than twice the size of Germany.",
+    "sayAnswer": "Turkey! It is more than twice the size of Germany.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or France?",
+    "say": "Which is bigger: Turkey or France?",
+    "options": [
+     "Türkiye",
+     "France"
+    ],
+    "answer": 0,
+    "values": [
+     783562,
+     551695
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:250"
+     ]
+    },
+    "fact": "Türkiye is about 40% bigger than mainland France.",
+    "sayAnswer": "Turkey! It is about forty percent bigger than mainland France.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is the biggest: Türkiye, Japan or Italy?",
+    "say": "Which is the biggest: Turkey, Japan or Italy?",
+    "options": [
+     "Türkiye",
+     "Japan",
+     "Italy"
+    ],
+    "answer": 0,
+    "values": [
+     783562,
+     377975,
+     302068
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:392",
+      "c:380"
+     ]
+    },
+    "fact": "Türkiye is bigger than Japan and Italy combined.",
+    "sayAnswer": "Turkey! It is bigger than Japan and Italy combined.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Nigeria?",
+    "say": "Which is bigger: Turkey or Nigeria?",
+    "options": [
+     "Türkiye",
+     "Nigeria"
+    ],
+    "answer": 1,
+    "values": [
+     783562,
+     923768
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:566"
+     ]
+    },
+    "fact": "Nigeria is about 18% bigger, and has nearly three times the people.",
+    "sayAnswer": "Nigeria! It is about eighteen percent bigger than Turkey, and has nearly three times as many people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Namibia?",
+    "say": "Which is bigger: Turkey or Namibia?",
+    "options": [
+     "Türkiye",
+     "Namibia"
+    ],
+    "answer": 1,
+    "values": [
+     783562,
+     824292
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:516"
+     ]
+    },
+    "fact": "Namibia is 5% bigger than Türkiye, with only about 3 million people.",
+    "sayAnswer": "Namibia! It is five percent bigger than Turkey, with only about three million people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-004",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "EUROPE:",
+   "WHICH ONE",
+   "IS BIGGER?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Europe edition! You have seen this map a thousand times. So which country is bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Spain or Germany?",
+    "options": [
+     "Spain",
+     "Germany"
+    ],
+    "answer": 0,
+    "values": [
+     505370,
+     357592
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:724",
+      "c:276"
+     ]
+    },
+    "fact": "Spain is about 40% bigger than Germany.",
+    "sayAnswer": "Spain! It is about forty percent bigger than Germany.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: UK or Italy?",
+    "say": "Which is bigger: the U K or Italy?",
+    "options": [
+     "UK",
+     "Italy"
+    ],
+    "answer": 1,
+    "values": [
+     244376,
+     302068
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:826",
+      "c:380"
+     ]
+    },
+    "fact": "Italy is almost a quarter bigger than the United Kingdom.",
+    "sayAnswer": "Italy! It is almost a quarter bigger than the United Kingdom.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Germany or Sweden?",
+    "options": [
+     "Germany",
+     "Sweden"
+    ],
+    "answer": 1,
+    "values": [
+     357592,
+     450295
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:276",
+      "c:752"
+     ]
+    },
+    "fact": "Sweden is a quarter bigger than Germany, with an eighth of the people.",
+    "sayAnswer": "Sweden! It is a quarter bigger than Germany, with about an eighth of the people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Germany or Finland?",
+    "options": [
+     "Germany",
+     "Finland"
+    ],
+    "answer": 0,
+    "values": [
+     357592,
+     338145
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:276",
+      "c:246"
+     ]
+    },
+    "fact": "Germany wins, but only by about 6%. Finland is huge.",
+    "sayAnswer": "Germany! But only by about six percent. Finland is huge.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Portugal or Iceland?",
+    "options": [
+     "Portugal",
+     "Iceland"
+    ],
+    "answer": 1,
+    "values": [
+     92090,
+     103000
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:620",
+      "c:352"
+     ]
+    },
+    "fact": "Iceland is about 12% bigger than Portugal, with about 400,000 people.",
+    "sayAnswer": "Iceland! It is about twelve percent bigger than Portugal, with only about four hundred thousand people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-005",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "AFRICA",
+   "IS",
+   "HUGE"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Africa is far bigger than your map makes it look. Five duels, three seconds each. Wait for the last one!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Texas or Nigeria?",
+    "options": [
+     "Texas",
+     "Nigeria"
+    ],
+    "answer": 1,
+    "values": [
+     695662,
+     923768
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:48",
+      "c:566"
+     ]
+    },
+    "fact": "Nigeria is about a third bigger than Texas.",
+    "sayAnswer": "Nigeria! It is about a third bigger than Texas.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Madagascar or France?",
+    "options": [
+     "Madagascar",
+     "France"
+    ],
+    "answer": 0,
+    "values": [
+     587041,
+     551695
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:450",
+      "c:250"
+     ]
+    },
+    "fact": "Madagascar, a single island, is bigger than mainland France.",
+    "sayAnswer": "Madagascar! This single island is bigger than mainland France.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Mexico or DR Congo?",
+    "say": "Which is bigger: Mexico or the Democratic Republic of the Congo?",
+    "options": [
+     "Mexico",
+     "DR Congo"
+    ],
+    "answer": 1,
+    "values": [
+     1964375,
+     2344858
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:484",
+      "c:180"
+     ]
+    },
+    "fact": "DR Congo is about 19% bigger than Mexico.",
+    "sayAnswer": "The D R Congo! It is about nineteen percent bigger than Mexico.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Ethiopia or Egypt?",
+    "options": [
+     "Ethiopia",
+     "Egypt"
+    ],
+    "answer": 0,
+    "values": [
+     1104300,
+     1001450
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:231",
+      "c:818"
+     ]
+    },
+    "fact": "Ethiopia is about 10% bigger than Egypt, and has more people too.",
+    "sayAnswer": "Ethiopia! It is about ten percent bigger than Egypt, and it has more people too.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Greenland or Algeria?",
+    "options": [
+     "Greenland",
+     "Algeria"
+    ],
+    "answer": 1,
+    "values": [
+     2166086,
+     2381741
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:304",
+      "c:012"
+     ]
+    },
+    "fact": "Algeria is 10% bigger. Flat maps blow Greenland up to Africa's size.",
+    "sayAnswer": "Algeria! It is ten percent bigger. Flat maps blow Greenland up until it looks as big as all of Africa.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-006",
+  "series": "MORE PEOPLE?",
+  "title": [
+   "WHO HAS",
+   "MORE",
+   "PEOPLE?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Which country has more people? Size on the map tells you nothing. Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which has more people: Germany or Vietnam?",
+    "options": [
+     "Germany",
+     "Vietnam"
+    ],
+    "answer": 1,
+    "values": [
+     83644258,
+     102177431
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:276",
+      "c:704"
+     ]
+    },
+    "fact": "Vietnam: about 102 million people. Germany: about 84 million (UN, 2026).",
+    "sayAnswer": "Vietnam! It has about one hundred and two million people. Germany has about eighty-four million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Mexico or Japan?",
+    "options": [
+     "Mexico",
+     "Japan"
+    ],
+    "answer": 0,
+    "values": [
+     132997658,
+     122427731
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:484",
+      "c:392"
+     ]
+    },
+    "fact": "Mexico has about 133 million people, Japan about 122 million (UN, 2026).",
+    "sayAnswer": "Mexico! It has about one hundred and thirty-three million people. Japan has about one hundred and twenty-two million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Italy or South Africa?",
+    "options": [
+     "Italy",
+     "South Africa"
+    ],
+    "answer": 1,
+    "values": [
+     58926166,
+     65453084
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:380",
+      "c:710"
+     ]
+    },
+    "fact": "South Africa: about 65 million people. Italy: about 59 million (UN, 2026).",
+    "sayAnswer": "South Africa! It has about sixty-five million people. Italy has about fifty-nine million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Madagascar or Australia?",
+    "options": [
+     "Madagascar",
+     "Australia"
+    ],
+    "answer": 0,
+    "values": [
+     33522052,
+     27227096
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:450",
+      "c:036"
+     ]
+    },
+    "fact": "Madagascar: about 33.5 million people. Australia: about 27 million (2026).",
+    "sayAnswer": "Madagascar! It has about thirty-three and a half million people. Australia has about twenty-seven million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Russia or Bangladesh?",
+    "options": [
+     "Russia",
+     "Bangladesh"
+    ],
+    "answer": 1,
+    "values": [
+     143394458,
+     177818044
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:643",
+      "c:050"
+     ]
+    },
+    "fact": "Bangladesh: 178 million people on under 1% of Russia's land (UN, 2026).",
+    "sayAnswer": "Bangladesh! It has one hundred and seventy-eight million people, on less than one percent of Russia's land.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-007",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "YOUR MAP",
+   "IS LYING",
+   "TO YOU"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Flat maps stretch everything near the poles. Can you still tell which is bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Greenland or Australia?",
+    "options": [
+     "Greenland",
+     "Australia"
+    ],
+    "answer": 1,
+    "values": [
+     2166086,
+     7741220
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:304",
+      "c:036"
+     ]
+    },
+    "fact": "Australia is more than three and a half times the size of Greenland.",
+    "sayAnswer": "Australia! It is more than three and a half times the size of Greenland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Madagascar or Sweden?",
+    "options": [
+     "Madagascar",
+     "Sweden"
+    ],
+    "answer": 0,
+    "values": [
+     587041,
+     450295
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:450",
+      "c:752"
+     ]
+    },
+    "fact": "Madagascar is about 30% bigger than Sweden.",
+    "sayAnswer": "Madagascar! It is about thirty percent bigger than Sweden.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: UK or New Zealand?",
+    "say": "Which is bigger: the U K or New Zealand?",
+    "options": [
+     "UK",
+     "New Zealand"
+    ],
+    "answer": 1,
+    "values": [
+     244376,
+     268838
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:826",
+      "c:554"
+     ]
+    },
+    "fact": "New Zealand is about 10% bigger than the United Kingdom.",
+    "sayAnswer": "New Zealand! It is about ten percent bigger than the United Kingdom.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Mexico or Alaska?",
+    "options": [
+     "Mexico",
+     "Alaska"
+    ],
+    "answer": 0,
+    "values": [
+     1964375,
+     1723337
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:484",
+      "s:02"
+     ]
+    },
+    "fact": "Mexico is about 14% bigger than Alaska, the largest US state.",
+    "sayAnswer": "Mexico! It is about fourteen percent bigger than Alaska, the largest U S state.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Greenland or DR Congo?",
+    "say": "Which is bigger: Greenland or the Democratic Republic of the Congo?",
+    "options": [
+     "Greenland",
+     "DR Congo"
+    ],
+    "answer": 1,
+    "values": [
+     2166086,
+     2344858
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:304",
+      "c:180"
+     ]
+    },
+    "fact": "DR Congo is 8% bigger than Greenland, yet looks tiny next to it on maps.",
+    "sayAnswer": "The D R Congo! It is eight percent bigger than Greenland, yet it looks tiny next to it on flat maps.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-008",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "SOUTH",
+   "AMERICA",
+   "SHOWDOWN"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "South America is bigger than you think. Or is it? Five duels, three seconds each. Stay for the last one!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Argentina or India?",
+    "options": [
+     "Argentina",
+     "India"
+    ],
+    "answer": 1,
+    "values": [
+     2780400,
+     3287263
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:032",
+      "c:356"
+     ]
+    },
+    "fact": "India is about 18% bigger than Argentina.",
+    "sayAnswer": "India! It is about eighteen percent bigger than Argentina.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Chile or Germany?",
+    "options": [
+     "Chile",
+     "Germany"
+    ],
+    "answer": 0,
+    "values": [
+     756102,
+     357592
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:152",
+      "c:276"
+     ]
+    },
+    "fact": "Chile is more than twice the size of Germany, and over 4,000 km long.",
+    "sayAnswer": "Chile! It is more than twice the size of Germany, and more than four thousand kilometres long.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Japan or Paraguay?",
+    "options": [
+     "Japan",
+     "Paraguay"
+    ],
+    "answer": 1,
+    "values": [
+     377975,
+     406752
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:392",
+      "c:600"
+     ]
+    },
+    "fact": "Paraguay is about 8% bigger than Japan.",
+    "sayAnswer": "Paraguay! It is about eight percent bigger than Japan.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Colombia or South Africa?",
+    "options": [
+     "Colombia",
+     "South Africa"
+    ],
+    "answer": 1,
+    "values": [
+     1138910,
+     1219090
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:170",
+      "c:710"
+     ]
+    },
+    "fact": "South Africa is about 7% bigger than Colombia.",
+    "sayAnswer": "South Africa! It is about seven percent bigger than Colombia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Brazil or USA (lower 48)?",
+    "say": "Which is bigger: Brazil or the lower forty-eight U S states?",
+    "options": [
+     "Brazil",
+     "USA (lower 48)"
+    ],
+    "answer": 0,
+    "values": [
+     8510346,
+     8080464
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:076",
+      "c:840"
+     ]
+    },
+    "fact": "Brazil is about 5% bigger than the 48 contiguous US states.",
+    "sayAnswer": "Brazil! It is about five percent bigger than the forty-eight contiguous U S states.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-009",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "STATE VS",
+   "COUNTRY:",
+   "ROUND 2"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "US states against whole countries, round two. Which is bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: the US state of Georgia or Greece?",
+    "say": "Which is bigger: the U S state of Georgia, or Greece?",
+    "options": [
+     "Georgia (US state)",
+     "Greece"
+    ],
+    "answer": 0,
+    "values": [
+     153910,
+     131957
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:13",
+      "c:300"
+     ]
+    },
+    "fact": "The US state of Georgia is about 17% bigger than Greece.",
+    "sayAnswer": "Georgia! The U S state is about seventeen percent bigger than Greece.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: South Korea or Tennessee?",
+    "options": [
+     "South Korea",
+     "Tennessee"
+    ],
+    "answer": 1,
+    "values": [
+     100432,
+     109153
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:410",
+      "s:47"
+     ]
+    },
+    "fact": "Tennessee is 9% bigger than South Korea, home to 51 million people.",
+    "sayAnswer": "Tennessee! It is nine percent bigger than South Korea, which is home to fifty-one million people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Oregon or Romania?",
+    "options": [
+     "Oregon",
+     "Romania"
+    ],
+    "answer": 0,
+    "values": [
+     254799,
+     238398
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:41",
+      "c:642"
+     ]
+    },
+    "fact": "Oregon is about 7% bigger than Romania.",
+    "sayAnswer": "Oregon! It is about seven percent bigger than Romania.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Minnesota or UK?",
+    "say": "Which is bigger: Minnesota or the U K?",
+    "options": [
+     "Minnesota",
+     "UK"
+    ],
+    "answer": 1,
+    "values": [
+     225163,
+     244376
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:27",
+      "c:826"
+     ]
+    },
+    "fact": "The UK is about 9% bigger than Minnesota.",
+    "sayAnswer": "The U K! It is about nine percent bigger than Minnesota.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Italy or New Mexico?",
+    "options": [
+     "Italy",
+     "New Mexico"
+    ],
+    "answer": 1,
+    "values": [
+     302068,
+     314917
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:380",
+      "s:35"
+     ]
+    },
+    "fact": "New Mexico is about 4% bigger than Italy, with about 2 million people.",
+    "sayAnswer": "New Mexico! It is about four percent bigger than Italy, with only about two million people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-010",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "ASIA:",
+   "WHICH ONE",
+   "IS BIGGER?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Asia edition! The biggest continent hides some real surprises. Which is bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Japan or UK?",
+    "say": "Which is bigger: Japan or the U K?",
+    "options": [
+     "Japan",
+     "UK"
+    ],
+    "answer": 0,
+    "values": [
+     377975,
+     244376
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:392",
+      "c:826"
+     ]
+    },
+    "fact": "Japan is more than one and a half times the size of the UK.",
+    "sayAnswer": "Japan! It is more than one and a half times the size of the United Kingdom.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Mexico or Kazakhstan?",
+    "options": [
+     "Mexico",
+     "Kazakhstan"
+    ],
+    "answer": 1,
+    "values": [
+     1964375,
+     2724910
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:484",
+      "c:398"
+     ]
+    },
+    "fact": "Kazakhstan is almost 40% bigger than Mexico.",
+    "sayAnswer": "Kazakhstan! It is almost forty percent bigger than Mexico.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Thailand or France?",
+    "options": [
+     "Thailand",
+     "France"
+    ],
+    "answer": 1,
+    "values": [
+     513120,
+     551695
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:764",
+      "c:250"
+     ]
+    },
+    "fact": "Mainland France is about 8% bigger than Thailand.",
+    "sayAnswer": "France! Mainland France is about eight percent bigger than Thailand.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Iran or Mongolia?",
+    "options": [
+     "Iran",
+     "Mongolia"
+    ],
+    "answer": 0,
+    "values": [
+     1648195,
+     1564116
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:364",
+      "c:496"
+     ]
+    },
+    "fact": "Iran is about 5% bigger than Mongolia.",
+    "sayAnswer": "Iran! It is about five percent bigger than Mongolia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: North Korea or South Korea?",
+    "options": [
+     "North Korea",
+     "South Korea"
+    ],
+    "answer": 0,
+    "values": [
+     120538,
+     100432
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:408",
+      "c:410"
+     ]
+    },
+    "fact": "North Korea is about 20% bigger, with half as many people.",
+    "sayAnswer": "North Korea! It is about twenty percent bigger than the South, with half as many people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-011",
+  "series": "MORE PEOPLE?",
+  "title": [
+   "US STATE",
+   "OR COUNTRY:",
+   "MORE PEOPLE?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "One US state against a whole country. Which has more people? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which has more people: Florida or the Netherlands?",
+    "options": [
+     "Florida",
+     "Netherlands"
+    ],
+    "answer": 0,
+    "values": [
+     23462518,
+     18448775
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "s:12",
+      "c:528"
+     ]
+    },
+    "fact": "Florida: 23.5 million people (2025). Netherlands: 18.4 million (2026).",
+    "sayAnswer": "Florida! It has about twenty-three and a half million people. The Netherlands has about eighteen and a half million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: California or Spain?",
+    "options": [
+     "California",
+     "Spain"
+    ],
+    "answer": 1,
+    "values": [
+     39355309,
+     47850793
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "s:06",
+      "c:724"
+     ]
+    },
+    "fact": "Spain: about 48 million people (2026). California: about 39 million (2025).",
+    "sayAnswer": "Spain! It has about forty-eight million people. California has about thirty-nine million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Sweden or Pennsylvania?",
+    "options": [
+     "Sweden",
+     "Pennsylvania"
+    ],
+    "answer": 1,
+    "values": [
+     10701046,
+     13059432
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:752",
+      "s:42"
+     ]
+    },
+    "fact": "Pennsylvania: 13.1 million people (2025). Sweden: 10.7 million (2026).",
+    "sayAnswer": "Pennsylvania! It has about thirteen million people. Sweden has fewer than eleven million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which Georgia has more people: the US state or the country?",
+    "say": "Which Georgia has more people: the U S state, or the country?",
+    "options": [
+     "Georgia (US state)",
+     "Georgia (country)"
+    ],
+    "answer": 0,
+    "values": [
+     11302748,
+     3804642
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "s:13",
+      "c:268"
+     ]
+    },
+    "fact": "The US state has 11.3 million people (2025), about 3 times the country.",
+    "sayAnswer": "The U S state! It has more than eleven million people, about three times as many as the country.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Australia or Texas?",
+    "options": [
+     "Australia",
+     "Texas"
+    ],
+    "answer": 1,
+    "values": [
+     27227096,
+     31709821
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:036",
+      "s:48"
+     ]
+    },
+    "fact": "Texas: 31.7 million people (2025). All of Australia: 27.2 million (2026).",
+    "sayAnswer": "Texas! It has almost thirty-two million people. The whole of Australia has about twenty-seven million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-012",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "ISLAND",
+   "NATIONS:",
+   "WHO'S BIGGER?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Islands only! Well, almost. Which one is bigger? Five duels, three seconds each. Number five is a monster.",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: UK or Madagascar?",
+    "say": "Which is bigger: the U K or Madagascar?",
+    "options": [
+     "UK",
+     "Madagascar"
+    ],
+    "answer": 1,
+    "values": [
+     244376,
+     587041
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:826",
+      "c:450"
+     ]
+    },
+    "fact": "Madagascar is about 2.4 times the size of the United Kingdom.",
+    "sayAnswer": "Madagascar! It is about two point four times the size of the United Kingdom.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Japan or New Zealand?",
+    "options": [
+     "Japan",
+     "New Zealand"
+    ],
+    "answer": 0,
+    "values": [
+     377975,
+     268838
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:392",
+      "c:554"
+     ]
+    },
+    "fact": "Japan is about 40% bigger than New Zealand.",
+    "sayAnswer": "Japan! It is about forty percent bigger than New Zealand.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Ireland or Iceland?",
+    "options": [
+     "Ireland",
+     "Iceland"
+    ],
+    "answer": 1,
+    "values": [
+     70273,
+     103000
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:372",
+      "c:352"
+     ]
+    },
+    "fact": "Iceland is almost 50% bigger than the Republic of Ireland.",
+    "sayAnswer": "Iceland! It is almost fifty percent bigger than the Republic of Ireland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Cuba or Iceland?",
+    "options": [
+     "Cuba",
+     "Iceland"
+    ],
+    "answer": 0,
+    "values": [
+     109884,
+     103000
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:192",
+      "c:352"
+     ]
+    },
+    "fact": "Cuba is about 7% bigger than Iceland.",
+    "sayAnswer": "Cuba! It is about seven percent bigger than Iceland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: California or Papua New Guinea?",
+    "options": [
+     "California",
+     "Papua New Guinea"
+    ],
+    "answer": 1,
+    "values": [
+     423967,
+     462840
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:06",
+      "c:598"
+     ]
+    },
+    "fact": "Papua New Guinea is about 9% bigger than California.",
+    "sayAnswer": "Papua New Guinea! It is about nine percent bigger than California.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-013",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "NEIGHBOURS:",
+   "WHICH ONE",
+   "IS BIGGER?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "They share a border, but which neighbour is bigger? Five duels, three seconds each. Trust your gut!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Germany or Poland?",
+    "options": [
+     "Germany",
+     "Poland"
+    ],
+    "answer": 0,
+    "values": [
+     357592,
+     312685
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:276",
+      "c:616"
+     ]
+    },
+    "fact": "Germany is about 14% bigger than Poland.",
+    "sayAnswer": "Germany! It is about fourteen percent bigger than Poland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Spain or France?",
+    "options": [
+     "Spain",
+     "France"
+    ],
+    "answer": 1,
+    "values": [
+     505370,
+     551695
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:724",
+      "c:250"
+     ]
+    },
+    "fact": "Mainland France is about 9% bigger than Spain.",
+    "sayAnswer": "France! Mainland France is about nine percent bigger than Spain.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Thailand or Myanmar?",
+    "options": [
+     "Thailand",
+     "Myanmar"
+    ],
+    "answer": 1,
+    "values": [
+     513120,
+     676578
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:764",
+      "c:104"
+     ]
+    },
+    "fact": "Myanmar is about a third bigger than Thailand.",
+    "sayAnswer": "Myanmar! It is about a third bigger than Thailand.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Libya or Egypt?",
+    "options": [
+     "Libya",
+     "Egypt"
+    ],
+    "answer": 0,
+    "values": [
+     1759540,
+     1001450
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:434",
+      "c:818"
+     ]
+    },
+    "fact": "Libya is about 75% bigger than Egypt, with far fewer people.",
+    "sayAnswer": "Libya! It is about seventy-five percent bigger than Egypt, with far fewer people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Colombia or Peru?",
+    "options": [
+     "Colombia",
+     "Peru"
+    ],
+    "answer": 1,
+    "values": [
+     1138910,
+     1285216
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:170",
+      "c:604"
+     ]
+    },
+    "fact": "Peru is about 13% bigger than Colombia.",
+    "sayAnswer": "Peru! It is about thirteen percent bigger than Colombia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-014",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "TÜRKİYE",
+   "VS THE WORLD:",
+   "ROUND 2"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Turkey against the world, round two! Bigger or smaller? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Iraq?",
+    "say": "Which is bigger: Turkey or Iraq?",
+    "options": [
+     "Türkiye",
+     "Iraq"
+    ],
+    "answer": 0,
+    "values": [
+     783562,
+     438317
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:368"
+     ]
+    },
+    "fact": "Türkiye is nearly 80% bigger than Iraq.",
+    "sayAnswer": "Turkey! It is nearly eighty percent bigger than Iraq.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Iran?",
+    "say": "Which is bigger: Turkey or Iran?",
+    "options": [
+     "Türkiye",
+     "Iran"
+    ],
+    "answer": 1,
+    "values": [
+     783562,
+     1648195
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:364"
+     ]
+    },
+    "fact": "Iran is more than twice the size of Türkiye.",
+    "sayAnswer": "Iran! It is more than twice the size of Turkey.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Egypt?",
+    "say": "Which is bigger: Turkey or Egypt?",
+    "options": [
+     "Türkiye",
+     "Egypt"
+    ],
+    "answer": 1,
+    "values": [
+     783562,
+     1001450
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:818"
+     ]
+    },
+    "fact": "Egypt is about 28% bigger than Türkiye.",
+    "sayAnswer": "Egypt! It is about twenty-eight percent bigger than Turkey.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Zambia?",
+    "say": "Which is bigger: Turkey or Zambia?",
+    "options": [
+     "Türkiye",
+     "Zambia"
+    ],
+    "answer": 0,
+    "values": [
+     783562,
+     752612
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:894"
+     ]
+    },
+    "fact": "Türkiye is about 4% bigger than Zambia.",
+    "sayAnswer": "Turkey! It is about four percent bigger than Zambia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Türkiye or Venezuela?",
+    "say": "Which is bigger: Turkey or Venezuela?",
+    "options": [
+     "Türkiye",
+     "Venezuela"
+    ],
+    "answer": 1,
+    "values": [
+     783562,
+     912050
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:862"
+     ]
+    },
+    "fact": "Venezuela is about 16% bigger than Türkiye.",
+    "sayAnswer": "Venezuela! It is about sixteen percent bigger than Turkey.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-015",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "CLASH",
+   "OF THE",
+   "GIANTS"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "The giants of the world map, head to head. Which is bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Canada or USA (lower 48)?",
+    "say": "Which is bigger: Canada or the lower forty-eight U S states?",
+    "options": [
+     "Canada",
+     "USA (lower 48)"
+    ],
+    "answer": 0,
+    "values": [
+     9984670,
+     8080464
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:124",
+      "c:840"
+     ]
+    },
+    "fact": "Canada is almost a quarter bigger than the lower 48 US states.",
+    "sayAnswer": "Canada! It is almost a quarter bigger than the lower forty-eight U S states.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Australia or Brazil?",
+    "options": [
+     "Australia",
+     "Brazil"
+    ],
+    "answer": 1,
+    "values": [
+     7741220,
+     8510346
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:036",
+      "c:076"
+     ]
+    },
+    "fact": "Brazil is about 10% bigger than Australia.",
+    "sayAnswer": "Brazil! It is about ten percent bigger than Australia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: India or Kazakhstan?",
+    "options": [
+     "India",
+     "Kazakhstan"
+    ],
+    "answer": 0,
+    "values": [
+     3287263,
+     2724910
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:356",
+      "c:398"
+     ]
+    },
+    "fact": "India is about 20% bigger than Kazakhstan.",
+    "sayAnswer": "India! It is about twenty percent bigger than Kazakhstan.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Algeria or Argentina?",
+    "options": [
+     "Algeria",
+     "Argentina"
+    ],
+    "answer": 1,
+    "values": [
+     2381741,
+     2780400
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:012",
+      "c:032"
+     ]
+    },
+    "fact": "Argentina is about 17% bigger than Algeria, Africa's largest country.",
+    "sayAnswer": "Argentina! It is about seventeen percent bigger than Algeria, the largest country in Africa.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Australia or USA (lower 48)?",
+    "say": "Which is bigger: Australia or the lower forty-eight U S states?",
+    "options": [
+     "Australia",
+     "USA (lower 48)"
+    ],
+    "answer": 1,
+    "values": [
+     7741220,
+     8080464
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:036",
+      "c:840"
+     ]
+    },
+    "fact": "The lower 48 US states are only about 4% bigger than Australia.",
+    "sayAnswer": "The lower forty-eight! They are only about four percent bigger than Australia.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-016",
+  "series": "MORE PEOPLE?",
+  "title": [
+   "TÜRKİYE:",
+   "WHO HAS",
+   "MORE PEOPLE?"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Turkey against the world, but this time we count people. Who has more? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which has more people: Türkiye or UK?",
+    "say": "Which has more people: Turkey or the U K?",
+    "options": [
+     "Türkiye",
+     "UK"
+    ],
+    "answer": 0,
+    "values": [
+     87926082,
+     69931528
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:826"
+     ]
+    },
+    "fact": "Türkiye: about 88 million people. UK: about 70 million (UN, 2026).",
+    "sayAnswer": "Turkey! It has about eighty-eight million people. The United Kingdom has about seventy million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Türkiye or Mexico?",
+    "say": "Which has more people: Turkey or Mexico?",
+    "options": [
+     "Türkiye",
+     "Mexico"
+    ],
+    "answer": 1,
+    "values": [
+     87926082,
+     132997658
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:484"
+     ]
+    },
+    "fact": "Mexico has about 133 million people, Türkiye about 88 million (UN, 2026).",
+    "sayAnswer": "Mexico! It has about one hundred and thirty-three million people. Turkey has about eighty-eight million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has the most people: Türkiye, Canada or Australia?",
+    "say": "Which has the most people: Turkey, Canada or Australia?",
+    "options": [
+     "Türkiye",
+     "Canada",
+     "Australia"
+    ],
+    "answer": 0,
+    "values": [
+     87926082,
+     40467728,
+     27227096
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:124",
+      "c:036"
+     ]
+    },
+    "fact": "Türkiye has more people than Canada and Australia combined (UN, 2026).",
+    "sayAnswer": "Turkey! It has more people than Canada and Australia combined.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Türkiye or Vietnam?",
+    "say": "Which has more people: Turkey or Vietnam?",
+    "options": [
+     "Türkiye",
+     "Vietnam"
+    ],
+    "answer": 1,
+    "values": [
+     87926082,
+     102177431
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:704"
+     ]
+    },
+    "fact": "Vietnam has about 102 million people, Türkiye about 88 million (UN, 2026).",
+    "sayAnswer": "Vietnam! It has about one hundred and two million people. Turkey has about eighty-eight million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Türkiye or Ethiopia?",
+    "say": "Which has more people: Turkey or Ethiopia?",
+    "options": [
+     "Türkiye",
+     "Ethiopia"
+    ],
+    "answer": 1,
+    "values": [
+     87926082,
+     138902185
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:792",
+      "c:231"
+     ]
+    },
+    "fact": "Ethiopia: about 139 million people. Türkiye: about 88 million (UN, 2026).",
+    "sayAnswer": "Ethiopia! It has about one hundred and thirty-nine million people. Turkey has about eighty-eight million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-017",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "EUROPE:",
+   "SMALL BUT",
+   "TRICKY"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Europe's smaller countries are surprisingly hard to rank. Which is bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Bulgaria or Greece?",
+    "options": [
+     "Bulgaria",
+     "Greece"
+    ],
+    "answer": 1,
+    "values": [
+     110879,
+     131957
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:100",
+      "c:300"
+     ]
+    },
+    "fact": "Greece is about 19% bigger than Bulgaria.",
+    "sayAnswer": "Greece! It is about nineteen percent bigger than Bulgaria.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Portugal or Austria?",
+    "options": [
+     "Portugal",
+     "Austria"
+    ],
+    "answer": 0,
+    "values": [
+     92090,
+     83878
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:620",
+      "c:040"
+     ]
+    },
+    "fact": "Portugal is about 10% bigger than Austria.",
+    "sayAnswer": "Portugal! It is about ten percent bigger than Austria.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Ireland or Czechia?",
+    "say": "Which is bigger: Ireland or the Czech Republic?",
+    "options": [
+     "Ireland",
+     "Czechia"
+    ],
+    "answer": 1,
+    "values": [
+     70273,
+     78871
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:372",
+      "c:203"
+     ]
+    },
+    "fact": "Czechia is about 12% bigger than the Republic of Ireland.",
+    "sayAnswer": "The Czech Republic! It is about twelve percent bigger than the Republic of Ireland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Switzerland or Estonia?",
+    "options": [
+     "Switzerland",
+     "Estonia"
+    ],
+    "answer": 1,
+    "values": [
+     41291,
+     45339
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:756",
+      "c:233"
+     ]
+    },
+    "fact": "Estonia is about 10% bigger than Switzerland.",
+    "sayAnswer": "Estonia! It is about ten percent bigger than Switzerland.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Poland or Italy?",
+    "options": [
+     "Poland",
+     "Italy"
+    ],
+    "answer": 0,
+    "values": [
+     312685,
+     302068
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:616",
+      "c:380"
+     ]
+    },
+    "fact": "Poland is about 3.5% bigger than Italy.",
+    "sayAnswer": "Poland! It is about three and a half percent bigger than Italy.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-018",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "STATE",
+   "VS STATE",
+   "SHOWDOWN"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "US state against US state. Which is bigger? Five duels, three seconds each. They get harder!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is the biggest: Texas, Alaska or California?",
+    "options": [
+     "Texas",
+     "Alaska",
+     "California"
+    ],
+    "answer": 1,
+    "values": [
+     695662,
+     1723337,
+     423967
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:48",
+      "s:02",
+      "s:06"
+     ]
+    },
+    "fact": "Alaska is bigger than Texas, California and Montana combined.",
+    "sayAnswer": "Alaska! It is bigger than Texas, California and Montana combined.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Oregon or Washington?",
+    "options": [
+     "Oregon",
+     "Washington"
+    ],
+    "answer": 0,
+    "values": [
+     254799,
+     184661
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:41",
+      "s:53"
+     ]
+    },
+    "fact": "Oregon is almost 40% bigger than Washington state.",
+    "sayAnswer": "Oregon! It is almost forty percent bigger than Washington state.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: North Dakota or South Dakota?",
+    "options": [
+     "North Dakota",
+     "South Dakota"
+    ],
+    "answer": 1,
+    "values": [
+     183108,
+     199729
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:38",
+      "s:46"
+     ]
+    },
+    "fact": "South Dakota is about 9% bigger than North Dakota.",
+    "sayAnswer": "South Dakota! It is about nine percent bigger than North Dakota.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Arizona or New Mexico?",
+    "options": [
+     "Arizona",
+     "New Mexico"
+    ],
+    "answer": 1,
+    "values": [
+     295234,
+     314917
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:04",
+      "s:35"
+     ]
+    },
+    "fact": "New Mexico is about 7% bigger than Arizona.",
+    "sayAnswer": "New Mexico! It is about seven percent bigger than Arizona.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Nevada or Colorado?",
+    "options": [
+     "Nevada",
+     "Colorado"
+    ],
+    "answer": 0,
+    "values": [
+     286380,
+     269601
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "s:32",
+      "s:08"
+     ]
+    },
+    "fact": "Nevada is about 6% bigger than Colorado.",
+    "sayAnswer": "Nevada! It is about six percent bigger than Colorado.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-019",
+  "series": "WHICH IS BIGGER?",
+  "title": [
+   "AFRICA",
+   "VS",
+   "EUROPE"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Africa against Europe! Flat maps shrink Africa, so which is really bigger? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Greece or Tunisia?",
+    "options": [
+     "Greece",
+     "Tunisia"
+    ],
+    "answer": 1,
+    "values": [
+     131957,
+     163610
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:300",
+      "c:788"
+     ]
+    },
+    "fact": "Tunisia is about 24% bigger than Greece.",
+    "sayAnswer": "Tunisia! It is about twenty-four percent bigger than Greece.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Belarus or Senegal?",
+    "options": [
+     "Belarus",
+     "Senegal"
+    ],
+    "answer": 0,
+    "values": [
+     207600,
+     196712
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:112",
+      "c:686"
+     ]
+    },
+    "fact": "Belarus is about 6% bigger than Senegal.",
+    "sayAnswer": "Belarus! It is about six percent bigger than Senegal.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Germany or Zimbabwe?",
+    "options": [
+     "Germany",
+     "Zimbabwe"
+    ],
+    "answer": 1,
+    "values": [
+     357592,
+     390757
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:276",
+      "c:716"
+     ]
+    },
+    "fact": "Zimbabwe is about 9% bigger than Germany.",
+    "sayAnswer": "Zimbabwe! It is about nine percent bigger than Germany.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: Ivory Coast or Italy?",
+    "options": [
+     "Ivory Coast",
+     "Italy"
+    ],
+    "answer": 0,
+    "values": [
+     322462,
+     302068
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:384",
+      "c:380"
+     ]
+    },
+    "fact": "Ivory Coast is about 7% bigger than Italy.",
+    "sayAnswer": "Ivory Coast! It is about seven percent bigger than Italy.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which is bigger: France or Botswana?",
+    "options": [
+     "France",
+     "Botswana"
+    ],
+    "answer": 1,
+    "values": [
+     551695,
+     582000
+    ],
+    "unit": "km²",
+    "visual": {
+     "ids": [
+      "c:250",
+      "c:072"
+     ]
+    },
+    "fact": "Botswana beats mainland France by 5%, with about 2.5 million people.",
+    "sayAnswer": "Botswana! It beats mainland France by five percent, with only about two and a half million people.",
+    "src": [
+     "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q1-bigger-020",
+  "series": "MORE PEOPLE?",
+  "title": [
+   "BIG LAND,",
+   "MORE PEOPLE?",
+   "NOT ALWAYS"
+  ],
+  "sub": "5 DUELS · 3 SECONDS EACH",
+  "hook": "Does a bigger country mean more people? Not always. Who has more? Five duels, three seconds each!",
+  "qs": [
+   {
+    "kind": "duel",
+    "q": "Which has more people: Mongolia or Ireland?",
+    "options": [
+     "Mongolia",
+     "Ireland"
+    ],
+    "answer": 1,
+    "values": [
+     3556798,
+     5356950
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:496",
+      "c:372"
+     ]
+    },
+    "fact": "Ireland: 5.4 million people. Mongolia, 22 times larger: 3.6 million (2026).",
+    "sayAnswer": "Ireland! It has about five point four million people. Mongolia is twenty-two times larger, with only about three and a half million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Kazakhstan or the Netherlands?",
+    "options": [
+     "Kazakhstan",
+     "Netherlands"
+    ],
+    "answer": 0,
+    "values": [
+     21083626,
+     18448775
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:398",
+      "c:528"
+     ]
+    },
+    "fact": "Kazakhstan: 21 million. Netherlands, 65 times smaller: 18.4 million (2026).",
+    "sayAnswer": "Kazakhstan! It has about twenty-one million people. The Netherlands is sixty-five times smaller, with about eighteen and a half million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Argentina or Kenya?",
+    "options": [
+     "Argentina",
+     "Kenya"
+    ],
+    "answer": 1,
+    "values": [
+     46003734,
+     58636412
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:032",
+      "c:404"
+     ]
+    },
+    "fact": "Kenya has about 59 million people, Argentina about 46 million (UN, 2026).",
+    "sayAnswer": "Kenya! It has about fifty-nine million people. Argentina has about forty-six million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Uganda or Canada?",
+    "options": [
+     "Uganda",
+     "Canada"
+    ],
+    "answer": 0,
+    "values": [
+     52761470,
+     40467728
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:800",
+      "c:124"
+     ]
+    },
+    "fact": "Uganda has about 53 million people, Canada about 40 million (UN, 2026).",
+    "sayAnswer": "Uganda! It has about fifty-three million people. Canada has about forty million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   },
+   {
+    "kind": "duel",
+    "q": "Which has more people: Libya or Switzerland?",
+    "options": [
+     "Libya",
+     "Switzerland"
+    ],
+    "answer": 1,
+    "values": [
+     7539852,
+     9007798
+    ],
+    "unit": "people",
+    "visual": {
+     "ids": [
+      "c:434",
+      "c:756"
+     ]
+    },
+    "fact": "Switzerland: 9 million people. Libya, 43 times larger: 7.5 million (2026).",
+    "sayAnswer": "Switzerland! It has about nine million people. Libya is forty-three times larger, with seven and a half million.",
+    "src": [
+     "https://www.worldometers.info/world-population/population-by-country/"
+    ]
+   }
+  ]
+ }
+]
