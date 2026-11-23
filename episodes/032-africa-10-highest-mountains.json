@@ -1,0 +1,180 @@
+{
+ "id": "032-africa-10-highest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   34.0,
+   5.0
+  ],
+  "highlight": [
+   "834",
+   "404",
+   "800",
+   "180",
+   "231"
+  ],
+  "scale": 4,
+  "frame": [
+   26.0,
+   -12.0,
+   42.0,
+   15.0
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AFRICA'S",
+  "10 HIGHEST",
+  "MOUNTAINS"
+ ],
+ "series": "AFRICA'S 10 HIGHEST MOUNTAINS",
+ "unit": "m",
+ "barMin": 4400,
+ "hook": {
+  "say": "Africa's ten highest mountains. Half of them hide in one misty range!"
+ },
+ "outro": {
+  "say": "Is Mawenzi its own mountain? Comment below!"
+ },
+ "outroLines": [
+  "IS MAWENZI ITS OWN PEAK?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Ras Dashen",
+   "sub": "SIMIEN MOUNTAINS · ETHIOPIA",
+   "value": 4550,
+   "lat": 13.2367,
+   "lon": 38.3725,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "The roof of Ethiopia",
+   "say": "Number ten: Rahss Dah-shen, the roof of Ethiopia. 4550 meters.",
+   "cap": "Number ten: Ras Dashen, the roof of Ethiopia. 4,550 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Mount Meru",
+   "sub": "ARUSHA · TANZANIA",
+   "value": 4566,
+   "lat": -3.2442,
+   "lon": 36.75,
+   "style": "volcano",
+   "radius": 0.55,
+   "fact": "Kilimanjaro's little brother",
+   "say": "Nine: Mount Meru, Kilimanjaro's little brother. 4566 meters.",
+   "cap": "Nine: Mount Meru, Kilimanjaro's little brother. 4,566 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Mount Gessi",
+   "sub": "RWENZORI · UGANDA",
+   "value": 4715,
+   "lat": 0.4219,
+   "lon": 29.9183,
+   "style": "massif",
+   "radius": 0.2,
+   "fact": "Mountains of the Moon",
+   "say": "Eight: Mount Jessie, in the Mountains of the Moon. 4715 meters.",
+   "cap": "Eight: Mount Gessi, in the Mountains of the Moon. 4,715 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Mount Emin",
+   "sub": "RWENZORI · DR CONGO",
+   "value": 4798,
+   "lat": 0.4283,
+   "lon": 29.9,
+   "style": "jagged",
+   "radius": 0.2,
+   "fact": "The Congo side of the range",
+   "say": "Seven: Mount Eh-meen, on the Congo side. 4798 meters.",
+   "cap": "Seven: Mount Emin, on the Congo side. 4,798 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Mount Baker",
+   "sub": "RWENZORI · UGANDA",
+   "value": 4844,
+   "lat": 0.3611,
+   "lon": 29.8928,
+   "style": "massif",
+   "radius": 0.22,
+   "fact": "Topped by Edward Peak",
+   "say": "Six: Mount Baker, topped by Edward Peak. 4844 meters.",
+   "cap": "Six: Mount Baker, topped by Edward Peak. 4,844 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Mount Speke",
+   "sub": "RWENZORI · UGANDA",
+   "value": 4890,
+   "lat": 0.3981,
+   "lon": 29.8925,
+   "style": "jagged",
+   "radius": 0.22,
+   "fact": "He never climbed it",
+   "say": "Five: Mount Speke, named for an explorer who never climbed it. 4890 meters.",
+   "cap": "Five: Mount Speke, named for an explorer who never climbed it. 4,890 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Mount Stanley",
+   "sub": "RWENZORI · UGANDA / DR CONGO",
+   "value": 5109,
+   "lat": 0.3856,
+   "lon": 29.8725,
+   "style": "massif",
+   "radius": 0.26,
+   "fact": "Glaciers near the equator",
+   "say": "Four: Mount Stanley, with glaciers near the equator. 5109 meters.",
+   "cap": "Four: Mount Stanley, with glaciers near the equator. 5,109 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Mawenzi",
+   "sub": "KILIMANJARO · TANZANIA",
+   "value": 5148,
+   "lat": -3.0925,
+   "lon": 37.4558,
+   "style": "jagged",
+   "radius": 0.3,
+   "fact": "Kilimanjaro's second summit",
+   "say": "Three: Mah-wen-zee, Kilimanjaro's jagged second summit. 5148 meters.",
+   "cap": "Three: Mawenzi, Kilimanjaro's jagged second summit. 5,148 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Mount Kenya",
+   "sub": "KENYA",
+   "value": 5199,
+   "lat": -0.1519,
+   "lon": 37.3083,
+   "style": "jagged",
+   "radius": 0.5,
+   "fact": "Rock spires of an old volcano",
+   "say": "Two: Mount Kenya, spires of an ancient volcano. 5199 meters.",
+   "cap": "Two: Mount Kenya, spires of an ancient volcano. 5,199 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Kilimanjaro",
+   "sub": "TANZANIA",
+   "value": 5895,
+   "lat": -3.0758,
+   "lon": 37.3525,
+   "style": "volcano",
+   "radius": 0.85,
+   "fact": "Tallest free-standing peak on Earth",
+   "say": "And number one: Kilimanjaro! 5895 meters, the roof of Africa.",
+   "cap": "And number one: Kilimanjaro! 5,895 meters, the roof of Africa."
+  }
+ ]
+}

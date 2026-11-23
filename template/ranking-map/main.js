@@ -307,7 +307,12 @@ function frame(t) {
   // outro
   if (s.kind === 'outro') {
     [...$('outro').children].forEach((d, k) => { const a = eback(prog(u, .5 + k * .3, .4)); set(d, clamp(a * 2), `translateY(${(1 - a) * 70}px) scale(${.8 + .2 * a}) rotate(${k ? -2 : 0}deg)`); }); set($('outro'), 1);
-    pinEls.forEach((p, k) => { const m = mts[k], [x, y, ok] = toScreen(v3.set(m.base.x + m.pk.x, GROUND + m.Hh + .16, m.base.z + m.pk.z).clone()); const a = eback(prog(u, .9 + (9 - k) * .07, .3)); set(p, ok ? clamp(a * 2) : 0, `translate(${x}px,${y}px) scale(${a})`); });
+    const pp = mts.map(m => toScreen(v3.set(m.base.x + m.pk.x, GROUND + m.Hh + .16, m.base.z + m.pk.z).clone()));
+    for (let it = 0; it < 60; it++) for (let a = 0; a < pp.length; a++) for (let b = a + 1; b < pp.length; b++) {   // fan out pins that land on top of each other (clustered peaks on a wide map)
+      const ra = ep.items[a].rank <= 3 ? 44 : 34, rb = ep.items[b].rank <= 3 ? 44 : 34, dx = pp[b][0] - pp[a][0], dy = pp[b][1] - pp[a][1], d = Math.hypot(dx, dy), need = ra + rb + 4;
+      if (d < need) { const ang = d > .01 ? Math.atan2(dy, dx) : (a * 2.4 + b), push = (need - d) / 2; pp[a][0] -= Math.cos(ang) * push; pp[a][1] -= Math.sin(ang) * push; pp[b][0] += Math.cos(ang) * push; pp[b][1] += Math.sin(ang) * push; }
+    }
+    pinEls.forEach((p, k) => { const [x, y, ok] = pp[k]; const a = eback(prog(u, .9 + (9 - k) * .07, .3)); set(p, ok ? clamp(a * 2) : 0, `translate(${x}px,${y}px) scale(${a})`); });
   } else { set($('outro'), 0); pinEls.forEach(p => set(p, 0)); }
   // flash on each transition, bigger for #1
   let fl = 0; segs.forEach((sg, k) => { if (k === 0) return; const big = sg.kind === 'item' && ep.items[sg.item].rank === 1; const x = t - (sg.start + .6); if (sg.kind === 'item' && x > -.08 && x < .5) fl = Math.max(fl, (x < 0 ? (x + .08) / .08 : 1 - x / .5) * (big ? .75 : .2)); });
