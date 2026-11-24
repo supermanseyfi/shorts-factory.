@@ -1,0 +1,185 @@
+{
+ "id": "033-europe-10-biggest-cities",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.15
+ },
+ "map": {
+  "center": [
+   15,
+   49
+  ],
+  "highlight": [
+   "792",
+   "643",
+   "826",
+   "276",
+   "724",
+   "804",
+   "380",
+   "250",
+   "040"
+  ],
+  "scale": 0.5,
+  "frame": [
+   -11,
+   35,
+   42,
+   62
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "EUROPE'S",
+  "10 BIGGEST",
+  "CITIES"
+ ],
+ "series": "EUROPE'S 10 BIGGEST CITIES",
+ "unit": "",
+ "barMin": 0,
+ "heightPow": 0.6,
+ "hook": {
+  "say": "Europe's ten biggest cities, ranked by people inside the city limits. Paris is only number nine!"
+ },
+ "outro": {
+  "say": "Should Istanbul count as Europe? Comment below!"
+ },
+ "outroLines": [
+  "DOES İSTANBUL COUNT?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Vienna",
+   "sub": "AUSTRIA",
+   "value": 2042036,
+   "lat": 48.2082,
+   "lon": 16.3738,
+   "style": "column",
+   "fact": "The city of music",
+   "say": "Number ten: Vienna, the city of music. Two-point-oh-four million people.",
+   "cap": "Number ten: Vienna, the city of music. 2.04 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 9,
+   "name": "Paris",
+   "sub": "FRANCE",
+   "value": 2103778,
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "style": "column",
+   "fact": "Tiny city limits, huge suburbs",
+   "say": "Nine: Paris! Only two-point-one million live inside the city limits.",
+   "cap": "Nine: Paris! Only 2.1 million live inside the city limits.",
+   "radius": 0.09
+  },
+  {
+   "rank": 8,
+   "name": "Rome",
+   "sub": "ITALY",
+   "value": 2745062,
+   "lat": 41.9028,
+   "lon": 12.4964,
+   "style": "column",
+   "fact": "The Eternal City",
+   "say": "Eight: Rome, the Eternal City. Two-point-seven-five million people.",
+   "cap": "Eight: Rome, the Eternal City. 2.75 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 7,
+   "name": "Kyiv",
+   "sub": "UKRAINE · 2022 ESTIMATE",
+   "value": 2952301,
+   "lat": 50.4501,
+   "lon": 30.5234,
+   "style": "column",
+   "fact": "City of golden domes",
+   "say": "Seven: Keev, city of golden domes. Two-point-nine-five million people.",
+   "cap": "Seven: Kyiv, city of golden domes. 2.95 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 6,
+   "name": "Madrid",
+   "sub": "SPAIN",
+   "value": 3506730,
+   "lat": 40.4168,
+   "lon": -3.7038,
+   "style": "column",
+   "fact": "Spain's biggest city",
+   "say": "Six: Madrid, the biggest city in Spain. Three-point-five million people.",
+   "cap": "Six: Madrid, the biggest city in Spain. 3.5 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 5,
+   "name": "Berlin",
+   "sub": "GERMANY",
+   "value": 3700577,
+   "lat": 52.52,
+   "lon": 13.405,
+   "style": "column",
+   "fact": "8 times the area of Paris",
+   "say": "Five: Berlin, eight times the area of Paris. Three-point-seven million people.",
+   "cap": "Five: Berlin, eight times the area of Paris. 3.7 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 4,
+   "name": "St. Petersburg",
+   "sub": "RUSSIA",
+   "value": 5652922,
+   "lat": 59.9311,
+   "lon": 30.3609,
+   "style": "column",
+   "fact": "Northernmost big city",
+   "say": "Four: Saint Petersburg, the world's northernmost big city. Five-point-six-five million people.",
+   "cap": "Four: Saint Petersburg, the world's northernmost big city. 5.65 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 3,
+   "name": "London",
+   "sub": "UNITED KINGDOM",
+   "value": 9089736,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "style": "column",
+   "fact": "Over 300 languages spoken",
+   "say": "Three: London, where over 300 languages are spoken. Nine-point-one million people.",
+   "cap": "Three: London, where over 300 languages are spoken. 9.1 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 2,
+   "name": "Moscow",
+   "sub": "RUSSIA",
+   "value": 13274285,
+   "lat": 55.7558,
+   "lon": 37.6173,
+   "style": "column",
+   "fact": "Biggest city entirely in Europe",
+   "say": "Two: Moscow, the biggest city entirely in Europe. Thirteen-point-three million people.",
+   "cap": "Two: Moscow, the biggest city entirely in Europe. 13.3 million people.",
+   "radius": 0.09
+  },
+  {
+   "rank": 1,
+   "name": "İstanbul",
+   "sub": "TÜRKİYE",
+   "value": 15754053,
+   "lat": 41.0082,
+   "lon": 28.9784,
+   "style": "column",
+   "fact": "One city, two continents",
+   "say": "And number one: Istanbul! Fifteen-point-seven-five million people, spread across two continents.",
+   "cap": "And number one: İstanbul! 15.75 million people, spread across two continents.",
+   "radius": 0.09
+  }
+ ]
+}

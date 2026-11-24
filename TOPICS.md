@@ -38,7 +38,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 highest mountains in Europe — 031-europe-10-highest-mountains (Caucasus counted as Europe, peaks with 300 m+ prominence)
 - [x] Japan's 10 highest mountains
 - [x] The 10 highest mountains in Africa — 032-africa-10-highest-mountains (summits with 500 m+ prominence, so Mawenzi counts and Mount Kenya's Nelion/Lenana do not)
-- [ ] The 10 most populous cities in Europe (style: column)
+- [x] The 10 most populous cities in Europe — 033-europe-10-biggest-cities (population inside official city limits; İstanbul counted whole, Baku left out as Asia)
 - [ ] The 10 highest mountains in South America
 - [ ] The 10 longest bridges in Türkiye (style: column)
 - [ ] The 10 highest cities in Türkiye by elevation (style: column)
