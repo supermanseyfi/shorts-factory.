@@ -111,6 +111,7 @@ const MAXV = Math.max(...ep.items.map(i => i.value));
 const rock1 = new THREE.Color('#3b4657'), rock2 = new THREE.Color('#8b8f9a'), snow = new THREE.Color('#f4fbff'), warm = new THREE.Color('#7a5a48');
 function buildMountain(it, idx) {
   if (it.style === 'column') return buildColumn(it, idx);
+  if (it.style === 'stadium') return buildStadium(it, idx);
   const VM = it.value * (ep.metersPerUnit || 1);   // value in metres (set metersPerUnit: 0.3048 when the unit is feet)
   const Hh = it.value / MAXV * 1.3, R = it.radius || ({ volcano: .66, jagged: .68, massif: .74 }[it.style] * Math.sqrt(VM / 4000));
   const N = 72, seed = idx * 31 + 5;
@@ -181,6 +182,48 @@ function buildColumn(it, idx) {   // generic 3D bar for non-mountain rankings (c
   scene.add(grp);
   return { it, grp, mesh, Hh, R: R * 3.2, pk, dot, beam, ring, halo, clouds: [], pts, pv, base: grp.position.clone() };
 }
+
+const pitchTex = (() => { const c = document.createElement('canvas'); c.width = 420; c.height = 272; const x = c.getContext('2d');
+  for (let k = 0; k < 10; k++) { x.fillStyle = k % 2 ? '#2f9a48' : '#38ad52'; x.fillRect(k * 42, 0, 42, 272); }
+  x.strokeStyle = '#f4fff4'; x.lineWidth = 5; x.strokeRect(8, 8, 404, 256); x.beginPath(); x.moveTo(210, 8); x.lineTo(210, 264); x.stroke();
+  x.beginPath(); x.arc(210, 136, 38, 0, 6.3); x.stroke(); x.strokeRect(8, 66, 62, 140); x.strokeRect(350, 66, 62, 140); x.strokeRect(8, 104, 22, 64); x.strokeRect(390, 104, 22, 64);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t; })();
+function buildStadium(it, idx) {   // oval bowl with tiers, roof ring, pitch and floodlights; overall size follows the value (capacity)
+  const BMN = ep.barMin || 0, f = clamp((it.value - BMN) / (MAXV - BMN)), Ro = (it.radius || .2) * lerp(.72, 1.12, Math.sqrt(f)), OV = 1.22, top = it.rank <= 3;
+  const Hh = Ro * .5, seat = new THREE.Color(it.color || (top ? '#e0a52a' : '#2f8fd0')), seat2 = seat.clone().multiplyScalar(.62), wall = new THREE.Color('#9fb0c0'), dark = new THREE.Color('#3a4a5c');
+  const mesh = new THREE.Group();
+  // stands: lathe profile (radius, height) in units of Ro -> lower tier, walkway, upper tier, outer wall
+  const prof = [[.5, .0], [.5, .06], [.7, .2], [.74, .2], [.74, .25], [.97, .44], [1.0, .44], [1.0, .0]].map(([r, y]) => new THREE.Vector2(r * Ro, y * Ro * (.5 / .44)));
+  const bg = new THREE.LatheGeometry(prof, 72).toNonIndexed(), bp = bg.attributes.position, col = [];
+  for (let i = 0; i < bp.count; i += 3) {   // colour per face: seat rows striped by height, concrete walls
+    const cy = (bp.getY(i) + bp.getY(i + 1) + bp.getY(i + 2)) / 3 / Hh, cr = (Math.hypot(bp.getX(i), bp.getZ(i)) + Math.hypot(bp.getX(i + 1), bp.getZ(i + 1)) + Math.hypot(bp.getX(i + 2), bp.getZ(i + 2))) / 3 / Ro;
+    const a = Math.atan2(bp.getZ(i) + bp.getZ(i + 1) + bp.getZ(i + 2), bp.getX(i) + bp.getX(i + 1) + bp.getX(i + 2));
+    let c = wall; if (cr > .985) c = (Math.floor((a + Math.PI) / 6.2832 * 36) % 2) ? wall : dark; else if (cr > .51 && (cr < .7 || cr > .745)) c = (Math.floor((a + Math.PI) / 6.2832 * 24) % 6 === 0) ? wall : (cr < .7 ? seat : seat2); else if (cy < .15 && cr <= .51) c = dark;
+    for (let k = 0; k < 3; k++) col.push(c.r, c.g, c.b);
+  }
+  bg.setAttribute('color', new THREE.Float32BufferAttribute(col, 3)); bg.computeVertexNormals();
+  const bowl = new THREE.Mesh(bg, new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: .7, metalness: .05, side: THREE.DoubleSide, emissive: seat, emissiveIntensity: .04 })); bowl.scale.x = OV; mesh.add(bowl);
+  // roof ring over the upper tier
+  const rp = [[.8, .56], [1.06, .5], [1.06, .47], [.8, .53], [.8, .56]].map(([r, y]) => new THREE.Vector2(r * Ro, y * Ro * (.5 / .44)));
+  const roof = new THREE.Mesh(new THREE.LatheGeometry(rp, 72), new THREE.MeshStandardMaterial({ color: '#b9c6d2', roughness: .7, metalness: .1, flatShading: true, side: THREE.DoubleSide })); roof.scale.x = OV; mesh.add(roof);
+  for (let k = 0; k < 20; k++) { const a = k / 20 * 6.2832, m = new THREE.Mesh(new THREE.CylinderGeometry(Ro * .008, Ro * .008, Ro * .16, 4), new THREE.MeshStandardMaterial({ color: '#dfe8ef' })); m.position.set(Math.cos(a) * Ro * 1.0 * OV, Ro * .5, Math.sin(a) * Ro * 1.0); mesh.add(m); }
+  // pitch
+  const turf = new THREE.Mesh(new THREE.CircleGeometry(Ro * .5, 48).rotateX(-Math.PI / 2), new THREE.MeshStandardMaterial({ color: '#2a7f40', roughness: .9 })); turf.scale.x = OV; turf.position.y = Ro * .012; mesh.add(turf);
+  const pitch = new THREE.Mesh(new THREE.PlaneGeometry(Ro * .86, Ro * .56).rotateX(-Math.PI / 2), new THREE.MeshStandardMaterial({ map: pitchTex, roughness: .85, emissive: '#1d6b30', emissiveIntensity: .1 })); pitch.position.y = Ro * .02; mesh.add(pitch);
+  // floodlights
+  [[1, 1], [1, -1], [-1, 1], [-1, -1]].forEach(([sx, sz]) => { const l = sprite('#fff6d0', .7); l.scale.setScalar(Ro * .2); l.position.set(sx * Ro * .78 * OV, Ro * .66, sz * Ro * .78); mesh.add(l); });
+  const grp = new THREE.Group(); grp.add(mesh); grp.rotation.y = (it.rot || 0) * Math.PI / 180; grp.position.copy(P(it.lon, it.lat)).setY(GROUND - .001);
+  const pk = new THREE.Vector3(0, Hh * 1.25, 0), color = top ? '#ffd24d' : '#7ff0ff';
+  const dot = sprite(color, 1); dot.position.copy(pk); dot.visible = false; grp.add(dot);   // no beam through the pitch
+  const beam = new THREE.Mesh(new THREE.CylinderGeometry(.006, .006, 1, 6).translate(0, .5, 0), new THREE.MeshBasicMaterial({ color, transparent: true, opacity: .9, fog: false })); beam.position.copy(pk); beam.visible = false; grp.add(beam);
+  const ring = new THREE.Mesh(new THREE.RingGeometry(.93, 1, 64).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#8ff3ff', transparent: true, opacity: 0, side: THREE.DoubleSide, depthWrite: false, blending: THREE.AdditiveBlending })); ring.position.y = .012; grp.add(ring);
+  const halo = sprite(it.rank === 1 ? '#ffcf70' : '#59c9ff', 0); halo.position.set(0, Hh * .55, 0); grp.add(halo);
+  const r = rng(idx * 31 + 8), NP = 140, pv = []; for (let k = 0; k < NP; k++) { const a = r() * 6.28, sp = .25 + r() * .9; pv.push([Math.cos(a) * sp, .5 + r() * 1.6, Math.sin(a) * sp, r()]); }
+  const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(new Float32Array(NP * 3), 3));
+  const pts = new THREE.Points(pg, new THREE.PointsMaterial({ map: glowTex, color: '#e8f7ff', size: .05, transparent: true, depthWrite: false, opacity: 0, blending: THREE.AdditiveBlending })); grp.add(pts);
+  scene.add(grp);
+  return { it, grp, mesh, Hh: Hh * 1.25, R: Ro * .8, pk, dot, beam, ring, halo, clouds: [], pts, pv, base: grp.position.clone(), stadium: Ro };
+}
 const mts = ep.items.map(buildMountain);
 // teaser beams (hook)
 const teasers = ep.items.map(it => { const s = sprite('#7ff0ff', 0); s.position.copy(P(it.lon, it.lat)).setY(GROUND + .1); scene.add(s); return s; });
@@ -200,7 +243,7 @@ const OUT_B = { pos: new THREE.Vector3(IC.x + (SP * 1.45 + 2.6) * OZ, (SP * .65 
 if (ep.map.outro === 'overview') { Object.assign(OUT_A, OVER_B); Object.assign(OUT_B, OVER_A); }   // wide maps: end on the top-down overview so every pin is in frame
 function itemPose(m, k, idx) {   // k: 0..1 through the segment
   const top = m.it.rank === 1, ang = top ? -2.95 + .95 * k : (-2.1 + idx * 0.47) + .32 * k * (idx % 2 ? -1 : 1);
-  const d = (2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = .30 - .05 * k;
+  const st = m.stadium, d = (st ? 11 * st + .8 : 2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = (st ? .62 : .30) - .05 * k;   // stadiums: closer and from above, so the bowl and pitch read
   const c = m.base;
   return { pos: new THREE.Vector3(c.x + Math.cos(ang) * Math.cos(el) * d, GROUND + Math.sin(el) * d + m.Hh * .3, c.z + Math.sin(ang) * Math.cos(el) * d), look: new THREE.Vector3(c.x, GROUND + m.Hh * .5, c.z), fov: 30 };
 }
