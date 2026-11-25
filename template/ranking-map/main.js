@@ -233,7 +233,8 @@ const motes = (() => { const n = 500, a = new Float32Array(n * 3), r = rng(99), 
 // ---------- camera choreography ----------
 const segs = ep.segments;
 const CB = ep.map.frame || BB, bA = P(CB[0], CB[1]), bB = P(CB[2], CB[3]), MC = bA.clone().add(bB).multiplyScalar(.5), WX = bB.x - bA.x;   // highlighted country extent
-scene.fog.density = 0.028 * clamp(15 / WX, .2, 1);
+scene.fog.density = 0.028 * clamp(15 / WX, WX > 90 ? .08 : .2, 1);
+{ const k = Math.max(1, WX / 90); window.SKY.scale.setScalar(k); camera.far = 400 * k; camera.updateProjectionMatrix(); }   // very wide overviews (continent-long ranges): keep the camera inside the sky dome and the far plane
 const OVER_A = { pos: new THREE.Vector3(MC.x, 1.8 * WX, MC.z + 1.28 * WX), look: new THREE.Vector3(MC.x, 0, MC.z - .2 * WX), fov: 46 };
 const OVER_B = { pos: new THREE.Vector3(MC.x + .08 * WX, 1.42 * WX, MC.z + 1.08 * WX), look: new THREE.Vector3(MC.x + .08 * WX, 0, MC.z - .15 * WX), fov: 46 };
 const IC = mts.reduce((a, m) => a.add(m.base), new THREE.Vector3()).multiplyScalar(1 / mts.length), SP = Math.max(2.5, ...mts.map(m => m.base.distanceTo(IC)));   // items centroid / spread
@@ -262,7 +263,7 @@ function cameraAt(t, i) {
     const dist = prev.look.distanceTo(p.look);
     p = mix(prev, p, k); p.pos.y += Math.sin(k * Math.PI) * Math.min(2.2, dist * .22);
   }
-  camera.position.copy(p.pos); camera.fov = p.fov; window.SKY.position.set(p.pos.x, 0, p.pos.z);
+  camera.position.copy(p.pos); camera.fov = p.fov; camera.near = Math.max(.05, p.pos.y * .15);   /* high overviews: push the near plane out so map layers do not z-fight */ window.SKY.position.set(p.pos.x, 0, p.pos.z);
   camera.setViewOffset(W, H, 0, H * 0.04, W, H);   // lift subject above centre (leave room for captions)
   camera.lookAt(p.look); camera.updateProjectionMatrix(); camera.updateMatrixWorld();
 }

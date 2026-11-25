@@ -1,0 +1,178 @@
+{
+ "id": "034-south-america-10-highest-mountains",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -70.0,
+   -21.0
+  ],
+  "highlight": [
+   "032",
+   "152",
+   "604"
+  ],
+  "scale": 6,
+  "frame": [
+   -85.0,
+   -45.0,
+   -55.0,
+   -6.0
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "SOUTH AMERICA'S",
+  "10 HIGHEST",
+  "MOUNTAINS"
+ ],
+ "series": "SOUTH AMERICA'S 10 HIGHEST MOUNTAINS",
+ "unit": "m",
+ "barMin": 6500,
+ "hook": {
+  "say": "South America's ten highest mountains. Six of them crowd one desert!"
+ },
+ "outro": {
+  "say": "Which would you climb? Comment below!"
+ },
+ "outroLines": [
+  "WHICH WOULD YOU CLIMB?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Incahuasi",
+   "sub": "PUNA DE ATACAMA · ARGENTINA / CHILE",
+   "value": 6638,
+   "lat": -27.033,
+   "lon": -68.297,
+   "style": "volcano",
+   "radius": 0.5,
+   "fact": "\"House of the Inca\"",
+   "say": "Ten: Een-kah-wah-see, House of the Inca. 6638 meters.",
+   "cap": "Ten: Incahuasi, House of the Inca. 6,638 meters."
+  },
+  {
+   "rank": 9,
+   "name": "Cazadero",
+   "sub": "PUNA DE ATACAMA · ARGENTINA",
+   "value": 6670,
+   "lat": -27.183,
+   "lon": -68.567,
+   "style": "massif",
+   "radius": 0.3,
+   "fact": "Also called Walther Penck",
+   "say": "Nine: Kah-sah-deh-ro, hiding behind a giant. 6670 meters.",
+   "cap": "Nine: Cazadero, hiding behind a giant. 6,670 meters."
+  },
+  {
+   "rank": 8,
+   "name": "Mercedario",
+   "sub": "SAN JUAN · ARGENTINA",
+   "value": 6720,
+   "lat": -31.979,
+   "lon": -70.113,
+   "style": "massif",
+   "radius": 0.65,
+   "fact": "Aconcagua's quiet neighbor",
+   "say": "Eight: Mer-seh-dah-ree-oh, Aconcagua's quiet neighbor. 6720 meters.",
+   "cap": "Eight: Mercedario, Aconcagua's quiet neighbor. 6,720 meters."
+  },
+  {
+   "rank": 7,
+   "name": "Llullaillaco",
+   "sub": "ARGENTINA / CHILE",
+   "value": 6739,
+   "lat": -24.72,
+   "lon": -68.531,
+   "style": "volcano",
+   "radius": 0.65,
+   "fact": "Inca ruins on the summit",
+   "say": "Seven: Yoo-yai-yah-ko, Inca ruins on its summit. 6739 meters.",
+   "cap": "Seven: Llullaillaco, Inca ruins on its summit. 6,739 meters."
+  },
+  {
+   "rank": 6,
+   "name": "Tres Cruces",
+   "sub": "PUNA DE ATACAMA · ARGENTINA / CHILE",
+   "value": 6748,
+   "lat": -27.09,
+   "lon": -68.78,
+   "style": "massif",
+   "radius": 0.5,
+   "fact": "\"Three Crosses\"",
+   "say": "Six: Trace Croo-sess, the Three Crosses. 6748 meters.",
+   "cap": "Six: Tres Cruces, the Three Crosses. 6,748 meters."
+  },
+  {
+   "rank": 5,
+   "name": "Cerro Bonete",
+   "sub": "LA RIOJA · ARGENTINA",
+   "value": 6759,
+   "lat": -28.017,
+   "lon": -68.75,
+   "style": "volcano",
+   "radius": 0.55,
+   "fact": "A lonely desert volcano",
+   "say": "Five: Bo-neh-teh, a lonely volcano. 6759 meters.",
+   "cap": "Five: Bonete, a lonely volcano. 6,759 meters."
+  },
+  {
+   "rank": 4,
+   "name": "Huascarán",
+   "sub": "CORDILLERA BLANCA · PERU",
+   "value": 6768,
+   "lat": -9.117,
+   "lon": -77.6,
+   "style": "jagged",
+   "radius": 0.65,
+   "fact": "Highest peak in the tropics",
+   "say": "Four: Wahs-kah-rahn, highest peak in the tropics. 6768 meters.",
+   "cap": "Four: Huascarán, highest peak in the tropics. 6,768 meters."
+  },
+  {
+   "rank": 3,
+   "name": "Monte Pissis",
+   "sub": "PUNA DE ATACAMA · ARGENTINA",
+   "value": 6792,
+   "lat": -27.755,
+   "lon": -68.799,
+   "style": "massif",
+   "radius": 0.6,
+   "fact": "A glacier in the desert",
+   "say": "Three: Pee-sees, a glacier in the desert. 6792 meters.",
+   "cap": "Three: Pissis, a glacier in the desert. 6,792 meters."
+  },
+  {
+   "rank": 2,
+   "name": "Ojos del Salado",
+   "sub": "ARGENTINA / CHILE",
+   "value": 6893,
+   "lat": -27.109,
+   "lon": -68.541,
+   "style": "volcano",
+   "radius": 0.42,
+   "fact": "Highest volcano on Earth",
+   "say": "Two: Oh-hoss del Sah-lah-doe, Earth's highest volcano. 6893 meters.",
+   "cap": "Two: Ojos del Salado, Earth's highest volcano. 6,893 meters."
+  },
+  {
+   "rank": 1,
+   "name": "Aconcagua",
+   "sub": "MENDOZA · ARGENTINA",
+   "value": 6961,
+   "lat": -32.653,
+   "lon": -70.011,
+   "style": "massif",
+   "radius": 0.85,
+   "fact": "Highest peak outside Asia",
+   "say": "And number one: Aconcagua! 6961 meters, the highest peak outside Asia.",
+   "cap": "And number one: Aconcagua! 6,961 meters, the highest peak outside Asia."
+  }
+ ]
+}

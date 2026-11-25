@@ -39,7 +39,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] Japan's 10 highest mountains
 - [x] The 10 highest mountains in Africa — 032-africa-10-highest-mountains (summits with 500 m+ prominence, so Mawenzi counts and Mount Kenya's Nelion/Lenana do not)
 - [x] The 10 most populous cities in Europe — 033-europe-10-biggest-cities (population inside official city limits; İstanbul counted whole, Baku left out as Asia)
-- [ ] The 10 highest mountains in South America
+- [x] The 10 highest mountains in South America — 034-south-america-10-highest-mountains (one entry per mountain, 400 m+ prominence, commonly quoted heights; Huascarán Norte and Tres Cruces Central not counted separately)
 - [ ] The 10 longest bridges in Türkiye (style: column)
 - [ ] The 10 highest cities in Türkiye by elevation (style: column)
 - [ ] The 10 longest rivers in the USA (style: column at the river mouths)
