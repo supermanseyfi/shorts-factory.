@@ -35,6 +35,8 @@ Voice model files (~350 MB) download once from GitHub releases into voices/.
   wide map (see episode 004, USA cities at `map.scale` 0.5).
 - `items` (exactly the ranking, worst -> best): `rank, name, sub, value, lat, lon, style, fact, say, cap`.
   `style`: `volcano` | `jagged` | `massif` (3D mountains) or `column` (3D bar: cities, lakes, buildings, anything).
+  Optional per-item `camAngle` (radians) overrides where the camera orbit starts, e.g. 2.5 to look inland (east)
+  from an item on the west coast instead of out over the empty ocean (see episode 035, Columbia River).
 - `say` is what the voice reads, `cap` what the caption shows; same word count. Respell foreign names for the voice
   (`python3 engine/tts.py --phonemes "Soop-hahn"` prints how it will be pronounced). Write numbers as digits.
 - `metersPerUnit`: set 0.3048 when `unit` is "ft" so 3D mountain shapes and snow lines still use metres.

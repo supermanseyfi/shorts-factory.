@@ -243,7 +243,7 @@ const OUT_A = { pos: new THREE.Vector3(IC.x + (SP * 1.25 + 2.2) * OZ, (SP * .45 
 const OUT_B = { pos: new THREE.Vector3(IC.x + (SP * 1.45 + 2.6) * OZ, (SP * .65 + 2.6) * OZ, IC.z + (SP * 1.1 + 2.8) * OZ), look: new THREE.Vector3(IC.x + .3, .3, IC.z), fov: 40 };
 if (ep.map.outro === 'overview') { Object.assign(OUT_A, OVER_B); Object.assign(OUT_B, OVER_A); }   // wide maps: end on the top-down overview so every pin is in frame
 function itemPose(m, k, idx) {   // k: 0..1 through the segment
-  const top = m.it.rank === 1, ang = top ? -2.95 + .95 * k : (-2.1 + idx * 0.47) + .32 * k * (idx % 2 ? -1 : 1);
+  const top = m.it.rank === 1, ang = m.it.camAngle != null ? m.it.camAngle + .32 * k * (idx % 2 ? -1 : 1) : top ? -2.95 + .95 * k : (-2.1 + idx * 0.47) + .32 * k * (idx % 2 ? -1 : 1);   // item.camAngle (radians): override the orbit start, e.g. to look inland from a coastal item
   const st = m.stadium, d = (st ? 11 * st + .8 : 2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = (st ? .62 : .30) - .05 * k;   // stadiums: closer and from above, so the bowl and pitch read
   const c = m.base;
   return { pos: new THREE.Vector3(c.x + Math.cos(ang) * Math.cos(el) * d, GROUND + Math.sin(el) * d + m.Hh * .3, c.z + Math.sin(ang) * Math.cos(el) * d), look: new THREE.Vector3(c.x, GROUND + m.Hh * .5, c.z), fov: 30 };

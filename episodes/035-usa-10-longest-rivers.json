@@ -1,0 +1,167 @@
+{
+ "id": "035-usa-10-longest-rivers",
+ "template": "ranking-map",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.25
+ },
+ "map": {
+  "center": [
+   -115,
+   45
+  ],
+  "highlight": [
+   "840"
+  ],
+  "scale": 0.4,
+  "frame": [
+   -170,
+   24,
+   -66,
+   72
+  ],
+  "outro": "overview"
+ },
+ "title": [
+  "AMERICA'S",
+  "10 LONGEST",
+  "RIVERS"
+ ],
+ "series": "AMERICA'S 10 LONGEST RIVERS",
+ "unit": "mi",
+ "barMin": 0,
+ "hook": {
+  "say": "America's ten longest rivers, ranked. And no, the Mississippi is not number one!"
+ },
+ "outro": {
+  "say": "Which river have you seen in person? Comment below!"
+ },
+ "outroLines": [
+  "WHICH RIVER HAVE YOU SEEN?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 10,
+   "name": "Ohio River",
+   "sub": "MOUTH: CAIRO, ILLINOIS",
+   "value": 979,
+   "lat": 36.99,
+   "lon": -89.13,
+   "style": "column",
+   "fact": "Born in Pittsburgh",
+   "say": "Number ten: the Ohio River, born in downtown Pittsburgh. 979 miles.",
+   "cap": "Number ten: the Ohio River, born in downtown Pittsburgh. 979 miles."
+  },
+  {
+   "rank": 9,
+   "name": "Snake River",
+   "sub": "MOUTH: TRI-CITIES, WASHINGTON",
+   "value": 1040,
+   "lat": 46.19,
+   "lon": -119.03,
+   "style": "column",
+   "fact": "Carved Hells Canyon",
+   "say": "Nine: the Snake River, carver of Hells Canyon. 1040 miles.",
+   "cap": "Nine: the Snake River, carver of Hells Canyon. 1,040 miles."
+  },
+  {
+   "rank": 8,
+   "name": "Red River",
+   "sub": "MOUTH: CENTRAL LOUISIANA",
+   "value": 1125,
+   "lat": 31.02,
+   "lon": -91.75,
+   "style": "column",
+   "fact": "Texas–Oklahoma border",
+   "say": "Eight: the Red River, dividing Texas and Oklahoma. 1125 miles.",
+   "cap": "Eight: the Red River, dividing Texas and Oklahoma. 1,125 miles."
+  },
+  {
+   "rank": 7,
+   "name": "Columbia River",
+   "sub": "MOUTH: OREGON / WASHINGTON",
+   "value": 1243,
+   "lat": 46.24,
+   "lon": -124.06,
+   "camAngle": 3.75,
+   "style": "column",
+   "fact": "Starts in Canada",
+   "say": "Seven: the Columbia, flowing down from Canada. 1243 miles.",
+   "cap": "Seven: the Columbia, flowing down from Canada. 1,243 miles."
+  },
+  {
+   "rank": 6,
+   "name": "Arkansas River",
+   "sub": "MOUTH: SOUTHEAST ARKANSAS",
+   "value": 1443,
+   "lat": 33.78,
+   "lon": -91.07,
+   "style": "column",
+   "fact": "Born in the Rockies",
+   "say": "Six: the Arkansas River, born in the Rockies. 1443 miles.",
+   "cap": "Six: the Arkansas River, born in the Rockies. 1,443 miles."
+  },
+  {
+   "rank": 5,
+   "name": "Colorado River",
+   "sub": "MOUTH: GULF OF CALIFORNIA",
+   "value": 1450,
+   "lat": 31.82,
+   "lon": -114.81,
+   "style": "column",
+   "fact": "Carved the Grand Canyon",
+   "say": "Five: the Colorado, sculptor of the Grand Canyon. 1450 miles.",
+   "cap": "Five: the Colorado, sculptor of the Grand Canyon. 1,450 miles."
+  },
+  {
+   "rank": 4,
+   "name": "Rio Grande",
+   "sub": "MOUTH: GULF OF MEXICO · TEXAS",
+   "value": 1759,
+   "lat": 25.96,
+   "lon": -97.15,
+   "style": "column",
+   "fact": "The border with Mexico",
+   "say": "Four: the Rio Grande, the border with Mexico. 1759 miles.",
+   "cap": "Four: the Rio Grande, the border with Mexico. 1,759 miles."
+  },
+  {
+   "rank": 3,
+   "name": "Yukon River",
+   "sub": "MOUTH: BERING SEA · ALASKA",
+   "value": 1979,
+   "lat": 62.6,
+   "lon": -164.8,
+   "style": "column",
+   "fact": "Crosses all of Alaska",
+   "say": "Three: the Yukon, crossing all of Alaska. 1979 miles.",
+   "cap": "Three: the Yukon, crossing all of Alaska. 1,979 miles."
+  },
+  {
+   "rank": 2,
+   "name": "Mississippi River",
+   "sub": "MOUTH: GULF OF MEXICO · LOUISIANA",
+   "value": 2340,
+   "lat": 29.15,
+   "lon": -89.25,
+   "style": "column",
+   "fact": "Touches 10 states",
+   "say": "Two: the mighty Mississippi, touching ten states. 2340 miles.",
+   "cap": "Two: the mighty Mississippi, touching ten states. 2,340 miles."
+  },
+  {
+   "rank": 1,
+   "name": "Missouri River",
+   "sub": "MOUTH: ST. LOUIS, MISSOURI",
+   "value": 2341,
+   "lat": 38.81,
+   "lon": -90.12,
+   "style": "column",
+   "fact": "Longer by 1 mile",
+   "say": "And number one: the Missouri River! 2341 miles, beating the Mississippi by one single mile.",
+   "cap": "And number one: the Missouri River! 2,341 miles, beating the Mississippi by one single mile."
+  }
+ ]
+}

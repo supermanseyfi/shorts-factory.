@@ -42,7 +42,7 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 highest mountains in South America — 034-south-america-10-highest-mountains (one entry per mountain, 400 m+ prominence, commonly quoted heights; Huascarán Norte and Tres Cruces Central not counted separately)
 - [ ] The 10 longest bridges in Türkiye (style: column)
 - [ ] The 10 highest cities in Türkiye by elevation (style: column)
-- [ ] The 10 longest rivers in the USA (style: column at the river mouths)
+- [x] The 10 longest rivers in the USA — 035-usa-10-longest-rivers (main-stem lengths, tributaries not added; whole river counted even where it runs through Canada or Mexico; columns at the river mouths)
 - [ ] The 10 longest rivers in Türkiye (style: column at the river mouths)
 - [ ] The 10 highest dams in Türkiye (style: column)
 - [x] The 10 biggest football stadiums in Türkiye by capacity (style: column)
