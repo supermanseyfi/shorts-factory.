@@ -35,6 +35,9 @@ Voice model files (~350 MB) download once from GitHub releases into voices/.
   wide map (see episode 004, USA cities at `map.scale` 0.5).
 - `items` (exactly the ranking, worst -> best): `rank, name, sub, value, lat, lon, style, fact, say, cap`.
   `style`: `volcano` | `jagged` | `massif` (3D mountains) or `column` (3D bar: cities, lakes, buildings, anything).
+  `stadium` (bowl sized by capacity, see episode 027) and `dam` (arch dam in a gorge with its reservoir, wall height follows the
+  value; use `map.scale` ~4 when dams cluster, see episode 036) are purpose-built markers: prefer a marker that looks like the
+  subject over a plain `column`, and add a new one to template/ranking-map/main.js when a topic needs it.
   Optional per-item `camAngle` (radians) overrides where the camera orbit starts, e.g. 2.5 to look inland (east)
   from an item on the west coast instead of out over the empty ocean (see episode 035, Columbia River).
 - `say` is what the voice reads, `cap` what the caption shows; same word count. Respell foreign names for the voice

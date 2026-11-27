@@ -112,6 +112,7 @@ const rock1 = new THREE.Color('#3b4657'), rock2 = new THREE.Color('#8b8f9a'), sn
 function buildMountain(it, idx) {
   if (it.style === 'column') return buildColumn(it, idx);
   if (it.style === 'stadium') return buildStadium(it, idx);
+  if (it.style === 'dam') return buildDam(it, idx);
   const VM = it.value * (ep.metersPerUnit || 1);   // value in metres (set metersPerUnit: 0.3048 when the unit is feet)
   const Hh = it.value / MAXV * 1.3, R = it.radius || ({ volcano: .66, jagged: .68, massif: .74 }[it.style] * Math.sqrt(VM / 4000));
   const N = 72, seed = idx * 31 + 5;
@@ -224,6 +225,52 @@ function buildStadium(it, idx) {   // oval bowl with tiers, roof ring, pitch and
   scene.add(grp);
   return { it, grp, mesh, Hh: Hh * 1.25, R: Ro * .8, pk, dot, beam, ring, halo, clouds: [], pts, pv, base: grp.position.clone(), stadium: Ro };
 }
+function buildDam(it, idx) {   // concrete arch dam in a rock gorge with its reservoir behind it; wall height follows the value
+  const BMN = ep.barMin || 0, f = clamp((it.value - BMN) / (MAXV - BMN)), Rt = it.radius || .3, Hd = Rt * lerp(.55, 1.15, f), top = it.rank <= 3, seed = idx * 31 + 11;
+  const sst = (x, a, b) => { const t = clamp((x - a) / (b - a)); return t * t * (3 - 2 * t); };
+  const mesh = new THREE.Group();
+  // gorge terrain: local +x is downstream, the valley closes upstream so the reservoir is a basin
+  const N = 56, g = new THREE.PlaneGeometry(2 * Rt, 2 * Rt, N, N).rotateX(-Math.PI / 2), pos = g.attributes.position, col = [];
+  for (let i = 0; i < pos.count; i++) {
+    const u = pos.getX(i) / Rt, v = pos.getZ(i) / Rt, r = Math.hypot(u, v), n = fbm(u * 3 + 7, v * 3 + 7, seed);
+    const fl = 1 + 1.1 * Math.max(u, 0), env = sst(1 - r, 0, .4), valley = Math.max(sst(Math.abs(v) + .06 * (n - .5), .08 * fl, .42 * fl), sst(-u, .5, .8));
+    const h = Hd * 1.2 * env * valley * (.86 + .3 * n) * (1 - .4 * sst(u, .15, .9)) + .012 * n * env;
+    pos.setY(i, h);
+    const q = h / (Hd * 1.2), c = new THREE.Color().lerpColors(LAND, rock1, clamp(q / .2)); c.lerp(rock2, clamp((q - .3) / .7) * .7); c.lerp(warm, n * .35);
+    col.push(c.r, c.g, c.b);
+  }
+  g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
+  const tg = g.toNonIndexed(); tg.computeVertexNormals();
+  mesh.add(new THREE.Mesh(tg, new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: .85, metalness: 0 })));
+  // arch wall (convex towards the reservoir), thicker at the base
+  const HA = .62, Wc = .5 * Rt, Rc = Wc / Math.sin(HA), ax = -.03 * Rt, cx = ax + Rc, tT = .035 * Rt, tB = .1 * Rt;
+  const lathe = (pts, half, mat) => { const m = new THREE.Mesh(new THREE.LatheGeometry(pts.map(([r, y]) => new THREE.Vector2(r, y)), 28, 1.5 * Math.PI - half, 2 * half), mat); m.position.x = cx; mesh.add(m); return m; };
+  lathe([[Rc - tB, 0], [Rc - tT, Hd], [Rc + tT, Hd], [Rc + tT * 1.4, 0]], HA, new THREE.MeshStandardMaterial({ color: '#cfd6dc', roughness: .75, metalness: .05, flatShading: true, side: THREE.DoubleSide, emissive: '#5a6570', emissiveIntensity: .25 }));
+  const accent = top ? '#ffd24d' : '#7ff0ff';
+  lathe([[Rc - tT * 1.25, Hd], [Rc - tT * 1.25, Hd + tT * .5], [Rc + tT * 1.25, Hd + tT * .5], [Rc + tT * 1.25, Hd]], HA, new THREE.MeshStandardMaterial({ color: accent, emissive: accent, emissiveIntensity: .8, roughness: .4, side: THREE.DoubleSide }));   // crest road, coloured by rank
+  lathe([[Rc - tB - .004, .01], [Rc - tT - .004, Hd * .93]], .1, new THREE.MeshStandardMaterial({ color: '#eaf8ff', emissive: '#9fdcff', emissiveIntensity: .7, roughness: .3, side: THREE.DoubleSide }));   // spillway water down the downstream face
+  // reservoir surface, bounded by the wall's upstream face
+  const sh = new THREE.Shape(), K = 20;
+  for (let k = 0; k <= K; k++) { const a = -HA + 2 * HA * k / K, x = cx - (Rc + tT) * Math.cos(a), z = (Rc + tT) * Math.sin(a); k ? sh.lineTo(x, z) : sh.moveTo(x, z); }
+  for (let k = 1; k < K; k++) { const a = Math.PI * k / K; sh.lineTo(-.02 * Rt - .68 * Rt * Math.sin(a), Wc * Math.cos(a)); }
+  const water = new THREE.Mesh(new THREE.ShapeGeometry(sh).rotateX(Math.PI / 2), new THREE.MeshStandardMaterial({ color: '#2aa3e6', emissive: '#0d6fb5', emissiveIntensity: .55, roughness: .15, metalness: .3, side: THREE.DoubleSide }));
+  water.position.y = Hd * .9; mesh.add(water);
+  const river = new THREE.Mesh(new THREE.PlaneGeometry(Rt * .95, Rt * .07).rotateX(-Math.PI / 2), new THREE.MeshStandardMaterial({ color: '#58c4f5', emissive: '#1d8fd0', emissiveIntensity: .6, roughness: .2 }));
+  river.position.set(Rt * .47, .02, 0); mesh.add(river);
+  // face the downstream side towards where this item's camera orbit sits (see itemPose)
+  const ca = it.camAngle != null ? it.camAngle : it.rank === 1 ? -2.48 : (-2.1 + idx * .47) + .16 * (idx % 2 ? -1 : 1);
+  const grp = new THREE.Group(); grp.add(mesh); grp.rotation.y = -(ca + (it.rot != null ? it.rot * Math.PI / 180 : .3)); grp.position.copy(P(it.lon, it.lat)).setY(GROUND - .001);
+  const pk = new THREE.Vector3(0, Hd * 1.2, 0);
+  const dot = sprite(accent, 1); dot.position.copy(pk); dot.visible = false; grp.add(dot);
+  const beam = new THREE.Mesh(new THREE.CylinderGeometry(.006, .006, 1, 6).translate(0, .5, 0), new THREE.MeshBasicMaterial({ color: accent, transparent: true, opacity: .9, fog: false })); beam.position.copy(pk); beam.visible = false; grp.add(beam);
+  const ring = new THREE.Mesh(new THREE.RingGeometry(.93, 1, 64).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#8ff3ff', transparent: true, opacity: 0, side: THREE.DoubleSide, depthWrite: false, blending: THREE.AdditiveBlending })); ring.position.y = .012; grp.add(ring);
+  const halo = sprite(it.rank === 1 ? '#ffcf70' : '#59c9ff', 0); halo.position.set(0, Hd * .55, 0); grp.add(halo);
+  const r = rng(idx * 31 + 8), NP = 140, pv = []; for (let k = 0; k < NP; k++) { const a = r() * 6.28, sp = .25 + r() * .9; pv.push([Math.cos(a) * sp, .5 + r() * 1.6, Math.sin(a) * sp, r()]); }
+  const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(new Float32Array(NP * 3), 3));
+  const pts = new THREE.Points(pg, new THREE.PointsMaterial({ map: glowTex, color: '#e8f7ff', size: .05, transparent: true, depthWrite: false, opacity: 0, blending: THREE.AdditiveBlending })); grp.add(pts);
+  scene.add(grp);
+  return { it, grp, mesh, Hh: Hd * 1.2, R: Rt * .8, pk, dot, beam, ring, halo, clouds: [], pts, pv, base: grp.position.clone(), stadium: Rt * .8, el: .36, lift: Rt * .58 };
+}
 const mts = ep.items.map(buildMountain);
 // teaser beams (hook)
 const teasers = ep.items.map(it => { const s = sprite('#7ff0ff', 0); s.position.copy(P(it.lon, it.lat)).setY(GROUND + .1); scene.add(s); return s; });
@@ -244,9 +291,9 @@ const OUT_B = { pos: new THREE.Vector3(IC.x + (SP * 1.45 + 2.6) * OZ, (SP * .65 
 if (ep.map.outro === 'overview') { Object.assign(OUT_A, OVER_B); Object.assign(OUT_B, OVER_A); }   // wide maps: end on the top-down overview so every pin is in frame
 function itemPose(m, k, idx) {   // k: 0..1 through the segment
   const top = m.it.rank === 1, ang = m.it.camAngle != null ? m.it.camAngle + .32 * k * (idx % 2 ? -1 : 1) : top ? -2.95 + .95 * k : (-2.1 + idx * 0.47) + .32 * k * (idx % 2 ? -1 : 1);   // item.camAngle (radians): override the orbit start, e.g. to look inland from a coastal item
-  const st = m.stadium, d = (st ? 11 * st + .8 : 2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = (st ? .62 : .30) - .05 * k;   // stadiums: closer and from above, so the bowl and pitch read
+  const st = m.stadium, d = (st ? 11 * st + .8 : 2.9 * m.Hh + 3.3) * (1 - .1 * k) * (top ? 1.06 : 1), el = (st ? (m.el || .62) : .30) - .05 * k;   // stadiums: closer and from above, so the bowl and pitch read
   const c = m.base;
-  return { pos: new THREE.Vector3(c.x + Math.cos(ang) * Math.cos(el) * d, GROUND + Math.sin(el) * d + m.Hh * .3, c.z + Math.sin(ang) * Math.cos(el) * d), look: new THREE.Vector3(c.x, GROUND + m.Hh * .5, c.z), fov: 30 };
+  return { pos: new THREE.Vector3(c.x + Math.cos(ang) * Math.cos(el) * d, GROUND + Math.sin(el) * d + m.Hh * .3, c.z + Math.sin(ang) * Math.cos(el) * d), look: new THREE.Vector3(c.x, GROUND + m.Hh * .5 - (m.lift || 0), c.z), fov: 30 };   // lift: raise the model above the name card
 }
 function segPose(i, t) {
   const s = segs[i], k = prog(t, s.start, s.end - s.start);

@@ -14,7 +14,8 @@
   "highlight": [
    "792"
   ],
-  "outro": "overview"
+  "outro": "overview",
+  "scale": 4
  },
  "title": [
   "TURKEY'S",
@@ -42,11 +43,10 @@
    "value": 180,
    "lat": 40.934,
    "lon": 41.77,
-   "style": "column",
+   "style": "dam",
    "fact": "Wedged into the Çoruh canyon",
    "say": "Number ten: Art-veen Dam, wedged into the Cho-rooh canyon. 180 meters.",
-   "cap": "Number ten: Artvin Dam, wedged into the Çoruh canyon. 180 meters.",
-   "radius": 0.11
+   "cap": "Number ten: Artvin Dam, wedged into the Çoruh canyon. 180 meters."
   },
   {
    "rank": 9,
@@ -55,11 +55,10 @@
    "value": 185,
    "lat": 36.908,
    "lon": 31.533,
-   "style": "column",
+   "style": "dam",
    "fact": "A concrete arch above Manavgat",
    "say": "Nine: Oy-mah-pih-nar, a concrete arch above Mah-nahv-gaht. 185 meters.",
-   "cap": "Nine: Oymapınar, a concrete arch above Manavgat. 185 meters.",
-   "radius": 0.11
+   "cap": "Nine: Oymapınar, a concrete arch above Manavgat. 185 meters."
   },
   {
    "rank": 8,
@@ -68,11 +67,10 @@
    "value": 188,
    "lat": 40.676,
    "lon": 41.289,
-   "style": "column",
+   "style": "dam",
    "fact": "Hidden high in the Çoruh valley",
    "say": "Eight: Ar-koon, hidden high in the Cho-rooh valley. 188 meters.",
-   "cap": "Eight: Arkun, hidden high in the Çoruh valley. 188 meters.",
-   "radius": 0.11
+   "cap": "Eight: Arkun, hidden high in the Çoruh valley. 188 meters."
   },
   {
    "rank": 7,
@@ -81,11 +79,10 @@
    "value": 195,
    "lat": 41.339,
    "lon": 35.002,
-   "style": "column",
+   "style": "dam",
    "fact": "A concrete wall across the Kızılırmak",
    "say": "Seven: Boy-ah-baht, a concrete wall across the Kih-zil-ur-mahk. 195 meters.",
-   "cap": "Seven: Boyabat, a concrete wall across the Kızılırmak. 195 meters.",
-   "radius": 0.11
+   "cap": "Seven: Boyabat, a concrete wall across the Kızılırmak. 195 meters."
   },
   {
    "rank": 6,
@@ -94,11 +91,10 @@
    "value": 195,
    "lat": 41.36,
    "lon": 35.72,
-   "style": "column",
+   "style": "dam",
    "fact": "A man-made mountain of rock",
    "say": "Six: Al-tin-kah-yah, a mountain of rock, tied at 195 meters.",
-   "cap": "Six: Altınkaya, a mountain of rock, tied at 195 meters.",
-   "radius": 0.11
+   "cap": "Six: Altınkaya, a mountain of rock, tied at 195 meters."
   },
   {
    "rank": 5,
@@ -107,11 +103,10 @@
    "value": 201,
    "lat": 37.37,
    "lon": 36.46,
-   "style": "column",
+   "style": "dam",
    "fact": "Squeezed into a Ceyhan canyon",
    "say": "Five: Bair-keh, squeezed into a canyon on the Jay-hahn. 201 meters.",
-   "cap": "Five: Berke, squeezed into a canyon on the Ceyhan. 201 meters.",
-   "radius": 0.11
+   "cap": "Five: Berke, squeezed into a canyon on the Ceyhan. 201 meters."
   },
   {
    "rank": 4,
@@ -120,11 +115,10 @@
    "value": 210,
    "lat": 38.807,
    "lon": 38.757,
-   "style": "column",
+   "style": "dam",
    "fact": "First giant on the Euphrates",
    "say": "Four: Keh-bahn, the first giant on the Euphrates. 210 meters.",
-   "cap": "Four: Keban, the first giant on the Euphrates. 210 meters.",
-   "radius": 0.11
+   "cap": "Four: Keban, the first giant on the Euphrates. 210 meters."
   },
   {
    "rank": 3,
@@ -133,11 +127,10 @@
    "value": 210,
    "lat": 36.573,
    "lon": 32.984,
-   "style": "column",
+   "style": "dam",
    "fact": "A razor-thin concrete arch",
    "say": "Three: Air-meh-nek, a razor-thin arch, also 210 meters.",
-   "cap": "Three: Ermenek, a razor-thin arch, also 210 meters.",
-   "radius": 0.11
+   "cap": "Three: Ermenek, a razor-thin arch, also 210 meters."
   },
   {
    "rank": 2,
@@ -146,11 +139,10 @@
    "value": 249,
    "lat": 41.12,
    "lon": 41.85,
-   "style": "column",
+   "style": "dam",
    "fact": "Turkey's tallest for a decade",
    "say": "Two: Deh-ree-nair, Turkey's tallest for a decade. 249 meters.",
-   "cap": "Two: Deriner, Turkey's tallest for a decade. 249 meters.",
-   "radius": 0.11
+   "cap": "Two: Deriner, Turkey's tallest for a decade. 249 meters."
   },
   {
    "rank": 1,
@@ -159,11 +151,10 @@
    "value": 275,
    "lat": 40.82,
    "lon": 41.63,
-   "style": "column",
+   "style": "dam",
    "fact": "54 m taller than the Hoover Dam",
    "say": "And number one: Yoo-soo-feh-lee! 275 meters, 54 meters taller than the Hoover Dam.",
-   "cap": "And number one: Yusufeli! 275 meters, 54 meters taller than the Hoover Dam.",
-   "radius": 0.11
+   "cap": "And number one: Yusufeli! 275 meters, 54 meters taller than the Hoover Dam."
   }
  ]
 }
