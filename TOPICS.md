@@ -40,11 +40,11 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [x] The 10 highest mountains in Africa — 032-africa-10-highest-mountains (summits with 500 m+ prominence, so Mawenzi counts and Mount Kenya's Nelion/Lenana do not)
 - [x] The 10 most populous cities in Europe — 033-europe-10-biggest-cities (population inside official city limits; İstanbul counted whole, Baku left out as Asia)
 - [x] The 10 highest mountains in South America — 034-south-america-10-highest-mountains (one entry per mountain, 400 m+ prominence, commonly quoted heights; Huascarán Norte and Tres Cruces Central not counted separately)
-- [ ] The 10 longest bridges in Türkiye (style: column)
+- [ ] The 10 longest bridges in Türkiye (style: column) — skipped on 2026-11-27: no complete sourced list of long viaducts (motorway and high-speed-rail viaducts are missing from the public lists); narrow it to e.g. "longest suspension/cable-stayed spans" before using
 - [ ] The 10 highest cities in Türkiye by elevation (style: column)
 - [x] The 10 longest rivers in the USA — 035-usa-10-longest-rivers (main-stem lengths, tributaries not added; whole river counted even where it runs through Canada or Mexico; columns at the river mouths)
 - [ ] The 10 longest rivers in Türkiye (style: column at the river mouths)
-- [ ] The 10 highest dams in Türkiye (style: column)
+- [x] The 10 highest dams in Türkiye — 036-turkey-10-tallest-dams (height from foundation, as in Wikipedia's list of tallest dams; Yusufeli at DSİ's 275 m; Ermenek/Keban tied at 210 m and Altınkaya/Boyabat at 195 m)
 - [x] The 10 biggest football stadiums in Türkiye by capacity (style: column)
 - [x] The 10 most visited countries in the world (style: column, map.scale ~0.12)
 - [x] The 10 smallest US states by area (style: column)
@@ -55,3 +55,5 @@ Mix Türkiye, the USA and the rest of the world. Avoid politics, tragedy, and an
 - [ ] The 10 highest US state high points (one per state)
 - [ ] The 10 longest tunnels in Türkiye (style: column)
 - [ ] The 10 tallest active volcanoes in the USA
+- [ ] The 10 longest suspension bridge spans in the world (style: column, map.scale ~0.12; 1915 Çanakkale is #1)
+- [ ] The 10 tallest dams in the USA (style: column)
