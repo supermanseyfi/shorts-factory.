@@ -1,0 +1,58 @@
+{
+ "id": "places-002-turkiye-hidden",
+ "template": "story-footage",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.12
+ },
+ "title": [
+  "3 MORE PLACES",
+  "IN TURKEY",
+  "TOURISTS MISS"
+ ],
+ "hook": {
+  "say": "Three more places in Turkey that most tourists never see. Number one once rivalled the Library of Alexandria."
+ },
+ "outro": {
+  "say": "Which one would you visit first? Comment below!"
+ },
+ "outroLines": [
+  "WHICH ONE WOULD YOU VISIT FIRST?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 6,
+   "era": "#3 · SAFRANBOLU · KARABÜK",
+   "say": "Number three: Sah-frahn-bo-loo, an Ottoman trading town named after saffron.",
+   "cap": "Number three: Safranbolu, an Ottoman trading town named after saffron."
+  },
+  {
+   "rank": 5,
+   "era": "SAFRANBOLU · UNESCO 1994",
+   "say": "For centuries, caravans between Europe and the East stopped here. Since 1994, it has been a UNESCO World Heritage Site."
+  },
+  {
+   "rank": 4,
+   "era": "#2 · OLYMPOS · ANTALYA",
+   "say": "Number two: Olympos, an ancient city swallowed by forest, right behind a beach."
+  },
+  {
+   "rank": 3,
+   "era": "OLYMPOS · 78 BC",
+   "say": "Pirates ruled it, until Rome took it back in 78 BC, with a young Julius Caesar in the army."
+  },
+  {
+   "rank": 2,
+   "era": "#1 · PERGAMON · İZMİR",
+   "say": "And number one: Pergamon. Its library held 200000 scrolls, second only to Alexandria.",
+   "cap": "And number one: Pergamon. Its library held 200,000 scrolls, second only to Alexandria."
+  },
+  {
+   "rank": 1,
+   "era": "PERGAMON · BERGAMA",
+   "say": "The word parchment comes from its name. And its theater is one of the steepest of the ancient world."
+  }
+ ]
+}
