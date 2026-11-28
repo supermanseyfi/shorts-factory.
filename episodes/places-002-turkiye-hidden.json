@@ -4,7 +4,7 @@
  "lang": "en-US",
  "voice": {
   "name": "af_heart",
-  "speed": 1.12
+  "speed": 1.08
  },
  "title": [
   "3 MORE PLACES",
@@ -25,8 +25,8 @@
   {
    "rank": 6,
    "era": "#3 · SAFRANBOLU · KARABÜK",
-   "say": "Number three: Sah-frahn-bo-loo, an Ottoman trading town named after saffron.",
-   "cap": "Number three: Safranbolu, an Ottoman trading town named after saffron."
+   "say": "Number three: Sah-frahn-bo-loo, an Ottoman trading town named after saffron, the most expensive spice on Earth.",
+   "cap": "Number three: Safranbolu, an Ottoman trading town named after saffron, the most expensive spice on Earth."
   },
   {
    "rank": 5,
@@ -36,7 +36,7 @@
   {
    "rank": 4,
    "era": "#2 · OLYMPOS · ANTALYA",
-   "say": "Number two: Olympos, an ancient city swallowed by forest, right behind a beach."
+   "say": "Number two: Olympos, an ancient city swallowed by forest, right behind a beach. Its stone tombs still stand among the trees."
   },
   {
    "rank": 3,
@@ -52,7 +52,7 @@
   {
    "rank": 1,
    "era": "PERGAMON · BERGAMA",
-   "say": "The word parchment comes from its name. And its theater is one of the steepest of the ancient world."
+   "say": "The word parchment comes from its name. And its theater, carved into the hillside, is one of the steepest of the ancient world."
   }
  ]
 }

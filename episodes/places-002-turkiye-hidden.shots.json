@@ -1,0 +1,166 @@
+[
+ {
+  "seg": 0,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 18.6,
+  "vf": "crop=458:814:870:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "to": 0.35
+ },
+ {
+  "seg": 0,
+  "file": "footage/turkiye-hidden-2/olympos.webm",
+  "t0": 28.0,
+  "vf": "crop=606:1078:370:0,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.35,
+  "to": 0.65
+ },
+ {
+  "seg": 0,
+  "file": "footage/turkiye-hidden-2/safranbolu.webm",
+  "t0": 1.0,
+  "vf": "crop=504:896:708:92,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.65
+ },
+ {
+  "seg": 1,
+  "file": "footage/turkiye-hidden-2/safranbolu.webm",
+  "t0": 66.5,
+  "vf": "crop=504:896:708:92,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "to": 0.5
+ },
+ {
+  "seg": 1,
+  "file": "footage/turkiye-hidden-2/safranbolu.webm",
+  "t0": 39.5,
+  "vf": "crop=504:896:650:92,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.5
+ },
+ {
+  "seg": 2,
+  "file": "footage/turkiye-hidden-2/safranbolu.webm",
+  "t0": 99.5,
+  "vf": "crop=504:896:708:92,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "to": 0.35
+ },
+ {
+  "seg": 2,
+  "file": "footage/turkiye-hidden-2/safranbolu.webm",
+  "t0": 81.5,
+  "vf": "crop=504:896:600:92,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.35,
+  "to": 0.7
+ },
+ {
+  "seg": 2,
+  "file": "footage/turkiye-hidden-2/safranbolu.webm",
+  "t0": 117.5,
+  "vf": "crop=504:896:420:92,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.7
+ },
+ {
+  "seg": 3,
+  "to": 0.36,
+  "file": "footage/turkiye-hidden-2/olympos.webm",
+  "t0": 23.9,
+  "vf": "crop=606:1078:467:0,",
+  "grade": "eq=contrast=1.06:saturation=1.1"
+ },
+ {
+  "seg": 3,
+  "from": 0.36,
+  "to": 0.68,
+  "file": "footage/turkiye-hidden-2/olympos.webm",
+  "t0": 28.0,
+  "vf": "crop=606:1078:370:0,",
+  "grade": "eq=contrast=1.06:saturation=1.1"
+ },
+ {
+  "seg": 3,
+  "from": 0.68,
+  "file": "footage/turkiye-hidden-2/olympos.webm",
+  "t0": 37.8,
+  "vf": "crop=606:1078:317:0,",
+  "grade": "eq=contrast=1.06:saturation=1.1"
+ },
+ {
+  "seg": 4,
+  "file": "footage/turkiye-hidden-2/olympos.webm",
+  "t0": 72.8,
+  "vf": "crop=606:1078:600:0,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "to": 0.5
+ },
+ {
+  "seg": 4,
+  "file": "footage/turkiye-hidden-2/olympos.webm",
+  "t0": 80.4,
+  "vf": "crop=606:1078:600:0,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.5
+ },
+ {
+  "seg": 5,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 81.6,
+  "vf": "crop=458:814:730:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "to": 0.5
+ },
+ {
+  "seg": 5,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 87.9,
+  "vf": "crop=458:814:730:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.5,
+  "to": 0.75
+ },
+ {
+  "seg": 5,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 90.9,
+  "vf": "crop=458:814:500:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.75
+ },
+ {
+  "seg": 6,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 12.8,
+  "vf": "crop=458:814:730:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "to": 0.4
+ },
+ {
+  "seg": 6,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 104.0,
+  "vf": "crop=458:814:420:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.4,
+  "to": 0.7
+ },
+ {
+  "seg": 6,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 63.2,
+  "vf": "crop=458:814:1040:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1",
+  "from": 0.7
+ },
+ {
+  "seg": 7,
+  "file": "footage/turkiye-hidden-2/pergamon.webm",
+  "t0": 75.3,
+  "vf": "crop=458:814:770:133,",
+  "grade": "eq=contrast=1.06:saturation=1.1"
+ }
+]
