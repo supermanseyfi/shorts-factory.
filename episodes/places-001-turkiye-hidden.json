@@ -1,0 +1,62 @@
+{
+ "id": "places-001-turkiye-hidden",
+ "template": "story-footage",
+ "lang": "en-US",
+ "voice": {
+  "name": "af_heart",
+  "speed": 1.12
+ },
+ "title": [
+  "3 PLACES",
+  "IN TURKEY",
+  "TOURISTS MISS"
+ ],
+ "hook": {
+  "say": "Three places in Turkey that most tourists never see. Number one hides one of the world's first stock exchanges."
+ },
+ "outro": {
+  "say": "Which hidden place in Turkey should we show next? Comment below!"
+ },
+ "outroLines": [
+  "WHICH PLACE SHOULD WE SHOW NEXT?",
+  "COMMENT BELOW"
+ ],
+ "items": [
+  {
+   "rank": 6,
+   "era": "#3 · ASSOS · ÇANAKKALE",
+   "say": "Number three: Ah-soss, on a cliff above the Aegean. This Temple of Athena has stood here since 530 BC.",
+   "cap": "Number three: Assos, on a cliff above the Aegean. This Temple of Athena has stood here since 530 BC."
+  },
+  {
+   "rank": 5,
+   "era": "ASSOS · 347 BC",
+   "say": "More than 2300 years ago, a philosopher named Aristotle moved in, and opened a school.",
+   "cap": "More than 2,300 years ago, a philosopher named Aristotle moved in, and opened a school."
+  },
+  {
+   "rank": 4,
+   "era": "#2 · SAFFRON MONASTERY · MARDIN",
+   "say": "Number two: the Saffron Monastery, near Mar-deen. Founded in the year 493, on top of a far older temple to the sun.",
+   "cap": "Number two: the Saffron Monastery, near Mardin. Founded in the year 493, on top of a far older temple to the sun."
+  },
+  {
+   "rank": 3,
+   "era": "DEYRULZAFARAN · SINCE 493",
+   "say": "For more than 750 years, it was the seat of the Syriac Orthodox patriarch. Services here are still held in Syriac, a form of Aramaic.",
+   "cap": "For more than 750 years, it was the seat of the Syriac Orthodox patriarch. Services here are still held in Syriac, a form of Aramaic."
+  },
+  {
+   "rank": 2,
+   "era": "#1 · AIZANOI · KÜTAHYA",
+   "say": "And number one: Eye-zah-noy. One of the best preserved temples of Zeus anywhere in the world, with a hidden vaulted chamber underneath.",
+   "cap": "And number one: Aizanoi. One of the best preserved temples of Zeus anywhere in the world, with a hidden vaulted chamber underneath."
+  },
+  {
+   "rank": 1,
+   "era": "AIZANOI · 301 AD",
+   "say": "In its market, prices fixed by a Roman emperor in 301 AD are still carved in stone. UNESCO calls it one of the world's first stock exchanges.",
+   "cap": "In its market, prices fixed by a Roman emperor in 301 AD are still carved in stone. UNESCO calls it one of the world's first stock exchanges."
+  }
+ ]
+}
