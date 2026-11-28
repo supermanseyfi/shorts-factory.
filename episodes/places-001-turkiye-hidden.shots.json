@@ -1,0 +1,175 @@
+[
+ {
+  "seg": 0,
+  "to": 0.4,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 1.0,
+  "vf": "crop=1214:2158:1150:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 0,
+  "from": 0.4,
+  "to": 0.7,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 52.0,
+  "vf": "crop=606:1078:800:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 0,
+  "from": 0.7,
+  "file": "footage/turkiye-hidden/deyrulzafaran.webm",
+  "t0": 123.5,
+  "vf": "crop=606:1078:657:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 1,
+  "to": 0.5,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 27.0,
+  "vf": "crop=606:1078:640:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 1,
+  "from": 0.5,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 81.0,
+  "vf": "crop=606:1078:380:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 2,
+  "to": 0.5,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 39.5,
+  "vf": "crop=606:1078:720:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 2,
+  "from": 0.5,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 54.5,
+  "vf": "crop=606:1078:800:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 3,
+  "to": 0.45,
+  "file": "footage/turkiye-hidden/deyrulzafaran.webm",
+  "t0": 126.0,
+  "vf": "crop=606:1078:657:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 3,
+  "from": 0.45,
+  "file": "footage/turkiye-hidden/deyrulzafaran.webm",
+  "t0": 0.5,
+  "vf": "crop=606:1078:657:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 4,
+  "to": 0.35,
+  "file": "footage/turkiye-hidden/deyrulzafaran.webm",
+  "t0": 15.0,
+  "vf": "crop=606:1078:657:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 4,
+  "from": 0.35,
+  "to": 0.65,
+  "file": "footage/turkiye-hidden/deyrulzafaran.webm",
+  "t0": 42.0,
+  "vf": "crop=606:1078:850:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 4,
+  "from": 0.65,
+  "file": "footage/turkiye-hidden/deyrulzafaran.webm",
+  "t0": 82.0,
+  "vf": "crop=606:1078:780:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 5,
+  "to": 0.4,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 69.0,
+  "vf": "crop=1214:2158:1750:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 5,
+  "from": 0.4,
+  "to": 0.7,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 15.0,
+  "vf": "crop=1214:2158:1650:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 5,
+  "from": 0.7,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 58.0,
+  "vf": "crop=1214:2158:1313:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 6,
+  "to": 0.2,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 90.7,
+  "vf": "crop=1214:2158:1000:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 6,
+  "from": 0.2,
+  "to": 0.4,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 96.0,
+  "vf": "crop=1214:2158:1100:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 6,
+  "from": 0.4,
+  "to": 0.7,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 36.3,
+  "vf": "crop=1214:2158:830:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 6,
+  "from": 0.7,
+  "file": "footage/turkiye-hidden/aizanoi.webm",
+  "t0": 111.6,
+  "vf": "crop=1214:2158:1313:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 7,
+  "to": 0.5,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 76.2,
+  "vf": "crop=606:1078:900:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ },
+ {
+  "seg": 7,
+  "from": 0.5,
+  "file": "footage/turkiye-hidden/assos.webm",
+  "t0": 81.3,
+  "vf": "crop=606:1078:380:0,",
+  "grade": "eq=contrast=1.06:saturation=1.12"
+ }
+]
