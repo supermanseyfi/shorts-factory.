@@ -52,3 +52,15 @@ Voice model files (~350 MB) download once from GitHub releases into voices/.
 2. Hook in the first 2 seconds, countdown 10 -> 1, a question at the end to drive comments.
 3. Always look at stills (hook, two middle items, #1, outro) before the full render; fix overlaps/clipping first.
 4. Final check: duration 55-65 s, 1080x1920, audio present, loudness about -14 LUFS.
+
+## Footage rules (story-footage videos) — always take the safest option
+
+The owner's standing instruction is to always choose the safest way. For any real footage or photos:
+
+1. Source: Wikimedia Commons only. No YouTube downloads, no stock sites (Pexels, Pixabay), nothing whose owner is unclear.
+2. Licence: public domain, CC0 or CC BY only. Skip anything marked SA, NC or ND. Prefer files with a licence-review mark.
+3. People: no identifiable people, and never footage of children. Cut around visitors; drop a clip if too little is left.
+4. Audio: picture only. Never use a clip's music or sound.
+5. Credit: every video's description carries a credit line per author: name, "via Wikimedia Commons", licence name and URL, "Cropped and edited".
+6. Record the source file, author and licence of every clip in the commit message or the shots file.
+7. Facts: two sources per claim where possible; word unverified or disputed claims cautiously and report them.
